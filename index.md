@@ -16,7 +16,7 @@ I am an undergrad student at Xidian University, focusing on efficient AI acceler
 ## News
 
 - **[Jul. 2025]** One paper was accepted by ACM MM 2025, and this was my first academic paper.
-- **[Feb. 2025]** I was awarded the China Resources Scholarship. Notably, I was the only recipient among the 2023 undergrad student in my faculty.
+- **[Feb. 2025]** I was awarded the China Resources Scholarship. Notably, I was the only recipient among the 2023 undergrad students in my faculty.
 
 
 {% include_relative _includes/publications.md %}
