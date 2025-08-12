@@ -7,5 +7,5 @@ main:
     pdf: ACM International Conference on Multimedia
     code: https://github.com/Ray-RuiPan/SP-Mamba
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/pipeline.pdf
     notes: My First Paper!
