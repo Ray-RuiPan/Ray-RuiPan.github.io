@@ -1,6 +1,6 @@
 main:
 
-  - title: SP-Mamba: Spatial-Perception State Space Model for Unsupervised Medical Anomaly Detection
+  - title: "SP-Mamba: Spatial-Perception State Space Model for Unsupervised Medical Anomaly Detection"
     authors: <strong>Rui Pan</strong>, Ruiying Lu* (*Corresponding authors)
     conference_short: ACM MM
     conference: ACM International Conference on Multimedia <strong>(ACM MM)</strong>, 2025.
