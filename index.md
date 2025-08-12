@@ -15,11 +15,10 @@ I am an undergrad student at Xidian University, focusing on efficient AI acceler
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Jul. 2025]** One was accepted by ACM MM'25, and this was my first academic paper.
+- **[Feb. 2025]** I was awarded the China Resources Scholarship. Notably, I was the only recipient among the 2023 undergraduate cohort in my faculty.
+
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+[//]:({% include_relative _includes/services.md %})
