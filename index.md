@@ -4,12 +4,14 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am undergrad student at Xidian University, focusing on efficient AI accelerator/system/algorithm.
 
+<!--
 ## Research Interests
 
 - **Computer Vision:** image recognition, image generation, video captioning
 - **Machine Learning:** meta-learning, incremental learning, transfer learning
+-->
 
 ## News
 
