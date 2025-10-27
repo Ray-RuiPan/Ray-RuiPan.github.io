@@ -4,7 +4,7 @@ main:
     authors: <strong>Rui Pan</strong>, Ruiying Lu* (*Corresponding author)
     conference_short: ACM MM
     conference: ACM International Conference on Multimedia <strong>(ACM MM)</strong>, 2025.
-    pdf: https://arxiv.org/abs/2507.19076
+    pdf: https://dl.acm.org/doi/10.1145/3746027.3755641
     code: https://github.com/Ray-RuiPan/SP-Mamba
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/SP-Mamba.png
