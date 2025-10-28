@@ -20,7 +20,7 @@ github_link: https://github.com/Ray-RuiPan
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/picture.jpg
+avatar: ./assets/img/picture_lighter.jpg
 favicon: ./assets/img/logo.jpg
 favicon_dark: ./assets/img/logo.jpg
 
