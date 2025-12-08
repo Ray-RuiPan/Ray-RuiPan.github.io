@@ -16,10 +16,10 @@ interested in efficient AI accelerator / system / algorithm / application.
 
 ## News
 
-- **[Oct. 2025]** I was awarded the National Scholarship.
+- **[Oct. 2025]** I was awarded the National Scholarship.**(2%)**
 - **[Aug. 2025]** I attended CCF ChinaStorage 2025.
 - **[Jul. 2025]** One paper was accepted by ACM MM 2025, and this was my first academic paper.
-- **[Feb. 2025]** I was awarded the China Resources Scholarship. Notably, I was the only recipient among the 2023 undergrad students in my faculty.
+- **[Feb. 2025]** I was awarded the China Resources Scholarship. Notably, I was the only recipient among the 2023 undergrad students in my faculty.**(1/500+)**
 
 ## Awards
 
