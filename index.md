@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 I am an undergrad student at Xidian University,<br> 
-interested in efficient AI accelerator / system / algorithm / application.
+interested in efficient AI Accelerator / System / Algorithm.
 
 <!--
 ## Research Interests
