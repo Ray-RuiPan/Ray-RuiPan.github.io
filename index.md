@@ -16,14 +16,14 @@ interested in AI Accelerator / System / Algorithm and Optical Interconnects.
 
 ## News
 
-- **[Oct. 2025]** I was awarded the National Scholarship.
+- **[Oct. 2025]** I was awarded the China National Scholarship.
 - **[Jul. 2025]** One paper was accepted by ACM MM 2025.
 - **[Feb. 2025]** I was awarded the China Resources Scholarship.
 
 ## Awards
 
-- National Scholarship 2025**(2%)**
-- China Resources Scholarship 2025**(1/500+)**
+- China National Scholarship 2025
+- China Resources Scholarship 2025
 
 
 
