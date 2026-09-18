@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paper Review 收藏</title>
+    <meta name="description" content="Saved papers from Paper Review." />
+    <link rel="canonical" href="https://ray-ruipan.github.io/paper-review/saved/" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Saved Papers</p>
+        <h1>收藏</h1>
+      </div>
+      <div class="topbar-actions">
+        <a class="nav-link" href="../">返回</a>
+        <span id="statusText" class="status-text">加载中</span>
+      </div>
+    </header>
+
+    <main class="page-shell single-column">
+      <section class="content">
+        <div class="summary-row compact" aria-label="Summary">
+          <div class="metric">
+            <span id="savedCount">0</span>
+            <small>收藏</small>
+          </div>
+          <div class="filter-block">
+            <label for="searchInput">搜索</label>
+            <input id="searchInput" type="search" placeholder="标题、作者、摘要" autocomplete="off" />
+          </div>
+        </div>
+
+        <div id="paperList" class="paper-list" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden>暂无收藏</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Thank you to arXiv for use of its open access interoperability.
+    </footer>
+
+    <script src="./saved.js" defer></script>
+  </body>
+</html>

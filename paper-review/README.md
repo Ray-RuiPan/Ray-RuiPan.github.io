@@ -14,12 +14,19 @@ Production URL:
 https://ray-ruipan.github.io/paper-review/
 ```
 
+Saved papers page:
+
+```text
+https://ray-ruipan.github.io/paper-review/saved/
+```
+
 ## How It Works
 
 - `scripts/fetch_arxiv.py` downloads the combined arXiv Atom feed.
 - `data/papers.json` stores the latest snapshot.
 - `data/archive/YYYY-MM-DD.json` stores daily snapshots.
 - `data/archive-index.json` powers the date selector.
+- `saved/` shows papers saved in the current browser via localStorage.
 - `../.github/workflows/update-paper-review.yml` checks for updates daily at 10:00 Beijing time.
 - If the feed contains the same arXiv announcement as the current site data, the script leaves the site unchanged.
 

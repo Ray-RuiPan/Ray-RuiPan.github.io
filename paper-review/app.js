@@ -1,9 +1,9 @@
 const CATEGORIES = [
-  { id: "cs.AR", label: "Architecture" },
-  { id: "cs.DC", label: "Distributed Computing" },
-  { id: "cs.NI", label: "Networking" },
-  { id: "cs.PL", label: "Programming Languages" },
-  { id: "cs.OS", label: "Operating Systems" },
+  { id: "cs.AR", label: "Architecture", className: "cat-cs-ar" },
+  { id: "cs.DC", label: "Distributed Computing", className: "cat-cs-dc" },
+  { id: "cs.NI", label: "Networking", className: "cat-cs-ni" },
+  { id: "cs.PL", label: "Programming Languages", className: "cat-cs-pl" },
+  { id: "cs.OS", label: "Operating Systems", className: "cat-cs-os" },
 ];
 
 const els = {
@@ -13,19 +13,16 @@ const els = {
   searchInput: document.querySelector("#searchInput"),
   typeSelect: document.querySelector("#typeSelect"),
   categoryFilters: document.querySelector("#categoryFilters"),
-  unreadOnly: document.querySelector("#unreadOnly"),
-  savedOnly: document.querySelector("#savedOnly"),
   totalCount: document.querySelector("#totalCount"),
   visibleCount: document.querySelector("#visibleCount"),
-  unreadCount: document.querySelector("#unreadCount"),
   generatedAt: document.querySelector("#generatedAt"),
   paperList: document.querySelector("#paperList"),
   emptyState: document.querySelector("#emptyState"),
 };
 
 const storage = {
-  read: "paper-review:read",
   saved: "paper-review:saved",
+  savedPapers: "paper-review:saved-papers",
 };
 
 const state = {
@@ -36,10 +33,8 @@ const state = {
   activeCategories: new Set(CATEGORIES.map((category) => category.id)),
   query: "",
   announceType: "all",
-  unreadOnly: false,
-  savedOnly: false,
-  read: loadSet(storage.read),
   saved: loadSet(storage.saved),
+  savedPapers: loadSavedPapers(),
 };
 
 function loadSet(key) {
@@ -54,17 +49,31 @@ function saveSet(key, value) {
   localStorage.setItem(key, JSON.stringify([...value]));
 }
 
+function loadSavedPapers() {
+  try {
+    return JSON.parse(localStorage.getItem(storage.savedPapers) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function saveSavedPapers() {
+  localStorage.setItem(storage.savedPapers, JSON.stringify(state.savedPapers));
+}
+
 function formatDateTime(value) {
   if (!value) return "-";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
-  return new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit",
-  }).format(date) + " BJT";
+  return (
+    new Intl.DateTimeFormat("zh-CN", {
+      timeZone: "Asia/Shanghai",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(date) + " BJT"
+  );
 }
 
 function formatDate(value) {
@@ -83,12 +92,16 @@ function normalize(value) {
   return String(value || "").toLowerCase();
 }
 
+function categoryClass(categoryId) {
+  return CATEGORIES.find((category) => category.id === categoryId)?.className || "cat-other";
+}
+
 function createCategoryFilters() {
   els.categoryFilters.textContent = "";
   CATEGORIES.forEach((category) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "category-button";
+    button.className = `category-button ${category.className}`;
     button.setAttribute("aria-pressed", "true");
     button.dataset.category = category.id;
 
@@ -158,8 +171,23 @@ async function loadPapers(path = state.selectedPath) {
   const data = await response.json();
   state.papers = Array.isArray(data.papers) ? data.papers : [];
   state.meta = data.meta || {};
+  hydrateSavedPapers();
   els.statusText.textContent = "已同步";
   render();
+}
+
+function hydrateSavedPapers() {
+  let changed = false;
+  state.papers.forEach((paper) => {
+    if (state.saved.has(paper.id) && !state.savedPapers[paper.id]) {
+      state.savedPapers[paper.id] = {
+        paper,
+        savedAt: new Date().toISOString(),
+      };
+      changed = true;
+    }
+  });
+  if (changed) saveSavedPapers();
 }
 
 function getFilteredPapers() {
@@ -169,9 +197,6 @@ function getFilteredPapers() {
     const paperCategories = Array.isArray(paper.categories) ? paper.categories : [];
     const categoryMatch = paperCategories.some((category) => state.activeCategories.has(category));
     if (!categoryMatch) return false;
-
-    if (state.unreadOnly && state.read.has(paper.id)) return false;
-    if (state.savedOnly && !state.saved.has(paper.id)) return false;
     if (state.announceType !== "all" && paper.announceType !== state.announceType) return false;
 
     if (!query) return true;
@@ -190,11 +215,9 @@ function getFilteredPapers() {
 
 function render() {
   const visible = getFilteredPapers();
-  const unread = state.papers.filter((paper) => !state.read.has(paper.id)).length;
 
   els.totalCount.textContent = String(state.papers.length);
   els.visibleCount.textContent = String(visible.length);
-  els.unreadCount.textContent = String(unread);
   els.generatedAt.textContent = formatDateTime(state.meta.generatedAt);
 
   els.paperList.textContent = "";
@@ -206,7 +229,6 @@ function render() {
 function createPaperCard(paper) {
   const card = document.createElement("article");
   card.className = "paper-card";
-  if (state.read.has(paper.id)) card.classList.add("is-read");
 
   const header = document.createElement("div");
   header.className = "paper-header";
@@ -226,8 +248,7 @@ function createPaperCard(paper) {
   const actions = document.createElement("div");
   actions.className = "paper-actions";
   actions.append(
-    createToggleButton("未读", "已读", state.read.has(paper.id), () => toggleRead(paper.id)),
-    createToggleButton("收藏", "已收藏", state.saved.has(paper.id), () => toggleSaved(paper.id))
+    createToggleButton("收藏", "已收藏", state.saved.has(paper.id), () => toggleSaved(paper))
   );
 
   header.append(titleArea, actions);
@@ -242,21 +263,38 @@ function createPaperCard(paper) {
   }
   (paper.categories || []).forEach((category) => {
     const badge = document.createElement("span");
-    badge.className = category === paper.primaryCategory ? "badge primary" : "badge";
+    badge.className = `badge category-badge ${categoryClass(category)}`;
     badge.textContent = category;
     badges.append(badge);
   });
 
-  const summary = document.createElement("p");
-  summary.className = "summary";
-  summary.textContent = paper.summary || "";
+  const abstract = createAbstract(paper.summary);
 
   const links = document.createElement("div");
   links.className = "paper-links";
   links.append(createLink("Abstract", paper.absUrl), createLink("PDF", paper.pdfUrl));
 
-  card.append(header, badges, summary, links);
+  card.append(header, badges);
+  if (abstract) card.append(abstract);
+  card.append(links);
   return card;
+}
+
+function createAbstract(summaryText) {
+  if (!summaryText) return null;
+
+  const details = document.createElement("details");
+  details.className = "abstract-block";
+
+  const summary = document.createElement("summary");
+  summary.textContent = "摘要";
+
+  const content = document.createElement("p");
+  content.className = "summary";
+  content.textContent = summaryText;
+
+  details.append(summary, content);
+  return details;
 }
 
 function createToggleButton(inactiveLabel, activeLabel, pressed, onClick) {
@@ -279,23 +317,19 @@ function createLink(label, href) {
   return link;
 }
 
-function toggleRead(id) {
-  if (state.read.has(id)) {
-    state.read.delete(id);
+function toggleSaved(paper) {
+  if (state.saved.has(paper.id)) {
+    state.saved.delete(paper.id);
+    delete state.savedPapers[paper.id];
   } else {
-    state.read.add(id);
-  }
-  saveSet(storage.read, state.read);
-  render();
-}
-
-function toggleSaved(id) {
-  if (state.saved.has(id)) {
-    state.saved.delete(id);
-  } else {
-    state.saved.add(id);
+    state.saved.add(paper.id);
+    state.savedPapers[paper.id] = {
+      paper,
+      savedAt: new Date().toISOString(),
+    };
   }
   saveSet(storage.saved, state.saved);
+  saveSavedPapers();
   render();
 }
 
@@ -307,16 +341,6 @@ function wireEvents() {
 
   els.typeSelect.addEventListener("change", (event) => {
     state.announceType = event.target.value;
-    render();
-  });
-
-  els.unreadOnly.addEventListener("change", (event) => {
-    state.unreadOnly = event.target.checked;
-    render();
-  });
-
-  els.savedOnly.addEventListener("change", (event) => {
-    state.savedOnly = event.target.checked;
     render();
   });
 
