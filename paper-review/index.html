@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paper Review</title>
+    <meta
+      name="description"
+      content="Daily arXiv papers for cs.AR, cs.DC, cs.NI, cs.PL, and cs.OS."
+    />
+    <link rel="canonical" href="https://ray-ruipan.github.io/paper-review/" />
+    <meta property="og:title" content="Paper Review" />
+    <meta
+      property="og:description"
+      content="Daily arXiv papers for architecture, distributed computing, networking, programming languages, and operating systems."
+    />
+    <meta property="og:url" content="https://ray-ruipan.github.io/paper-review/" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Daily arXiv Feed</p>
+        <h1>Paper Review</h1>
+      </div>
+      <div class="topbar-actions">
+        <span id="statusText" class="status-text">加载中</span>
+        <button id="reloadButton" class="icon-button" type="button" title="重新载入" aria-label="重新载入">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M20 12a8 8 0 1 1-2.34-5.66" />
+            <path d="M20 4v6h-6" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <aside class="sidebar" aria-label="Filters">
+        <section class="filter-block">
+          <label for="dateSelect">日期</label>
+          <select id="dateSelect"></select>
+        </section>
+
+        <section class="filter-block">
+          <label for="searchInput">搜索</label>
+          <input id="searchInput" type="search" placeholder="标题、作者、摘要" autocomplete="off" />
+        </section>
+
+        <section class="filter-block">
+          <label for="typeSelect">类型</label>
+          <select id="typeSelect">
+            <option value="all">全部更新</option>
+            <option value="new">新提交</option>
+            <option value="cross">交叉列表</option>
+            <option value="replace">替换</option>
+            <option value="replace-cross">替换交叉</option>
+          </select>
+        </section>
+
+        <section class="filter-block">
+          <div class="filter-heading">主题</div>
+          <div id="categoryFilters" class="category-filters"></div>
+        </section>
+
+        <section class="filter-block">
+          <div class="filter-heading">状态</div>
+          <label class="check-row">
+            <input id="unreadOnly" type="checkbox" />
+            <span>仅看未读</span>
+          </label>
+          <label class="check-row">
+            <input id="savedOnly" type="checkbox" />
+            <span>仅看收藏</span>
+          </label>
+        </section>
+      </aside>
+
+      <section class="content">
+        <div class="summary-row" aria-label="Summary">
+          <div class="metric">
+            <span id="totalCount">0</span>
+            <small>总数</small>
+          </div>
+          <div class="metric">
+            <span id="visibleCount">0</span>
+            <small>当前</small>
+          </div>
+          <div class="metric">
+            <span id="unreadCount">0</span>
+            <small>未读</small>
+          </div>
+          <div class="metric wide">
+            <span id="generatedAt">-</span>
+            <small>更新时间</small>
+          </div>
+        </div>
+
+        <div id="paperList" class="paper-list" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden>没有匹配的论文</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Thank you to arXiv for use of its open access interoperability.
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
