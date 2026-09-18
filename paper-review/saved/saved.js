@@ -189,6 +189,32 @@ async function hydrateFromLatestData() {
   }
 }
 
+async function hydrateFromLibraryData() {
+  if (!state.saved.size) return;
+
+  try {
+    const response = await fetch(`../data/library/index.json?ts=${Date.now()}`);
+    if (!response.ok) return;
+    const data = await response.json();
+    const records = Array.isArray(data.records) ? data.records : [];
+    let changed = false;
+
+    records.forEach((paper) => {
+      if (isPaperSaved(paper.id) && !state.savedPapers[paper.id]) {
+        state.savedPapers[paper.id] = {
+          paper,
+          savedAt: new Date().toISOString(),
+        };
+        changed = true;
+      }
+    });
+
+    if (changed) saveSavedPapers();
+  } catch {
+    // Local saved records are still usable if the library data fetch fails.
+  }
+}
+
 function selectedCollection() {
   if (state.selectedCollectionId === ALL_COLLECTION_ID) return null;
   return state.collections.collections.find((collection) => collection.id === state.selectedCollectionId) || null;
@@ -304,8 +330,7 @@ function createPaperCard(paper) {
 
   const meta = document.createElement("div");
   meta.className = "paper-meta";
-  const authorText = (paper.authors || []).join(", ") || "作者未知";
-  meta.textContent = `${formatDate(paper.published)} · ${authorText}`;
+  meta.textContent = paperMetaText(paper);
 
   titleArea.append(title, meta);
 
@@ -328,29 +353,71 @@ function createPaperCard(paper) {
 
   const badges = document.createElement("div");
   badges.className = "badges";
-  if (paper.announceType) {
-    const badge = document.createElement("span");
-    badge.className = "badge update";
-    badge.textContent = paper.announceType;
-    badges.append(badge);
-  }
-  (paper.categories || []).forEach((category) => {
-    const badge = document.createElement("span");
-    badge.className = `badge category-badge ${categoryClass(category)}`;
-    badge.textContent = category;
-    badges.append(badge);
-  });
+  createPaperBadges(paper).forEach((badge) => badges.append(badge));
 
   const abstract = createAbstract(paper.summary);
 
   const links = document.createElement("div");
   links.className = "paper-links";
-  links.append(createLink("Abstract", paper.absUrl), createLink("PDF", paper.pdfUrl));
+  createPaperLinks(paper).forEach((link) => links.append(link));
 
   card.append(header, badges);
   if (abstract) card.append(abstract);
-  card.append(links);
+  if (links.childElementCount) card.append(links);
   return card;
+}
+
+function paperMetaText(paper) {
+  const authorText = (paper.authors || []).join(", ") || "作者未知";
+  if (paper.source === "library") {
+    const venue = paper.venueName || paper.venue || "";
+    if (paper.kind === "conference") {
+      return `${venue} ${paper.year || ""} · ${paper.track || "Uncategorized"} · ${authorText}`;
+    }
+    const issue = [paper.volume && `Vol. ${paper.volume}`, paper.issue && `No. ${paper.issue}`]
+      .filter(Boolean)
+      .join(", ");
+    return `${venue} ${paper.month || formatDate(paper.published)}${issue ? ` · ${issue}` : ""} · ${authorText}`;
+  }
+  return `${formatDate(paper.published)} · ${authorText}`;
+}
+
+function createPaperBadges(paper) {
+  if (paper.source === "library") {
+    const badges = [
+      createBadge(paper.kind === "conference" ? "会议" : "期刊", "source-badge"),
+      createBadge(paper.venueName || paper.venue, "venue-badge"),
+    ];
+    if (paper.year) badges.push(createBadge(String(paper.year), "year-badge"));
+    if (paper.kind === "conference" && paper.track) badges.push(createBadge(paper.track, "track-badge"));
+    if (paper.kind === "journal" && paper.month) badges.push(createBadge(paper.month, "track-badge"));
+    return badges;
+  }
+
+  const badges = [];
+  if (paper.announceType) badges.push(createBadge(paper.announceType, "update"));
+  (paper.categories || []).forEach((category) => {
+    badges.push(createBadge(category, `category-badge ${categoryClass(category)}`));
+  });
+  return badges;
+}
+
+function createBadge(label, className) {
+  const badge = document.createElement("span");
+  badge.className = `badge ${className}`;
+  badge.textContent = label;
+  return badge;
+}
+
+function createPaperLinks(paper) {
+  if (paper.source === "library") {
+    const links = [];
+    if (paper.dblpUrl) links.push(createLink("DBLP", paper.dblpUrl));
+    if (paper.doi) links.push(createLink("DOI", `https://doi.org/${paper.doi}`));
+    if (paper.url && paper.url !== paper.dblpUrl) links.push(createLink("Publisher", paper.url));
+    return links;
+  }
+  return [createLink("Abstract", paper.absUrl), createLink("PDF", paper.pdfUrl)];
 }
 
 function createAbstract(summaryText) {
@@ -464,6 +531,7 @@ function wireEvents() {
 async function init() {
   wireEvents();
   await hydrateFromLatestData();
+  await hydrateFromLibraryData();
   render();
 }
 

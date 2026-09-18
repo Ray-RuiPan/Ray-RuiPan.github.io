@@ -1,0 +1,54 @@
+name: Update Paper Library data
+
+on:
+  schedule:
+    # 10:30 Beijing time on the first day of every month. GitHub Actions cron is UTC.
+    - cron: "30 2 1 * *"
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Fetch all records from 2014 instead of recent updates"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-library-data
+  cancel-in-progress: false
+
+jobs:
+  update-library:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch paper library
+        run: |
+          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
+            python paper-review/scripts/fetch_library.py --mode all --start-year 2014 --conference-providers crossref
+          else
+            python paper-review/scripts/fetch_library.py --mode recent --recent-years 2 --recent-months 4 --conference-providers crossref
+          fi
+
+      - name: Commit library updates
+        run: |
+          if [ -n "$(git status --porcelain paper-review/data/library)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add paper-review/data/library
+            git commit -m "Update Paper Library data"
+            git push
+          fi

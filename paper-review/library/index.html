@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paper Review Library</title>
+    <meta
+      name="description"
+      content="Conference proceedings and journal papers since 2014 for computer architecture, systems, PL, EDA, and networking."
+    />
+    <link rel="canonical" href="https://ray-ruipan.github.io/paper-review/library/" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Proceedings & Journals</p>
+        <h1>论文库</h1>
+      </div>
+      <div class="topbar-actions">
+        <a class="nav-link" href="../">arXiv</a>
+        <a class="nav-link" href="../saved/">收藏</a>
+        <span id="statusText" class="status-text">加载中</span>
+        <button id="reloadButton" class="icon-button" type="button" title="重新载入" aria-label="重新载入">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M20 12a8 8 0 1 1-2.34-5.66" />
+            <path d="M20 4v6h-6" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <aside class="sidebar" aria-label="Library filters">
+        <section class="filter-block">
+          <label for="kindSelect">来源</label>
+          <select id="kindSelect">
+            <option value="all">全部</option>
+            <option value="conference">会议</option>
+            <option value="journal">期刊</option>
+          </select>
+        </section>
+
+        <section class="filter-block">
+          <label for="venueSelect">会议 / 期刊</label>
+          <select id="venueSelect"></select>
+        </section>
+
+        <section class="filter-block">
+          <label for="yearSelect">年份</label>
+          <select id="yearSelect"></select>
+        </section>
+
+        <section class="filter-block">
+          <label for="trackSelect">Track / 月份</label>
+          <select id="trackSelect"></select>
+        </section>
+
+        <section class="filter-block">
+          <label for="searchInput">搜索</label>
+          <input id="searchInput" type="search" placeholder="标题、作者、DOI" autocomplete="off" />
+        </section>
+      </aside>
+
+      <section class="content">
+        <div class="summary-row library-summary" aria-label="Summary">
+          <div class="metric">
+            <span id="totalCount">0</span>
+            <small>总数</small>
+          </div>
+          <div class="metric">
+            <span id="visibleCount">0</span>
+            <small>当前</small>
+          </div>
+          <div class="metric">
+            <span id="conferenceCount">0</span>
+            <small>会议</small>
+          </div>
+          <div class="metric">
+            <span id="journalCount">0</span>
+            <small>期刊</small>
+          </div>
+        </div>
+
+        <div id="libraryNote" class="empty-state library-note" hidden></div>
+        <div id="paperList" class="paper-list" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden>没有匹配的论文</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Metadata is collected from DBLP and Crossref where available.
+    </footer>
+
+    <script src="./library.js" defer></script>
+  </body>
+</html>

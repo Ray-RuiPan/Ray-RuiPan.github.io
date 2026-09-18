@@ -1,0 +1,19 @@
+# Track Overrides
+
+Place optional per-conference track mappings here:
+
+```text
+paper-review/data/library/tracks/ISCA/2024.json
+```
+
+The JSON file can map a DOI, dblp key, generated record id, or exact title to a track:
+
+```json
+{
+  "10.1145/example": "Memory Systems",
+  "conf/isca/Example24": "Memory Systems",
+  "Paper Title": "Security"
+}
+```
+
+Papers without an override are placed in `Uncategorized`.
