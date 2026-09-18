@@ -453,6 +453,12 @@ function createCollectionPicker(paper) {
   return picker;
 }
 
+function closeOpenCollectionPickers(exceptPicker = null) {
+  document.querySelectorAll(".favorite-picker[open]").forEach((picker) => {
+    if (picker !== exceptPicker) picker.removeAttribute("open");
+  });
+}
+
 function createLink(label, href) {
   const link = document.createElement("a");
   link.href = href || "#";
@@ -464,6 +470,20 @@ function createLink(label, href) {
 }
 
 function wireEvents() {
+  document.addEventListener("click", (event) => {
+    if (!(event.target instanceof Element)) {
+      closeOpenCollectionPickers();
+      return;
+    }
+    const picker = event.target.closest(".favorite-picker");
+    closeOpenCollectionPickers(picker);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    closeOpenCollectionPickers();
+  });
+
   els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
     render();
