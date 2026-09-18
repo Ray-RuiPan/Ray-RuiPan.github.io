@@ -22,10 +22,25 @@
 
     <main class="page-shell single-column">
       <section class="content">
+        <div class="collection-manager">
+          <div id="collectionTabs" class="collection-tabs" aria-label="收藏夹"></div>
+          <form id="collectionForm" class="collection-form">
+            <label class="visually-hidden" for="newCollectionInput">新收藏夹名称</label>
+            <input
+              id="newCollectionInput"
+              type="text"
+              maxlength="32"
+              placeholder="新收藏夹名称"
+              autocomplete="off"
+            />
+            <button id="addCollectionButton" class="text-button" type="submit">新建</button>
+          </form>
+        </div>
+
         <div class="summary-row compact" aria-label="Summary">
           <div class="metric">
             <span id="savedCount">0</span>
-            <small>收藏</small>
+            <small id="savedScope">收藏</small>
           </div>
           <div class="filter-block">
             <label for="searchInput">搜索</label>

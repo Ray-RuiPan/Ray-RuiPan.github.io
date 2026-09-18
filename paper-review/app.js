@@ -6,12 +6,14 @@ const CATEGORIES = [
   { id: "cs.OS", label: "Operating Systems", className: "cat-cs-os" },
 ];
 
+const DEFAULT_COLLECTION_ID = "default";
+const DEFAULT_COLLECTION_NAME = "默认收藏夹";
+
 const els = {
   statusText: document.querySelector("#statusText"),
   reloadButton: document.querySelector("#reloadButton"),
   dateSelect: document.querySelector("#dateSelect"),
   searchInput: document.querySelector("#searchInput"),
-  typeSelect: document.querySelector("#typeSelect"),
   categoryFilters: document.querySelector("#categoryFilters"),
   totalCount: document.querySelector("#totalCount"),
   visibleCount: document.querySelector("#visibleCount"),
@@ -23,6 +25,7 @@ const els = {
 const storage = {
   saved: "paper-review:saved",
   savedPapers: "paper-review:saved-papers",
+  collections: "paper-review:collections",
 };
 
 const state = {
@@ -32,10 +35,12 @@ const state = {
   selectedPath: "data/papers.json",
   activeCategories: new Set(CATEGORIES.map((category) => category.id)),
   query: "",
-  announceType: "all",
   saved: loadSet(storage.saved),
   savedPapers: loadSavedPapers(),
+  collections: loadCollections(),
 };
+
+migrateSavedSetToCollections();
 
 function loadSet(key) {
   try {
@@ -59,6 +64,111 @@ function loadSavedPapers() {
 
 function saveSavedPapers() {
   localStorage.setItem(storage.savedPapers, JSON.stringify(state.savedPapers));
+}
+
+function loadCollections() {
+  try {
+    return normalizeCollections(JSON.parse(localStorage.getItem(storage.collections) || "{}"));
+  } catch {
+    return createDefaultCollections();
+  }
+}
+
+function createDefaultCollections() {
+  return {
+    collections: [{ id: DEFAULT_COLLECTION_ID, name: DEFAULT_COLLECTION_NAME }],
+    paperCollections: {},
+  };
+}
+
+function normalizeCollections(data) {
+  const normalized = createDefaultCollections();
+  const sourceCollections = Array.isArray(data.collections) ? data.collections : [];
+
+  sourceCollections.forEach((collection) => {
+    const id = String(collection.id || "").trim();
+    const name = String(collection.name || "").trim();
+    if (!id || !name || normalized.collections.some((item) => item.id === id)) return;
+    normalized.collections.push({ id, name });
+  });
+
+  const validIds = new Set(normalized.collections.map((collection) => collection.id));
+  const sourcePaperCollections =
+    data.paperCollections && typeof data.paperCollections === "object" ? data.paperCollections : {};
+
+  Object.entries(sourcePaperCollections).forEach(([paperId, collectionIds]) => {
+    const ids = [...new Set(Array.isArray(collectionIds) ? collectionIds : [])].filter((id) =>
+      validIds.has(id)
+    );
+    if (ids.length) normalized.paperCollections[paperId] = ids;
+  });
+
+  return normalized;
+}
+
+function saveCollections() {
+  localStorage.setItem(storage.collections, JSON.stringify(state.collections));
+}
+
+function migrateSavedSetToCollections() {
+  let changed = false;
+
+  state.saved.forEach((paperId) => {
+    if (getPaperCollectionIds(paperId).length) return;
+    state.collections.paperCollections[paperId] = [DEFAULT_COLLECTION_ID];
+    changed = true;
+  });
+
+  if (changed) saveCollections();
+  syncSavedSet();
+}
+
+function getPaperCollectionIds(paperId) {
+  const validIds = new Set(state.collections.collections.map((collection) => collection.id));
+  return [...new Set(state.collections.paperCollections[paperId] || [])].filter((id) => validIds.has(id));
+}
+
+function isPaperSaved(paperId) {
+  return getPaperCollectionIds(paperId).length > 0;
+}
+
+function syncSavedSet() {
+  state.saved = new Set(
+    Object.entries(state.collections.paperCollections)
+      .filter(([, collectionIds]) => Array.isArray(collectionIds) && collectionIds.length > 0)
+      .map(([paperId]) => paperId)
+  );
+  saveSet(storage.saved, state.saved);
+}
+
+function addPaperToCollection(paper, collectionId) {
+  const collectionIds = new Set(getPaperCollectionIds(paper.id));
+  collectionIds.add(collectionId);
+  state.collections.paperCollections[paper.id] = [...collectionIds];
+  state.savedPapers[paper.id] = {
+    paper,
+    savedAt: state.savedPapers[paper.id]?.savedAt || new Date().toISOString(),
+  };
+  saveCollections();
+  syncSavedSet();
+  saveSavedPapers();
+  render();
+}
+
+function removePaperFromCollection(paperId, collectionId) {
+  const collectionIds = getPaperCollectionIds(paperId).filter((id) => id !== collectionId);
+
+  if (collectionIds.length) {
+    state.collections.paperCollections[paperId] = collectionIds;
+  } else {
+    delete state.collections.paperCollections[paperId];
+    delete state.savedPapers[paperId];
+  }
+
+  saveCollections();
+  syncSavedSet();
+  saveSavedPapers();
+  render();
 }
 
 function formatDateTime(value) {
@@ -179,7 +289,7 @@ async function loadPapers(path = state.selectedPath) {
 function hydrateSavedPapers() {
   let changed = false;
   state.papers.forEach((paper) => {
-    if (state.saved.has(paper.id) && !state.savedPapers[paper.id]) {
+    if (isPaperSaved(paper.id) && !state.savedPapers[paper.id]) {
       state.savedPapers[paper.id] = {
         paper,
         savedAt: new Date().toISOString(),
@@ -197,7 +307,6 @@ function getFilteredPapers() {
     const paperCategories = Array.isArray(paper.categories) ? paper.categories : [];
     const categoryMatch = paperCategories.some((category) => state.activeCategories.has(category));
     if (!categoryMatch) return false;
-    if (state.announceType !== "all" && paper.announceType !== state.announceType) return false;
 
     if (!query) return true;
     const haystack = normalize(
@@ -247,9 +356,7 @@ function createPaperCard(paper) {
 
   const actions = document.createElement("div");
   actions.className = "paper-actions";
-  actions.append(
-    createToggleButton("收藏", "已收藏", state.saved.has(paper.id), () => toggleSaved(paper))
-  );
+  actions.append(createCollectionPicker(paper));
 
   header.append(titleArea, actions);
 
@@ -297,14 +404,53 @@ function createAbstract(summaryText) {
   return details;
 }
 
-function createToggleButton(inactiveLabel, activeLabel, pressed, onClick) {
-  const button = document.createElement("button");
-  button.type = "button";
-  button.className = "text-button";
-  button.setAttribute("aria-pressed", String(pressed));
-  button.textContent = pressed ? activeLabel : inactiveLabel;
-  button.addEventListener("click", onClick);
-  return button;
+function createCollectionPicker(paper) {
+  const selectedIds = new Set(getPaperCollectionIds(paper.id));
+  const saved = selectedIds.size > 0;
+
+  const picker = document.createElement("details");
+  picker.className = "favorite-picker";
+
+  const summary = document.createElement("summary");
+  summary.className = "star-button";
+  summary.textContent = saved ? "★" : "☆";
+  summary.title = saved ? "调整收藏夹" : "选择收藏夹";
+  summary.setAttribute("aria-label", saved ? "调整收藏夹" : "选择收藏夹");
+  summary.setAttribute("aria-pressed", String(saved));
+
+  const menu = document.createElement("div");
+  menu.className = "collection-menu";
+
+  state.collections.collections.forEach((collection) => {
+    const row = document.createElement("label");
+    row.className = "collection-choice";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = selectedIds.has(collection.id);
+    checkbox.addEventListener("change", (event) => {
+      if (event.target.checked) {
+        addPaperToCollection(paper, collection.id);
+      } else {
+        removePaperFromCollection(paper.id, collection.id);
+      }
+    });
+
+    const name = document.createElement("span");
+    name.textContent = collection.name;
+
+    row.append(checkbox, name);
+    menu.append(row);
+  });
+
+  const manageLink = document.createElement("a");
+  manageLink.className = "collection-manage-link";
+  manageLink.href = "./saved/";
+  manageLink.textContent = "管理收藏夹";
+  menu.append(manageLink);
+
+  picker.append(summary, menu);
+  return picker;
 }
 
 function createLink(label, href) {
@@ -317,30 +463,9 @@ function createLink(label, href) {
   return link;
 }
 
-function toggleSaved(paper) {
-  if (state.saved.has(paper.id)) {
-    state.saved.delete(paper.id);
-    delete state.savedPapers[paper.id];
-  } else {
-    state.saved.add(paper.id);
-    state.savedPapers[paper.id] = {
-      paper,
-      savedAt: new Date().toISOString(),
-    };
-  }
-  saveSet(storage.saved, state.saved);
-  saveSavedPapers();
-  render();
-}
-
 function wireEvents() {
   els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
-    render();
-  });
-
-  els.typeSelect.addEventListener("change", (event) => {
-    state.announceType = event.target.value;
     render();
   });
 
