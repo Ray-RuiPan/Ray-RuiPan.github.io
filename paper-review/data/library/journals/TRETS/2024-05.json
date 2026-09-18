@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "journal": "TRETS",
+    "month": "2024-05",
+    "count": 2
+  },
+  "records": [
+    {
+      "id": "doi:10.1145/3656642",
+      "source": "library",
+      "kind": "journal",
+      "title": "R-Blocks: an Energy-Efficient, Flexible, and Programmable CGRA",
+      "authors": [
+        "Barry de Bruin",
+        "Kanishkan Vadivel",
+        "Mark Wijtvliet",
+        "Pekka Jääskeläinen",
+        "Henk Corporaal"
+      ],
+      "summary": "",
+      "venue": "TRETS",
+      "venueName": "TRETS",
+      "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
+      "area": "Reconfigurable Computing",
+      "year": 2024,
+      "month": "2024-05",
+      "track": "FPGA/可重构计算",
+      "published": "2024-06-30",
+      "volume": "17",
+      "issue": "2",
+      "pages": "1-34",
+      "doi": "10.1145/3656642",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3656642"
+    },
+    {
+      "id": "doi:10.1145/3656176",
+      "source": "library",
+      "kind": "journal",
+      "title": "HierCGRA: A Novel Framework for Large-scale CGRA with Hierarchical Modeling and Automated Design Space Exploration",
+      "authors": [
+        "Sichao Chen",
+        "Chang Cai",
+        "Su Zheng",
+        "Jiangnan Li",
+        "Guowei Zhu",
+        "Jingyuan Li",
+        "Yazhou Yan",
+        "Yuan Dai",
+        "Wenbo Yin",
+        "Lingli Wang"
+      ],
+      "summary": "",
+      "venue": "TRETS",
+      "venueName": "TRETS",
+      "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
+      "area": "Reconfigurable Computing",
+      "year": 2024,
+      "month": "2024-05",
+      "track": "FPGA/可重构计算",
+      "published": "2024-06-30",
+      "volume": "17",
+      "issue": "2",
+      "pages": "1-31",
+      "doi": "10.1145/3656176",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3656176"
+    }
+  ]
+}

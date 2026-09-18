@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "journal": "TECS",
+    "month": "2024-10",
+    "count": 2
+  },
+  "records": [
+    {
+      "id": "doi:10.1145/3702229",
+      "source": "library",
+      "kind": "journal",
+      "title": "Towards a Rust-Like Borrow Checker for C",
+      "authors": [
+        "Tiago Silva",
+        "Pedro Gonçalo Correia",
+        "Luís Sousa",
+        "João Bispo",
+        "Tiago Carvalho"
+      ],
+      "summary": "",
+      "venue": "TECS",
+      "venueName": "TECS",
+      "journalName": "ACM Transactions on Embedded Computing Systems",
+      "area": "Embedded Systems",
+      "year": 2024,
+      "month": "2024-10",
+      "track": "电路与芯片",
+      "published": "2024-10-29",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3702229",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3702229"
+    },
+    {
+      "id": "doi:10.1145/3701621",
+      "source": "library",
+      "kind": "journal",
+      "title": "MemScape: Sculpting Tiered Memory Management for Autonomous Vehicles",
+      "authors": [
+        "Dongjoo Seo",
+        "Ping-Xiang Chen",
+        "Changhoon Sung",
+        "Quang Anh Hoang",
+        "Adam Manzanares",
+        "Nikil Dutt"
+      ],
+      "summary": "",
+      "venue": "TECS",
+      "venueName": "TECS",
+      "journalName": "ACM Transactions on Embedded Computing Systems",
+      "area": "Embedded Systems",
+      "year": 2024,
+      "month": "2024-10",
+      "track": "内存与缓存",
+      "published": "2024-10-26",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3701621",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3701621"
+    }
+  ]
+}

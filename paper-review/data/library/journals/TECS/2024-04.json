@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "journal": "TECS",
+    "month": "2024-04",
+    "count": 2
+  },
+  "records": [
+    {
+      "id": "doi:10.1145/3650729",
+      "source": "library",
+      "kind": "journal",
+      "title": "Toward Energy-efficient STT-MRAM-based Near Memory Computing Architecture for Embedded Systems",
+      "authors": [
+        "Yueting Li",
+        "Xueyan Wang",
+        "He Zhang",
+        "Biao Pan",
+        "Keni Qiu",
+        "Wang Kang",
+        "Jun Wang",
+        "Weisheng Zhao"
+      ],
+      "summary": "",
+      "venue": "TECS",
+      "venueName": "TECS",
+      "journalName": "ACM Transactions on Embedded Computing Systems",
+      "area": "Embedded Systems",
+      "year": 2024,
+      "month": "2024-04",
+      "track": "内存与缓存",
+      "published": "2024-05-31",
+      "volume": "23",
+      "issue": "3",
+      "pages": "1-24",
+      "doi": "10.1145/3650729",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3650729"
+    },
+    {
+      "id": "doi:10.1145/3648365",
+      "source": "library",
+      "kind": "journal",
+      "title": "Energy Management for Fault-tolerant (m,k)-constrained Real-time Systems That Use Standby-Sparing",
+      "authors": [
+        "Linwei Niu",
+        "Danda B. Rawat",
+        "Dakai Zhu",
+        "Jonathan Musselwhite",
+        "Zonghua Gu",
+        "Qingxu Deng"
+      ],
+      "summary": "",
+      "venue": "TECS",
+      "venueName": "TECS",
+      "journalName": "ACM Transactions on Embedded Computing Systems",
+      "area": "Embedded Systems",
+      "year": 2024,
+      "month": "2024-04",
+      "track": "电路与芯片",
+      "published": "2024-05-31",
+      "volume": "23",
+      "issue": "3",
+      "pages": "1-36",
+      "doi": "10.1145/3648365",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3648365"
+    }
+  ]
+}

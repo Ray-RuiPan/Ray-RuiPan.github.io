@@ -1,21 +1,31 @@
 const DEFAULT_COLLECTION_ID = "default";
 const DEFAULT_COLLECTION_NAME = "默认收藏夹";
+const ALL_TRACKS = "all";
 
 const els = {
   statusText: document.querySelector("#statusText"),
   reloadButton: document.querySelector("#reloadButton"),
-  kindSelect: document.querySelector("#kindSelect"),
-  venueSelect: document.querySelector("#venueSelect"),
-  yearSelect: document.querySelector("#yearSelect"),
-  trackSelect: document.querySelector("#trackSelect"),
   searchInput: document.querySelector("#searchInput"),
+  segmentButtons: [...document.querySelectorAll(".segment-button")],
+  venueNav: document.querySelector("#venueNav"),
   totalCount: document.querySelector("#totalCount"),
-  visibleCount: document.querySelector("#visibleCount"),
-  conferenceCount: document.querySelector("#conferenceCount"),
-  journalCount: document.querySelector("#journalCount"),
+  venueCount: document.querySelector("#venueCount"),
+  yearCount: document.querySelector("#yearCount"),
+  trackCount: document.querySelector("#trackCount"),
   libraryNote: document.querySelector("#libraryNote"),
+  overviewSection: document.querySelector("#overviewSection"),
+  venueGrid: document.querySelector("#venueGrid"),
+  detailSection: document.querySelector("#detailSection"),
+  detailEyebrow: document.querySelector("#detailEyebrow"),
+  detailTitle: document.querySelector("#detailTitle"),
+  detailMeta: document.querySelector("#detailMeta"),
+  yearPills: document.querySelector("#yearPills"),
+  trackSummary: document.querySelector("#trackSummary"),
   paperList: document.querySelector("#paperList"),
   emptyState: document.querySelector("#emptyState"),
+  visibleCount: document.querySelector("#visibleCount"),
+  backButton: document.querySelector("#backButton"),
+  clearRouteButton: document.querySelector("#clearRouteButton"),
 };
 
 const storage = {
@@ -29,9 +39,9 @@ const state = {
   meta: {},
   sources: { conferences: [], journals: [] },
   kind: "all",
-  venue: "all",
-  year: "all",
-  track: "all",
+  venue: "",
+  year: "",
+  track: ALL_TRACKS,
   query: "",
   saved: loadSet(storage.saved),
   savedPapers: loadSavedPapers(),
@@ -201,18 +211,75 @@ function formatDateTime(value) {
   );
 }
 
+function displayTrack(record) {
+  return record.track || "Uncategorized";
+}
+
+function sourceFullName(source) {
+  return source.fullName || source.journalName || source.name || source.shortName || source.id;
+}
+
+function allSources() {
+  return [
+    ...(state.sources.conferences || []).map((source) => ({ ...source, kind: "conference" })),
+    ...(state.sources.journals || []).map((source) => ({ ...source, kind: "journal" })),
+  ];
+}
+
+function sourceById(id) {
+  return allSources().find((source) => source.id === id) || null;
+}
+
+function sourceLabel(source) {
+  if (!source) return "";
+  return source.shortName || source.name || source.id;
+}
+
+function routeFromHash() {
+  const params = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+  state.venue = params.get("venue") || "";
+  state.year = params.get("year") || "";
+  state.track = params.get("track") || ALL_TRACKS;
+}
+
+function setRoute({ venue = "", year = "", track = ALL_TRACKS }) {
+  const params = new URLSearchParams();
+  if (venue) params.set("venue", venue);
+  if (year) params.set("year", year);
+  if (track && track !== ALL_TRACKS) params.set("track", track);
+  const nextHash = params.toString();
+
+  state.venue = venue;
+  state.year = year;
+  state.track = track || ALL_TRACKS;
+
+  if (window.location.hash.replace(/^#/, "") !== nextHash) {
+    window.location.hash = nextHash;
+  } else {
+    render();
+  }
+}
+
 async function loadLibrary() {
   els.statusText.textContent = "加载中";
   const response = await fetch(`../data/library/index.json?ts=${Date.now()}`);
   if (!response.ok) throw new Error("Cannot load paper library");
   const data = await response.json();
-  state.records = Array.isArray(data.records) ? data.records : [];
+  state.records = normalizeRecords(Array.isArray(data.records) ? data.records : []);
   state.meta = data.meta || {};
   state.sources = data.sources || { conferences: [], journals: [] };
   hydrateSavedPapers();
-  renderFilterOptions();
-  els.statusText.textContent = "已同步";
+  routeFromHash();
+  els.statusText.textContent = formatDateTime(state.meta.generatedAt);
   render();
+}
+
+function normalizeRecords(records) {
+  return records.map((record) => ({
+    ...record,
+    year: record.year ? Number(record.year) : "",
+    track: record.track || (record.kind === "journal" ? "Uncategorized" : "Uncategorized"),
+  }));
 }
 
 function hydrateSavedPapers() {
@@ -229,163 +296,362 @@ function hydrateSavedPapers() {
   if (changed) saveSavedPapers();
 }
 
-function availableRecordsForOptions() {
-  return state.records.filter((record) => {
-    if (state.kind !== "all" && record.kind !== state.kind) return false;
-    if (state.venue !== "all" && record.venue !== state.venue) return false;
-    if (state.year !== "all" && String(record.year) !== state.year) return false;
-    return true;
-  });
+function recordMatchesKind(record) {
+  return state.kind === "all" || record.kind === state.kind;
 }
 
-function setOptions(select, values, allLabel, currentValue) {
-  const uniqueValues = [...new Set(values.filter(Boolean))].sort((a, b) =>
-    String(b).localeCompare(String(a), "zh-CN", { numeric: true })
-  );
-
-  select.textContent = "";
-  const all = document.createElement("option");
-  all.value = "all";
-  all.textContent = allLabel;
-  select.append(all);
-
-  uniqueValues.forEach((value) => {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = value;
-    select.append(option);
-  });
-
-  select.value = uniqueValues.includes(currentValue) ? currentValue : "all";
-  return select.value;
-}
-
-function renderFilterOptions() {
-  const recordsByKind = state.kind === "all" ? state.records : state.records.filter((record) => record.kind === state.kind);
-  const venueLabels = new Map(recordsByKind.map((record) => [record.venue, record.venueName || record.venue]));
-
-  els.venueSelect.textContent = "";
-  const allVenue = document.createElement("option");
-  allVenue.value = "all";
-  allVenue.textContent = "全部";
-  els.venueSelect.append(allVenue);
-  [...venueLabels.entries()]
-    .sort((a, b) => a[1].localeCompare(b[1], "zh-CN"))
-    .forEach(([id, label]) => {
-      const option = document.createElement("option");
-      option.value = id;
-      option.textContent = label;
-      els.venueSelect.append(option);
-    });
-  if (!venueLabels.has(state.venue)) state.venue = "all";
-  els.venueSelect.value = state.venue;
-
-  const recordsForYear = recordsByKind.filter((record) => state.venue === "all" || record.venue === state.venue);
-  state.year = setOptions(els.yearSelect, recordsForYear.map((record) => String(record.year)), "全部年份", state.year);
-
-  const recordsForTrack = availableRecordsForOptions();
-  state.track = setOptions(
-    els.trackSelect,
-    recordsForTrack.map((record) => (record.kind === "conference" ? record.track : record.month)),
-    "全部 track / 月份",
-    state.track
-  );
-}
-
-function getFilteredRecords() {
+function recordMatchesQuery(record) {
   const query = normalize(state.query);
+  if (!query) return true;
+  const haystack = normalize(
+    [
+      record.title,
+      record.venue,
+      record.venueName,
+      record.journalName,
+      displayTrack(record),
+      record.month,
+      record.doi,
+      record.dblpKey,
+      ...(Array.isArray(record.authors) ? record.authors : []),
+    ].join(" ")
+  );
+  return haystack.includes(query);
+}
 
-  return state.records.filter((record) => {
-    if (state.kind !== "all" && record.kind !== state.kind) return false;
-    if (state.venue !== "all" && record.venue !== state.venue) return false;
-    if (state.year !== "all" && String(record.year) !== state.year) return false;
-    const trackValue = record.kind === "conference" ? record.track : record.month;
-    if (state.track !== "all" && trackValue !== state.track) return false;
+function filteredRecords() {
+  return state.records.filter((record) => recordMatchesKind(record) && recordMatchesQuery(record));
+}
 
-    if (!query) return true;
-    const haystack = normalize(
-      [
-        record.title,
-        record.venue,
-        record.venueName,
-        record.journalName,
-        record.track,
-        record.month,
-        record.doi,
-        record.dblpKey,
-        ...(Array.isArray(record.authors) ? record.authors : []),
-      ].join(" ")
-    );
-    return haystack.includes(query);
+function recordsForVenue(venue = state.venue) {
+  return filteredRecords().filter((record) => record.venue === venue);
+}
+
+function recordsForCurrentYear() {
+  return recordsForVenue().filter((record) => String(record.year) === state.year);
+}
+
+function recordsForCurrentTrack() {
+  const base = recordsForCurrentYear();
+  if (state.track === ALL_TRACKS) return base;
+  return base.filter((record) => displayTrack(record) === state.track);
+}
+
+function venueStats() {
+  const records = filteredRecords();
+  const byVenue = new Map();
+
+  allSources().forEach((source) => {
+    if (state.kind !== "all" && source.kind !== state.kind) return;
+    byVenue.set(source.id, {
+      source,
+      records: [],
+      years: new Map(),
+      tracks: new Map(),
+    });
   });
+
+  records.forEach((record) => {
+    if (!byVenue.has(record.venue)) {
+      byVenue.set(record.venue, {
+        source: {
+          id: record.venue,
+          name: record.venueName || record.venue,
+          kind: record.kind,
+          area: record.area || "",
+        },
+        records: [],
+        years: new Map(),
+        tracks: new Map(),
+      });
+    }
+    const bucket = byVenue.get(record.venue);
+    bucket.records.push(record);
+    const year = String(record.year || "");
+    if (year) bucket.years.set(year, (bucket.years.get(year) || 0) + 1);
+    const track = displayTrack(record);
+    bucket.tracks.set(track, (bucket.tracks.get(track) || 0) + 1);
+  });
+
+  return [...byVenue.values()].sort((a, b) => {
+    if (b.records.length !== a.records.length) return b.records.length - a.records.length;
+    return sourceLabel(a.source).localeCompare(sourceLabel(b.source), "zh-CN", { numeric: true });
+  });
+}
+
+function availableYears(records) {
+  return [...new Set(records.map((record) => String(record.year)).filter(Boolean))].sort((a, b) =>
+    b.localeCompare(a, "zh-CN", { numeric: true })
+  );
+}
+
+function trackGroups(records) {
+  const groups = new Map();
+  records.forEach((record) => {
+    const track = displayTrack(record);
+    if (!groups.has(track)) groups.set(track, []);
+    groups.get(track).push(record);
+  });
+  return [...groups.entries()]
+    .map(([track, records]) => ({ track, records: sortPapers(records) }))
+    .sort((a, b) => b.records.length - a.records.length || a.track.localeCompare(b.track, "zh-CN"));
+}
+
+function sortPapers(records) {
+  return [...records].sort((a, b) => {
+    const dateCompare = String(b.published || "").localeCompare(String(a.published || ""));
+    if (dateCompare !== 0) return dateCompare;
+    return String(a.title || "").localeCompare(String(b.title || ""), "zh-CN");
+  });
+}
+
+function updateMetrics() {
+  const records = filteredRecords();
+  const venues = new Set(records.map((record) => record.venue));
+  const periods = new Set(records.map((record) => (record.kind === "journal" ? record.month : record.year)).filter(Boolean));
+  const tracks = new Set(records.map((record) => displayTrack(record)));
+
+  els.totalCount.textContent = String(records.length);
+  els.venueCount.textContent = String(venues.size);
+  els.yearCount.textContent = String(periods.size);
+  els.trackCount.textContent = String(tracks.size);
+  els.statusText.textContent = formatDateTime(state.meta.generatedAt);
 }
 
 function render() {
-  const visible = getFilteredRecords();
-  els.totalCount.textContent = String(state.records.length);
-  els.visibleCount.textContent = String(visible.length);
-  els.conferenceCount.textContent = String(state.meta.conferenceCount || 0);
-  els.journalCount.textContent = String(state.meta.journalCount || 0);
-  els.statusText.textContent = formatDateTime(state.meta.generatedAt);
+  updateMetrics();
+  renderKindButtons();
+  renderVenueNav();
 
   els.libraryNote.hidden = state.records.length !== 0;
   if (!state.records.length) {
     els.libraryNote.textContent = "论文库数据尚未回填。可以在 GitHub Actions 手动运行 Update Paper Library data 并选择 backfill=true。";
   }
 
-  els.paperList.textContent = "";
-  renderRecordGroups(visible);
-  els.emptyState.hidden = visible.length !== 0 || state.records.length === 0;
-}
-
-function renderRecordGroups(records) {
-  const groups = groupRecords(records);
-  groups.forEach((group) => els.paperList.append(createRecordGroup(group)));
-}
-
-function groupRecords(records) {
-  const groups = new Map();
-  records.forEach((record) => {
-    const key = recordGroupKey(record);
-    if (!groups.has(key)) {
-      groups.set(key, { key, label: recordGroupLabel(record), records: [] });
-    }
-    groups.get(key).records.push(record);
-  });
-  return [...groups.values()].sort((a, b) => b.key.localeCompare(a.key, "zh-CN", { numeric: true }));
-}
-
-function recordGroupKey(record) {
-  const dateKey = record.kind === "journal" ? record.month || record.published || "" : String(record.year || "");
-  const groupValue = record.kind === "conference" ? record.track || "Uncategorized" : record.month || "";
-  return [dateKey, record.venue || "", groupValue].join("|");
-}
-
-function recordGroupLabel(record) {
-  const venue = record.venueName || record.venue || "";
-  if (record.kind === "journal") {
-    return `${venue} ${record.month || formatDate(record.published)}`;
+  const source = sourceById(state.venue);
+  if (!state.venue || (source && state.kind !== "all" && source.kind !== state.kind)) {
+    state.venue = "";
+    state.year = "";
+    state.track = ALL_TRACKS;
+    renderOverview();
+    return;
   }
-  return `${venue} ${record.year || ""} · ${record.track || "Uncategorized"}`;
+
+  renderDetail();
 }
 
-function createRecordGroup(group) {
-  const section = document.createElement("section");
-  section.className = "record-group";
+function renderKindButtons() {
+  els.segmentButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.kind === state.kind));
+  });
+}
 
-  const heading = document.createElement("div");
-  heading.className = "record-group-heading";
+function renderVenueNav() {
+  els.venueNav.textContent = "";
 
-  const title = document.createElement("h2");
-  title.textContent = group.label;
+  const groups = groupBy(
+    venueStats(),
+    (item) => (item.source.kind === "journal" ? "期刊" : "会议")
+  );
+
+  ["会议", "期刊"].forEach((label) => {
+    const items = groups.get(label) || [];
+    if (!items.length) return;
+
+    const group = document.createElement("div");
+    group.className = "venue-nav-group";
+
+    const heading = document.createElement("div");
+    heading.className = "venue-nav-heading";
+    heading.textContent = label;
+    group.append(heading);
+
+    items.forEach((item) => group.append(createVenueNavButton(item)));
+    els.venueNav.append(group);
+  });
+}
+
+function createVenueNavButton(item) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "venue-nav-button";
+  button.setAttribute("aria-pressed", String(item.source.id === state.venue));
+  button.addEventListener("click", () => {
+    const years = availableYears(item.records);
+    setRoute({ venue: item.source.id, year: years[0] || "", track: ALL_TRACKS });
+  });
+
+  const name = document.createElement("span");
+  name.className = "venue-nav-name";
+  name.textContent = sourceLabel(item.source);
 
   const count = document.createElement("span");
-  count.textContent = `${group.records.length}`;
+  count.className = "venue-nav-count";
+  count.textContent = String(item.records.length);
 
-  heading.append(title, count);
-  section.append(heading);
-  group.records.forEach((paper) => section.append(createPaperCard(paper)));
-  return section;
+  button.append(name, count);
+  return button;
+}
+
+function renderOverview() {
+  els.overviewSection.hidden = false;
+  els.detailSection.hidden = true;
+  els.venueGrid.textContent = "";
+
+  const items = venueStats();
+  items.forEach((item) => els.venueGrid.append(createVenueCard(item)));
+}
+
+function createVenueCard(item) {
+  const card = document.createElement("article");
+  card.className = "venue-card";
+
+  const top = document.createElement("div");
+  top.className = "venue-card-top";
+
+  const label = document.createElement("span");
+  label.className = `badge ${item.source.kind === "journal" ? "source-badge" : "venue-badge"}`;
+  label.textContent = item.source.kind === "journal" ? "期刊" : "会议";
+
+  const count = document.createElement("span");
+  count.className = "venue-card-count";
+  count.textContent = `${item.records.length} 篇`;
+  top.append(label, count);
+
+  const title = document.createElement("h3");
+  title.textContent = sourceLabel(item.source);
+
+  const subtitle = document.createElement("p");
+  subtitle.textContent = sourceFullName(item.source);
+
+  const meta = document.createElement("div");
+  meta.className = "venue-card-meta";
+  meta.textContent = [item.source.area, `${item.years.size} 个年份`, `${item.tracks.size} 个 track`]
+    .filter(Boolean)
+    .join(" · ");
+
+  const years = document.createElement("div");
+  years.className = "year-chip-row";
+  const yearEntries = [...item.years.entries()].sort((a, b) => b[0].localeCompare(a[0], "zh-CN", { numeric: true }));
+  if (yearEntries.length) {
+    yearEntries.slice(0, 8).forEach(([year, count]) => years.append(createYearChip(item.source.id, year, count)));
+  } else {
+    const empty = document.createElement("span");
+    empty.className = "muted-pill";
+    empty.textContent = "等待回填";
+    years.append(empty);
+  }
+
+  card.addEventListener("click", (event) => {
+    if (event.target.closest("button")) return;
+    const firstYear = yearEntries[0]?.[0] || "";
+    setRoute({ venue: item.source.id, year: firstYear, track: ALL_TRACKS });
+  });
+
+  card.append(top, title, subtitle, meta, years);
+  return card;
+}
+
+function createYearChip(venue, year, count) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "year-chip";
+  button.textContent = `${year} (${count})`;
+  button.addEventListener("click", () => setRoute({ venue, year, track: ALL_TRACKS }));
+  return button;
+}
+
+function renderDetail() {
+  const source = sourceById(state.venue);
+  const venueRecords = recordsForVenue();
+  const years = availableYears(venueRecords);
+  if (!state.year && years.length) state.year = years[0];
+  if (state.year && !years.includes(state.year) && years.length) state.year = years[0];
+  if (!years.length) state.year = "";
+
+  const yearRecords = recordsForCurrentYear();
+  const visibleRecords = recordsForCurrentTrack();
+
+  els.overviewSection.hidden = true;
+  els.detailSection.hidden = false;
+  els.detailEyebrow.textContent = source?.kind === "journal" ? "Journal" : "Conference";
+  els.detailTitle.textContent = `${sourceLabel(source) || state.venue}${state.year ? ` ${state.year}` : ""}`;
+  els.detailMeta.textContent = [
+    sourceFullName(source || {}),
+    source?.area,
+    `${venueRecords.length} 篇`,
+    `${years.length} 个年份`,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+  renderYearPills(years);
+  renderTrackSummary(trackGroups(yearRecords));
+  renderPaperGroups(trackGroups(visibleRecords));
+  els.visibleCount.textContent = `${visibleRecords.length} 篇`;
+  els.emptyState.hidden = visibleRecords.length !== 0;
+}
+
+function renderYearPills(years) {
+  els.yearPills.textContent = "";
+  years.forEach((year) => {
+    const count = recordsForVenue().filter((record) => String(record.year) === year).length;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "year-pill";
+    button.setAttribute("aria-pressed", String(year === state.year));
+    button.textContent = `${year} (${count})`;
+    button.addEventListener("click", () => setRoute({ venue: state.venue, year, track: ALL_TRACKS }));
+    els.yearPills.append(button);
+  });
+}
+
+function renderTrackSummary(groups) {
+  els.trackSummary.textContent = "";
+  if (!groups.length) return;
+
+  const allButton = createTrackButton("全部 track", groups.reduce((sum, group) => sum + group.records.length, 0), ALL_TRACKS);
+  els.trackSummary.append(allButton);
+  groups.forEach((group) => els.trackSummary.append(createTrackButton(group.track, group.records.length, group.track)));
+}
+
+function createTrackButton(label, count, track) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "track-row";
+  button.setAttribute("aria-pressed", String(state.track === track));
+  button.addEventListener("click", () => setRoute({ venue: state.venue, year: state.year, track }));
+
+  const name = document.createElement("span");
+  name.textContent = label;
+
+  const number = document.createElement("strong");
+  number.textContent = String(count);
+
+  button.append(name, number);
+  return button;
+}
+
+function renderPaperGroups(groups) {
+  els.paperList.textContent = "";
+  groups.forEach((group) => {
+    const section = document.createElement("section");
+    section.className = "record-group";
+
+    const heading = document.createElement("div");
+    heading.className = "record-group-heading";
+
+    const title = document.createElement("h2");
+    title.textContent = group.track;
+
+    const count = document.createElement("span");
+    count.textContent = `${group.records.length}`;
+
+    heading.append(title, count);
+    section.append(heading);
+    group.records.forEach((paper) => section.append(createPaperCard(paper)));
+    els.paperList.append(section);
+  });
 }
 
 function createPaperCard(paper) {
@@ -396,7 +662,7 @@ function createPaperCard(paper) {
   header.className = "paper-header";
 
   const titleArea = document.createElement("div");
-  const title = document.createElement("h2");
+  const title = document.createElement("h3");
   title.className = "paper-title";
   title.textContent = paper.title || paper.id;
 
@@ -417,8 +683,8 @@ function createPaperCard(paper) {
   badges.append(createBadge(paper.kind === "conference" ? "会议" : "期刊", "source-badge"));
   badges.append(createBadge(paper.venueName || paper.venue, "venue-badge"));
   if (paper.year) badges.append(createBadge(String(paper.year), "year-badge"));
-  if (paper.kind === "conference" && paper.track) badges.append(createBadge(paper.track, "track-badge"));
-  if (paper.kind === "journal" && paper.month) badges.append(createBadge(paper.month, "track-badge"));
+  if (paper.month) badges.append(createBadge(paper.month, "track-badge"));
+  badges.append(createBadge(displayTrack(paper), "track-badge"));
 
   const links = document.createElement("div");
   links.className = "paper-links";
@@ -436,12 +702,12 @@ function paperMetaText(paper) {
   const authorText = (paper.authors || []).join(", ") || "作者未知";
   const venue = paper.venueName || paper.venue || "";
   if (paper.kind === "conference") {
-    return `${venue} ${paper.year || ""} · ${paper.track || "Uncategorized"} · ${authorText}`;
+    return `${venue} ${paper.year || ""} · ${displayTrack(paper)} · ${authorText}`;
   }
   const issue = [paper.volume && `Vol. ${paper.volume}`, paper.issue && `No. ${paper.issue}`]
     .filter(Boolean)
     .join(", ");
-  return `${venue} ${paper.month || formatDate(paper.published)}${issue ? ` · ${issue}` : ""} · ${authorText}`;
+  return `${venue} ${paper.month || formatDate(paper.published)} · ${displayTrack(paper)}${issue ? ` · ${issue}` : ""} · ${authorText}`;
 }
 
 function createBadge(label, className) {
@@ -531,6 +797,16 @@ function createLink(label, href) {
   return link;
 }
 
+function groupBy(items, keyFn) {
+  const groups = new Map();
+  items.forEach((item) => {
+    const key = keyFn(item);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  });
+  return groups;
+}
+
 function wireEvents() {
   document.addEventListener("click", (event) => {
     if (!(event.target instanceof Element)) {
@@ -546,33 +822,21 @@ function wireEvents() {
     closeOpenCollectionPickers();
   });
 
-  els.kindSelect.addEventListener("change", (event) => {
-    state.kind = event.target.value;
-    state.venue = "all";
-    state.year = "all";
-    state.track = "all";
-    renderFilterOptions();
+  window.addEventListener("hashchange", () => {
+    routeFromHash();
     render();
   });
 
-  els.venueSelect.addEventListener("change", (event) => {
-    state.venue = event.target.value;
-    state.year = "all";
-    state.track = "all";
-    renderFilterOptions();
-    render();
-  });
-
-  els.yearSelect.addEventListener("change", (event) => {
-    state.year = event.target.value;
-    state.track = "all";
-    renderFilterOptions();
-    render();
-  });
-
-  els.trackSelect.addEventListener("change", (event) => {
-    state.track = event.target.value;
-    render();
+  els.segmentButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      state.kind = button.dataset.kind || "all";
+      const source = sourceById(state.venue);
+      if (source && state.kind !== "all" && source.kind !== state.kind) {
+        setRoute({});
+      } else {
+        render();
+      }
+    });
   });
 
   els.searchInput.addEventListener("input", (event) => {
@@ -588,6 +852,9 @@ function wireEvents() {
       console.error(error);
     }
   });
+
+  els.backButton.addEventListener("click", () => setRoute({}));
+  els.clearRouteButton.addEventListener("click", () => setRoute({}));
 }
 
 async function init() {

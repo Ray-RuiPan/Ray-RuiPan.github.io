@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "journal": "TODAES",
+    "month": "2024-01",
+    "count": 1
+  },
+  "records": [
+    {
+      "id": "doi:10.1145/3610291",
+      "source": "library",
+      "kind": "journal",
+      "title": "A Survey on Approximate Multiplier Designs for Energy Efficiency: From Algorithms to Circuits",
+      "authors": [
+        "Ying Wu",
+        "Chuangtao Chen",
+        "Weihua Xiao",
+        "Xuan Wang",
+        "Chenyi Wen",
+        "Jie Han",
+        "Xunzhao Yin",
+        "Weikang Qian",
+        "Cheng Zhuo"
+      ],
+      "summary": "",
+      "venue": "TODAES",
+      "venueName": "TODAES",
+      "journalName": "ACM Transactions on Design Automation of Electronic Systems",
+      "area": "EDA",
+      "year": 2024,
+      "month": "2024-01",
+      "track": "EDA 与设计自动化",
+      "published": "2024-01-31",
+      "volume": "29",
+      "issue": "1",
+      "pages": "1-37",
+      "doi": "10.1145/3610291",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3610291"
+    }
+  ]
+}

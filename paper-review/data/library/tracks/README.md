@@ -16,4 +16,6 @@ The JSON file can map a DOI, dblp key, generated record id, or exact title to a 
 }
 ```
 
-Papers without an override are placed in `Uncategorized`.
+Papers without an override are assigned to a broad research track by keyword rules
+in `scripts/fetch_library.py`. If no rule matches, the script falls back to the
+venue or journal area, then to `Uncategorized`.

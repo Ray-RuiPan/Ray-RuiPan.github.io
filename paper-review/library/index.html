@@ -30,61 +30,84 @@
       </div>
     </header>
 
-    <main class="page-shell">
-      <aside class="sidebar" aria-label="Library filters">
-        <section class="filter-block">
-          <label for="kindSelect">来源</label>
-          <select id="kindSelect">
-            <option value="all">全部</option>
-            <option value="conference">会议</option>
-            <option value="journal">期刊</option>
-          </select>
-        </section>
-
-        <section class="filter-block">
-          <label for="venueSelect">会议 / 期刊</label>
-          <select id="venueSelect"></select>
-        </section>
-
-        <section class="filter-block">
-          <label for="yearSelect">年份</label>
-          <select id="yearSelect"></select>
-        </section>
-
-        <section class="filter-block">
-          <label for="trackSelect">Track / 月份</label>
-          <select id="trackSelect"></select>
-        </section>
-
+    <main class="page-shell library-shell">
+      <aside class="sidebar library-sidebar" aria-label="论文库导航">
         <section class="filter-block">
           <label for="searchInput">搜索</label>
-          <input id="searchInput" type="search" placeholder="标题、作者、DOI" autocomplete="off" />
+          <input id="searchInput" type="search" placeholder="标题、作者、DOI、track" autocomplete="off" />
+        </section>
+
+        <section class="filter-block">
+          <span class="filter-heading">类型</span>
+          <div class="segmented" role="group" aria-label="来源类型">
+            <button class="segment-button" type="button" data-kind="all" aria-pressed="true">全部</button>
+            <button class="segment-button" type="button" data-kind="conference" aria-pressed="false">会议</button>
+            <button class="segment-button" type="button" data-kind="journal" aria-pressed="false">期刊</button>
+          </div>
+        </section>
+
+        <section class="filter-block">
+          <span class="filter-heading">会议 / 期刊</span>
+          <div id="venueNav" class="venue-nav"></div>
         </section>
       </aside>
 
-      <section class="content">
+      <section class="content library-content">
         <div class="summary-row library-summary" aria-label="Summary">
           <div class="metric">
             <span id="totalCount">0</span>
-            <small>总数</small>
+            <small>论文总数</small>
           </div>
           <div class="metric">
-            <span id="visibleCount">0</span>
-            <small>当前</small>
+            <span id="venueCount">0</span>
+            <small>会议/期刊</small>
           </div>
           <div class="metric">
-            <span id="conferenceCount">0</span>
-            <small>会议</small>
+            <span id="yearCount">0</span>
+            <small>年份/月度</small>
           </div>
           <div class="metric">
-            <span id="journalCount">0</span>
-            <small>期刊</small>
+            <span id="trackCount">0</span>
+            <small>Track</small>
           </div>
         </div>
 
         <div id="libraryNote" class="empty-state library-note" hidden></div>
-        <div id="paperList" class="paper-list" aria-live="polite"></div>
-        <div id="emptyState" class="empty-state" hidden>没有匹配的论文</div>
+
+        <section id="overviewSection" class="library-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Navigation</p>
+              <h2>会议与期刊导航</h2>
+            </div>
+            <button id="clearRouteButton" class="text-button" type="button">总览</button>
+          </div>
+          <div id="venueGrid" class="venue-grid"></div>
+        </section>
+
+        <section id="detailSection" class="library-section" hidden>
+          <div class="section-heading">
+            <div>
+              <p id="detailEyebrow" class="eyebrow">Venue</p>
+              <h2 id="detailTitle"></h2>
+              <p id="detailMeta" class="section-subtitle"></p>
+            </div>
+            <button id="backButton" class="text-button" type="button">返回总览</button>
+          </div>
+
+          <div id="yearPills" class="year-pills" aria-label="年份"></div>
+
+          <div class="track-panel">
+            <div class="track-panel-heading">
+              <h3>Track 汇总</h3>
+              <span id="visibleCount">0</span>
+            </div>
+            <div id="trackSummary" class="track-summary"></div>
+          </div>
+
+          <div id="paperList" class="paper-list" aria-live="polite"></div>
+          <div id="emptyState" class="empty-state" hidden>没有匹配的论文</div>
+        </section>
       </section>
     </main>
 

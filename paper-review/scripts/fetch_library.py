@@ -43,6 +43,235 @@ NON_PAPER_TITLES = (
     "table of contents",
     "title page",
 )
+TRACK_RULES = (
+    (
+        "LLM 与生成式 AI",
+        (
+            "large language",
+            "llm",
+            "transformer",
+            "attention",
+            "kv cache",
+            "rag",
+            "gpt",
+            "bert",
+            "diffusion",
+            "generative",
+            "neural rendering",
+        ),
+    ),
+    (
+        "AI/ML 加速器",
+        (
+            "deep learning",
+            "neural network",
+            "dnn",
+            "cnn",
+            "inference",
+            "training",
+            "sparsity",
+            "tensor",
+            "accelerator",
+            "machine learning",
+        ),
+    ),
+    (
+        "存内/近存计算",
+        (
+            "processing-in-memory",
+            "process-in-memory",
+            "near-memory",
+            "in-memory",
+            "pim",
+            "reram",
+            "memristor",
+            "hbm",
+            "dram-based pim",
+        ),
+    ),
+    (
+        "内存与缓存",
+        (
+            "memory",
+            "cache",
+            "dram",
+            "cxl",
+            "prefetch",
+            "tlb",
+            "translation",
+            "rowhammer",
+            "persistent",
+            "coherence",
+            "consistency",
+        ),
+    ),
+    (
+        "存储系统",
+        (
+            "storage",
+            "ssd",
+            "flash",
+            "nvme",
+            "file system",
+            "filesystem",
+            "key-value",
+            "log-structured",
+        ),
+    ),
+    (
+        "安全与隐私",
+        (
+            "security",
+            "secure",
+            "attack",
+            "side-channel",
+            "enclave",
+            "trusted",
+            "privacy",
+            "crypt",
+            "homomorphic",
+            "fhe",
+            "zero knowledge",
+            "fault injection",
+        ),
+    ),
+    (
+        "量子计算",
+        (
+            "quantum",
+            "qubit",
+            "qaoa",
+            "surface code",
+            "neutral atom",
+            "quantum compiler",
+        ),
+    ),
+    (
+        "GPU 与图形",
+        (
+            "gpu",
+            "cuda",
+            "graphics",
+            "ray tracing",
+            "rendering",
+            "shader",
+            "simt",
+        ),
+    ),
+    (
+        "FPGA/可重构计算",
+        (
+            "fpga",
+            "cgra",
+            "reconfigurable",
+            "overlay",
+            "high-level synthesis",
+            "hls",
+        ),
+    ),
+    (
+        "EDA 与设计自动化",
+        (
+            "placement",
+            "routing",
+            "synthesis",
+            "verification",
+            "formal",
+            "floorplan",
+            "layout",
+            "timing",
+            "rtl",
+            "eda",
+            "design automation",
+        ),
+    ),
+    (
+        "网络与通信",
+        (
+            "network",
+            "datacenter",
+            "data center",
+            "congestion",
+            "packet",
+            "routing",
+            "switch",
+            "tcp",
+            "rdma",
+            "nic",
+            "ethernet",
+        ),
+    ),
+    (
+        "编译器与程序语言",
+        (
+            "compiler",
+            "compilation",
+            "programming language",
+            "type system",
+            "static analysis",
+            "runtime",
+            "optimization",
+        ),
+    ),
+    (
+        "操作系统与云系统",
+        (
+            "operating system",
+            "kernel",
+            "os",
+            "cloud",
+            "serverless",
+            "virtualization",
+            "container",
+            "microservice",
+            "scheduler",
+        ),
+    ),
+    (
+        "HPC 与并行计算",
+        (
+            "hpc",
+            "high performance computing",
+            "parallel",
+            "distributed",
+            "mpi",
+            "cluster",
+            "supercomputer",
+            "workflow",
+        ),
+    ),
+    (
+        "电路与芯片",
+        (
+            "circuit",
+            "vlsi",
+            "chiplet",
+            "noc",
+            "power",
+            "energy",
+            "voltage",
+            "photonic",
+            "analog",
+        ),
+    ),
+)
+AREA_TRACK_DEFAULTS = {
+    "Architecture": "系统与微架构",
+    "Computer Design": "系统与微架构",
+    "EDA": "EDA 与设计自动化",
+    "Reconfigurable Computing": "FPGA/可重构计算",
+    "HPC": "HPC 与并行计算",
+    "Parallel Programming": "HPC 与并行计算",
+    "Storage": "存储系统",
+    "ML Systems": "AI/ML 加速器",
+    "Systems": "操作系统与云系统",
+    "Distributed Systems": "HPC 与并行计算",
+    "Programming Languages": "编译器与程序语言",
+    "Compilers": "编译器与程序语言",
+    "Networking": "网络与通信",
+    "Circuits": "电路与芯片",
+    "Embedded Systems": "电路与芯片",
+}
 
 
 def clean(value: Any) -> str:
@@ -214,7 +443,31 @@ def lookup_track(overrides: dict[str, str], record: dict[str, Any]) -> str:
         clean(record.get("id", "")).lower(),
         clean(record.get("title", "")).lower(),
     ]
-    return next((overrides[key] for key in keys if key and key in overrides), UNCATEGORIZED)
+    return next((overrides[key] for key in keys if key and key in overrides), "")
+
+
+def infer_track(record: dict[str, Any], source: dict[str, Any]) -> str:
+    haystack = " ".join(
+        clean(part)
+        for part in (
+            record.get("title"),
+            record.get("summary"),
+            record.get("venueName"),
+            record.get("journalName"),
+            record.get("area"),
+        )
+    ).lower()
+
+    for track, keywords in TRACK_RULES:
+        if any(keyword in haystack for keyword in keywords):
+            return track
+
+    return AREA_TRACK_DEFAULTS.get(clean(source.get("area")), UNCATEGORIZED)
+
+
+def assign_track(record: dict[str, Any], source: dict[str, Any], overrides: dict[str, str] | None = None) -> str:
+    override = lookup_track(overrides or {}, record)
+    return override or infer_track(record, source)
 
 
 def dblp_toc_url(source: dict[str, Any], year: int) -> str:
@@ -278,7 +531,7 @@ def fetch_dblp_conference_year(source: dict[str, Any], year: int) -> list[dict[s
         record = parse_dblp_record(info, source, year)
         if not record:
             continue
-        record["track"] = lookup_track(overrides, record)
+        record["track"] = assign_track(record, source, overrides)
         records.append(record)
 
     return records
@@ -397,7 +650,7 @@ def fetch_crossref_conference_year(source: dict[str, Any], year: int) -> list[di
             record = parse_crossref_conference_record(item, source, year)
             if not record:
                 continue
-            record["track"] = lookup_track(overrides, record)
+            record["track"] = assign_track(record, source, overrides)
             by_id[record["id"]] = record
         time.sleep(CROSSREF_DELAY_SECONDS)
 
@@ -441,28 +694,52 @@ def crossref_month_url(issn: str, year: int, month: int) -> str:
     return f"https://api.crossref.org/journals/{urllib.parse.quote(issn)}/works?{params}"
 
 
+def crossref_year_url(issn: str, year: int) -> str:
+    filters = f"type:journal-article,from-pub-date:{year:04d}-01-01,until-pub-date:{year:04d}-12-31"
+    params = urllib.parse.urlencode(
+        {
+            "filter": filters,
+            "rows": "1000",
+            "sort": "published",
+            "order": "asc",
+        }
+    )
+    return f"https://api.crossref.org/journals/{urllib.parse.quote(issn)}/works?{params}"
+
+
 def crossref_items(payload: dict[str, Any]) -> list[dict[str, Any]]:
     items = payload.get("message", {}).get("items", [])
     return items if isinstance(items, list) else []
 
 
-def parse_crossref_record(item: dict[str, Any], source: dict[str, Any], year: int, month: int) -> dict[str, Any] | None:
+def published_year_month(published: str, fallback_year: int, fallback_month: int | None = None) -> tuple[int, int]:
+    match = re.match(r"^(\d{4})-(\d{2})", published or "")
+    if match:
+        return int(match.group(1)), int(match.group(2))
+    return fallback_year, fallback_month or 1
+
+
+def parse_crossref_record(
+    item: dict[str, Any], source: dict[str, Any], year: int, month: int | None = None
+) -> dict[str, Any] | None:
     title = strip_markup(first_text(item.get("title"))).rstrip(".")
     if not title:
         return None
 
     doi = normalize_doi(item.get("DOI", ""))
-    record_id = f"doi:{doi}" if doi else stable_id("crossref", source["id"], str(year), str(month), title)
     published = (
         date_parts_to_iso(item.get("published-print"))
         or date_parts_to_iso(item.get("published-online"))
+        or date_parts_to_iso(item.get("published"))
         or date_parts_to_iso(item.get("issued"))
-        or f"{year:04d}-{month:02d}-01"
+        or f"{year:04d}-{(month or 1):02d}-01"
     )
-    month_key = f"{year:04d}-{month:02d}"
+    record_year, record_month = published_year_month(published, year, month)
+    record_id = f"doi:{doi}" if doi else stable_id("crossref", source["id"], str(record_year), str(record_month), title)
+    month_key = f"{record_year:04d}-{record_month:02d}"
     venue_id = source["id"]
 
-    return {
+    record = {
         "id": record_id,
         "source": "library",
         "kind": "journal",
@@ -473,7 +750,7 @@ def parse_crossref_record(item: dict[str, Any], source: dict[str, Any], year: in
         "venueName": source.get("shortName") or source.get("name") or venue_id,
         "journalName": source.get("name") or venue_id,
         "area": source.get("area", ""),
-        "year": year,
+        "year": record_year,
         "month": month_key,
         "track": "",
         "published": published,
@@ -485,6 +762,8 @@ def parse_crossref_record(item: dict[str, Any], source: dict[str, Any], year: in
         "dblpUrl": "",
         "url": clean(item.get("URL")) or (f"https://doi.org/{doi}" if doi else ""),
     }
+    record["track"] = assign_track(record, source)
+    return record
 
 
 def fetch_journal_month(source: dict[str, Any], year: int, month: int) -> list[dict[str, Any]]:
@@ -495,6 +774,25 @@ def fetch_journal_month(source: dict[str, Any], year: int, month: int) -> list[d
             record = parse_crossref_record(item, source, year, month)
             if record:
                 by_id[record["id"]] = record
+        time.sleep(CROSSREF_DELAY_SECONDS)
+    return list(by_id.values())
+
+
+def fetch_journal_year(source: dict[str, Any], year: int, allowed_months: set[int] | None = None) -> list[dict[str, Any]]:
+    by_id: dict[str, dict[str, Any]] = {}
+    for issn in source.get("issns", []):
+        payload = fetch_json(crossref_year_url(issn, year))
+        for item in crossref_items(payload):
+            record = parse_crossref_record(item, source, year)
+            if not record:
+                continue
+            try:
+                record_month = int(str(record.get("month", ""))[-2:])
+            except ValueError:
+                continue
+            if allowed_months and record_month not in allowed_months:
+                continue
+            by_id[record["id"]] = record
         time.sleep(CROSSREF_DELAY_SECONDS)
     return list(by_id.values())
 
@@ -645,14 +943,18 @@ def fetch_conferences(sources: dict[str, Any], years: list[int], providers: str)
 
 def fetch_journals(sources: dict[str, Any], months: list[tuple[int, int]]) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
+    months_by_year: dict[int, set[int]] = {}
+    for year, month in months:
+        months_by_year.setdefault(year, set()).add(month)
+
     for source in sources.get("journals", []):
-        for year, month in months:
+        for year, allowed_months in sorted(months_by_year.items()):
             try:
-                items = fetch_journal_month(source, year, month)
+                items = fetch_journal_year(source, year, allowed_months)
                 records.extend(items)
-                print(f"{source['id']} {year}-{month:02d}: {len(items)} journal papers")
+                print(f"{source['id']} {year}: {len(items)} journal papers")
             except Exception as exc:
-                print(f"Skipping {source.get('id')} {year}-{month:02d}: {exc}", file=sys.stderr)
+                print(f"Skipping {source.get('id')} {year}: {exc}", file=sys.stderr)
     return records
 
 

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "journal": "TRETS",
+    "month": "2024-07",
+    "count": 1
+  },
+  "records": [
+    {
+      "id": "doi:10.1145/3662001",
+      "source": "library",
+      "kind": "journal",
+      "title": "NC-Library: Expanding SystemC Capabilities for Nested reConfigurable Hardware Modelling",
+      "authors": [
+        "Julian Haase",
+        "Najdet Charaf",
+        "Alexander Groß",
+        "Diana Göhringer"
+      ],
+      "summary": "",
+      "venue": "TRETS",
+      "venueName": "TRETS",
+      "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
+      "area": "Reconfigurable Computing",
+      "year": 2024,
+      "month": "2024-07",
+      "track": "FPGA/可重构计算",
+      "published": "2024-09-30",
+      "volume": "17",
+      "issue": "3",
+      "pages": "1-29",
+      "doi": "10.1145/3662001",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3662001"
+    }
+  ]
+}
