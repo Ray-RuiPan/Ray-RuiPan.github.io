@@ -1,12 +1,14 @@
-# Track Overrides
+# Official Track Mappings
 
-Place optional per-conference track mappings here:
+Place curated per-venue track mappings here after checking the official
+proceedings, program, or journal issue page:
 
 ```text
 paper-review/data/library/tracks/ISCA/2024.json
 ```
 
-The JSON file can map a DOI, dblp key, generated record id, or exact title to a track:
+The JSON file can map a DOI, DBLP key, generated record id, or exact title to
+the official track/session name:
 
 ```json
 {
@@ -16,6 +18,6 @@ The JSON file can map a DOI, dblp key, generated record id, or exact title to a 
 }
 ```
 
-Papers without an override are assigned to a broad research track by keyword rules
-in `scripts/fetch_library.py`. If no rule matches, the script falls back to the
-venue or journal area, then to `Uncategorized`.
+Papers without an official mapping are not classified by keywords. They remain
+under `未标注 Track` until a mapping from the official proceedings, program, or
+journal issue is added.

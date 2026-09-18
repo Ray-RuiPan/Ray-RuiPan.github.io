@@ -372,7 +372,7 @@ function paperMetaText(paper) {
   if (paper.source === "library") {
     const venue = paper.venueName || paper.venue || "";
     if (paper.kind === "conference") {
-      return `${venue} ${paper.year || ""} · ${paper.track || "Uncategorized"} · ${authorText}`;
+      return `${venue} ${paper.year || ""} · ${paper.track || "未标注 Track"} · ${authorText}`;
     }
     const issue = [paper.volume && `Vol. ${paper.volume}`, paper.issue && `No. ${paper.issue}`]
       .filter(Boolean)
@@ -414,7 +414,7 @@ function createPaperLinks(paper) {
     const links = [];
     if (paper.dblpUrl) links.push(createLink("DBLP", paper.dblpUrl));
     if (paper.doi) links.push(createLink("DOI", `https://doi.org/${paper.doi}`));
-    if (paper.url && paper.url !== paper.dblpUrl) links.push(createLink("Publisher", paper.url));
+    if (!paper.doi && paper.url && paper.url !== paper.dblpUrl) links.push(createLink("Publisher", paper.url));
     return links;
   }
   return [createLink("Abstract", paper.absUrl), createLink("PDF", paper.pdfUrl)];

@@ -1,6 +1,7 @@
 const DEFAULT_COLLECTION_ID = "default";
 const DEFAULT_COLLECTION_NAME = "默认收藏夹";
 const ALL_TRACKS = "all";
+const UNTRACKED_LABEL = "未标注 Track";
 
 const els = {
   statusText: document.querySelector("#statusText"),
@@ -212,7 +213,7 @@ function formatDateTime(value) {
 }
 
 function displayTrack(record) {
-  return record.track || "Uncategorized";
+  return record.track || UNTRACKED_LABEL;
 }
 
 function sourceFullName(source) {
@@ -220,9 +221,14 @@ function sourceFullName(source) {
 }
 
 function allSources() {
+  const conferences = state.sources.conferences || [];
   return [
-    ...(state.sources.conferences || []).map((source) => ({ ...source, kind: "conference" })),
-    ...(state.sources.journals || []).map((source) => ({ ...source, kind: "journal" })),
+    ...conferences.map((source, index) => ({ ...source, kind: "conference", order: index })),
+    ...(state.sources.journals || []).map((source, index) => ({
+      ...source,
+      kind: "journal",
+      order: conferences.length + index,
+    })),
   ];
 }
 
@@ -278,7 +284,7 @@ function normalizeRecords(records) {
   return records.map((record) => ({
     ...record,
     year: record.year ? Number(record.year) : "",
-    track: record.track || (record.kind === "journal" ? "Uncategorized" : "Uncategorized"),
+    track: record.track || UNTRACKED_LABEL,
   }));
 }
 
@@ -374,7 +380,9 @@ function venueStats() {
   });
 
   return [...byVenue.values()].sort((a, b) => {
-    if (b.records.length !== a.records.length) return b.records.length - a.records.length;
+    const orderA = Number.isFinite(a.source.order) ? a.source.order : 9999;
+    const orderB = Number.isFinite(b.source.order) ? b.source.order : 9999;
+    if (orderA !== orderB) return orderA - orderB;
     return sourceLabel(a.source).localeCompare(sourceLabel(b.source), "zh-CN", { numeric: true });
   });
 }
@@ -466,7 +474,10 @@ function renderVenueNav() {
     heading.textContent = label;
     group.append(heading);
 
-    items.forEach((item) => group.append(createVenueNavButton(item)));
+    const list = document.createElement("div");
+    list.className = "venue-nav-list";
+    items.forEach((item) => list.append(createVenueNavButton(item)));
+    group.append(list);
     els.venueNav.append(group);
   });
 }
@@ -477,8 +488,7 @@ function createVenueNavButton(item) {
   button.className = "venue-nav-button";
   button.setAttribute("aria-pressed", String(item.source.id === state.venue));
   button.addEventListener("click", () => {
-    const years = availableYears(item.records);
-    setRoute({ venue: item.source.id, year: years[0] || "", track: ALL_TRACKS });
+    setRoute({ venue: item.source.id, year: "", track: ALL_TRACKS });
   });
 
   const name = document.createElement("span");
@@ -499,7 +509,21 @@ function renderOverview() {
   els.venueGrid.textContent = "";
 
   const items = venueStats();
-  items.forEach((item) => els.venueGrid.append(createVenueCard(item)));
+  const withRecords = items.filter((item) => item.records.length).length;
+  const hint = document.createElement("div");
+  hint.className = "overview-hint-card";
+
+  const title = document.createElement("h3");
+  title.textContent = "左侧已列出全部会议和期刊";
+
+  const body = document.createElement("p");
+  body.textContent = `共 ${items.length} 个 venue，其中 ${withRecords} 个已有回填数据。选择一个会议或期刊后，再选择年份，并按官方 proceedings/issue 的 Track 查看论文。`;
+
+  const note = document.createElement("p");
+  note.textContent = `没有官方 Track 映射的记录会暂时显示为“${UNTRACKED_LABEL}”。`;
+
+  hint.append(title, body, note);
+  els.venueGrid.append(hint);
 }
 
 function createVenueCard(item) {
@@ -565,9 +589,7 @@ function renderDetail() {
   const source = sourceById(state.venue);
   const venueRecords = recordsForVenue();
   const years = availableYears(venueRecords);
-  if (!state.year && years.length) state.year = years[0];
-  if (state.year && !years.includes(state.year) && years.length) state.year = years[0];
-  if (!years.length) state.year = "";
+  if (state.year && !years.includes(state.year)) state.year = "";
 
   const yearRecords = recordsForCurrentYear();
   const visibleRecords = recordsForCurrentTrack();
@@ -586,9 +608,19 @@ function renderDetail() {
     .join(" · ");
 
   renderYearPills(years);
+  if (!state.year) {
+    els.trackSummary.textContent = "";
+    els.paperList.textContent = "";
+    els.visibleCount.textContent = years.length ? "请选择年份" : "等待回填";
+    els.emptyState.textContent = years.length ? "请选择上方年份后查看论文。" : "这个会议/期刊当前还没有回填数据。";
+    els.emptyState.hidden = false;
+    return;
+  }
+
   renderTrackSummary(trackGroups(yearRecords));
   renderPaperGroups(trackGroups(visibleRecords));
   els.visibleCount.textContent = `${visibleRecords.length} 篇`;
+  els.emptyState.textContent = "没有匹配的论文";
   els.emptyState.hidden = visibleRecords.length !== 0;
 }
 
@@ -690,7 +722,7 @@ function createPaperCard(paper) {
   links.className = "paper-links";
   if (paper.dblpUrl) links.append(createLink("DBLP", paper.dblpUrl));
   if (paper.doi) links.append(createLink("DOI", `https://doi.org/${paper.doi}`));
-  if (paper.url && paper.url !== paper.dblpUrl) links.append(createLink("Publisher", paper.url));
+  if (!paper.doi && paper.url && paper.url !== paper.dblpUrl) links.append(createLink("Publisher", paper.url));
 
   card.append(header, badges);
   if (paper.summary) card.append(createAbstract(paper.summary));
