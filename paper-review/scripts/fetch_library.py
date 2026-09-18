@@ -27,6 +27,7 @@ USER_AGENT = "paper-review-library/1.0 (https://ray-ruipan.github.io/paper-revie
 UNCATEGORIZED = "未标注 Track"
 DBLP_DELAY_SECONDS = 2.2
 CROSSREF_DELAY_SECONDS = 0.25
+OFFICIAL_PROGRAM_DELAY_SECONDS = 0.5
 NON_PAPER_TITLES = (
     "author index",
     "back matter",
@@ -43,6 +44,140 @@ NON_PAPER_TITLES = (
     "table of contents",
     "title page",
 )
+ADMIN_SESSION_PATTERNS = (
+    "arrival coffee",
+    "award",
+    "banquet",
+    "break",
+    "business meeting",
+    "coffee",
+    "dinner",
+    "keynote",
+    "lunch",
+    "opening",
+    "panel",
+    "poster",
+    "reception",
+    "registration",
+    "social",
+    "tutorial",
+    "welcome",
+    "workshop",
+)
+OFFICIAL_PROGRAM_URL_TEMPLATES = {
+    "ISCA": [
+        "https://iscaconf.org/isca{year}/program/",
+        "https://www.iscaconf.org/isca{year}/program/",
+    ],
+    "HPCA": [
+        "https://www.hpca-conf.org/{year}/program/main.php",
+        "https://{year}.hpca-conf.org/program/program-hpca-{year}/",
+        "https://conf.researchr.org/track/hpca-{year}/hpca-{year}-main-conference",
+    ],
+    "MICRO": [
+        "https://microarch.org/micro{micro_edition}/program/",
+        "https://www.microarch.org/micro{micro_edition}/program/",
+    ],
+    "ASPLOS": [
+        "https://www.asplos-conference.org/asplos{year}/main-program/index.html",
+        "https://www.asplos-conference.org/asplos{year}/program/",
+    ],
+    "DAC": [
+        "https://www.dac.com/Conference/Technical-Program?year={year}",
+    ],
+    "ICCAD": [
+        "https://iccad.com/{year}/program/",
+        "https://iccad.com/technical-program/",
+    ],
+    "DATE": [
+        "https://www.date-conference.com/programme",
+        "https://www.date-conference.com/date{year}/programme",
+    ],
+    "ASP-DAC": [
+        "https://www.aspdac.com/aspdac{year}/program/",
+        "https://www.aspdac.com/aspdac{year}/technical_program/",
+    ],
+    "FPGA": [
+        "https://www.isfpga.org/fpga{year}/program/",
+    ],
+    "FPL": [
+        "https://fpl{year}.org/program/",
+        "https://www.fpl{year}.org/program/",
+    ],
+    "FPT": [
+        "https://fpt{year}.org/program/",
+        "https://www.fpt{year}.org/program/",
+    ],
+    "ICCD": [
+        "https://www.iccd-conf.com/Program.html",
+        "https://www.iccd-conf.com/Program/{year}",
+    ],
+    "PACT": [
+        "https://conf.researchr.org/track/pact-{year}/pact-{year}-papers",
+        "https://pact{year}.github.io/program/",
+    ],
+    "SC": [
+        "https://sc{yy}.supercomputing.org/program/papers/",
+        "https://sc{yy}.supercomputing.org/program/technical-program/",
+    ],
+    "PPOPP": [
+        "https://conf.researchr.org/track/PPoPP-{year}/PPoPP-{year}-Research-Papers",
+        "https://conf.researchr.org/track/ppopp-{year}/ppopp-{year}-main-conference",
+    ],
+    "FAST": [
+        "https://www.usenix.org/conference/fast{yy}/technical-sessions",
+    ],
+    "MLSys": [
+        "https://mlsys.org/virtual/{year}/calendar",
+        "https://mlsys.org/Conferences/{year}/Schedule",
+    ],
+    "OSDI": [
+        "https://www.usenix.org/conference/osdi{yy}/technical-sessions",
+    ],
+    "SOSP": [
+        "https://sigops.org/s/conferences/sosp/{year}/program.html",
+        "https://sosp{year}.munich/program.html",
+    ],
+    "EuroSys": [
+        "https://{year}.eurosys.org/program/",
+        "https://{year}.eurosys.org/program.html",
+    ],
+    "ATC": [
+        "https://www.usenix.org/conference/atc{yy}/technical-sessions",
+    ],
+    "HPDC": [
+        "https://www.hpdc.org/{year}/program/",
+    ],
+    "PLDI": [
+        "https://pldi{yy}.sigplan.org/track/pldi-{year}-papers",
+        "https://conf.researchr.org/track/pldi-{year}/pldi-{year}-papers",
+    ],
+    "POPL": [
+        "https://popl{yy}.sigplan.org/track/POPL-{year}-POPL-Research-Papers",
+        "https://conf.researchr.org/track/POPL-{year}/POPL-{year}-POPL-Research-Papers",
+    ],
+    "OOPSLA": [
+        "https://{year}.splashcon.org/track/splash-{year}-oopsla",
+        "https://conf.researchr.org/track/splash-{year}/splash-{year}-oopsla",
+    ],
+    "CGO": [
+        "https://{year}.cgo.org/program/program-cgo-{year}/",
+        "https://conf.researchr.org/track/cgo-{year}/cgo-{year}-main-conference",
+    ],
+    "NSDI": [
+        "https://www.usenix.org/conference/nsdi{yy}/technical-sessions",
+    ],
+    "SIGCOMM": [
+        "https://conferences.sigcomm.org/sigcomm/{year}/program.html",
+        "https://conferences.sigcomm.org/sigcomm/{year}/program.php",
+    ],
+    "INFOCOM": [
+        "https://infocom{year}.ieee-infocom.org/program",
+    ],
+    "ISSCC": [
+        "https://www.isscc.org/{year}/program",
+    ],
+}
 
 def clean(value: Any) -> str:
     return re.sub(r"\s+", " ", html.unescape(str(value or ""))).strip()
@@ -85,6 +220,27 @@ def fetch_json(url: str, timeout: int = 45, attempts: int = 3) -> dict[str, Any]
             if attempt == attempts - 1:
                 break
             time.sleep(3 * (attempt + 1))
+    raise last_error or RuntimeError(f"Failed to fetch {url}")
+
+
+def fetch_text(url: str, timeout: int = 45, attempts: int = 2) -> str:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html, text/plain;q=0.9, */*;q=0.8",
+        },
+    )
+    last_error: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except (urllib.error.HTTPError, urllib.error.URLError) as exc:
+            last_error = exc
+            if attempt == attempts - 1:
+                break
+            time.sleep(2 * (attempt + 1))
     raise last_error or RuntimeError(f"Failed to fetch {url}")
 
 
@@ -182,8 +338,257 @@ def strip_markup(value: str) -> str:
     return clean(html.unescape(re.sub(r"<[^>]+>", " ", value or "")))
 
 
+def html_to_lines(markup: str) -> list[str]:
+    text = re.sub(r"(?is)<(script|style|noscript).*?</\1>", " ", markup or "")
+    text = re.sub(r"(?i)<br\s*/?>", "\n", text)
+    text = re.sub(r"(?i)</(h[1-6]|p|div|li|tr|td|th|section|article|table)>", "\n", text)
+    text = re.sub(r"(?i)<(h[1-6]|p|div|li|tr|td|th|section|article|table)[^>]*>", "\n", text)
+    text = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    return [clean(line) for line in text.splitlines() if clean(line)]
+
+
+def de_latex(value: str) -> str:
+    value = re.sub(r"\\(?:textbf|emph|underline|textit|mathrm)\{([^{}]*)\}", r"\1", value or "")
+    value = re.sub(r"\\[a-zA-Z]+\{?([^{}]*)\}?", r"\1", value)
+    return value.replace("{", " ").replace("}", " ")
+
+
+def canonical_title(value: str) -> str:
+    value = de_latex(strip_markup(value))
+    value = re.sub(r"\[(?:best paper|distinguished|artifact|award|nominee)[^\]]*\]", " ", value, flags=re.I)
+    value = re.sub(r"\b(?:pre-print|doi|paper|abstract|slides?|video|media attached)\b", " ", value, flags=re.I)
+    return re.sub(r"[^a-z0-9]+", "", value.lower())
+
+
 def normalized_words(value: str) -> list[str]:
     return [word for word in re.split(r"[^a-z0-9]+", value.lower()) if len(word) > 1]
+
+
+def title_words(value: str) -> set[str]:
+    return {
+        word
+        for word in normalized_words(de_latex(strip_markup(value)))
+        if word
+        not in {
+            "a",
+            "an",
+            "and",
+            "for",
+            "in",
+            "of",
+            "on",
+            "the",
+            "to",
+            "using",
+            "via",
+            "with",
+        }
+    }
+
+
+def is_admin_session(title: str) -> bool:
+    lowered = title.lower()
+    return any(pattern in lowered for pattern in ADMIN_SESSION_PATTERNS)
+
+
+def clean_session_title(value: str) -> str:
+    value = clean(value).strip(" |:-")
+    value = re.split(
+        r"(?:Main Conference|Research Papers|PLDI Research Papers|HPCA Main Conference|Keynotes|Papers)\b",
+        value,
+        maxsplit=1,
+    )[0]
+    value = re.split(r"\s+Chair\(s\):", value, maxsplit=1, flags=re.I)[0]
+    value = re.split(r"\s+at\s+[A-Z][A-Za-z0-9 /&().-]*$", value, maxsplit=1)[0]
+    value = re.sub(r"^Session\s+([0-9A-Za-z.-]+)\s*:\s*", r"Session \1: ", value)
+    return clean(value).strip(" |:-")
+
+
+def extract_session_title(line: str) -> str:
+    line = clean(line)
+    if not line:
+        return ""
+
+    heading_match = re.match(r"^(Session\s+[0-9A-Za-z.-]+\s*:\s*.+)$", line, flags=re.I)
+    if heading_match:
+        title = clean_session_title(heading_match.group(1))
+        return "" if is_admin_session(title) else title
+
+    compact_heading = re.match(r"^([0-9]+[A-Z]\s*:\s*.+)$", line)
+    if compact_heading:
+        title = clean_session_title(compact_heading.group(1))
+        return "" if is_admin_session(title) else title
+
+    time_range = re.match(
+        r"^(?:\|?\s*)?(?:[A-Z][a-z]{2}\s+\d+\s+[A-Z][a-z]{2}\s+)?"
+        r"\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?\s*[-–]\s*"
+        r"\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?\s*(?:\||:)?\s*(.+)$",
+        line,
+    )
+    if not time_range:
+        return ""
+
+    title = clean_session_title(time_range.group(1))
+    if not title or len(title) < 4 or is_admin_session(title):
+        return ""
+    if re.search(r"\b(?:Talk|Paper|Keynote|Meeting|Coffee break)\b", title):
+        return ""
+    return title
+
+
+def record_match_candidates(records: list[dict[str, Any]]) -> list[tuple[dict[str, Any], str, set[str]]]:
+    candidates = []
+    for record in records:
+        title = clean(record.get("title"))
+        key = canonical_title(title)
+        if len(key) < 8:
+            continue
+        words = title_words(title)
+        candidates.append((record, key, words))
+    return candidates
+
+
+def match_record_from_line(
+    line: str, candidates: list[tuple[dict[str, Any], str, set[str]]]
+) -> dict[str, Any] | None:
+    line_key = canonical_title(line)
+    if len(line_key) < 12:
+        return None
+
+    for record, key, _words in candidates:
+        if len(key) >= 12 and key in line_key:
+            return record
+
+    line_word_set = title_words(line)
+    best_record: dict[str, Any] | None = None
+    best_score = 0.0
+    for record, _key, words in candidates:
+        if len(words) < 4:
+            continue
+        overlap = len(words & line_word_set)
+        score = overlap / max(len(words), 1)
+        if overlap >= 4 and score > best_score:
+            best_score = score
+            best_record = record
+
+    return best_record if best_score >= 0.72 else None
+
+
+def mapping_entries_for_record(record: dict[str, Any], track: str) -> dict[str, str]:
+    entries: dict[str, str] = {}
+    for key in (
+        normalize_doi(record.get("doi", "")),
+        clean(record.get("dblpKey", "")),
+        clean(record.get("id", "")),
+        clean(record.get("title", "")),
+    ):
+        if key:
+            entries[key] = track
+    return entries
+
+
+def format_program_template(template: str, source: dict[str, Any], year: int) -> str:
+    context = {
+        "id": clean(source.get("id")),
+        "id_lower": clean(source.get("id")).lower(),
+        "name": clean(source.get("name")),
+        "name_lower": clean(source.get("name")).lower(),
+        "year": year,
+        "yy": f"{year % 100:02d}",
+        "micro_edition": year - 1967,
+    }
+    return template.format(**context)
+
+
+def official_program_urls(source: dict[str, Any], year: int) -> list[str]:
+    templates = []
+    templates.extend(list_value(source.get("officialProgramUrls")))
+    templates.extend(list_value(source.get("officialProgramUrlTemplates")))
+    templates.extend(OFFICIAL_PROGRAM_URL_TEMPLATES.get(clean(source.get("id")), []))
+
+    urls: list[str] = []
+    for template in templates:
+        try:
+            url = format_program_template(clean(template), source, year)
+        except KeyError:
+            continue
+        if url and url not in urls:
+            urls.append(url)
+    return urls
+
+
+def extract_program_track_overrides(markup: str, records: list[dict[str, Any]]) -> dict[str, str]:
+    candidates = record_match_candidates(records)
+    if not candidates:
+        return {}
+
+    mappings: dict[str, str] = {}
+    current_session = ""
+
+    for line in html_to_lines(markup):
+        session = extract_session_title(line)
+        if session:
+            current_session = session
+            continue
+
+        if not current_session or is_admin_session(current_session) or is_non_paper_title(line):
+            continue
+
+        record = match_record_from_line(line, candidates)
+        if record:
+            mappings.update(mapping_entries_for_record(record, current_session))
+
+    return mappings
+
+
+def fetch_official_track_overrides(source: dict[str, Any], year: int, records: list[dict[str, Any]]) -> dict[str, str]:
+    mappings: dict[str, str] = {}
+    for url in official_program_urls(source, year):
+        try:
+            markup = fetch_text(url, timeout=20, attempts=1)
+            found = extract_program_track_overrides(markup, records)
+            if found:
+                print(f"{source['id']} {year}: {len(found)} official track keys from {url}")
+                mappings.update(found)
+        except Exception as exc:
+            print(f"Official program unavailable for {source.get('id')} {year} at {url}: {exc}", file=sys.stderr)
+        time.sleep(OFFICIAL_PROGRAM_DELAY_SECONDS)
+    return mappings
+
+
+def write_track_overrides(venue_id: str, year: int, mappings: dict[str, str]) -> None:
+    normalized = {clean(key): clean(value) for key, value in mappings.items() if clean(key) and clean(value)}
+    if normalized:
+        write_json(TRACKS_DIR / venue_id / f"{year}.json", dict(sorted(normalized.items())))
+
+
+def apply_track_overrides(records: list[dict[str, Any]], source: dict[str, Any], overrides: dict[str, str]) -> None:
+    for record in records:
+        record["track"] = assign_track(record, source, overrides)
+
+
+def ensure_official_tracks(
+    source: dict[str, Any], year: int, records: list[dict[str, Any]], mode: str = "auto"
+) -> None:
+    if mode == "off" or not records:
+        return
+
+    path = TRACKS_DIR / source["id"] / f"{year}.json"
+    existing = load_track_overrides(source["id"], year)
+    if existing and mode != "refresh":
+        apply_track_overrides(records, source, existing)
+        return
+
+    fetched = fetch_official_track_overrides(source, year, records)
+    if fetched:
+        write_track_overrides(source["id"], year, fetched)
+        apply_track_overrides(records, source, load_track_overrides(source["id"], year))
+        return
+
+    if existing:
+        apply_track_overrides(records, source, existing)
+    elif path.exists():
+        apply_track_overrides(records, source, load_track_overrides(source["id"], year))
 
 
 def crossref_author_names(authors: Any) -> list[str]:
@@ -408,7 +813,9 @@ def fetch_crossref_conference_year(source: dict[str, Any], year: int) -> list[di
     return list(by_id.values())
 
 
-def fetch_conference_year(source: dict[str, Any], year: int, providers: str) -> list[dict[str, Any]]:
+def fetch_conference_year(
+    source: dict[str, Any], year: int, providers: str, official_tracks: str = "auto"
+) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
 
     if providers in {"both", "dblp"}:
@@ -423,7 +830,9 @@ def fetch_conference_year(source: dict[str, Any], year: int, providers: str) -> 
         except Exception as exc:
             print(f"Crossref unavailable for {source.get('id')} {year}: {exc}", file=sys.stderr)
 
-    return merge_by_identity(records)
+    merged = merge_by_identity(records)
+    ensure_official_tracks(source, year, merged, official_tracks)
+    return merged
 
 
 def month_range(year: int, month: int) -> tuple[str, str]:
@@ -678,17 +1087,43 @@ def merge_records(existing: list[dict[str, Any]], updates: list[dict[str, Any]])
     return list(merged.values())
 
 
-def fetch_conferences(sources: dict[str, Any], years: list[int], providers: str) -> list[dict[str, Any]]:
+def fetch_conferences(
+    sources: dict[str, Any], years: list[int], providers: str, official_tracks: str
+) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     for source in sources.get("conferences", []):
         for year in years:
             try:
-                items = fetch_conference_year(source, year, providers)
+                items = fetch_conference_year(source, year, providers, official_tracks)
                 records.extend(items)
                 print(f"{source['id']} {year}: {len(items)} conference papers")
                 time.sleep(DBLP_DELAY_SECONDS)
             except Exception as exc:
                 print(f"Skipping {source.get('id')} {year}: {exc}", file=sys.stderr)
+    return records
+
+
+def refresh_official_tracks_for_existing(
+    records: list[dict[str, Any]], sources: dict[str, Any], years: list[int], mode: str
+) -> list[dict[str, Any]]:
+    conferences = {source["id"]: source for source in sources.get("conferences", [])}
+    wanted_years = {str(year) for year in years}
+    grouped: dict[tuple[str, int], list[dict[str, Any]]] = {}
+
+    for record in records:
+        if record.get("kind") != "conference":
+            continue
+        venue = clean(record.get("venue"))
+        year = clean(record.get("year"))
+        if venue in conferences and year in wanted_years:
+            grouped.setdefault((venue, int(year)), []).append(record)
+
+    for (venue, year), items in sorted(grouped.items()):
+        source = conferences[venue]
+        ensure_official_tracks(source, year, items, mode)
+        matched = sum(1 for record in items if clean(record.get("track")) and record.get("track") != UNCATEGORIZED)
+        print(f"{venue} {year}: official tracks applied to {matched}/{len(items)} existing papers")
+
     return records
 
 
@@ -718,6 +1153,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--recent-months", type=int, default=4)
     parser.add_argument("--venues", default="", help="Comma-separated conference ids to fetch.")
     parser.add_argument("--journals", default="", help="Comma-separated journal ids to fetch.")
+    parser.add_argument(
+        "--official-tracks",
+        choices=["auto", "off", "refresh"],
+        default="auto",
+        help="Use official program/proceedings pages to map papers to session tracks.",
+    )
+    parser.add_argument(
+        "--refresh-official-tracks-only",
+        action="store_true",
+        help="Do not fetch paper metadata; only refresh official session-track mappings for existing conference records.",
+    )
     parser.add_argument(
         "--conference-providers",
         choices=["both", "crossref", "dblp"],
@@ -761,14 +1207,31 @@ def main() -> int:
     else:
         journal_months = recent_months(args.recent_months)
 
+    existing_payload = read_json(INDEX_PATH, {"records": []})
+    existing_records = existing_payload.get("records", [])
+
+    if args.refresh_official_tracks_only:
+        records = refresh_official_tracks_for_existing(
+            existing_records,
+            sources,
+            list(range(start_year, end_year + 1)),
+            args.official_tracks if args.official_tracks != "off" else "off",
+        )
+        if not records:
+            print("No existing library records found; nothing to refresh.")
+            return 0
+        payload = build_index(records, all_sources)
+        write_json(INDEX_PATH, payload)
+        write_chunks(records)
+        print(f"Wrote {payload['meta']['count']} library records")
+        return 0
+
     updates: list[dict[str, Any]] = []
     if args.mode in {"all", "recent", "conferences"}:
-        updates.extend(fetch_conferences(sources, conference_years, args.conference_providers))
+        updates.extend(fetch_conferences(sources, conference_years, args.conference_providers, args.official_tracks))
     if args.mode in {"all", "recent", "journals"}:
         updates.extend(fetch_journals(sources, journal_months))
 
-    existing_payload = read_json(INDEX_PATH, {"records": []})
-    existing_records = existing_payload.get("records", [])
     records = updates if args.mode == "all" else merge_records(existing_records, updates)
 
     if not records and existing_records:
