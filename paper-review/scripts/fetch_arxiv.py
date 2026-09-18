@@ -158,6 +158,7 @@ def extract_categories(entry: ET.Element) -> tuple[list[str], str]:
 def parse_entry(entry: ET.Element) -> dict[str, Any]:
     entry_id = https_url(text(entry, "id"))
     links = parse_links(entry)
+    versioned_id = clean(entry_id).removeprefix("oai:arXiv.org:")
 
     abs_url = next(
         (link["href"] for link in links if link["rel"] in {"alternate", ""} and "/abs/" in link["href"]),
@@ -179,6 +180,7 @@ def parse_entry(entry: ET.Element) -> dict[str, Any]:
 
     return {
         "id": arxiv_id,
+        "versionedId": versioned_id,
         "title": text(entry, "title"),
         "authors": extract_authors(entry),
         "summary": abstract_text(entry),
@@ -223,6 +225,7 @@ def parse_feed(xml_bytes: bytes) -> dict[str, Any]:
     return {
         "meta": {
             "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "displayTimeZone": "Asia/Shanghai",
             "feedUpdated": text(root, "updated"),
             "sourceUrl": FEED_URL,
             "categories": CATEGORIES,
@@ -235,10 +238,39 @@ def parse_feed(xml_bytes: bytes) -> dict[str, Any]:
 def snapshot_date() -> str:
     if ZoneInfo is not None:
         try:
-            return datetime.now(ZoneInfo("America/New_York")).date().isoformat()
+            return datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
         except Exception:
             pass
     return datetime.now(timezone.utc).date().isoformat()
+
+
+def paper_signature(payload: dict[str, Any]) -> list[dict[str, str]]:
+    return [
+        {
+            "id": clean(paper.get("id")),
+            "announceType": clean(paper.get("announceType")),
+            "published": clean(paper.get("published")),
+        }
+        for paper in payload.get("papers", [])
+    ]
+
+
+def should_write_update(payload: dict[str, Any]) -> bool:
+    if not payload.get("papers"):
+        print("No papers in the arXiv feed; keeping the previous site data.")
+        return False
+
+    latest_path = DATA_DIR / "papers.json"
+    if not latest_path.exists():
+        return True
+
+    current = json.loads(latest_path.read_text(encoding="utf-8"))
+    if paper_signature(current) == paper_signature(payload):
+        current_date = current.get("meta", {}).get("displayDate") or "previous snapshot"
+        print(f"No new arXiv announcement since {current_date}; keeping the previous site data.")
+        return False
+
+    return True
 
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
@@ -275,6 +307,10 @@ def main() -> int:
         return 1
 
     date_key = snapshot_date()
+    payload["meta"]["displayDate"] = date_key
+    if not should_write_update(payload):
+        return 0
+
     write_json(DATA_DIR / "papers.json", payload)
     write_json(ARCHIVE_DIR / f"{date_key}.json", payload)
     update_archive_index(date_key, payload["meta"]["count"], payload["meta"]["generatedAt"])

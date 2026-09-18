@@ -2,7 +2,8 @@ name: Update Paper Review data
 
 on:
   schedule:
-    - cron: "30 7 * * *"
+    # 10:00 Beijing time, every day. GitHub Actions cron is UTC.
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 permissions:

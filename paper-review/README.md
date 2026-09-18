@@ -20,7 +20,8 @@ https://ray-ruipan.github.io/paper-review/
 - `data/papers.json` stores the latest snapshot.
 - `data/archive/YYYY-MM-DD.json` stores daily snapshots.
 - `data/archive-index.json` powers the date selector.
-- `../.github/workflows/update-paper-review.yml` updates data daily.
+- `../.github/workflows/update-paper-review.yml` checks for updates daily at 10:00 Beijing time.
+- If the feed contains the same arXiv announcement as the current site data, the script leaves the site unchanged.
 
 ## Local Preview
 
