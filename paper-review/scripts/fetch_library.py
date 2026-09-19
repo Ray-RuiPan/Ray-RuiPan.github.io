@@ -391,6 +391,19 @@ def is_admin_session(title: str) -> bool:
     return any(pattern in lowered for pattern in ADMIN_SESSION_PATTERNS)
 
 
+def is_session_metadata(title: str) -> bool:
+    lowered = clean(title).lower()
+    return bool(
+        re.match(r"^(?:session\s+)?chairs?\b", lowered)
+        or re.match(r"^session\s+chair(?:\(s\))?\s*:", lowered)
+    )
+
+
+def is_valid_track_title(title: str) -> bool:
+    title = clean(title)
+    return bool(title and not is_admin_session(title) and not is_session_metadata(title))
+
+
 def clean_session_title(value: str) -> str:
     value = clean(value).strip(" |:-")
     value = re.split(
@@ -406,18 +419,18 @@ def clean_session_title(value: str) -> str:
 
 def extract_session_title(line: str) -> str:
     line = clean(line)
-    if not line:
+    if not line or is_session_metadata(line):
         return ""
 
-    heading_match = re.match(r"^(Session\s+[0-9A-Za-z.-]+\s*:\s*.+)$", line, flags=re.I)
+    heading_match = re.match(r"^(Session\s+(?!Chair\b|Chairs\b)[0-9A-Za-z.-]+\s*:\s*.+)$", line, flags=re.I)
     if heading_match:
         title = clean_session_title(heading_match.group(1))
-        return "" if is_admin_session(title) else title
+        return title if is_valid_track_title(title) else ""
 
     compact_heading = re.match(r"^([0-9]+[A-Z]\s*:\s*.+)$", line)
     if compact_heading:
         title = clean_session_title(compact_heading.group(1))
-        return "" if is_admin_session(title) else title
+        return title if is_valid_track_title(title) else ""
 
     time_range = re.match(
         r"^(?:\|?\s*)?(?:[A-Z][a-z]{2}\s+\d+\s+[A-Z][a-z]{2}\s+)?"
@@ -429,7 +442,7 @@ def extract_session_title(line: str) -> str:
         return ""
 
     title = clean_session_title(time_range.group(1))
-    if not title or len(title) < 4 or is_admin_session(title):
+    if len(title) < 4 or not is_valid_track_title(title):
         return ""
     if re.search(r"\b(?:Talk|Paper|Keynote|Meeting|Coffee break)\b", title):
         return ""
@@ -549,7 +562,7 @@ def extract_program_track_overrides(markup: str, records: list[dict[str, Any]]) 
             current_session = session
             continue
 
-        if not current_session or is_admin_session(current_session) or is_non_paper_title(line):
+        if not current_session or not is_valid_track_title(current_session) or is_non_paper_title(line):
             continue
 
         record = match_record_from_line(line, candidates)
@@ -581,7 +594,11 @@ def fetch_official_track_overrides(source: dict[str, Any], year: int, records: l
 
 
 def write_track_overrides(venue_id: str, year: int, mappings: dict[str, str]) -> None:
-    normalized = {clean(key): clean(value) for key, value in mappings.items() if clean(key) and clean(value)}
+    normalized = {
+        clean(key): clean(value)
+        for key, value in mappings.items()
+        if clean(key) and is_valid_track_title(clean(value))
+    }
     if normalized:
         write_json(TRACKS_DIR / venue_id / f"{year}.json", dict(sorted(normalized.items())))
 
@@ -632,7 +649,7 @@ def crossref_author_names(authors: Any) -> list[str]:
 def load_track_overrides(venue_id: str, year: int) -> dict[str, str]:
     path = TRACKS_DIR / venue_id / f"{year}.json"
     data = read_json(path, {})
-    return {clean(key).lower(): clean(value) for key, value in data.items() if clean(value)}
+    return {clean(key).lower(): clean(value) for key, value in data.items() if is_valid_track_title(clean(value))}
 
 
 def lookup_track(overrides: dict[str, str], record: dict[str, Any]) -> str:
