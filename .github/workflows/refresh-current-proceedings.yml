@@ -1,0 +1,47 @@
+name: Refresh Current Proceedings Sessions
+
+on:
+  push:
+    paths:
+      - ".github/workflows/refresh-current-proceedings.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-current-proceedings
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild current conference proceedings and sessions
+        run: |
+          python paper-review/scripts/fetch_library.py \
+            --mode conferences \
+            --start-year 2024 \
+            --end-year 2024 \
+            --conference-providers dblp \
+            --official-tracks refresh \
+            --replace-conference-years
+
+      - name: Commit refreshed proceedings data
+        run: |
+          if [ -n "$(git status --porcelain paper-review/data/library)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add paper-review/data/library
+            git commit -m "Refresh current proceedings sessions"
+            git push
+          fi

@@ -1166,6 +1166,11 @@ def parse_args() -> argparse.Namespace:
         help="Do not fetch paper metadata; only refresh official session-track mappings for existing conference records.",
     )
     parser.add_argument(
+        "--replace-conference-years",
+        action="store_true",
+        help="When fetching conferences, replace existing records for the requested conference/year pairs.",
+    )
+    parser.add_argument(
         "--conference-providers",
         choices=["both", "crossref", "dblp"],
         default="both",
@@ -1233,7 +1238,21 @@ def main() -> int:
     if args.mode in {"all", "recent", "journals"}:
         updates.extend(fetch_journals(sources, journal_months))
 
-    records = updates if args.mode == "all" else merge_records(existing_records, updates)
+    base_records = existing_records
+    if args.replace_conference_years and args.mode in {"all", "recent", "conferences"}:
+        conference_ids = {source["id"] for source in sources.get("conferences", [])}
+        conference_year_set = {str(year) for year in conference_years}
+        base_records = [
+            record
+            for record in existing_records
+            if not (
+                record.get("kind") == "conference"
+                and clean(record.get("venue")) in conference_ids
+                and clean(record.get("year")) in conference_year_set
+            )
+        ]
+
+    records = updates if args.mode == "all" else merge_records(base_records, updates)
 
     if not records and existing_records:
         print("No library records fetched; keeping the previous index.")
