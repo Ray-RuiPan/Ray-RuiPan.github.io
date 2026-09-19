@@ -14,6 +14,29 @@ on:
           - "false"
           - "true"
         default: "false"
+      refresh_tracks_only:
+        description: "Only refresh official proceedings/program track mappings for existing records"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+      venues:
+        description: "Optional comma-separated conference ids, e.g. HPCA,ISCA"
+        required: false
+        type: string
+        default: ""
+      start_year:
+        description: "Start year for backfill or track refresh"
+        required: false
+        type: string
+        default: "2014"
+      end_year:
+        description: "Optional end year; defaults to current year in the script"
+        required: false
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -36,11 +59,27 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch paper library
+        env:
+          BACKFILL: ${{ github.event.inputs.backfill || 'false' }}
+          REFRESH_TRACKS_ONLY: ${{ github.event.inputs.refresh_tracks_only || 'false' }}
+          VENUES: ${{ github.event.inputs.venues || '' }}
+          START_YEAR: ${{ github.event.inputs.start_year || '2014' }}
+          END_YEAR: ${{ github.event.inputs.end_year || '' }}
         run: |
-          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then
-            python paper-review/scripts/fetch_library.py --mode all --start-year 2014 --conference-providers crossref
+          args=()
+          if [ -n "$VENUES" ]; then
+            args+=(--venues "$VENUES")
+          fi
+          if [ -n "$END_YEAR" ]; then
+            args+=(--end-year "$END_YEAR")
+          fi
+
+          if [ "$REFRESH_TRACKS_ONLY" = "true" ]; then
+            python paper-review/scripts/fetch_library.py --refresh-official-tracks-only --start-year "$START_YEAR" --official-tracks refresh "${args[@]}"
+          elif [ "$BACKFILL" = "true" ]; then
+            python paper-review/scripts/fetch_library.py --mode all --start-year "$START_YEAR" --conference-providers crossref --official-tracks auto "${args[@]}"
           else
-            python paper-review/scripts/fetch_library.py --mode recent --recent-years 2 --recent-months 4 --conference-providers crossref
+            python paper-review/scripts/fetch_library.py --mode recent --recent-years 2 --recent-months 4 --conference-providers crossref --official-tracks auto "${args[@]}"
           fi
 
       - name: Commit library updates

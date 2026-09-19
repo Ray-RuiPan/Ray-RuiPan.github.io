@@ -21,3 +21,13 @@ the official track/session name:
 Papers without an official mapping are not classified by keywords. They remain
 under `未标注 Track` until a mapping from the official proceedings, program, or
 journal issue is added.
+
+The fetch script can generate these mappings from official program/proceedings
+pages when a supported venue/year exposes session headings:
+
+```bash
+python paper-review/scripts/fetch_library.py --refresh-official-tracks-only --venues HPCA --start-year 2026 --end-year 2026 --official-tracks refresh
+```
+
+Generated mappings are intentionally conservative: a paper keeps `未标注 Track`
+unless its title is matched on the official page.

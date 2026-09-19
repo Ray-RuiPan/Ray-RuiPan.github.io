@@ -550,6 +550,7 @@ def fetch_official_track_overrides(source: dict[str, Any], year: int, records: l
             if found:
                 print(f"{source['id']} {year}: {len(found)} official track keys from {url}")
                 mappings.update(found)
+                return mappings
         except Exception as exc:
             print(f"Official program unavailable for {source.get('id')} {year} at {url}: {exc}", file=sys.stderr)
         time.sleep(OFFICIAL_PROGRAM_DELAY_SECONDS)
