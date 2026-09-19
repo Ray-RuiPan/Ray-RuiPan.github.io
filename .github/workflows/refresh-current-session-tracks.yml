@@ -1,10 +1,6 @@
 name: Refresh Current Session Tracks
 
 on:
-  push:
-    paths:
-      - ".github/workflows/refresh-current-session-tracks.yml"
-      - "paper-review/scripts/fetch_library.py"
   workflow_dispatch:
 
 permissions:
