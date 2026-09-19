@@ -517,6 +517,24 @@ def official_program_urls(source: dict[str, Any], year: int) -> list[str]:
     return urls
 
 
+def proceedings_urls_from_records(records: list[dict[str, Any]]) -> list[str]:
+    acm_prefixes: dict[str, int] = {}
+    urls: list[str] = []
+
+    for record in records:
+        doi = normalize_doi(record.get("doi", ""))
+        match = re.match(r"^(10\.1145/\d+)\.", doi)
+        if match:
+            prefix = match.group(1)
+            acm_prefixes[prefix] = acm_prefixes.get(prefix, 0) + 1
+
+    for prefix, count in sorted(acm_prefixes.items(), key=lambda item: (-item[1], item[0])):
+        if count >= 3:
+            urls.append(f"https://dl.acm.org/doi/proceedings/{prefix}")
+
+    return urls
+
+
 def extract_program_track_overrides(markup: str, records: list[dict[str, Any]]) -> dict[str, str]:
     candidates = record_match_candidates(records)
     if not candidates:
@@ -543,7 +561,12 @@ def extract_program_track_overrides(markup: str, records: list[dict[str, Any]]) 
 
 def fetch_official_track_overrides(source: dict[str, Any], year: int, records: list[dict[str, Any]]) -> dict[str, str]:
     mappings: dict[str, str] = {}
-    for url in official_program_urls(source, year):
+    urls = []
+    for url in [*proceedings_urls_from_records(records), *official_program_urls(source, year)]:
+        if url not in urls:
+            urls.append(url)
+
+    for url in urls:
         try:
             markup = fetch_text(url, timeout=20, attempts=1)
             found = extract_program_track_overrides(markup, records)

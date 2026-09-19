@@ -1,0 +1,46 @@
+name: Refresh Current Session Tracks
+
+on:
+  push:
+    paths:
+      - ".github/workflows/refresh-current-session-tracks.yml"
+      - "paper-review/scripts/fetch_library.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-current-session-tracks
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh session tracks for existing conference records
+        run: |
+          python paper-review/scripts/fetch_library.py \
+            --refresh-official-tracks-only \
+            --start-year 2024 \
+            --end-year 2024 \
+            --official-tracks refresh
+
+      - name: Commit refreshed session tracks
+        run: |
+          if [ -n "$(git status --porcelain paper-review/data/library)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add paper-review/data/library
+            git commit -m "Refresh current session tracks"
+            git push
+          fi
