@@ -771,21 +771,30 @@ def crossref_conference_matches(item: dict[str, Any], source: dict[str, Any], ye
 
     text = crossref_event_text(item)
     text_words = set(normalized_words(text))
+    required_words = {
+        word
+        for word in normalized_words(" ".join(clean(word) for word in list_value(source.get("crossrefRequiredWords"))))
+        if word
+    }
     query_words = [
         word
         for word in normalized_words(clean(source.get("crossrefEventName") or source.get("name")))
         if word not in {"acm", "ieee", "annual", "international", "conference", "symposium", "workshop", "on", "and"}
     ]
     source_key = re.sub(r"[^a-z0-9]+", "", clean(source.get("id")).lower())
-    text_key = re.sub(r"[^a-z0-9]+", "", text.lower())
+    has_source_acronym = len(source_key) > 2 and source_key in text_words
 
-    if len(source_key) > 2:
-        return source_key in text_key
+    if required_words and not required_words <= text_words:
+        return False
+    if has_source_acronym and not query_words:
+        return True
     if not query_words:
         return False
 
     matched = sum(1 for word in query_words if word in text_words)
     required = max(2, min(len(query_words), int(len(query_words) * 0.6 + 0.5)))
+    if has_source_acronym:
+        return matched >= max(1, required - 1)
     return matched >= required
 
 

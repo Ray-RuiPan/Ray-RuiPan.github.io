@@ -2,7 +2,7 @@
   "startYear": 2014,
   "conferences": [
     { "id": "ISCA", "name": "ISCA", "dblpVenue": "isca", "bhtPrefix": "isca", "crossrefEventName": "ACM IEEE Annual International Symposium on Computer Architecture", "area": "Architecture" },
-    { "id": "HPCA", "name": "HPCA", "dblpVenue": "hpca", "bhtPrefix": "hpca", "crossrefEventName": "IEEE International Symposium on High Performance Computer Architecture", "area": "Architecture" },
+    { "id": "HPCA", "name": "HPCA", "dblpVenue": "hpca", "bhtPrefix": "hpca", "crossrefEventName": "IEEE International Symposium on High Performance Computer Architecture", "crossrefRequiredWords": ["architecture"], "area": "Architecture" },
     { "id": "MICRO", "name": "MICRO", "dblpVenue": "micro", "bhtPrefix": "micro", "crossrefEventName": "IEEE ACM International Symposium on Microarchitecture", "area": "Architecture" },
     { "id": "ASPLOS", "name": "ASPLOS", "dblpVenue": "asplos", "bhtPrefix": "asplos", "crossrefEventName": "International Conference on Architectural Support for Programming Languages and Operating Systems", "area": "Architecture" },
     { "id": "DAC", "name": "DAC", "dblpVenue": "dac", "bhtPrefix": "dac", "crossrefEventName": "Design Automation Conference", "area": "EDA" },
