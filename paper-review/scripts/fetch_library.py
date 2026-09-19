@@ -1240,15 +1240,17 @@ def main() -> int:
 
     base_records = existing_records
     if args.replace_conference_years and args.mode in {"all", "recent", "conferences"}:
-        conference_ids = {source["id"] for source in sources.get("conferences", [])}
-        conference_year_set = {str(year) for year in conference_years}
+        fetched_conference_years = {
+            (clean(record.get("venue")), clean(record.get("year")))
+            for record in updates
+            if record.get("kind") == "conference"
+        }
         base_records = [
             record
             for record in existing_records
             if not (
                 record.get("kind") == "conference"
-                and clean(record.get("venue")) in conference_ids
-                and clean(record.get("year")) in conference_year_set
+                and (clean(record.get("venue")), clean(record.get("year"))) in fetched_conference_years
             )
         ]
 
