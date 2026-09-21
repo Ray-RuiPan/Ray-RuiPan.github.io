@@ -3,7 +3,12 @@ name: Update Paper Review data
 on:
   schedule:
     # 10:00 Beijing time, every day. GitHub Actions cron is UTC.
+    # Extra runs in the same hour make the update more reliable if GitHub delays
+    # or drops the top-of-hour scheduled run; unchanged arXiv feeds are skipped.
     - cron: "0 2 * * *"
+    - cron: "15 2 * * *"
+    - cron: "30 2 * * *"
+    - cron: "45 2 * * *"
   workflow_dispatch:
 
 permissions:
