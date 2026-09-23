@@ -8,4 +8,14 @@ main:
     code: https://github.com/Ray-RuiPan/SP-Mamba
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/SP-Mamba.png
-    notes: My First Paper!
+    # notes: My First Paper!
+
+  - title: "R^{2}PIAC: A Runtime Reconfigurable Photonic Interconnect Architecture for Chiplet-Based DNN Accelerators"
+    authors: Xun Nie, Huaxi Gu*, <strong>Rui Pan</strong>, Kun Wang (*Corresponding author)
+    conference_short: JLT
+    conference: Journal of Lightwave Technology <strong>(JLT)</strong>, 2025.
+    pdf: https://ieeexplore.ieee.org/abstract/document/11683784
+    # code: https://github.com/Ray-RuiPan/SP-Mamba
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/SP-Mamba.png
+    # notes: My First Paper!
