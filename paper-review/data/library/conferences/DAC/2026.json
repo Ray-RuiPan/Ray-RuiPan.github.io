@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "venue": "DAC",
+    "year": 2026,
+    "count": 1
+  },
+  "records": [
+    {
+      "id": "doi:10.1117/12.3110142",
+      "source": "library",
+      "kind": "conference",
+      "title": "Eye modeling and eye tracking for XR system simulation",
+      "authors": [
+        "Mina Nazari",
+        "Sandra Gely",
+        "Mathieu Reigneau",
+        "Berta Bernad",
+        "Hui Chen"
+      ],
+      "summary": "",
+      "venue": "DAC",
+      "venueName": "DAC",
+      "area": "EDA",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-10-09",
+      "pages": "27",
+      "doi": "10.1117/12.3110142",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14213/3110142/Eye-modeling-and-eye-tracking-for-XR-system-simulation/10.1117/12.3110142.full"
+    }
+  ]
+}
