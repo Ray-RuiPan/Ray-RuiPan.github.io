@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Paper Review Library</title>
+    <title>会议与期刊论文库 | Paper Review</title>
     <meta
       name="description"
-      content="Conference proceedings and journal papers since 2014 for computer architecture, systems, PL, EDA, and networking."
+      content="Conference and journal papers linked to official ACM Digital Library and IEEE Xplore records."
     />
     <link rel="canonical" href="https://ray-ruipan.github.io/paper-review/library/" />
     <link rel="stylesheet" href="../styles.css" />
@@ -31,7 +31,7 @@
     </header>
 
     <main class="page-shell library-shell">
-      <aside class="sidebar library-sidebar" aria-label="论文库导航">
+      <section class="library-toolbar" aria-label="会议和期刊导航">
         <section class="filter-block">
           <label for="searchInput">搜索</label>
           <input id="searchInput" type="search" placeholder="标题、作者、DOI、track" autocomplete="off" />
@@ -41,10 +41,12 @@
           <span class="filter-heading">会议 / 期刊</span>
           <div id="venueNav" class="venue-nav"></div>
         </section>
-      </aside>
+      </section>
 
       <section class="content library-content">
-        <div class="summary-row library-summary" aria-label="Summary">
+        <div id="sourceAuditNote" class="source-audit-note" role="status" hidden></div>
+
+        <div class="summary-row library-summary" aria-label="论文库统计">
           <div class="metric">
             <span id="totalCount">0</span>
             <small>论文总数</small>
@@ -68,8 +70,8 @@
         <section id="overviewSection" class="library-section">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Navigation</p>
-              <h2>从左侧目录选择</h2>
+              <p class="eyebrow">浏览论文</p>
+              <h2>按会议或期刊浏览</h2>
             </div>
             <button id="clearRouteButton" class="text-button" type="button">总览</button>
           </div>
@@ -103,7 +105,7 @@
     </main>
 
     <footer class="footer">
-      Metadata is collected from DBLP and Crossref where available.
+      Proceedings and journal papers link to official ACM Digital Library or IEEE Xplore records.
     </footer>
 
     <script src="./library.js" defer></script>

@@ -294,6 +294,35 @@ def normalize_doi(value: str) -> str:
     return value.lower()
 
 
+def official_publisher_fields(record: dict[str, Any]) -> tuple[str, str]:
+    doi = normalize_doi(clean(record.get("doi")))
+    url = clean(record.get("publisherUrl") or record.get("url"))
+    host = urllib.parse.urlparse(url).hostname or ""
+    host = host.lower().removeprefix("www.")
+
+    if host == "dl.acm.org" or doi.startswith("10.1145/"):
+        publisher_url = f"https://dl.acm.org/doi/{doi}" if doi else url
+        return "ACM", publisher_url
+    if host == "ieeexplore.ieee.org" or doi.startswith("10.1109/"):
+        publisher_url = f"https://doi.org/{doi}" if doi else url
+        return "IEEE", publisher_url
+    return "", ""
+
+
+def keep_official_publisher_records(records: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+    verified: list[dict[str, Any]] = []
+    excluded = 0
+    for record in records:
+        publisher, publisher_url = official_publisher_fields(record)
+        if not publisher or not publisher_url:
+            excluded += 1
+            continue
+        record["publisher"] = publisher
+        record["publisherUrl"] = publisher_url
+        verified.append(record)
+    return verified, excluded
+
+
 def stable_id(prefix: str, *parts: str) -> str:
     digest = hashlib.sha1("::".join(clean(part) for part in parts).encode("utf-8")).hexdigest()[:16]
     return f"{prefix}:{digest}"
@@ -605,7 +634,12 @@ def write_track_overrides(venue_id: str, year: int, mappings: dict[str, str]) ->
 
 def apply_track_overrides(records: list[dict[str, Any]], source: dict[str, Any], overrides: dict[str, str]) -> None:
     for record in records:
-        record["track"] = assign_track(record, source, overrides)
+        track = assign_track(record, source, overrides)
+        record["track"] = track
+        if track and track != UNCATEGORIZED:
+            year = int(record.get("year") or 0)
+            program_urls = official_program_urls(source, year) if year else []
+            record["trackSourceUrl"] = program_urls[0] if program_urls else clean(record.get("url"))
 
 
 def ensure_official_tracks(
@@ -955,7 +989,7 @@ def parse_crossref_record(
         "kind": "journal",
         "title": title,
         "authors": crossref_author_names(item.get("author")),
-        "summary": "",
+        "summary": strip_markup(clean(item.get("abstract"))),
         "venue": venue_id,
         "venueName": source.get("shortName") or source.get("name") or venue_id,
         "journalName": source.get("name") or venue_id,
@@ -1275,6 +1309,8 @@ def main() -> int:
         if not records:
             print("No existing library records found; nothing to refresh.")
             return 0
+        records, excluded = keep_official_publisher_records(records)
+        print(f"Excluded {excluded} records without an ACM/IEEE publisher record")
         payload = build_index(records, all_sources)
         write_json(INDEX_PATH, payload)
         write_chunks(records)
@@ -1309,6 +1345,8 @@ def main() -> int:
         print("No library records fetched; keeping the previous index.")
         return 0
 
+    records, excluded = keep_official_publisher_records(records)
+    print(f"Excluded {excluded} records without an ACM/IEEE publisher record")
     payload = build_index(records, all_sources)
     write_json(INDEX_PATH, payload)
     write_chunks(records)

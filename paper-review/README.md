@@ -32,10 +32,11 @@ https://ray-ruipan.github.io/paper-review/library/
 - `data/papers.json` stores the latest snapshot.
 - `data/archive/YYYY-MM-DD.json` stores daily snapshots.
 - `data/archive-index.json` powers the date selector.
-- `scripts/fetch_library.py` downloads conference and journal metadata from DBLP and Crossref.
+- `scripts/fetch_library.py` uses DBLP and Crossref for discovery, then keeps only records matched to ACM Digital Library or IEEE Xplore by official domain or publisher DOI prefix.
 - `data/library/index.json` powers the proceedings and journal library page.
-- `library/` organizes records by venue, year, and track, with collection support.
-- `data/library/tracks/VENUE/YEAR.json` can override automatically inferred track names.
+- `library/` organizes verified records by venue, year, and official proceedings track, with collection support.
+- `data/library/tracks/VENUE/YEAR.json` stores paper-to-track mappings matched against official proceedings or conference program pages.
+- Publisher links use ACM Digital Library or IEEE Xplore; abstracts are shown only when publication metadata provides one.
 - `saved/` shows papers and collections saved in the current browser via localStorage.
 - `../.github/workflows/update-paper-review.yml` checks for updates daily at 10:00 Beijing time.
 - `../.github/workflows/update-paper-library.yml` refreshes the library monthly and supports manual backfill from 2014.

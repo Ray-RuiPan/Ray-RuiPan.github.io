@@ -6,6 +6,7 @@ const UNTRACKED_LABEL = "未标注 Track";
 const els = {
   statusText: document.querySelector("#statusText"),
   reloadButton: document.querySelector("#reloadButton"),
+  sourceAuditNote: document.querySelector("#sourceAuditNote"),
   searchInput: document.querySelector("#searchInput"),
   segmentButtons: [...document.querySelectorAll(".segment-button")],
   venueNav: document.querySelector("#venueNav"),
@@ -47,6 +48,7 @@ const state = {
   saved: loadSet(storage.saved),
   savedPapers: loadSavedPapers(),
   collections: loadCollections(),
+  openNavGroups: new Set(),
 };
 
 migrateSavedSetToCollections();
@@ -182,6 +184,33 @@ function removePaperFromCollection(paperId, collectionId) {
 
 function normalize(value) {
   return String(value || "").toLowerCase();
+}
+
+function publisherForRecord(record) {
+  const doi = String(record.doi || "")
+    .replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
+    .replace(/^doi:\s*/i, "")
+    .toLowerCase();
+  const urls = [record.publisherUrl, record.url, record.dblpUrl].filter(Boolean).join(" ");
+
+  if (/https?:\/\/(?:www\.)?dl\.acm\.org\//i.test(urls) || doi.startsWith("10.1145/")) return "ACM";
+  if (/https?:\/\/(?:www\.)?ieeexplore\.ieee\.org\//i.test(urls) || doi.startsWith("10.1109/")) return "IEEE";
+  return "";
+}
+
+function officialRecordUrl(record) {
+  const publisher = publisherForRecord(record);
+  const doi = String(record.doi || "")
+    .replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
+    .replace(/^doi:\s*/i, "");
+  const suppliedUrl = [record.publisherUrl, record.url]
+    .find((value) => value && (publisher === "ACM"
+      ? /https?:\/\/(?:www\.)?dl\.acm\.org\//i.test(value)
+      : /https?:\/\/(?:www\.)?ieeexplore\.ieee\.org\//i.test(value)));
+
+  if (publisher === "ACM" && doi) return `https://dl.acm.org/doi/${doi}`;
+  if (publisher === "IEEE" && doi) return `https://doi.org/${doi}`;
+  return suppliedUrl || "";
 }
 
 function formatDate(value) {
@@ -326,7 +355,9 @@ function recordMatchesQuery(record) {
 }
 
 function filteredRecords() {
-  return state.records.filter((record) => recordMatchesKind(record) && recordMatchesQuery(record));
+  return state.records.filter(
+    (record) => publisherForRecord(record) && recordMatchesKind(record) && recordMatchesQuery(record)
+  );
 }
 
 function recordsForVenue(venue = state.venue) {
@@ -379,7 +410,7 @@ function venueStats() {
     bucket.tracks.set(track, (bucket.tracks.get(track) || 0) + 1);
   });
 
-  return [...byVenue.values()].sort((a, b) => {
+  return [...byVenue.values()].filter((item) => item.records.length > 0).sort((a, b) => {
     const orderA = Number.isFinite(a.source.order) ? a.source.order : 9999;
     const orderB = Number.isFinite(b.source.order) ? b.source.order : 9999;
     if (orderA !== orderB) return orderA - orderB;
@@ -428,8 +459,12 @@ function updateMetrics() {
 
 function render() {
   updateMetrics();
-  renderKindButtons();
-  renderVenueNav();
+  renderVenueAccordionNav();
+
+  const verifiedCount = state.records.filter((record) => publisherForRecord(record)).length;
+  const excludedCount = state.records.length - verifiedCount;
+  els.sourceAuditNote.hidden = excludedCount === 0;
+  els.sourceAuditNote.textContent = `已识别 ${verifiedCount} 篇 ACM/IEEE 官方记录；另有 ${excludedCount} 条来源未能核验，暂不展示。`;
 
   els.libraryNote.hidden = state.records.length !== 0;
   if (!state.records.length) {
@@ -437,11 +472,17 @@ function render() {
   }
 
   const source = sourceById(state.venue);
-  if (!state.venue || (source && state.kind !== "all" && source.kind !== state.kind)) {
+  const venueHasVerifiedRecords = state.records.some(
+    (record) =>
+      record.venue === state.venue &&
+      publisherForRecord(record) &&
+      (state.kind === "all" || record.kind === state.kind)
+  );
+  if (!state.venue || !venueHasVerifiedRecords || (source && state.kind !== "all" && source.kind !== state.kind)) {
     state.venue = "";
     state.year = "";
     state.track = ALL_TRACKS;
-    renderOverview();
+    renderLibraryOverview();
     return;
   }
 
@@ -482,6 +523,38 @@ function renderVenueNav() {
   });
 }
 
+function renderVenueAccordionNav() {
+  els.venueNav.textContent = "";
+  const groups = groupBy(venueStats(), (item) => item.source.kind);
+
+  [
+    { kind: "conference", label: "会议" },
+    { kind: "journal", label: "期刊" },
+  ].forEach(({ kind, label }) => {
+    const items = groups.get(kind) || [];
+    if (!items.length) return;
+
+    const group = document.createElement("details");
+    group.className = "venue-nav-group";
+    group.open = state.openNavGroups.has(kind) || items.some((item) => item.source.id === state.venue);
+    group.addEventListener("toggle", () => {
+      if (group.open) state.openNavGroups.add(kind);
+      else state.openNavGroups.delete(kind);
+    });
+
+    const heading = document.createElement("summary");
+    heading.className = "venue-nav-heading";
+    heading.textContent = `${label} · ${items.length}`;
+
+    const list = document.createElement("div");
+    list.className = "venue-nav-list";
+    items.forEach((item) => list.append(createVenueNavButton(item)));
+
+    group.append(heading, list);
+    els.venueNav.append(group);
+  });
+}
+
 function createVenueNavButton(item) {
   const button = document.createElement("button");
   button.type = "button";
@@ -504,23 +577,25 @@ function createVenueNavButton(item) {
 }
 
 function renderOverview() {
+  renderLibraryOverview();
+}
+
+function renderLibraryOverview() {
   els.overviewSection.hidden = false;
   els.detailSection.hidden = true;
   els.venueGrid.textContent = "";
 
-  const items = venueStats();
-  const withRecords = items.filter((item) => item.records.length).length;
   const hint = document.createElement("div");
   hint.className = "overview-hint-card";
 
   const title = document.createElement("h3");
-  title.textContent = "左侧已列出全部会议和期刊";
+  title.textContent = "按会议、期刊和官方 Track 浏览";
 
   const body = document.createElement("p");
-  body.textContent = `共 ${items.length} 个 venue，其中 ${withRecords} 个已有回填数据。选择一个会议或期刊后，再选择年份，并按官方 proceedings/issue 的 Track 查看论文。`;
+  body.textContent = "展开上方的会议或期刊，选择一个名称和年份，即可查看对应论文。";
 
   const note = document.createElement("p");
-  note.textContent = `没有官方 Track 映射的记录会暂时显示为“${UNTRACKED_LABEL}”。`;
+  note.textContent = `官方 proceedings 未标注 Track 的论文归入“${UNTRACKED_LABEL}”。摘要默认收起，点击摘要标题展开。`;
 
   hint.append(title, body, note);
   els.venueGrid.append(hint);
@@ -716,18 +791,40 @@ function createPaperCard(paper) {
   badges.append(createBadge(paper.venueName || paper.venue, "venue-badge"));
   if (paper.year) badges.append(createBadge(String(paper.year), "year-badge"));
   if (paper.month) badges.append(createBadge(paper.month, "track-badge"));
-  badges.append(createBadge(displayTrack(paper), "track-badge"));
+  badges.append(createTrackBadge(paper));
 
   const links = document.createElement("div");
   links.className = "paper-links";
-  if (paper.dblpUrl) links.append(createLink("DBLP", paper.dblpUrl));
+  const publisher = publisherForRecord(paper);
+  const publisherLabel = publisher === "ACM" ? "ACM Digital Library" : "IEEE Xplore";
+  links.append(createLink(publisherLabel, officialRecordUrl(paper)));
   if (paper.doi) links.append(createLink("DOI", `https://doi.org/${paper.doi}`));
-  if (!paper.doi && paper.url && paper.url !== paper.dblpUrl) links.append(createLink("Publisher", paper.url));
 
   card.append(header, badges);
   if (paper.summary) card.append(createAbstract(paper.summary));
+  else card.append(createMissingAbstractNote());
   if (links.childElementCount) card.append(links);
   return card;
+}
+
+function createMissingAbstractNote() {
+  const note = document.createElement("p");
+  note.className = "abstract-missing";
+  note.textContent = "当前数据没有摘要";
+  return note;
+}
+
+function createTrackBadge(paper) {
+  if (!paper.trackSourceUrl) return createBadge(displayTrack(paper), "track-badge");
+
+  const badge = document.createElement("a");
+  badge.className = "badge track-badge track-source-link";
+  badge.href = paper.trackSourceUrl;
+  badge.target = "_blank";
+  badge.rel = "noreferrer";
+  badge.textContent = displayTrack(paper);
+  badge.title = "查看官方会议程序";
+  return badge;
 }
 
 function paperMetaText(paper) {
