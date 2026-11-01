@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "journal": "TECS",
+    "month": "2026-10",
+    "count": 3
+  },
+  "records": [
+    {
+      "id": "doi:10.1145/3849875",
+      "source": "library",
+      "kind": "journal",
+      "title": "Decoupled Heterogeneous Multi-Teacher Mutual Distillation for Wearable Human Activity Recognition",
+      "authors": [
+        "Zhiwen Xiao",
+        "Huanlai Xing",
+        "Rong Qu",
+        "Hui Li",
+        "Ruibin Bai",
+        "Lexi Xu",
+        "Jincheng Peng",
+        "Li Feng",
+        "Qian Wan"
+      ],
+      "summary": "Wearable human activity recognition (HAR) requires compact models that can capture temporal dependencies under constrained computation, memory, and energy budgets. Knowledge distillation (KD) offers a practical route to this goal by transferring informative predictions and representations from high-capacity teachers to lightweight students. Existing KD methods for wearable HAR, however, remain limited when structurally different teachers are involved. They commonly rely on homogeneous architectures, use mainly teacher-to-student transfer, and provide limited support for heterogeneous multi-teacher learning. This work proposes a decoupled heterogeneous multi-teacher mutual distillation (DHMMD) framework for wearable HAR. DHMMD performs offline reciprocal optimization between multiple heterogeneous teachers and a compact student, while only the distilled student is retained for inference. The framework combines two complementary paths. Bidirectional decoupled semantic distillation transfers target-class and non-target-class probability information through both aggregated and teacher-specific guidance. Bidirectional contrastive feature distillation aligns intermediate representations across heterogeneous architectures using ensemble-level and pairwise feature supervision. Experiments on HAPT, WISDM, and UCI_HAR show that DHMMD outperforms 21 state-of-the-art KD baselines in terms of F 1 score. Under the MLP-student setting, DHMMD improves the F 1 score by 9.30 percentage points on WISDM. On-device latency measurements on Raspberry Pi 4 and PYNQ-Z2, together with board-power-based energy estimation and memory accounting, further show that the distilled students reduce inference cost relative to the heterogeneous teachers. These results indicate that DHMMD is a practical offline training framework for compact wearable HAR models on mobile and application-processor-class edge platforms.",
+      "venue": "TECS",
+      "venueName": "TECS",
+      "journalName": "ACM Transactions on Embedded Computing Systems",
+      "area": "Embedded Systems",
+      "year": 2026,
+      "month": "2026-10",
+      "track": "未标注 Track",
+      "published": "2026-10-30",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3849875",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3849875",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3849875"
+    },
+    {
+      "id": "doi:10.1145/3859491",
+      "source": "library",
+      "kind": "journal",
+      "title": "One-Time PUF and AEAD-Based Remote Keyless Entry Protocol Secure Vehicle Access",
+      "authors": [
+        "Muhammad Tanveer",
+        "Muhammad Jawad Akhtar",
+        "Abdullah G. Alharbi"
+      ],
+      "summary": "Modern vehicles offer significant advancements over older models, particularly in user comfort, due to the integration of Internet of Things (IoT)-based electronics. However, adding these IoT features has introduced new security risks. Security threats fall into two categories: physical, which require direct contact and may render the vehicle inoperable, and remote, which are executed wirelessly through systems such as remote keyless entry (RKE) and other IoT components. In this paper, we analyze various RKE attacks in vehicles and the specific IoT vulnerabilities they exploit. We also propose an authentication method that uses authenticated encryption, hash functions, and one-time physical unclonable functions (PUFs) to improve RKE security. Our security analysis shows that the proposed RKE protocol withstands several well-known attacks, including impersonation, RollJam, and the more recent Rollback method. We validate the authentication process using a formal proof based on BAN logic. Finally, our performance evaluation indicates that the proposed scheme is both more efficient and less costly, supporting its practicality and reliability for real-world deployment.",
+      "venue": "TECS",
+      "venueName": "TECS",
+      "journalName": "ACM Transactions on Embedded Computing Systems",
+      "area": "Embedded Systems",
+      "year": 2026,
+      "month": "2026-10",
+      "track": "未标注 Track",
+      "published": "2026-10-28",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3859491",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3859491",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3859491"
+    },
+    {
+      "id": "doi:10.1145/3858340",
+      "source": "library",
+      "kind": "journal",
+      "title": "Deep Defence on Wheels: A Dual Intrusion Detection System Architecture for Comprehensive In-Vehicle Network Security",
+      "authors": [
+        "Shashwat Khandelwal",
+        "Shreejith Shanker"
+      ],
+      "summary": "The combination of increasing connectivity to the outside world and the lack of inbuilt security mechanisms has made legacy intra-vehicular networks extremely vulnerable to cyberattacks. Consequently, significant research has been devoted to analysing the impact of potential attacks, yielding datasets crucial for developing effective mitigation schemes like intrusion detection and prevention systems (IDSs/IPSs). Initial research addressing this problem focused heavily on maximising attack detection accuracy (for both known and unknown attack vectors), often relying on large, full-precision machine learning models. However, embedding IDS into complex vehicular electronic systems adds challenges beyond accuracy, including the need for low detection latency (e.g., 2,000 CAN frames/sec), energy efficiency, and minimal overhead in electronic control unit (ECU) resources like silicon area, memory, and processor use. To address these deployment constraints, recent research has focused on lightweight machine learning models that balance high classification accuracy with these practical limitations. In this work, we propose a dual IDS framework comprising both supervised and unsupervised learning-based solutions, each optimised for real-time, resource-constrained deployment on embedded automotive platforms. We present a quantised LSTM-based IDS (QLSTM-IDS) that achieves over 99.9% detection accuracy across various attack types: DoS/Flooding, Fuzzing, and Spoofing/Malfunction, using a single model and two widely-used datasets. The model is trained using the brevitas quantisation aware training library, transformed into a dataflow accelerator with custom blocks compatible with AMD’s FINN toolchain, and synthesised using Vitis HLS. Complementing this, we introduce an 8-bit quantised convolutional autoencoder-based IDS (QCAE-IDS) for detecting previously unseen anomalies that alter CAN-ID sequence patterns, with >99% accuracy. QCAE-IDS is quantised using AMD’s Vitis-AI toolchain. We detail an integration architecture enabling both IDS models to operate on a single FPGA device, bridging the network interface IP and processor system to minimise software overhead. QLSTM-IDS achieves 0.25ms inference latency and 0.8mJ energy consumption, while QCAE-IDS achieves 0.42ms latency and 1.1mJ energy, supporting real-time, efficient detection of both known and unknown attacks on high-speed CAN buses. Both solutions are deployed and evaluated on the ZCU104 SoC (XCZU7EV FPGA), demonstrating a robust, flexible hardware/software co-design for securing modern vehicular networks.",
+      "venue": "TECS",
+      "venueName": "TECS",
+      "journalName": "ACM Transactions on Embedded Computing Systems",
+      "area": "Embedded Systems",
+      "year": 2026,
+      "month": "2026-10",
+      "track": "未标注 Track",
+      "published": "2026-10-10",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3858340",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3858340",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3858340"
+    }
+  ]
+}

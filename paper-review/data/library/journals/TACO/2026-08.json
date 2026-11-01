@@ -42,7 +42,9 @@
       "doi": "10.1145/3844618",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3844618"
+      "url": "https://doi.org/10.1145/3844618",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3844618"
     },
     {
       "id": "doi:10.1145/3843231",
@@ -74,7 +76,9 @@
       "doi": "10.1145/3843231",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3843231"
+      "url": "https://doi.org/10.1145/3843231",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843231"
     },
     {
       "id": "doi:10.1145/3841173",
@@ -86,7 +90,7 @@
         "Yun Chen",
         "Trevor E. Carlson"
       ],
-      "summary": "",
+      "summary": "Graphics Processing Units (GPUs), due to their immense parallel processing capabilities, have become essential across various fields, including gaming and artificial intelligence. With significant advancements in GPU cores, GPU memory efficiency has lagged, resulting in bottlenecks that can limit workload efficiency. To bridge this gap, a deep understanding of GPU memory architectures, particularly Non-Uniform Memory Access (NUMA) mechanisms within L2 and DRAM, is essential for optimizing applications, designing new architectures, and building accurate simulators. However, the latest GPU hardware from vendors like NVIDIA and AMD is still a black-box, making it challenging for researchers to understand the details of their design. In this paper, we introduce DGNA, a methodology designed to unveil the NUMA architecture of the GPU memory hierarchy through microbenchmarking and data analysis. Specifically, we propose an approach to measuring the latency of L2 caches and DRAM without relying on the intrinsic instructions of the architecture and apply a Gaussian mixture model to filter out outliers and accurately determine latency distributions. We apply DGNA on NVIDIA’s A100 and H100 GPUs, revealing NUMA node architecture, SM-NUMA relationships, and NUMA-aware memory allocation strategies used to maintain cache coherence. To the best of our knowledge, this is the first paper to detail the NUMA architecture within the GPU memory subsystem.",
       "venue": "TACO",
       "venueName": "TACO",
       "journalName": "ACM Transactions on Architecture and Code Optimization",
@@ -101,7 +105,9 @@
       "doi": "10.1145/3841173",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3841173"
+      "url": "https://doi.org/10.1145/3841173",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3841173"
     },
     {
       "id": "doi:10.1145/3842751",
@@ -128,7 +134,9 @@
       "doi": "10.1145/3842751",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3842751"
+      "url": "https://doi.org/10.1145/3842751",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3842751"
     },
     {
       "id": "doi:10.1145/3838806",
@@ -141,7 +149,7 @@
         "Udaree Chathurangee Hiranthika Kanewala",
         "Trevor E. Carlson"
       ],
-      "summary": "",
+      "summary": "Modern hardware accelerators increasingly rely on cache-based memory systems to improve modularity and tolerate irregular memory behavior in sparse and data-dependent workloads. However, configuring accelerator caches remains challenging: designers must choose cache capacity, Miss Status Holding Register (MSHR) count, subentry provisioning, and fill bandwidth without a fast model that captures the timing-dependent behavior of non-blocking caches. Existing analytical models often focus on cache residency or miss counts, while cycle-level simulation captures miss merging and resource contention at substantially higher cost. This paper presents PlastiCache, a timing-augmented reuse-distance model for non-blocking accelerator caches. PlastiCache represents an accelerator memory stream as address–time pairs and extends reuse-distance analysis with predicted service intervals for outstanding misses. This formulation classifies each request as a cache-resident hit, an in-flight MSHR merge, or a new off-chip miss, while incorporating miss-handling capacity, memory-service timing, and return-path bandwidth as event constraints over the request stream. As a result, PlastiCache identifies whether a cache design is limited by cache capacity, MSHR availability, subentry pressure, DRAM service, or fill bandwidth. PlastiCache targets early-stage cache design-space exploration by preserving the relative ordering of candidate configurations. Across broad sweeps of workloads and cache designs, PlastiCache achieves a mean Spearman ranking correlation of 0.93 with RTL on latency–area tradeoff curves, while achieving geometric-mean speedups of 545 × over tree-based analytical models and 303 × over Verilator-based RTL simulation. We further integrate PlastiCache into an end-to-end accelerator cache sizing flow with a Chisel-based sparse matrix multiplication processing element and a synthesizable cache generator. FPGA prototyping across real-world workloads, including SuiteSparse matrices and a large language model, shows that the PlastiCache-Balanced design reduces delay–area product by 45.6% and 25.9% on average compared with MOMS and MiCache, respectively, with maximum reductions of 73.8% and 37.3%.",
       "venue": "TACO",
       "venueName": "TACO",
       "journalName": "ACM Transactions on Architecture and Code Optimization",
@@ -156,7 +164,9 @@
       "doi": "10.1145/3838806",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3838806"
+      "url": "https://doi.org/10.1145/3838806",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3838806"
     },
     {
       "id": "doi:10.1145/3839362",
@@ -171,7 +181,7 @@
         "Wenbo Guo",
         "Yunlei Zhao"
       ],
-      "summary": "",
+      "summary": "Post-quantum cryptography (PQC) is essential to securing data in the quantum computing era, and standardization efforts led by NIST have driven extensive research on practical and efficient implementations. With the emerging deployment of ARMv9-A processors in mobile and edge devices, optimizing PQC algorithms for this architecture is becoming increasingly important. Among the NIST-selected digital signature schemes, ML-DSA stands out due to its strong security and efficiency, making it suitable for general-purpose deployment. In this work, we present a highly optimized implementation of ML-DSA for the ARMv9-A architecture, leveraging the SVE2 vector instruction set. We propose a vector-friendly sparse polynomial multiplication scheme and adapt an early-check mechanism that significantly reduces redundant computation in the signature validity check. We also design a tailored conditional instruction pipeline to further enhance efficiency. Our implementation achieves a 70.7% cycle reduction in signature generation compared to the baseline implementation, establishing the first highly vectorized ML-DSA implementation on ARMv9-A using the SVE2 extension. These results demonstrate the practicality of deploying high-performance post-quantum signatures on next-generation mobile and edge platforms.",
       "venue": "TACO",
       "venueName": "TACO",
       "journalName": "ACM Transactions on Architecture and Code Optimization",
@@ -186,7 +196,9 @@
       "doi": "10.1145/3839362",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3839362"
+      "url": "https://doi.org/10.1145/3839362",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3839362"
     }
   ]
 }

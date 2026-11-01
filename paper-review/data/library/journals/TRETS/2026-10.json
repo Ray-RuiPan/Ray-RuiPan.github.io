@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "journal": "TRETS",
+    "month": "2026-10",
+    "count": 2
+  },
+  "records": [
+    {
+      "id": "doi:10.1145/3856805",
+      "source": "library",
+      "kind": "journal",
+      "title": "OLA+: Multi-FPGA O ver l ay A ccelerator System for Fully Homomorphic Encryption",
+      "authors": [
+        "Yang Yang",
+        "Rajgopal Kannan",
+        "Viktor K. Prasanna"
+      ],
+      "summary": "Fully Homomorphic Encryption (FHE) is a promising technique for privacy preserving computation. However, homomorphically encrypted operations are orders of magnitude slower than the corresponding unencrypted operations due to high computation and memory bandwidth requirements. FPGAs are attractive platforms for accelerating FHE workloads, but manually programming FPGAs is challenging, as different FHE parameters and operations require different mapping strategies. We propose OLA+, a scalable overlay accelerator system for FHE, designed to run efficiently on multi-FPGA platforms. OLA+ eliminates the need for manual and time-consuming FPGA programming by providing a Python-based interface and a compiler that efficiently maps OLA+ programs to hardware instructions for execution. The hardware architecture and instruction set are co-designed to accelerate common FHE primitives, while the compiler maps all FHE operations to these primitives for efficient execution. We propose a compile-time partitioning strategy that parallelizes computation both across multiple ciphertexts and within individual ciphertexts, enabling efficient execution of OLA+ programs on multiple FPGA accelerators. OLA+ features two optimizations to address memory bandwidth challenges in FHE computation. First, we propose an asynchronous dataflow execution model where the compiler manages data processing order and the architecture enforces it at run time. This approach enables guaranteed data reuse via on-chip SRAMs. Second, we design latency-aware instruction scheduling in the compiler to reduce data reuse distance and overlap data transfers with computation. We implement the overlay accelerator on AMD Alveo U280 FPGAs. We evaluate the effectiveness of the proposed overlay accelerator across a range of FHE parameters by executing various FHE operations, FHE linear algebra benchmarks, and end-to-end ML training and inference. Experimental results show that running end-to-end HE ML training and inference tasks on OLA+ with 8 overlay accelerators achieves speedups of up to \\(8835\\times\\) and \\(14.6\\times\\) over state-of-the-art CPU and GPU implementations, respectively.",
+      "venue": "TRETS",
+      "venueName": "TRETS",
+      "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "2026-10",
+      "track": "未标注 Track",
+      "published": "2026-10-06",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3856805",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3856805",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3856805"
+    },
+    {
+      "id": "doi:10.1145/3849707",
+      "source": "library",
+      "kind": "journal",
+      "title": "Accelerating Regular Expression Matching over Compressed Data via Decoupled Speculative Execution on FPGA",
+      "authors": [
+        "Xiuwen Sun",
+        "Mingtao Feng",
+        "Yule Fu",
+        "Xinrui Li",
+        "Fukang Cai",
+        "Haoran Li",
+        "Siyi Qiao",
+        "Hao Li"
+      ],
+      "summary": "The common practice of compressing network traffic to enhance transmission efficiency poses a significant challenge to achieving high-speed regular expression matching. Since matching compression data relies on prior decompressed data and earlier matching outcomes, the conventional approach usually scans fully decompressed data, which suffers from bottlenecks caused by data inflation. Existing approaches accelerate compressed data matching by eliminating duplicate scanning, yet this speedup incurs unavoidable overhead on general-purpose CPU architectures. This paper introduces STRIDE, an FPGA-based accelerator that resolves the aforementioned constraints via decoupled speculative execution. Specifically, by decoupling the matching of compressed encodings from both the matching of uncompressed literals and the resolution of prior decompressed data, STRIDE leverages speculative results to enable uninterrupted scanning that does not depend on earlier outputs. Then, an asynchronous verification process validates these speculations and performs necessary corrections to ensure correctness. We implement STRIDE on a Xilinx Kintex-7 XC7K325T FPGA platform. Evaluations on real-world compressed datasets show that STRIDE achieves a throughput of 2.97 Gbps at 200 MHz and can reach a theoretical throughput of 3.33 to 5.64 Gbps, delivering a 4.16–7.05x speedup over the baseline. STRIDE demonstrates that speculative, decoupled execution is an effective paradigm for overcoming the performance limitations of compressed data matching.",
+      "venue": "TRETS",
+      "venueName": "TRETS",
+      "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "2026-10",
+      "track": "未标注 Track",
+      "published": "2026-10-03",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3849707",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://doi.org/10.1145/3849707",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3849707"
+    }
+  ]
+}

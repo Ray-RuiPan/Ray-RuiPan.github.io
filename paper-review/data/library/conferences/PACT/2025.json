@@ -29,7 +29,10 @@
       "doi": "10.1109/pact65351.2025.00042",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282509/"
+      "url": "https://ieeexplore.ieee.org/document/11282509/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00042"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00035",
@@ -56,7 +59,10 @@
       "doi": "10.1109/pact65351.2025.00035",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282920/"
+      "url": "https://ieeexplore.ieee.org/document/11282920/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00035"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00015",
@@ -81,39 +87,10 @@
       "doi": "10.1109/pact65351.2025.00015",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282919/"
-    },
-    {
-      "id": "doi:10.1109/pact65351.2025.00013",
-      "source": "library",
-      "kind": "conference",
-      "title": "Scalable Processing-Near-Memory for 1M-Token LLM Inference: CXL-Enabled KV-Cache Management Beyond GPU Limits",
-      "authors": [
-        "Dowon Kim",
-        "MinJae Lee",
-        "Janghyeon Kim",
-        "HyuckSung Kwon",
-        "Hyeonggyu Jeong",
-        "Sang-Soo Park",
-        "Minyong Yoon",
-        "Si-Dong Roh",
-        "Yongsuk Kwon",
-        "Jinin So",
-        "Jungwook Choi"
-      ],
-      "summary": "",
-      "venue": "PACT",
-      "venueName": "PACT",
-      "area": "Architecture",
-      "year": 2025,
-      "month": "",
-      "track": "Session 1: LLM Systems",
-      "published": "2025-11-03",
-      "pages": "1-13",
-      "doi": "10.1109/pact65351.2025.00013",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282934/"
+      "url": "https://ieeexplore.ieee.org/document/11282919/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00015"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00038",
@@ -138,7 +115,10 @@
       "doi": "10.1109/pact65351.2025.00038",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282925/"
+      "url": "https://ieeexplore.ieee.org/document/11282925/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00038"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00014",
@@ -165,7 +145,10 @@
       "doi": "10.1109/pact65351.2025.00014",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282926/"
+      "url": "https://ieeexplore.ieee.org/document/11282926/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00014"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00020",
@@ -191,7 +174,10 @@
       "doi": "10.1109/pact65351.2025.00020",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282510/"
+      "url": "https://ieeexplore.ieee.org/document/11282510/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00020"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00051",
@@ -215,7 +201,10 @@
       "doi": "10.1109/pact65351.2025.00051",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282946/"
+      "url": "https://ieeexplore.ieee.org/document/11282946/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00051"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00048",
@@ -240,7 +229,10 @@
       "doi": "10.1109/pact65351.2025.00048",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282937/"
+      "url": "https://ieeexplore.ieee.org/document/11282937/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00048"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00050",
@@ -266,7 +258,10 @@
       "doi": "10.1109/pact65351.2025.00050",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282939/"
+      "url": "https://ieeexplore.ieee.org/document/11282939/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00050"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00049",
@@ -294,7 +289,10 @@
       "doi": "10.1109/pact65351.2025.00049",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282503/"
+      "url": "https://ieeexplore.ieee.org/document/11282503/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00049"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00047",
@@ -323,7 +321,10 @@
       "doi": "10.1109/pact65351.2025.00047",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282938/"
+      "url": "https://ieeexplore.ieee.org/document/11282938/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00047"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00040",
@@ -352,7 +353,10 @@
       "doi": "10.1109/pact65351.2025.00040",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282918/"
+      "url": "https://ieeexplore.ieee.org/document/11282918/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00040"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00045",
@@ -381,7 +385,10 @@
       "doi": "10.1109/pact65351.2025.00045",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282941/"
+      "url": "https://ieeexplore.ieee.org/document/11282941/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00045"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00025",
@@ -406,7 +413,10 @@
       "doi": "10.1109/pact65351.2025.00025",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282921/"
+      "url": "https://ieeexplore.ieee.org/document/11282921/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00025"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00016",
@@ -434,7 +444,10 @@
       "doi": "10.1109/pact65351.2025.00016",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282910/"
+      "url": "https://ieeexplore.ieee.org/document/11282910/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00016"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00028",
@@ -465,7 +478,10 @@
       "doi": "10.1109/pact65351.2025.00028",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282943/"
+      "url": "https://ieeexplore.ieee.org/document/11282943/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00028"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00037",
@@ -489,7 +505,10 @@
       "doi": "10.1109/pact65351.2025.00037",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282923/"
+      "url": "https://ieeexplore.ieee.org/document/11282923/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00037"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00029",
@@ -517,7 +536,10 @@
       "doi": "10.1109/pact65351.2025.00029",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282913/"
+      "url": "https://ieeexplore.ieee.org/document/11282913/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00029"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00043",
@@ -540,7 +562,10 @@
       "doi": "10.1109/pact65351.2025.00043",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282935/"
+      "url": "https://ieeexplore.ieee.org/document/11282935/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00043"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00041",
@@ -567,7 +592,10 @@
       "doi": "10.1109/pact65351.2025.00041",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282915/"
+      "url": "https://ieeexplore.ieee.org/document/11282915/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00041"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00034",
@@ -591,7 +619,10 @@
       "doi": "10.1109/pact65351.2025.00034",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282514/"
+      "url": "https://ieeexplore.ieee.org/document/11282514/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00034"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00032",
@@ -614,7 +645,10 @@
       "doi": "10.1109/pact65351.2025.00032",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282932/"
+      "url": "https://ieeexplore.ieee.org/document/11282932/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00032"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00018",
@@ -641,7 +675,10 @@
       "doi": "10.1109/pact65351.2025.00018",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282927/"
+      "url": "https://ieeexplore.ieee.org/document/11282927/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00018"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00033",
@@ -664,7 +701,10 @@
       "doi": "10.1109/pact65351.2025.00033",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282942/"
+      "url": "https://ieeexplore.ieee.org/document/11282942/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00033"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00022",
@@ -692,7 +732,10 @@
       "doi": "10.1109/pact65351.2025.00022",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282914/"
+      "url": "https://ieeexplore.ieee.org/document/11282914/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00022"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00017",
@@ -718,7 +761,10 @@
       "doi": "10.1109/pact65351.2025.00017",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282511/"
+      "url": "https://ieeexplore.ieee.org/document/11282511/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00017"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00026",
@@ -745,7 +791,10 @@
       "doi": "10.1109/pact65351.2025.00026",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282501/"
+      "url": "https://ieeexplore.ieee.org/document/11282501/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00026"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00046",
@@ -771,7 +820,10 @@
       "doi": "10.1109/pact65351.2025.00046",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282944/"
+      "url": "https://ieeexplore.ieee.org/document/11282944/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00046"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00021",
@@ -794,7 +846,10 @@
       "doi": "10.1109/pact65351.2025.00021",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282930/"
+      "url": "https://ieeexplore.ieee.org/document/11282930/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00021"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00019",
@@ -823,7 +878,10 @@
       "doi": "10.1109/pact65351.2025.00019",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282505/"
+      "url": "https://ieeexplore.ieee.org/document/11282505/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00019"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00039",
@@ -849,7 +907,10 @@
       "doi": "10.1109/pact65351.2025.00039",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282933/"
+      "url": "https://ieeexplore.ieee.org/document/11282933/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00039"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00036",
@@ -873,7 +934,10 @@
       "doi": "10.1109/pact65351.2025.00036",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282909/"
+      "url": "https://ieeexplore.ieee.org/document/11282909/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00036"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00030",
@@ -896,7 +960,10 @@
       "doi": "10.1109/pact65351.2025.00030",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282508/"
+      "url": "https://ieeexplore.ieee.org/document/11282508/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00030"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00031",
@@ -920,7 +987,10 @@
       "doi": "10.1109/pact65351.2025.00031",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282512/"
+      "url": "https://ieeexplore.ieee.org/document/11282512/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00031"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00027",
@@ -944,7 +1014,10 @@
       "doi": "10.1109/pact65351.2025.00027",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282502/"
+      "url": "https://ieeexplore.ieee.org/document/11282502/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00027"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00024",
@@ -969,7 +1042,10 @@
       "doi": "10.1109/pact65351.2025.00024",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282916/"
+      "url": "https://ieeexplore.ieee.org/document/11282916/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00024"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00023",
@@ -995,7 +1071,10 @@
       "doi": "10.1109/pact65351.2025.00023",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282940/"
+      "url": "https://ieeexplore.ieee.org/document/11282940/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00023"
     },
     {
       "id": "doi:10.1109/pact65351.2025.00044",
@@ -1020,7 +1099,45 @@
       "doi": "10.1109/pact65351.2025.00044",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11282931/"
+      "url": "https://ieeexplore.ieee.org/document/11282931/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00044"
+    },
+    {
+      "id": "doi:10.1109/pact65351.2025.00013",
+      "source": "library",
+      "kind": "conference",
+      "title": "Scalable Processing-Near-Memory for 1M-Token LLM Inference: CXL-Enabled KV-Cache Management Beyond GPU Limits",
+      "authors": [
+        "Dowon Kim",
+        "MinJae Lee",
+        "Janghyeon Kim",
+        "HyuckSung Kwon",
+        "Hyeonggyu Jeong",
+        "Sang-Soo Park",
+        "Minyong Yoon",
+        "Si-Dong Roh",
+        "Yongsuk Kwon",
+        "Jinin So",
+        "Jungwook Choi"
+      ],
+      "summary": "",
+      "venue": "PACT",
+      "venueName": "PACT",
+      "area": "Architecture",
+      "year": 2025,
+      "month": "",
+      "track": "Session 1: LLM Systems",
+      "published": "2025-11-01",
+      "pages": "1-13",
+      "doi": "10.1109/pact65351.2025.00013",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11282934/",
+      "trackSourceUrl": "https://conf.researchr.org/track/pact-2025/pact-2025-papers",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/pact65351.2025.00013"
     },
     {
       "id": "doi:10.1145/3746238.3746242",
@@ -1045,7 +1162,9 @@
       "doi": "10.1145/3746238.3746242",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746242"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746242",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746242"
     },
     {
       "id": "doi:10.1145/3746238.3746240",
@@ -1070,7 +1189,9 @@
       "doi": "10.1145/3746238.3746240",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746240"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746240",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746240"
     },
     {
       "id": "doi:10.1145/3746238.3746250",
@@ -1097,7 +1218,9 @@
       "doi": "10.1145/3746238.3746250",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746250"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746250",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746250"
     },
     {
       "id": "doi:10.1145/3746238.3746248",
@@ -1122,7 +1245,9 @@
       "doi": "10.1145/3746238.3746248",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746248"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746248",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746248"
     },
     {
       "id": "doi:10.1145/3746238.3746244",
@@ -1146,7 +1271,9 @@
       "doi": "10.1145/3746238.3746244",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746244"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746244",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746244"
     },
     {
       "id": "doi:10.1145/3746238.3746251",
@@ -1169,7 +1296,9 @@
       "doi": "10.1145/3746238.3746251",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746251"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746251",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746251"
     },
     {
       "id": "doi:10.1145/3746238.3746241",
@@ -1201,7 +1330,9 @@
       "doi": "10.1145/3746238.3746241",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746241"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746241",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746241"
     },
     {
       "id": "doi:10.1145/3746238.3746247",
@@ -1225,7 +1356,9 @@
       "doi": "10.1145/3746238.3746247",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746247"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746247",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746247"
     },
     {
       "id": "doi:10.1145/3746238.3746243",
@@ -1248,7 +1381,9 @@
       "doi": "10.1145/3746238.3746243",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746243"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746243",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746243"
     },
     {
       "id": "doi:10.1145/3746238.3746245",
@@ -1271,7 +1406,9 @@
       "doi": "10.1145/3746238.3746245",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746245"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746245",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746245"
     },
     {
       "id": "doi:10.1145/3746238.3746249",
@@ -1296,7 +1433,9 @@
       "doi": "10.1145/3746238.3746249",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3746238.3746249"
+      "url": "https://dl.acm.org/doi/10.1145/3746238.3746249",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3746238.3746249"
     }
   ]
 }

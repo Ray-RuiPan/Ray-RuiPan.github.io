@@ -30,7 +30,9 @@
       "doi": "10.1109/tpds.2024.3426275",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3426275"
+      "url": "https://doi.org/10.1109/tpds.2024.3426275",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3426275"
     },
     {
       "id": "doi:10.1109/tpds.2024.3429625",
@@ -59,7 +61,9 @@
       "doi": "10.1109/tpds.2024.3429625",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3429625"
+      "url": "https://doi.org/10.1109/tpds.2024.3429625",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3429625"
     },
     {
       "id": "doi:10.1109/tpds.2024.3431611",
@@ -86,7 +90,9 @@
       "doi": "10.1109/tpds.2024.3431611",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3431611"
+      "url": "https://doi.org/10.1109/tpds.2024.3431611",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3431611"
     },
     {
       "id": "doi:10.1109/tpds.2024.3430853",
@@ -113,7 +119,9 @@
       "doi": "10.1109/tpds.2024.3430853",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3430853"
+      "url": "https://doi.org/10.1109/tpds.2024.3430853",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3430853"
     },
     {
       "id": "doi:10.1109/tpds.2024.3424853",
@@ -144,7 +152,9 @@
       "doi": "10.1109/tpds.2024.3424853",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3424853"
+      "url": "https://doi.org/10.1109/tpds.2024.3424853",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3424853"
     },
     {
       "id": "doi:10.1109/tpds.2024.3418620",
@@ -174,7 +184,9 @@
       "doi": "10.1109/tpds.2024.3418620",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3418620"
+      "url": "https://doi.org/10.1109/tpds.2024.3418620",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3418620"
     },
     {
       "id": "doi:10.1109/tpds.2024.3406764",
@@ -222,7 +234,9 @@
       "doi": "10.1109/tpds.2024.3406764",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3406764"
+      "url": "https://doi.org/10.1109/tpds.2024.3406764",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3406764"
     },
     {
       "id": "doi:10.1109/tpds.2024.3409882",
@@ -251,7 +265,9 @@
       "doi": "10.1109/tpds.2024.3409882",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3409882"
+      "url": "https://doi.org/10.1109/tpds.2024.3409882",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3409882"
     },
     {
       "id": "doi:10.1109/tpds.2024.3432579",
@@ -281,7 +297,9 @@
       "doi": "10.1109/tpds.2024.3432579",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3432579"
+      "url": "https://doi.org/10.1109/tpds.2024.3432579",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3432579"
     },
     {
       "id": "doi:10.1109/tpds.2024.3426523",
@@ -309,7 +327,9 @@
       "doi": "10.1109/tpds.2024.3426523",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3426523"
+      "url": "https://doi.org/10.1109/tpds.2024.3426523",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3426523"
     },
     {
       "id": "doi:10.1109/tpds.2024.3425931",
@@ -339,7 +359,9 @@
       "doi": "10.1109/tpds.2024.3425931",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3425931"
+      "url": "https://doi.org/10.1109/tpds.2024.3425931",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3425931"
     }
   ]
 }

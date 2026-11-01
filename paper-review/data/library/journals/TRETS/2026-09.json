@@ -14,7 +14,7 @@
         "Atousa Jafari",
         "Marco Platzner"
       ],
-      "summary": "",
+      "summary": "Echo State Networks (ESNs) are Reservoir Computing (RC) variants that offer comparable accuracy to standard recurrent neural networks at less cost for training, lower computation effort, and higher speed for inference. These characteristics make ESNs highly suitable for resource-constrained edge implementations. In this article, we present an FPGA-based streamlined dataflow architecture for ESN inference. The accelerator quantizes all layers of the ESN and follows a direct logic implementation style that fully unrolls all computations. We introduce two variants of the accelerator, one that maps neurons to DSP blocks in the FPGA and another one that maps neurons solely to LUTs. We further elaborate on a tool flow to set up, optimize, and train an ESN model for a given dataset and then automatically generate the accelerator designs to be loaded onto an FPGA. We evaluate our accelerators on a number of time-series prediction and classification tasks and compare the errors and accuracies, respectively, for a 32-bit floating-point software baseline and our accelerators at different levels of quantization. We then compare our accelerator with prior work on FPGA-based implementations for ESN and with embedded GPU and CPU platforms. Our experiments show that our accelerators are resource-intensive but excel in latency, throughput, and energy efficiency. For an ESN model with 200 reservoir neurons, we achieve a latency of \\(9.5\\,\\text{ns}\\) , a throughput of 100 Megasamples/second, and a power-delay-product of \\(72\\,\\text{nWs}\\) . This outperforms all previous FPGA work and, compared to embedded GPU and CPU platforms, represents improvements in the order of several magnitudes.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -29,7 +29,9 @@
       "doi": "10.1145/3811539",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3811539"
+      "url": "https://doi.org/10.1145/3811539",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3811539"
     },
     {
       "id": "doi:10.1145/3816755",
@@ -41,7 +43,7 @@
         "Vairavan Palaniappan",
         "Debjit Pal"
       ],
-      "summary": "",
+      "summary": "Efficient workload scheduling is a critical challenge in modern heterogeneous computing environments, particularly in high-performance computing (HPC) systems. Traditional software-based schedulers struggle to efficiently balance workloads due to scheduling overhead , lack of adaptability to stochastic workloads , and suboptimal resource utilization . The scheduling problem further compounds in the context of shared HPC clusters, where job arrivals and processing times are inherently stochastic. Prediction of these elements is possible, but it introduces additional overhead. To perform this complex scheduling, we developed two FPGA-assisted hardware accelerator microarchitectures, Hercules and Stannic . Hercules adopts a task-centric abstraction of stochastic scheduling, whereas Stannic inherits a schedule-centric abstraction. These hardware-assisted solutions leverage parallelism , pre-calculation , and spatial memory access to significantly accelerate scheduling. We accelerate a non-preemptive stochastic online scheduling algorithm to produce heterogeneity-aware schedules in near real time. With Hercules , we achieved a speedup of up to 1,060 \\(\\times\\) over a baseline C/C++ implementation, demonstrating the efficacy of a hardware-assisted acceleration for heterogeneity-aware stochastic scheduling. With Stannic , we further improved efficiency, achieving a 7.5 \\(\\times\\) reduction in latency per computation iteration and a 14 \\(\\times\\) increase in the target heterogeneous system size. Experimental results show that the resulting schedules demonstrate efficient machine utilization and low average job latency in stochastic contexts.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -56,7 +58,9 @@
       "doi": "10.1145/3816755",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3816755"
+      "url": "https://doi.org/10.1145/3816755",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3816755"
     },
     {
       "id": "doi:10.1145/3815187",
@@ -67,7 +71,7 @@
         "Luis Waucquez",
         "Alfonso Rodríguez"
       ],
-      "summary": "",
+      "summary": "Designing computing systems for safety-critical platforms operating in harsh environments now demands balancing high computing performance with reliability and low-power execution. In New Space missions, for instance, Commercial Off-the-Shelf (COTS) devices are used as an alternative to Radiation Tolerant (RT) FPGAs and Radiation Hardened by Design (RHBD) ASICs, sacrificing reliability over pure computing power. Nevertheless, a bare minimum fault tolerance level needs to be ensured in order to successfully run the missions. Depending on the target fabric, multiple mitigation techniques can be implemented at the technology node, microarchitecture, or system level. These mechanisms are typically complemented with intensive fault-injection and beam testing campaigns. Open Instruction Set Architectures (ISAs), like RISC-V, free from proprietary licensing constraints, allow controlled architectural variation across both COTS FPGA and ASIC fabrics, enabling easier fault injection/beam studies and Power-Performance-Area (PPA) analysis for competitive design development. This article presents an open source architectural template for accelerator deployment in safety-critical systems. The template, built around a triple-core RISC-V platform, integrates system-level reliability techniques that enable runtime-adaptive switching among Single, Triple-Core LockStep (TCLS), Dual-Core LockStep (DCLS), and DCLS with classical staggering modes. The template has also support for application-specific, hardware-based functional extensions, either via memory-mapped interfaces or through custom ISA extensions (attached to each of the triplicated cores using the standard CORE-V eXtension Interface). The capabilities of the proposed accelerator template have been tested both with a software-only implementation of the AES-128 data encryption algorithm and with an in-house implementation of the CCSDS 121 data compression algorithm, widely used in space applications, showing that the system-level reliability techniques can be straightforwardly extended to the hardware-accelerated functions as well. The assessment of the proposed accelerator template includes experimental evaluation of the reliability through a lightweight fault injection campaign, and both FPGA and TSMC 65 nm LP implementations.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -82,7 +86,9 @@
       "doi": "10.1145/3815187",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3815187"
+      "url": "https://doi.org/10.1145/3815187",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3815187"
     },
     {
       "id": "doi:10.1145/3816715",
@@ -108,7 +114,9 @@
       "doi": "10.1145/3816715",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3816715"
+      "url": "https://doi.org/10.1145/3816715",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3816715"
     },
     {
       "id": "doi:10.1145/3839105",
@@ -119,7 +127,7 @@
         "Roberto Giorgi",
         "Mirjana Stojilovic"
       ],
-      "summary": "",
+      "summary": "This editorial introduces the special section on ARC 2025 Journal Track, comprising extended versions of five selected articles from the 2025 International Symposium on Applied Reconfigurable Computing (ARC), together with a perspective article commemorating the first 20 years of the symposium. The selected contributions illustrate the breadth of contemporary reconfigurable computing research and address key challenges in compilation, dependable acceleration, low-latency machine learning, on-chip communication, and event-driven edge intelligence. Specifically, they investigate control-flow-aware compilation for coarse-grained reconfigurable arrays; rapid detection and recovery from radiation-induced faults in FPGA-based AI accelerators; streamlined dataflow architectures for echo state networks; throughput-adaptive networks-on-chip for AI accelerators; and hardware-accelerated graph neural networks for event-based audio processing. The anniversary article complements these works by reviewing representative research themes developed across 2 decades of ARC and identifying emerging directions for the field. Collectively, the articles demonstrate the continuing importance of cross-layer approaches that combine algorithms, compilation, architectures, runtime mechanisms, and application-specific optimization to improve the performance, energy efficiency, programmability, and dependability of reconfigurable systems.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -134,7 +142,9 @@
       "doi": "10.1145/3839105",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3839105"
+      "url": "https://doi.org/10.1145/3839105",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3839105"
     },
     {
       "id": "doi:10.1145/3838800",
@@ -152,7 +162,7 @@
         "Thomas Dalgaty",
         "Tomasz Kryjak"
       ],
-      "summary": "",
+      "summary": "As the volume of data recorded by embedded edge sensors increases, particularly from neuromorphic devices producing discrete event streams, there is a need for hardware-aware neural architectures that enable efficient, low-latency and energy-conscious local processing. To address this research gap, we present an FPGA implementation of event-graph neural networks for audio processing. We utilise an artificial cochlea that converts time-series signals into sparse event data, reducing memory and computation costs. Our architecture was implemented on an SoC FPGA and evaluated on two open source datasets. For the classification task, our baseline floating-point model achieves 92.7% accuracy on the SHD dataset—only 2.4% and 2% below the state-of-the-art—while requiring 10 \\(\\times\\) and 67 \\(\\times\\) fewer parameters, respectively. Compared to FPGA-based spiking neural networks, our quantised model reaches 92.3% accuracy, outperforming them by 19.3 pps while reducing resource usage and latency. For the SSC dataset, we report the first hardware-accelerated evaluation, and our models achieve 66.9–71.0% accuracy. Extending our conference work, we further demonstrate the first end-to-end FPGA implementation of the event-audio keyword spotting task, combining graph convolutional layers with recurrent sequence modelling for continuous, streaming operation. The system achieves 95% word-end detection accuracy, with only 10.53 µs latency and 1.18 W power consumption, establishing a strong benchmark for energy-efficient event-driven KWS.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -167,7 +177,9 @@
       "doi": "10.1145/3838800",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3838800"
+      "url": "https://doi.org/10.1145/3838800",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3838800"
     },
     {
       "id": "doi:10.1145/3808228",
@@ -180,7 +192,7 @@
         "Chiara Sandionigi",
         "Sébastien Pillement"
       ],
-      "summary": "",
+      "summary": "Communication often represents a critical bottleneck in the execution of deep neural networks (DNNs) on AI accelerators. To improve communication efficiency, we propose High-Throughput Network-on-Chip (HT-NoC), a dynamically reconfigurable NoC that adapts its throughput to optimize internal resource utilization, thereby enabling the simultaneous transmission of a larger number of packets. Extensive evaluations across diverse DNN layers demonstrate that HT-NoC consistently outperforms a baseline non-reconfigurable mesh NoC. Specifically, HT-NoC accelerates the propagation of input parameters by up to \\(4\\times\\) in fully connected (FC) and pointwise (PW) layers, while reducing dynamic energy consumption by \\(2.6\\times\\) . For convolutional (CONV) and depthwise (DW) layers, HT-NoC achieves speedups of up to \\(2.3\\times\\) and energy savings of \\(2.15\\times\\) . Finally, when integrated into an AI dataflow accelerator, HT-NoC delivers a \\(3.2\\times\\) speedup over systolic array (SA)-based accelerators in executing feed-forward network (FFN) blocks of Transformers. Importantly, these performance and energy improvements are achieved with minimal area, latency, and energy overheads introduced by the reconfiguration mechanism.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -195,7 +207,9 @@
       "doi": "10.1145/3808228",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3808228"
+      "url": "https://doi.org/10.1145/3808228",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3808228"
     },
     {
       "id": "doi:10.1145/3806052",
@@ -209,7 +223,7 @@
         "Sarah Azimi",
         "Luca Sterpone"
       ],
-      "summary": "",
+      "summary": "Heterogeneous FPGA platforms combining RISC-V processors and deep-learning accelerators are increasingly adopted in avionics and space, where performance must be paired with fault tolerance. We present RePAIR, a reconfigurable platform integrating an open source RISC-V core with a TPU-like systolic-array accelerator for runtime fault detection, correction, and recovery. RePAIR extends the accelerator ISA with runtime self-test, enabling detection of structural faults in the array during inference. The platform supports dual inference modes: a plain mode with no overhead and a testing mode that performs checksum validation at a fixed cost of three extra cycles per matrix multiplication, with limited accelerator area overhead. Upon fault detection, the accelerator notifies the RISC-V processor, which triggers dynamic partial reconfiguration of the faulty region while preserving execution state, allowing inference to resume from the last correct step. Compared with full-device reconfiguration, recovery time is reduced by up to 900× on AMD KCU105 and 1,400× on AMD ZCU102, while inference overhead remains \\({\\leq}\\) 30% in the worst case. The methodology is hardware-agnostic and portable across FPGA devices, as shown by multi-platform implementations. Fault-injection campaigns combined with space-environment modeling estimate mean time to failure under mission conditions, demonstrating scalable and reliable FPGA-based AI acceleration for safety-critical applications.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -224,7 +238,9 @@
       "doi": "10.1145/3806052",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3806052"
+      "url": "https://doi.org/10.1145/3806052",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806052"
     },
     {
       "id": "doi:10.1145/3814958",
@@ -235,7 +251,7 @@
         "Kenneth Liu",
         "Zhenman Fang"
       ],
-      "summary": "",
+      "summary": "The Bloom filter is one of the most widely used data structures in big data analytics to efficiently filter out vast amounts of noisy data. Bloom filters are used to accelerate many applications, including databases, networking, security, and bioinformatics. Unfortunately, prior Bloom filter designs only focus on single-input-stream acceleration and cannot match the increasing data rates offered by modern networks. The underlying problem is reading from the bit-vector, which requires fast random access. Since accesses are random, sharing the bit-vector is difficult due to dynamic access conflicts. However, naïvely duplicating the single-stream accelerator sacrifices scalability, due to the resource overhead of storing the entire bit-vector multiple times. We present BitBlender, the first scalable, high-throughput multi-input-stream Bloom filter acceleration framework in HLS. BitBlender’s architecture stores a large bit-vector in on-chip memories for ultra-low latency. Moreover, it efficiently shares access among all input streams to allow high throughput even for large Bloom filters with low false-positive rates. To enable this efficient shared access, we design and implement the novel Arbiter and Unshuffle modules to dynamically schedule conflicting accesses to execute sequentially and non-conflicting accesses to execute in parallel. To support different user configurations of the Bloom filter, we also develop an automation flow, together with an accurate performance estimator, to automatically generate the best BitBlender design to meet a user-provided Bloom filter specification. Experimental results show that, on the AMD/Xilinx Alveo U280 FPGA, BitBlender achieves a throughput up to 3,213 MQueries/s (i.e., 12.8 GB/s) for a 130Mib bit-vector with 0.005% false-positive rate. Compared to the highly optimized Rust crate fastbloom running on 24 CPU threads, it achieves an average speedup of 8.89×, up to a maximum of 10.47×. Compared to the naïvely-duplicated multi-stream FPGA design, it achieves an average speedup of 5.30×, up to a maximum of 7.42×. BitBlender is available at https://github.com/SFU-HiAccel/BitBlender .",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -250,7 +266,9 @@
       "doi": "10.1145/3814958",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3814958"
+      "url": "https://doi.org/10.1145/3814958",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3814958"
     },
     {
       "id": "doi:10.1145/3828545",
@@ -264,7 +282,7 @@
         "Laura Pozzi",
         "David Atienza"
       ],
-      "summary": "",
+      "summary": "Coarse-Grained Reconfigurable Arrays (CGRAs) present both high flexibility and efficiency, making them well-suited for the acceleration of intensive workloads. Nevertheless, a key barrier toward their widespread adoption is posed by CGRA compilation, which must cope with a multi-dimensional space spanning both the spatial and the temporal domains. Indeed, state-of-the-art compilers are limited in scope, as they mostly handle dataflow while providing little or no support for control flow. Hence, they mostly focus on mapping single loops and/or delegate the management of control-flow divergences to ad hoc hardware units. Conversely, in this article, we show that control flow can be effectively managed and optimized at the compilation level, enabling a broad set of applications to be targeted while remaining hardware-agnostic and achieving high performance. We embody our methodology in a modular compilation framework consisting of transformation and optimization passes, enabling support for applications with arbitrary control flows running on homogeneous CGRA meshes. We also introduce a novel mapping methodology that serves as a compilation backend, addressing limitations in available CGRA hardware resources and ensuring a feasible solution during compilation. Our framework achieves up to 2.1 \\(\\times\\) runtime speed-up over state-of-the-art approaches, purely through compilation optimizations.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -279,7 +297,9 @@
       "doi": "10.1145/3828545",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3828545"
+      "url": "https://doi.org/10.1145/3828545",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3828545"
     },
     {
       "id": "doi:10.1145/3832319",
@@ -294,7 +314,7 @@
         "Jianwang Zhai",
         "Kang Zhao"
       ],
-      "summary": "",
+      "summary": "Versal Adaptive Compute Acceleration Platform (ACAP) is a novel heterogeneous architecture characterized by powerful computation units, i.e., AI Engines (AIEs). Developing high-performance ACAP applications requires both accurate and efficient evaluation of various design points. Although the traditional cycle-accurate simulator provides highly precise performance evaluation, its considerable runtime overhead has become a major bottleneck in the design and optimization process. While existing solutions offer modeling frameworks from both analytical and learning-based perspectives, they still fall short of jointly satisfying the demands of accuracy, transferability, and ease of use. To settle this issue, this article proposes AIEAnalyzer, an analytical performance modeling framework for Vitis ADF graph-based AIE designs. Specifically, AIEAnalyzer introduces a 2-stage analytical method from the perspectives of intra-AIE computation and inter-AIE communication, which, respectively, capture the fine-grained execution patterns of the single AIE kernel and model the communication mechanisms among interconnected AIEs. Experimental results demonstrate that AIEAnalyzer achieves a mean error rate of 3.255% and a mean speedup factor of 594.4 \\(\\times\\) compared with simulation-based methods.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -309,7 +329,9 @@
       "doi": "10.1145/3832319",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3832319"
+      "url": "https://doi.org/10.1145/3832319",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3832319"
     },
     {
       "id": "doi:10.1145/3829368",
@@ -320,7 +342,7 @@
         "João M. P. Cardoso",
         "Walid Najjar"
       ],
-      "summary": "",
+      "summary": "Over the past 20 years (2005–2025), FPGA technology and research in reconfigurable computing have made significant advancements. We have witnessed improvements in FPGA devices, tools, and significant research progress in the field of reconfigurable computing. This article summarizes key topics from selected papers presented during the first two decades of the Symposium on Applied Reconfigurable Computing (ARC), discusses relevant recent studies, identifies current challenges, and proposes future research directions to support ongoing progress in the field.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -335,7 +357,9 @@
       "doi": "10.1145/3829368",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3829368"
+      "url": "https://doi.org/10.1145/3829368",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3829368"
     },
     {
       "id": "doi:10.1145/3816253",
@@ -349,7 +373,7 @@
         "Lester Kalms",
         "Diana Göhringer"
       ],
-      "summary": "",
+      "summary": "The increasing use of Deep Neural Network (DNN)-based applications on edge devices has imposed new computing challenges, as such workloads demand high computational capabilities while ensuring low power consumption. To address these challenges, enhancing the General-Purpose (GP) computing units of edge devices by integrating hardware accelerators with application-specific functions provides the flexibility to support diverse workloads, thereby improving computing efficiency. This article proposes a modular RISC-V co-processor capable of hosting multiple stream-based accelerator IPs in a scalable platform. A low-latency interconnect interfaces the IPs with a local multi-bank scratchpad memory and supports direct IP-to-IP communication. A custom instruction set complemented by software macros is used by a RISC-V core for configuration, execution, and memory management in the co-processor through the open source eXtension Interface. Decoupling the co-processor platform from the core clock domain using asynchronous FIFOs shows that the co-processor supports integration of up to 8 custom IPs and 16 memory banks at a frequency of 294–333 MHz, when prototyped on an AMD/Xilinx RFSoC 4 × 2 evaluation board, while consuming 3% or less of the LUTs available on the board. A ShuffleNet-V2 case study shows that the co-processor achieves comparable latency and up to 51% lower resource utilization compared to standalone HLS IPs.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -364,7 +388,9 @@
       "doi": "10.1145/3816253",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3816253"
+      "url": "https://doi.org/10.1145/3816253",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3816253"
     },
     {
       "id": "doi:10.1145/3811540",
@@ -376,7 +402,7 @@
         "Gregg Baeckler",
         "Kim Bozman"
       ],
-      "summary": "",
+      "summary": "Although modern Field Programmable Gate Arrays (FPGAs) have a performance potential of a 1 GHz clock frequency—with both clock networks and embedded blocks such as memories and DSP Blocks capable of these clock rates—user implementations approaching this speed are rarely realized in practice. This is especially true of complex designs such as soft processors. This work is based on a soft Single Instruction, Multiple Thread (SIMT) processor that exceeds 950 MHz in an Altera Agilex-7 FPGA. The architecture is a 32-bit fixed-point SIMT design, with parameterized thread and register spaces. Up to 4,096 threads and 64 K registers can be specified by the user. In one example, a processor with 16 K registers and a 16KB shared memory required approximately 7 K ALMs, 99 M20K memories, and 32 DSP Blocks. We then use this processor as the basis of a multi-processor system that can serve as a foundation for a soft System-on-a-Chip (SoC) design. Creating a parallel processor that can reliably close timing at near 1 GHz requires more than just deep pipelining, or assembling high-speed constituent components. The architecture of the datapaths must take the structure of the routing networks into consideration so that no buses contain wires with significantly different distances. Likewise, the implementation of a densely packed multi-processor system cannot simply be the stacking of several high-performance cores, but rather finding a solution that uses the combination of functional and routing resources most efficiently. In this work, we achieve this goal using multiple trials around a calculated starting point. This work is presented in two separate, but related parts. First, we describe RTL-based methods to approach 1 GHz timing closure for complex processors by creating structures that map naturally to the pre-defined architecture of the FPGA. These performance levels can be achieved without any placement or timing constraints. Secondly, we use the Altera FPGA tools for design space exploration to create dense arrays of these processors while maintaining the resource density (relative footprint) and clock performance of the single instance. In one example, we create a 30-processor structure, comprising three 10-core clusters, that closes timing at over 930 MHz while consuming only about 30% of a mid-range FPGA. These processor clusters are entirely contained within bounding boxes, leaving the surrounding logic and routing completely untouched. Ultimately, this work is intended to enable the design of soft systems—where software and hardware approaches can be combined in an FPGA context.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -391,7 +417,9 @@
       "doi": "10.1145/3811540",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3811540"
+      "url": "https://doi.org/10.1145/3811540",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3811540"
     },
     {
       "id": "doi:10.1145/3848637",
@@ -403,7 +431,7 @@
         "Salih Bayar",
         "Ihsan Cicek"
       ],
-      "summary": "",
+      "summary": "SRAM-based Physically Unclonable Functions (PUFs) are critical for securing FPGA-based embedded systems. However, traditional implementations face significant limitations: they typically require power cycling to extract entropy or rely on external complex circuitry to drive address sequences, potentially creating a larger attack surface for adversaries. This paper proposes a novel, fully standalone PUF architecture on AMD FPGAs that uses the timing violations of read and write operations. Unlike prior collision-based designs that depend on externally supplied random addresses, our proposed architecture introduces a mutual feedback loop where the metastable response of one Block RAM dynamically determines the address of its cross-coupled counterpart. This mechanism creates a self-sustaining entropy source that functions without depending on an external driver or power cycling. The design was implemented and validated on eight AMD Artix-7 FPGAs using a custom MicroBlaze-based data acquisition system. Experimental results demonstrate that the CC-RIWC PUF achieves an average uniqueness of 41.45% and reliability up to 98.37% across a wide temperature range ( \\(-18^{\\circ}C\\) to \\(50^{\\circ}C\\) ). While the self-driving cross-coupled architecture introduces a trade-off in resource usage (44 slices) and throughput (900 Mbps) compared to externally-driven primitives, it provides a superior architectural advantage by delivering a complete, standalone entropy primitive suitable for resource-constrained, always-on embedded systems like Internet-of-Things.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -418,7 +446,9 @@
       "doi": "10.1145/3848637",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3848637"
+      "url": "https://doi.org/10.1145/3848637",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3848637"
     },
     {
       "id": "doi:10.1145/3847661",
@@ -447,7 +477,9 @@
       "doi": "10.1145/3847661",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3847661"
+      "url": "https://doi.org/10.1145/3847661",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3847661"
     },
     {
       "id": "doi:10.1145/3847675",
@@ -461,7 +493,7 @@
         "Hailiang Xiong",
         "Zhiguo Wan"
       ],
-      "summary": "",
+      "summary": "Zero-Knowledge Proof (ZKP) systems, particularly zk-STARKs, incur substantial computational overhead, where hash functions constitute a significant portion of the total cost. Among various ZK-friendly hash functions, Monolith achieves strong performance in both plaintext domain and ZK domain, making it a promising candidate for efficient ZKP implementations. However, its arithmetic-oriented design introduces challenges for hardware realization, including inefficient resource utilization and difficulty in balancing performance with area and power consumption. In this work, we present a hardware-oriented design for accelerating the Monolith hash function on FPGA. We propose a dual-architecture framework consisting of a serial architecture and a parallel architecture to address different performance and resource constraints. To improve hardware efficiency, we introduce several optimizations, including LUT-based constant multipliers using non-adjacent form (NAF) encoding, a lazy reduction strategy leveraging the Mersenne prime structure, and a reformulation of the Concrete layer to enable efficient computation reuse. Experimental results demonstrate that the proposed designs significantly reduce hardware resource usage and power consumption compared to existing implementations, while maintaining competitive performance. In particular, the serial architecture reduces DSP utilization by up to 97.87%, and the parallel architecture achieves a 1.11 \\(\\times\\) speedup with moderate resource overhead on Zynq 7020 FPGA. Moreover, the proposed designs achieve 51.15% improvements in area-time efficiency. These results demonstrate that the proposed serial and parallel architectures provide resource-efficient and throughput-oriented design points for FPGA-based hash acceleration in STARK proving systems.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -476,7 +508,9 @@
       "doi": "10.1145/3847675",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3847675"
+      "url": "https://doi.org/10.1145/3847675",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3847675"
     },
     {
       "id": "doi:10.1145/3846166",
@@ -503,7 +537,9 @@
       "doi": "10.1145/3846166",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3846166"
+      "url": "https://doi.org/10.1145/3846166",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3846166"
     },
     {
       "id": "doi:10.1145/3846383",
@@ -516,7 +552,7 @@
         "Chaewon Park",
         "Hyun Kim"
       ],
-      "summary": "",
+      "summary": "Rapid advancements in large-scale deep neural networks (DNNs) have increased the demand for substantial data storage and memory bandwidth, resulting in the well-known data movement bottleneck in traditional von Neumann-based architectures. Processing-in-memory (PIM) technology, which integrates computation within memory, has emerged as a promising solution to address this challenge. Previous PIM research utilized in-house PIM simulators to validate this new architecture; however, evaluation performed using in-house PIM simulators suffers from lower versatility and slower evaluation runtimes than emulation. To address these limitations, we present HERMeS , a high-speed, trace-based PIM emulation platform that offers high reliability, fidelity, and versatility. HERMeS separates the PIM controller and PIM emulator regions to achieve a modular design, enhancing versatility, and leverages SystemVerilog to enable high-fidelity implementation on field-programmable gate arrays (FPGAs). To maximize the speedup, we introduce a minimal block RAM (BRAM) unit ( i.e. , pim-tile ) to efficiently manage the limited BRAM resources of the FPGA and optimization techniques to prevent runtime degradation caused by the underutilized pim-tile . We demonstrate the versatility of HERMeS within the class of DRAM-based bank- and bank-group-level digital PIM architectures by implementing representative pre-existing designs in this domain, including AiM and PIM-HBM. Because these target architectures are designed to accelerate DNN inference, the evaluation is conducted primarily on DNN inference workloads, which constitute the natural application domain of this class of PIM designs. Compared to existing in-house PIM simulators, HERMeS demonstrates exceptional accuracy with an average cycle error rate of just 1.57%, while achieving up to 230.24 \\(\\times\\) faster runtime, underscoring its efficacy as a high-performance PIM emulation framework.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -531,7 +567,9 @@
       "doi": "10.1145/3846383",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3846383"
+      "url": "https://doi.org/10.1145/3846383",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3846383"
     },
     {
       "id": "doi:10.1145/3834569",
@@ -565,7 +603,9 @@
       "doi": "10.1145/3834569",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3834569"
+      "url": "https://doi.org/10.1145/3834569",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3834569"
     },
     {
       "id": "doi:10.1145/3844603",
@@ -591,7 +631,9 @@
       "doi": "10.1145/3844603",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3844603"
+      "url": "https://doi.org/10.1145/3844603",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3844603"
     }
   ]
 }

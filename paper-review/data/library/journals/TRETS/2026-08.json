@@ -15,7 +15,7 @@
         "Martin Kumm",
         "Florent de Dinechin"
       ],
-      "summary": "",
+      "summary": "This work addresses the accurate (correctly rounded) evaluation of arbitrary functions. The simplest solution is to use a Look-Up Table (LUT), with a storage requirement (hence area) that grows linearly with the output word size, but exponentially with the input word size. This limits its applicability to small input word sizes. For monotonic functions, a binary search in the output domain enables implementations whose area scales linearly with the input word size and exponentially with the output word size. This article introduces several novel architectures exploiting this idea, investigates their efficient mapping to FPGA micro-architecture using features such as \\(k\\) -input LUT and fast carry logic, compares them to the LUT approach in area and delay, and demonstrates an application to a Gaussian pseudo-random number generator.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -30,7 +30,9 @@
       "doi": "10.1145/3838192",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3838192"
+      "url": "https://doi.org/10.1145/3838192",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3838192"
     },
     {
       "id": "doi:10.1145/3841481",
@@ -42,7 +44,7 @@
         "Justin Knapheide",
         "Benno Stabernack"
       ],
-      "summary": "",
+      "summary": "We present a flexible and scalable hardware/software framework for training CNNs on Ethernet-connected FPGA clusters using tightly pipelined layer parallelism. Starting from a high-level CNN and cluster description, the system automatically maps layers onto (potentially heterogeneous) devices, generates FPGA-specific bitstreams, and orchestrates fully streaming forward and backward passes while keeping most parameters and gradients in on-chip memory. We demonstrate support for general DAG-style CNNs, including MobileNetV2, MnasNet, and ResNet18, and replace batch normalization with online normalization to enable normalization in this streaming setting while achieving ImageNet validation accuracies comparable to PyTorch baselines with batch normalization for all three networks. A CP-SAT-based planner, driven by implementation-level resource estimates from SpinalHDL, performs resource-aware placement under constraints on DSPs, on-chip memory, DRAM bandwidth, and network bandwidth, and exposes FPGA-specific optimizations such as multipumped Matrix Multiplication engines, fabric-aware memory tiling, and activation recomputation. We evaluate throughput, resource utilization, and energy efficiency on an eight-board Altera Agilex 7 cluster and show that, for both MobileNetV2 and MnasNet, the framework achieves more than \\(2\\times\\) lower energy per frame than Nvidia V100, A100, and H100 GPU baselines, highlighting the potential of FPGA-based, layer-parallel training for separable-convolution-dominated CNNs.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -57,7 +59,9 @@
       "doi": "10.1145/3841481",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3841481"
+      "url": "https://doi.org/10.1145/3841481",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3841481"
     },
     {
       "id": "doi:10.1145/3840385",
@@ -83,7 +87,9 @@
       "doi": "10.1145/3840385",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3840385"
+      "url": "https://doi.org/10.1145/3840385",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3840385"
     },
     {
       "id": "doi:10.1145/3839563",
@@ -110,7 +116,9 @@
       "doi": "10.1145/3839563",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3839563"
+      "url": "https://doi.org/10.1145/3839563",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3839563"
     },
     {
       "id": "doi:10.1145/3839367",
@@ -123,7 +131,7 @@
         "Cauligi Raghavendra",
         "Viktor Prasanna"
       ],
-      "summary": "",
+      "summary": "Convolutional Neural Networks (CNNs) have achieved state-of-the-art accuracy in Synthetic Aperture Radar (SAR) Automatic Target Recognition (ATR). However, their high computational cost, latency, and memory footprint make deployment challenging on resource-constrained platforms such as small satellites. While adversarial robustness is critical for real-world SAR ATR, it is often overlooked in system-level optimizations. Achieving both robustness and inference efficiency requires a unified framework that considers adversarially trained models together with hardware constraints. In this paper, we present a model-hardware co-design framework for CNN-based SAR ATR that integrates robustness-preserving model compression with FPGA accelerator design. The compression stage includes hardware-guided structured pruning, where a hardware performance model derived from the FPGA design predicts the pruning impact on latency and resource usage. This enables the generation of Pareto-optimal models that improve hardware efficiency under user-defined objectives while maintaining adversarial robustness within a predefined tolerance. We design an FPGA accelerator with channel-aware processing element (PE) allocation that supports both fully pipelined streaming and temporal resource-reuse architectures. An automated design generation flow efficiently maps the compressed models to optimized FPGA implementations. Experiments on the widely used MSTAR and FUSAR-Ship datasets across three CNN architectures show that our framework produces models up to 18.3 \\(\\times\\) smaller with 3.1 \\(\\times\\) fewer MACs while preserving robustness. Our FPGA implementation achieves up to 68.1 \\(\\times\\) (6.4 \\(\\times\\) ) lower inference latency and up to 169.7 \\(\\times\\) (33.2 \\(\\times\\) ) better energy efficiency compared to CPU (GPU) baselines, demonstrating the effectiveness of the proposed co-design framework for robust and efficient SAR ATR on FPGA platforms.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -138,7 +146,9 @@
       "doi": "10.1145/3839367",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3839367"
+      "url": "https://doi.org/10.1145/3839367",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3839367"
     },
     {
       "id": "doi:10.1145/3830470",
@@ -166,7 +176,9 @@
       "doi": "10.1145/3830470",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3830470"
+      "url": "https://doi.org/10.1145/3830470",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830470"
     },
     {
       "id": "doi:10.1145/3837086",
@@ -180,7 +192,7 @@
         "Chen Wu",
         "He Lei"
       ],
-      "summary": "",
+      "summary": "Large language models (LLMs), particularly decoder-only models with auto-regressive decoding, have achieved remarkable performance across a wide range of tasks, but their inference efficiency remains a critical bottleneck due to rapidly growing parameters and memory-bound generation phases. Recent advances in dynamic computation allocation address this challenge by exploiting the highly uneven contributions of different tokens and layers, enabling selective execution that significantly reduces redundant computation while preserving model accuracy. However, existing hardware platforms and accelerators are primarily optimized for uniform, static execution, limiting their ability to efficiently support such dynamic inference patterns. In this work, we propose SkipOPU , an FPGA-based overlay processor that dynamically allocates computation across tokens and layers with high flexibility through a lightweight routing mechanism. First, we decouple reduction operations from element-wise computation in nonlinear modules and perform reductions incrementally. This design enables both stages to be fused with adjacent linear operations (router or matrix multiplication), effectively hiding nonlinear latency within the pipeline. Second, motivated by asymmetric sensitivity to numerical precision between activation and weight, we design a processing element (PE) array that efficiently supports float–fixed hybrid execution. A novel DSP overpacking technique is introduced to maximize hardware utilization while minimizing resource overhead. Finally, we develop a proactive on-chip KV (Key-Value) history buffer that exploits cross-layer KV invariance of pruned tokens, eliminating irregular HBM (High Bandwidth Memory) accesses during decoding and supplementing off-chip bandwidth through high-locality on-chip reuse. Experimental results demonstrate that SkipOPU on an AMD U280 FPGA outperforms GPU and other FPGA-based accelerators by 1.31 × −2.55× in bandwidth efficiency for LLMs inference with dynamic computation allocation. Moreover, cross-layer KV reuse reduces up to 25.4% KV storage overhead across varying sequence lengths.",
       "venue": "TRETS",
       "venueName": "TRETS",
       "journalName": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -195,7 +207,9 @@
       "doi": "10.1145/3837086",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3837086"
+      "url": "https://doi.org/10.1145/3837086",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837086"
     }
   ]
 }

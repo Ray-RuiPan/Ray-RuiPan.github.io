@@ -2,9 +2,1753 @@
   "meta": {
     "venue": "FPT",
     "year": 2026,
-    "count": 124
+    "count": 189
   },
   "records": [
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00060",
+      "source": "library",
+      "kind": "conference",
+      "title": "WASI-FPGA: Sandboxed Hardware Acceleration on Edge FPGAs via WebAssembly System Interface Extensions",
+      "authors": [
+        "Diego Arguello Ron",
+        "Jose Gil",
+        "Oscar Garcia Perales"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "350-351",
+      "doi": "10.23919/fplcps00026.2026.00060",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754115/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00060"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00020",
+      "source": "library",
+      "kind": "conference",
+      "title": "Utilising Pipelined Buses to Provide Resource Efficient Dynamic Thread Scheduling in Barrel-Scheduled Processors",
+      "authors": [
+        "Thomas Bain",
+        "David Thomas",
+        "Graeme Bragg"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "44-52",
+      "doi": "10.23919/fplcps00026.2026.00020",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754278/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00020"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00064",
+      "source": "library",
+      "kind": "conference",
+      "title": "Unconventional Arithmetic for Efficient AI: From MSDF Operators to RISC-V Processor Integration",
+      "authors": [
+        "Sahar Moradi Cherati",
+        "Leonel Sousa"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "358-359",
+      "doi": "10.23919/fplcps00026.2026.00064",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754200/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00064"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00068",
+      "source": "library",
+      "kind": "conference",
+      "title": "Towards Efficient Linear Algebra on Dataflow Architectures",
+      "authors": [
+        "Lukas Stasytis"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "366-367",
+      "doi": "10.23919/fplcps00026.2026.00068",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754211/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00068"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00017",
+      "source": "library",
+      "kind": "conference",
+      "title": "The Lay of the Layers: Enabling Heterogeneous 3D FPGA Architectures and Analyzing at Scale When They Win",
+      "authors": [
+        "Ismael Youssef",
+        "Callie Cong Hao"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "19-27",
+      "doi": "10.23919/fplcps00026.2026.00017",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754245/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00017"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00023",
+      "source": "library",
+      "kind": "conference",
+      "title": "Taming the Exponential: A Fast Softmax Surrogate for Integer-Native Edge Inference",
+      "authors": [
+        "Dimitrios Danopoulos",
+        "Enrico Lupi",
+        "Michael Kagan",
+        "Maurizio Pierini"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "71-79",
+      "doi": "10.23919/fplcps00026.2026.00023",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754242/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00023"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00019",
+      "source": "library",
+      "kind": "conference",
+      "title": "Spike-FINN: An End-to-End Open-Source Framework for Spiking Neural Networks on FPGAs",
+      "authors": [
+        "Henrik Iver Thoroe",
+        "Vincent Meyers",
+        "Mehdi Tahoori"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "38-43",
+      "doi": "10.23919/fplcps00026.2026.00019",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754244/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00019"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00039",
+      "source": "library",
+      "kind": "conference",
+      "title": "ScaleConv: Scale-out a Flexible Convolution Accelerator on HBM-Based FPGAs",
+      "authors": [
+        "Jin Yuan",
+        "Zuwen Ou",
+        "Lester Kalms",
+        "Ahmed Kamaleldin",
+        "Diana Göhringer"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "210-218",
+      "doi": "10.23919/fplcps00026.2026.00039",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754206/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00039"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00046",
+      "source": "library",
+      "kind": "conference",
+      "title": "Scalable Packet Tracking on FPGAs for Erasure-Coded RDMA over Lossy WANs",
+      "authors": [
+        "Yicheng Qian",
+        "Konstantin Taranov",
+        "Yevgeny Yankilevich",
+        "Assaf Shacham",
+        "Mahmoud Elhaddad",
+        "Abdul Kabbani",
+        "Miriam Leeser",
+        "Nadeen Gebara"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "274-283",
+      "doi": "10.23919/fplcps00026.2026.00046",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754120/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00046"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00025",
+      "source": "library",
+      "kind": "conference",
+      "title": "Rena: An HLS Accelerator for Resonator Networks on FPGAs",
+      "authors": [
+        "Caio Vieira",
+        "Antonio Carlos Schneider Beck"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "89-97",
+      "doi": "10.23919/fplcps00026.2026.00025",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754233/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00025"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00069",
+      "source": "library",
+      "kind": "conference",
+      "title": "Reliable FPGA-Based AI Inference in Space",
+      "authors": [
+        "Giorgio Cora",
+        "Eleonora Vacca",
+        "Sarah Azimi",
+        "Luca Sterpone"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "368-369",
+      "doi": "10.23919/fplcps00026.2026.00069",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754258/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00069"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00052",
+      "source": "library",
+      "kind": "conference",
+      "title": "RQP: Resource-Oriented Quantiser Pruning for Neural Networks on FPGAs",
+      "authors": [
+        "Changhong Li",
+        "Biswajit Basu",
+        "Shreejith Shanker"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "326-331",
+      "doi": "10.23919/fplcps00026.2026.00052",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754272/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00052"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00065",
+      "source": "library",
+      "kind": "conference",
+      "title": "Proposing an Architecture-Aware Framework for High-Throughput Arithmetic Mapping on FPGAs",
+      "authors": [
+        "Mahmoud A. Elshenawy",
+        "Suhaib A. Fahmy"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "360-361",
+      "doi": "10.23919/fplcps00026.2026.00065",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754116/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00065"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00042",
+      "source": "library",
+      "kind": "conference",
+      "title": "Privacy-Preserving FPGA Implementation Using Redacted Netlists",
+      "authors": [
+        "Reilly McKendrick",
+        "Eddie Rydell",
+        "Jeffrey Goeders"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "237-246",
+      "doi": "10.23919/fplcps00026.2026.00042",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754229/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00042"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00027",
+      "source": "library",
+      "kind": "conference",
+      "title": "Predicting CGRA Mappability Using Graph Neural Networks",
+      "authors": [
+        "Sebastian Czyrny",
+        "Anh Hoang Ngoc Nguyen",
+        "Adham Ragab",
+        "Jason Anderson"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "107-115",
+      "doi": "10.23919/fplcps00026.2026.00027",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754236/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00027"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00055",
+      "source": "library",
+      "kind": "conference",
+      "title": "PoSeRA: A Posit-Centric Open-Source FPGA Architecture for Energy Efficient Computing",
+      "authors": [
+        "M Arun",
+        "G Pradyumna",
+        "Madhav Rao"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "340-341",
+      "doi": "10.23919/fplcps00026.2026.00055",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754117/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00055"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00035",
+      "source": "library",
+      "kind": "conference",
+      "title": "NIFA: Nonlinear IMC Enhanced FPGA for Efficient ML Inference",
+      "authors": [
+        "Jiajun Hu",
+        "Ruthwik Reddy Sunketa",
+        "Lei Zhao",
+        "Archit Gajjar",
+        "Luca Buonanno",
+        "Aman Arora"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "174-182",
+      "doi": "10.23919/fplcps00026.2026.00035",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754125/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00035"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00018",
+      "source": "library",
+      "kind": "conference",
+      "title": "Modeling, Optimizing and Exploring Multi-Die FPGA Routing Architectures",
+      "authors": [
+        "Amirhossein Poolad",
+        "Soheil Gholami Shahrouz",
+        "Andrew Boutros",
+        "Vaughn Betz"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "28-37",
+      "doi": "10.23919/fplcps00026.2026.00018",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754250/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00018"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00021",
+      "source": "library",
+      "kind": "conference",
+      "title": "Minimum RISC-V: Maximum FPGA Efficiency",
+      "authors": [
+        "Martin Langhammer",
+        "Bogdan Pasca",
+        "Gregg Baeckler"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "53-61",
+      "doi": "10.23919/fplcps00026.2026.00021",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754226/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00021"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00032",
+      "source": "library",
+      "kind": "conference",
+      "title": "Low-Area ROM-Centric Hardware Implementation of the FALCON Discrete Half-Gaussian Sampler",
+      "authors": [
+        "Alexandre Ortega",
+        "Brice Colombier",
+        "Lilian Bossuet"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "150-158",
+      "doi": "10.23919/fplcps00026.2026.00032",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754239/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00032"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00043",
+      "source": "library",
+      "kind": "conference",
+      "title": "Kengai: Stump-Wise Random Forest Inference for Low-Latency Seismic Phase Detection",
+      "authors": [
+        "Gilles Vismara",
+        "Alessandro Verosimile",
+        "David Starobinski",
+        "Marco D. Santambrogio"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "247-255",
+      "doi": "10.23919/fplcps00026.2026.00043",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754231/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00043"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00034",
+      "source": "library",
+      "kind": "conference",
+      "title": "Jack of All Scales: A Versatile FPGA Tensor Block for MXFP Precisions",
+      "authors": [
+        "Marwan Mekhemer",
+        "Ahmed Elsousy",
+        "Balaji Venkatesh",
+        "Raphael Rowley",
+        "Vaughn Betz",
+        "Nachiket Kapre",
+        "Andrew Boutros"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "165-173",
+      "doi": "10.23919/fplcps00026.2026.00034",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754189/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00034"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00053",
+      "source": "library",
+      "kind": "conference",
+      "title": "Invited Paper: An Agentic FPGA Backend Optimization Competition",
+      "authors": [
+        "Chris Lavin",
+        "Eddie Hung",
+        "Preston Walker",
+        "Alireza Kaviani"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "332-337",
+      "doi": "10.23919/fplcps00026.2026.00053",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754248/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00053"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00078",
+      "source": "library",
+      "kind": "conference",
+      "title": "In-Path Packet Inspection at Line Rate with FPGAs",
+      "authors": [
+        "Ilie-Victor Hurbean",
+        "Si-Jun Kwon",
+        "Lukas Stasytis",
+        "Maximilian Heer",
+        "Zsolt István"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "382-382",
+      "doi": "10.23919/fplcps00026.2026.00078",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754202/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00078"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00072",
+      "source": "library",
+      "kind": "conference",
+      "title": "High-Accuracy FPGA-Based FP8 Approximate Multiplier",
+      "authors": [
+        "Ruiqi Chen",
+        "Xiaoke Wang",
+        "Dirk Stroobandt",
+        "Bruno da Silva"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "374-375",
+      "doi": "10.23919/fplcps00026.2026.00072",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754216/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00072"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00067",
+      "source": "library",
+      "kind": "conference",
+      "title": "Hardware/Software Co-Design for Near-Data Acceleration in Data-Intensive Systems",
+      "authors": [
+        "Sajjad Tamimi",
+        "Andreas Koch"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "364-365",
+      "doi": "10.23919/fplcps00026.2026.00067",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754237/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00067"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00049",
+      "source": "library",
+      "kind": "conference",
+      "title": "Hardware-Aware Attention on Dataflow Processors via Static Online Softmax for Accelerating Vision–Language Models",
+      "authors": [
+        "Dingjiang Yan",
+        "Miaoxiang Yu",
+        "Zhenyu Xu",
+        "Yazhe Zhang",
+        "Shouyu Du",
+        "Zhiheng Ni",
+        "Jillian Cai",
+        "Qing Yang",
+        "Tao Wei"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "298-306",
+      "doi": "10.23919/fplcps00026.2026.00049",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754201/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00049"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00079",
+      "source": "library",
+      "kind": "conference",
+      "title": "HBOS+: Histogram-Based Multi-Variate Outlier Detection in Sensor Data on FPGAs",
+      "authors": [
+        "Dragos Lazea",
+        "Dan Muresan",
+        "Anca Hangan"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "383-383",
+      "doi": "10.23919/fplcps00026.2026.00079",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754280/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00079"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00045",
+      "source": "library",
+      "kind": "conference",
+      "title": "GPCC-Acc: A Real-Time Point Cloud Geometry Compression Accelerator on FPGA",
+      "authors": [
+        "Shuyu Yan",
+        "Wenbiao Zhou",
+        "Fengchi Lu",
+        "Zhihan Zhang"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "265-273",
+      "doi": "10.23919/fplcps00026.2026.00045",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754204/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00045"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00081",
+      "source": "library",
+      "kind": "conference",
+      "title": "From Spikes to Keywords: Live Demonstration of Neuromorphic Audio Processing with Graph Neural Networks on FPGA",
+      "authors": [
+        "Wiktor Matykiewicz",
+        "Piotr Wzorek",
+        "Kamil Jeziorek",
+        "Tomasz Kryjak"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "385-385",
+      "doi": "10.23919/fplcps00026.2026.00081",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754228/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00081"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00050",
+      "source": "library",
+      "kind": "conference",
+      "title": "From Patterns to Parsers: Automatic Generation of Efficient Hardware Parsers for FPGAs",
+      "authors": [
+        "Tushar Garg",
+        "Andrew Boutros"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "307-315",
+      "doi": "10.23919/fplcps00026.2026.00050",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754232/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00050"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00071",
+      "source": "library",
+      "kind": "conference",
+      "title": "From LUT-Based Multipliers to Systolic Arrays: An Automated FPGA Implementation Flow",
+      "authors": [
+        "Ruiqi Chen",
+        "Xiaoke Wang",
+        "Bruno da Silva",
+        "Dirk Stroobandt"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "372-373",
+      "doi": "10.23919/fplcps00026.2026.00071",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754234/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00071"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00063",
+      "source": "library",
+      "kind": "conference",
+      "title": "From Isolated Solutions to Integrated Co-Design: Enabling Practical Near-Data Processing for Data Analytics",
+      "authors": [
+        "Faeze Faghih"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "356-357",
+      "doi": "10.23919/fplcps00026.2026.00063",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754213/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00063"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00026",
+      "source": "library",
+      "kind": "conference",
+      "title": "FlexViT: A Flexible FPGA-Based Accelerator for Edge Vision Transformers",
+      "authors": [
+        "Hubert Dymarkowski",
+        "Xingjian Fu",
+        "Rappy Saha",
+        "Jude Haris",
+        "José Cano"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "98-106",
+      "doi": "10.23919/fplcps00026.2026.00026",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754270/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00026"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00070",
+      "source": "library",
+      "kind": "conference",
+      "title": "Fine-Grained Timing Constraints for Standard-Cell eFPGA Fabrics",
+      "authors": [
+        "Hao Wang",
+        "Jeffrey Prinzie"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "370-371",
+      "doi": "10.23919/fplcps00026.2026.00070",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754259/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00070"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00036",
+      "source": "library",
+      "kind": "conference",
+      "title": "Faster than the Speed of BRAM: In-Memory Computing for Next Generation FPGAs",
+      "authors": [
+        "Nathaniel Fredricks",
+        "Abraham Mitchell",
+        "Jason D. Bakos",
+        "David Andrews"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "183-191",
+      "doi": "10.23919/fplcps00026.2026.00036",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754240/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00036"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00044",
+      "source": "library",
+      "kind": "conference",
+      "title": "FPGA-Based MPSoCs for High-Performance Planner: Accelerating TLBO",
+      "authors": [
+        "Hazem M. Sharf",
+        "Mohamed Hassan"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "256-264",
+      "doi": "10.23919/fplcps00026.2026.00044",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754243/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00044"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00029",
+      "source": "library",
+      "kind": "conference",
+      "title": "FPGA Acceleration of Fully Homomorphic Encryption with Adaptive Key Switching",
+      "authors": [
+        "Zhihan Xu",
+        "Jayashree Adivarahan",
+        "Rajgopal Kannan",
+        "Viktor K. Prasanna"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "122-131",
+      "doi": "10.23919/fplcps00026.2026.00029",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754121/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00029"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00041",
+      "source": "library",
+      "kind": "conference",
+      "title": "FATE: FPGA-Based Frequency-Adaptive Timing-Accurate DDR PHY Emulator",
+      "authors": [
+        "Congrong Ye",
+        "Shixian Yan",
+        "Yangyang Zhao",
+        "Han Wang",
+        "Tianyue Lu",
+        "Mingyu Chen"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "228-236",
+      "doi": "10.23919/fplcps00026.2026.00041",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754263/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00041"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00074",
+      "source": "library",
+      "kind": "conference",
+      "title": "FABulous eFPGAs – Framework and Chips",
+      "authors": [
+        "Dirk Koch",
+        "Myrtle Shah",
+        "King Lok Chung",
+        "Jonas Kuenstler",
+        "Marcel Jung",
+        "Jakob Ternes",
+        "Asma Mohsin",
+        "Leo Moser"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "378-378",
+      "doi": "10.23919/fplcps00026.2026.00074",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754168/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00074"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00022",
+      "source": "library",
+      "kind": "conference",
+      "title": "Exploration of High-Performance Branch Predictors for Softcore Implementations",
+      "authors": [
+        "Talha Israr",
+        "Ayesha Quddus",
+        "Philippos Papaphilippou"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "62-70",
+      "doi": "10.23919/fplcps00026.2026.00022",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754275/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00022"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00037",
+      "source": "library",
+      "kind": "conference",
+      "title": "ExSpike: A General Full-Event Neuromorphic Architecture for Exploiting Irregular Sparsity with Event Compression",
+      "authors": [
+        "Yuehai Chen",
+        "Farhad Merchant"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "192-200",
+      "doi": "10.23919/fplcps00026.2026.00037",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754184/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00037"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00076",
+      "source": "library",
+      "kind": "conference",
+      "title": "Ergonomic C/C++ Source-to-Source Analysis and Transformations for HLS Using Clava",
+      "authors": [
+        "Tiago Santos",
+        "João Bispo",
+        "João M. P. Cardoso"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "380-380",
+      "doi": "10.23919/fplcps00026.2026.00076",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754253/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00076"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00062",
+      "source": "library",
+      "kind": "conference",
+      "title": "Enabling LLM-Based FPGA Architectural Exploration",
+      "authors": [
+        "Mousa Al-Qawasmi",
+        "Andy Ye"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "354-355",
+      "doi": "10.23919/fplcps00026.2026.00062",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754257/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00062"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00033",
+      "source": "library",
+      "kind": "conference",
+      "title": "Efficient Parallelization of Large-Scale Modular Multiplication via Low-Latency LogJumps",
+      "authors": [
+        "Selim Kirbiyik",
+        "Maciej Czuprynko",
+        "Florian Krieger",
+        "Florian Hirner",
+        "Sujoy Sinha Roy"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "159-164",
+      "doi": "10.23919/fplcps00026.2026.00033",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754207/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00033"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00066",
+      "source": "library",
+      "kind": "conference",
+      "title": "Efficient FPGA Hardware Acceleration for Event-Based Perception in Mobile Robotics",
+      "authors": [
+        "Piotr Wzorek",
+        "Tomasz Kryjak",
+        "Marek Gorgoń"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "362-363",
+      "doi": "10.23919/fplcps00026.2026.00066",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754276/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00066"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00075",
+      "source": "library",
+      "kind": "conference",
+      "title": "DynaRapid on PYNQ Video Pipeline: Compile and Run Video Filters on an FPGA in Seconds",
+      "authors": [
+        "Andrea Guerrieri",
+        "John Biselx",
+        "Chris Lavin",
+        "Eddie Hung"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "379-379",
+      "doi": "10.23919/fplcps00026.2026.00075",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754208/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00075"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00051",
+      "source": "library",
+      "kind": "conference",
+      "title": "Design Rules for Extreme-Edge Scientific Computing on AI Engines",
+      "authors": [
+        "Zhenghua Ma",
+        "G Abarajithan",
+        "Dimitrios Danopoulos",
+        "Olivia Weng",
+        "Francesco Restuccia",
+        "Ryan Kastner"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "316-325",
+      "doi": "10.23919/fplcps00026.2026.00051",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754167/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00051"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00030",
+      "source": "library",
+      "kind": "conference",
+      "title": "Design Exploration of Lightweight Radix-4 NTT Multiplication Unit for ML-KEM and ML-DSA on FPGA",
+      "authors": [
+        "Suraj Mandal",
+        "Neha Chaurasia",
+        "Debapriya Basu Roy"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "132-140",
+      "doi": "10.23919/fplcps00026.2026.00030",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754274/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00030"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00077",
+      "source": "library",
+      "kind": "conference",
+      "title": "Demonstrating FPGA-on-FPGA-Based Instructions on a RISC-V Softcore through MicroPython",
+      "authors": [
+        "Philippos Papaphilippou"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "381-381",
+      "doi": "10.23919/fplcps00026.2026.00077",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754214/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00077"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00080",
+      "source": "library",
+      "kind": "conference",
+      "title": "Demo: Event-Based Motion Estimation via FPGA-Accelerated Contrast Maximization",
+      "authors": [
+        "Marcin Kowalczyk",
+        "Michal Filipkowski",
+        "Tomasz Kryjak"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "384-384",
+      "doi": "10.23919/fplcps00026.2026.00080",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754196/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00080"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00047",
+      "source": "library",
+      "kind": "conference",
+      "title": "DGNNFlow: A Streaming Dataflow Architecture for Real-Time Edge-Based Dynamic GNN Inference in HL-LHC Trigger Systems",
+      "authors": [
+        "Davendra Maharaj",
+        "Tu Pham",
+        "Peter Meiring",
+        "Kyungmin Park",
+        "Sena Durgut",
+        "Cong Hao",
+        "Matteo Cremonesi"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "284-289",
+      "doi": "10.23919/fplcps00026.2026.00047",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754118/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00047"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00016",
+      "source": "library",
+      "kind": "conference",
+      "title": "Cocotb-PYNQ-PR: From Co-Simulation to Deployment, A Unified DFX Framework for PYNQ",
+      "authors": [
+        "Emir Guevara",
+        "Chaitanya Sharma",
+        "Gavin Lusby",
+        "Nachiket Kapre"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "10-18",
+      "doi": "10.23919/fplcps00026.2026.00016",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754262/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00016"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00024",
+      "source": "library",
+      "kind": "conference",
+      "title": "ClusterEXP4LLM: A MiniWarp-Aware Clustering Accelerator for Exponential Functions in LLM Inference",
+      "authors": [
+        "Jiyuan Miao",
+        "Shiyu Wang",
+        "Xi Cao",
+        "Di Zhao"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "80-88",
+      "doi": "10.23919/fplcps00026.2026.00024",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754279/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00024"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00028",
+      "source": "library",
+      "kind": "conference",
+      "title": "CascadeLUT: Information-Ordered Streaming Inference for Bandwidth-Constrained FPGAs",
+      "authors": [
+        "Oliver Cassidy",
+        "Marta Andronic",
+        "George A. Constantinides"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "116-121",
+      "doi": "10.23919/fplcps00026.2026.00028",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754193/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00028"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00073",
+      "source": "library",
+      "kind": "conference",
+      "title": "Automated Holistic HW/SW Partitioning and Optimization for CPU-FPGA Acceleration",
+      "authors": [
+        "Tiago Santos",
+        "João Bispo",
+        "João M. P. Cardoso"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "376-377",
+      "doi": "10.23919/fplcps00026.2026.00073",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754292/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00073"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00061",
+      "source": "library",
+      "kind": "conference",
+      "title": "AtomDAG: A Reconfigurable Pipeline Architecture for Near-Linear DAGs on FPGAs",
+      "authors": [
+        "Lu Jiang",
+        "Diana Göhringer"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "352-353",
+      "doi": "10.23919/fplcps00026.2026.00061",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754195/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00061"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00015",
+      "source": "library",
+      "kind": "conference",
+      "title": "Aperture: A Software-Defined Interconnect for Multi-FPGA Prototyping Systems",
+      "authors": [
+        "Panyu Wang",
+        "Yazhou Wang",
+        "Congwu Zhang",
+        "Bibo Yang",
+        "Mingyu Chen",
+        "Yungang Bao",
+        "Ke Zhang"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "1-9",
+      "doi": "10.23919/fplcps00026.2026.00015",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754126/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00015"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00057",
+      "source": "library",
+      "kind": "conference",
+      "title": "Activation Function Approximations Using a Reconfigurable Multilayer Perceptron",
+      "authors": [
+        "Mustafa Ibrahim",
+        "Rémi Garcia",
+        "Sébastien Pillement",
+        "Andrea Pinna"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "344-345",
+      "doi": "10.23919/fplcps00026.2026.00057",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754133/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00057"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00038",
+      "source": "library",
+      "kind": "conference",
+      "title": "Accelerating the Training of Tree-Based Machine Learning Algorithms for Edge Systems",
+      "authors": [
+        "Ali Emre Oztas",
+        "Mahir Demir",
+        "Can Erim Karsal",
+        "Nikolaos Kyparissas",
+        "Mikel Luján"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "201-209",
+      "doi": "10.23919/fplcps00026.2026.00038",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754235/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00038"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00054",
+      "source": "library",
+      "kind": "conference",
+      "title": "Accelerating Buffer Sizing for Dataflow Architectures: Control-Path-Driven Black-Box RTL Simulation in FINN",
+      "authors": [
+        "Linus Jungemann",
+        "Bjarne Wintermann",
+        "Heinrich Riebler",
+        "Felix Jentzsch",
+        "Christoph Berganski",
+        "Christian Plessl"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "338-339",
+      "doi": "10.23919/fplcps00026.2026.00054",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754183/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00054"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00031",
+      "source": "library",
+      "kind": "conference",
+      "title": "A Reconfigurable and High-Efficiency NTT Accelerator for Zero-Knowledge Proof",
+      "authors": [
+        "Han Tian",
+        "Zihang Guo",
+        "Zhaohui Guo",
+        "Qiang Liu"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "141-149",
+      "doi": "10.23919/fplcps00026.2026.00031",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754212/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00031"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00056",
+      "source": "library",
+      "kind": "conference",
+      "title": "A Modular Architecture for Distributed, Synchronized, and Low-Latency Quantum Control Electronics",
+      "authors": [
+        "Lukas Scheller",
+        "Marvin Fuchs",
+        "Robert Gartmann",
+        "Timo Muscheid",
+        "Oliver Sander",
+        "Luis E. Ardila-Perez"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "342-343",
+      "doi": "10.23919/fplcps00026.2026.00056",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754215/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00056"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00059",
+      "source": "library",
+      "kind": "conference",
+      "title": "A Balanced Dual-FPGA Deployment Framework for Mixture-of-Experts with Predictive Scheduling",
+      "authors": [
+        "Jun Liu",
+        "Yongchao Xu",
+        "Meiqi Wang",
+        "Yuegen Gong",
+        "Qinghe Yao"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "348-349",
+      "doi": "10.23919/fplcps00026.2026.00059",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754188/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00059"
+    },
+    {
+      "id": "doi:10.23919/fplcps00026.2026.00040",
+      "source": "library",
+      "kind": "conference",
+      "title": "A 1-GHz RISC-V Soft-Core Processor",
+      "authors": [
+        "Riadh Ben Abdelhamid",
+        "Dirk Koch"
+      ],
+      "summary": "",
+      "venue": "FPT",
+      "venueName": "FPT",
+      "area": "Reconfigurable Computing",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-01",
+      "pages": "219-227",
+      "doi": "10.23919/fplcps00026.2026.00040",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11754198/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.23919/fplcps00026.2026.00040"
+    },
     {
       "id": "doi:10.1109/fccm68464.2026.00020",
       "source": "library",
@@ -26,7 +1770,9 @@
       "doi": "10.1109/fccm68464.2026.00020",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552715/"
+      "url": "https://ieeexplore.ieee.org/document/11552715/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00020"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00036",
@@ -49,7 +1795,9 @@
       "doi": "10.1109/fccm68464.2026.00036",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552710/"
+      "url": "https://ieeexplore.ieee.org/document/11552710/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00036"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00025",
@@ -75,7 +1823,9 @@
       "doi": "10.1109/fccm68464.2026.00025",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552664/"
+      "url": "https://ieeexplore.ieee.org/document/11552664/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00025"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00028",
@@ -98,7 +1848,9 @@
       "doi": "10.1109/fccm68464.2026.00028",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552713/"
+      "url": "https://ieeexplore.ieee.org/document/11552713/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00028"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00054",
@@ -122,7 +1874,9 @@
       "doi": "10.1109/fccm68464.2026.00054",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552705/"
+      "url": "https://ieeexplore.ieee.org/document/11552705/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00054"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00083",
@@ -145,7 +1899,9 @@
       "doi": "10.1109/fccm68464.2026.00083",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552686/"
+      "url": "https://ieeexplore.ieee.org/document/11552686/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00083"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00040",
@@ -170,7 +1926,9 @@
       "doi": "10.1109/fccm68464.2026.00040",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552697/"
+      "url": "https://ieeexplore.ieee.org/document/11552697/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00040"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00034",
@@ -196,7 +1954,9 @@
       "doi": "10.1109/fccm68464.2026.00034",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552709/"
+      "url": "https://ieeexplore.ieee.org/document/11552709/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00034"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00058",
@@ -224,7 +1984,9 @@
       "doi": "10.1109/fccm68464.2026.00058",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552662/"
+      "url": "https://ieeexplore.ieee.org/document/11552662/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00058"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00051",
@@ -253,7 +2015,9 @@
       "doi": "10.1109/fccm68464.2026.00051",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552654/"
+      "url": "https://ieeexplore.ieee.org/document/11552654/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00051"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00081",
@@ -276,7 +2040,9 @@
       "doi": "10.1109/fccm68464.2026.00081",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552675/"
+      "url": "https://ieeexplore.ieee.org/document/11552675/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00081"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00065",
@@ -301,7 +2067,9 @@
       "doi": "10.1109/fccm68464.2026.00065",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552674/"
+      "url": "https://ieeexplore.ieee.org/document/11552674/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00065"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00015",
@@ -327,7 +2095,9 @@
       "doi": "10.1109/fccm68464.2026.00015",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552646/"
+      "url": "https://ieeexplore.ieee.org/document/11552646/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00015"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00071",
@@ -350,7 +2120,9 @@
       "doi": "10.1109/fccm68464.2026.00071",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552726/"
+      "url": "https://ieeexplore.ieee.org/document/11552726/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00071"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00050",
@@ -377,7 +2149,9 @@
       "doi": "10.1109/fccm68464.2026.00050",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552708/"
+      "url": "https://ieeexplore.ieee.org/document/11552708/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00050"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00023",
@@ -410,7 +2184,9 @@
       "doi": "10.1109/fccm68464.2026.00023",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552696/"
+      "url": "https://ieeexplore.ieee.org/document/11552696/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00023"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00059",
@@ -438,7 +2214,9 @@
       "doi": "10.1109/fccm68464.2026.00059",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552716/"
+      "url": "https://ieeexplore.ieee.org/document/11552716/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00059"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00078",
@@ -464,7 +2242,9 @@
       "doi": "10.1109/fccm68464.2026.00078",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552671/"
+      "url": "https://ieeexplore.ieee.org/document/11552671/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00078"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00074",
@@ -491,7 +2271,9 @@
       "doi": "10.1109/fccm68464.2026.00074",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552667/"
+      "url": "https://ieeexplore.ieee.org/document/11552667/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00074"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00079",
@@ -518,7 +2300,9 @@
       "doi": "10.1109/fccm68464.2026.00079",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552659/"
+      "url": "https://ieeexplore.ieee.org/document/11552659/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00079"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00076",
@@ -546,7 +2330,9 @@
       "doi": "10.1109/fccm68464.2026.00076",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552653/"
+      "url": "https://ieeexplore.ieee.org/document/11552653/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00076"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00077",
@@ -575,7 +2361,9 @@
       "doi": "10.1109/fccm68464.2026.00077",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552699/"
+      "url": "https://ieeexplore.ieee.org/document/11552699/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00077"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00075",
@@ -602,7 +2390,9 @@
       "doi": "10.1109/fccm68464.2026.00075",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552718/"
+      "url": "https://ieeexplore.ieee.org/document/11552718/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00075"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00073",
@@ -628,7 +2418,9 @@
       "doi": "10.1109/fccm68464.2026.00073",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552658/"
+      "url": "https://ieeexplore.ieee.org/document/11552658/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00073"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00033",
@@ -653,7 +2445,9 @@
       "doi": "10.1109/fccm68464.2026.00033",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552700/"
+      "url": "https://ieeexplore.ieee.org/document/11552700/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00033"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00026",
@@ -679,7 +2473,9 @@
       "doi": "10.1109/fccm68464.2026.00026",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552648/"
+      "url": "https://ieeexplore.ieee.org/document/11552648/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00026"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00057",
@@ -707,7 +2503,9 @@
       "doi": "10.1109/fccm68464.2026.00057",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552703/"
+      "url": "https://ieeexplore.ieee.org/document/11552703/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00057"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00030",
@@ -735,7 +2533,9 @@
       "doi": "10.1109/fccm68464.2026.00030",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552651/"
+      "url": "https://ieeexplore.ieee.org/document/11552651/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00030"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00021",
@@ -759,7 +2559,9 @@
       "doi": "10.1109/fccm68464.2026.00021",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552694/"
+      "url": "https://ieeexplore.ieee.org/document/11552694/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00021"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00046",
@@ -786,7 +2588,9 @@
       "doi": "10.1109/fccm68464.2026.00046",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552661/"
+      "url": "https://ieeexplore.ieee.org/document/11552661/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00046"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00068",
@@ -810,7 +2614,9 @@
       "doi": "10.1109/fccm68464.2026.00068",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552666/"
+      "url": "https://ieeexplore.ieee.org/document/11552666/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00068"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00066",
@@ -835,7 +2641,9 @@
       "doi": "10.1109/fccm68464.2026.00066",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552720/"
+      "url": "https://ieeexplore.ieee.org/document/11552720/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00066"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00038",
@@ -864,7 +2672,9 @@
       "doi": "10.1109/fccm68464.2026.00038",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552655/"
+      "url": "https://ieeexplore.ieee.org/document/11552655/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00038"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00027",
@@ -890,7 +2700,9 @@
       "doi": "10.1109/fccm68464.2026.00027",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552691/"
+      "url": "https://ieeexplore.ieee.org/document/11552691/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00027"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00048",
@@ -916,7 +2728,9 @@
       "doi": "10.1109/fccm68464.2026.00048",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552660/"
+      "url": "https://ieeexplore.ieee.org/document/11552660/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00048"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00060",
@@ -940,7 +2754,9 @@
       "doi": "10.1109/fccm68464.2026.00060",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552698/"
+      "url": "https://ieeexplore.ieee.org/document/11552698/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00060"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00080",
@@ -963,7 +2779,9 @@
       "doi": "10.1109/fccm68464.2026.00080",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552724/"
+      "url": "https://ieeexplore.ieee.org/document/11552724/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00080"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00041",
@@ -987,7 +2805,9 @@
       "doi": "10.1109/fccm68464.2026.00041",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552725/"
+      "url": "https://ieeexplore.ieee.org/document/11552725/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00041"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00039",
@@ -1011,7 +2831,9 @@
       "doi": "10.1109/fccm68464.2026.00039",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552693/"
+      "url": "https://ieeexplore.ieee.org/document/11552693/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00039"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00017",
@@ -1039,7 +2861,9 @@
       "doi": "10.1109/fccm68464.2026.00017",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552695/"
+      "url": "https://ieeexplore.ieee.org/document/11552695/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00017"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00044",
@@ -1063,7 +2887,9 @@
       "doi": "10.1109/fccm68464.2026.00044",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552673/"
+      "url": "https://ieeexplore.ieee.org/document/11552673/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00044"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00064",
@@ -1087,7 +2913,9 @@
       "doi": "10.1109/fccm68464.2026.00064",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552683/"
+      "url": "https://ieeexplore.ieee.org/document/11552683/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00064"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00019",
@@ -1111,7 +2939,9 @@
       "doi": "10.1109/fccm68464.2026.00019",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552669/"
+      "url": "https://ieeexplore.ieee.org/document/11552669/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00019"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00082",
@@ -1134,7 +2964,9 @@
       "doi": "10.1109/fccm68464.2026.00082",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552647/"
+      "url": "https://ieeexplore.ieee.org/document/11552647/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00082"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00061",
@@ -1158,7 +2990,9 @@
       "doi": "10.1109/fccm68464.2026.00061",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552711/"
+      "url": "https://ieeexplore.ieee.org/document/11552711/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00061"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00018",
@@ -1187,7 +3021,9 @@
       "doi": "10.1109/fccm68464.2026.00018",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552665/"
+      "url": "https://ieeexplore.ieee.org/document/11552665/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00018"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00042",
@@ -1211,7 +3047,9 @@
       "doi": "10.1109/fccm68464.2026.00042",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552604/"
+      "url": "https://ieeexplore.ieee.org/document/11552604/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00042"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00067",
@@ -1234,7 +3072,9 @@
       "doi": "10.1109/fccm68464.2026.00067",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552714/"
+      "url": "https://ieeexplore.ieee.org/document/11552714/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00067"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00031",
@@ -1256,7 +3096,9 @@
       "doi": "10.1109/fccm68464.2026.00031",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552685/"
+      "url": "https://ieeexplore.ieee.org/document/11552685/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00031"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00032",
@@ -1285,7 +3127,9 @@
       "doi": "10.1109/fccm68464.2026.00032",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552688/"
+      "url": "https://ieeexplore.ieee.org/document/11552688/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00032"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00072",
@@ -1308,7 +3152,9 @@
       "doi": "10.1109/fccm68464.2026.00072",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552678/"
+      "url": "https://ieeexplore.ieee.org/document/11552678/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00072"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00022",
@@ -1340,7 +3186,9 @@
       "doi": "10.1109/fccm68464.2026.00022",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552663/"
+      "url": "https://ieeexplore.ieee.org/document/11552663/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00022"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00069",
@@ -1366,7 +3214,9 @@
       "doi": "10.1109/fccm68464.2026.00069",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552687/"
+      "url": "https://ieeexplore.ieee.org/document/11552687/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00069"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00016",
@@ -1390,7 +3240,9 @@
       "doi": "10.1109/fccm68464.2026.00016",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552677/"
+      "url": "https://ieeexplore.ieee.org/document/11552677/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00016"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00029",
@@ -1415,7 +3267,9 @@
       "doi": "10.1109/fccm68464.2026.00029",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552722/"
+      "url": "https://ieeexplore.ieee.org/document/11552722/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00029"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00055",
@@ -1438,7 +3292,9 @@
       "doi": "10.1109/fccm68464.2026.00055",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552721/"
+      "url": "https://ieeexplore.ieee.org/document/11552721/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00055"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00053",
@@ -1461,7 +3317,9 @@
       "doi": "10.1109/fccm68464.2026.00053",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552723/"
+      "url": "https://ieeexplore.ieee.org/document/11552723/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00053"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00063",
@@ -1490,7 +3348,9 @@
       "doi": "10.1109/fccm68464.2026.00063",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552672/"
+      "url": "https://ieeexplore.ieee.org/document/11552672/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00063"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00070",
@@ -1514,7 +3374,9 @@
       "doi": "10.1109/fccm68464.2026.00070",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552689/"
+      "url": "https://ieeexplore.ieee.org/document/11552689/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00070"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00052",
@@ -1542,7 +3404,9 @@
       "doi": "10.1109/fccm68464.2026.00052",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552682/"
+      "url": "https://ieeexplore.ieee.org/document/11552682/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00052"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00045",
@@ -1569,7 +3433,9 @@
       "doi": "10.1109/fccm68464.2026.00045",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552719/"
+      "url": "https://ieeexplore.ieee.org/document/11552719/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00045"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00062",
@@ -1598,7 +3464,9 @@
       "doi": "10.1109/fccm68464.2026.00062",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552676/"
+      "url": "https://ieeexplore.ieee.org/document/11552676/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00062"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00037",
@@ -1624,7 +3492,9 @@
       "doi": "10.1109/fccm68464.2026.00037",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552692/"
+      "url": "https://ieeexplore.ieee.org/document/11552692/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00037"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00047",
@@ -1652,7 +3522,9 @@
       "doi": "10.1109/fccm68464.2026.00047",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552670/"
+      "url": "https://ieeexplore.ieee.org/document/11552670/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00047"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00043",
@@ -1678,7 +3550,9 @@
       "doi": "10.1109/fccm68464.2026.00043",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552652/"
+      "url": "https://ieeexplore.ieee.org/document/11552652/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00043"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00035",
@@ -1706,7 +3580,9 @@
       "doi": "10.1109/fccm68464.2026.00035",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552717/"
+      "url": "https://ieeexplore.ieee.org/document/11552717/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00035"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00049",
@@ -1730,7 +3606,9 @@
       "doi": "10.1109/fccm68464.2026.00049",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552679/"
+      "url": "https://ieeexplore.ieee.org/document/11552679/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00049"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00024",
@@ -1754,7 +3632,9 @@
       "doi": "10.1109/fccm68464.2026.00024",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552656/"
+      "url": "https://ieeexplore.ieee.org/document/11552656/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00024"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.00056",
@@ -1784,7 +3664,9 @@
       "doi": "10.1109/fccm68464.2026.00056",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11552690/"
+      "url": "https://ieeexplore.ieee.org/document/11552690/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.00056"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.11703448",
@@ -1810,7 +3692,9 @@
       "doi": "10.1109/fccm68464.2026.11703448",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11703448/"
+      "url": "https://ieeexplore.ieee.org/document/11703448/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.11703448"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.11703450",
@@ -1836,7 +3720,9 @@
       "doi": "10.1109/fccm68464.2026.11703450",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11703450/"
+      "url": "https://ieeexplore.ieee.org/document/11703450/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.11703450"
     },
     {
       "id": "doi:10.1109/fccm68464.2026.11703449",
@@ -1859,7 +3745,9 @@
       "doi": "10.1109/fccm68464.2026.11703449",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11703449/"
+      "url": "https://ieeexplore.ieee.org/document/11703449/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/fccm68464.2026.11703449"
     },
     {
       "id": "doi:10.1145/3748173.3779206",
@@ -1890,7 +3778,9 @@
       "doi": "10.1145/3748173.3779206",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779206"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779206",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779206"
     },
     {
       "id": "doi:10.1145/3748173.3779565",
@@ -1916,7 +3806,9 @@
       "doi": "10.1145/3748173.3779565",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779565"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779565",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779565"
     },
     {
       "id": "doi:10.1145/3748173.3779194",
@@ -1942,7 +3834,9 @@
       "doi": "10.1145/3748173.3779194",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779194"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779194",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779194"
     },
     {
       "id": "doi:10.1145/3748173.3779568",
@@ -1971,7 +3865,9 @@
       "doi": "10.1145/3748173.3779568",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779568"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779568",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779568"
     },
     {
       "id": "doi:10.1145/3748173.3779191",
@@ -1997,7 +3893,9 @@
       "doi": "10.1145/3748173.3779191",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779191"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779191",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779191"
     },
     {
       "id": "doi:10.1145/3748173.3779199",
@@ -2028,7 +3926,9 @@
       "doi": "10.1145/3748173.3779199",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779199"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779199",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779199"
     },
     {
       "id": "doi:10.1145/3748173.3779547",
@@ -2055,7 +3955,9 @@
       "doi": "10.1145/3748173.3779547",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779547"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779547",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779547"
     },
     {
       "id": "doi:10.1145/3748173.3779551",
@@ -2082,7 +3984,9 @@
       "doi": "10.1145/3748173.3779551",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779551"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779551",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779551"
     },
     {
       "id": "doi:10.1145/3748173.3779198",
@@ -2107,7 +4011,9 @@
       "doi": "10.1145/3748173.3779198",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779198"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779198",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779198"
     },
     {
       "id": "doi:10.1145/3748173.3779186",
@@ -2132,7 +4038,9 @@
       "doi": "10.1145/3748173.3779186",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779186"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779186",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779186"
     },
     {
       "id": "doi:10.1145/3748173.3779569",
@@ -2158,7 +4066,9 @@
       "doi": "10.1145/3748173.3779569",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779569"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779569",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779569"
     },
     {
       "id": "doi:10.1145/3748173.3779574",
@@ -2185,7 +4095,9 @@
       "doi": "10.1145/3748173.3779574",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779574"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779574",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779574"
     },
     {
       "id": "doi:10.1145/3748173.3779204",
@@ -2210,7 +4122,9 @@
       "doi": "10.1145/3748173.3779204",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779204"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779204",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779204"
     },
     {
       "id": "doi:10.1145/3748173.3779552",
@@ -2234,7 +4148,9 @@
       "doi": "10.1145/3748173.3779552",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779552"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779552",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779552"
     },
     {
       "id": "doi:10.1145/3748173.3779549",
@@ -2258,7 +4174,9 @@
       "doi": "10.1145/3748173.3779549",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779549"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779549",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779549"
     },
     {
       "id": "doi:10.1145/3748173.3779548",
@@ -2280,7 +4198,9 @@
       "doi": "10.1145/3748173.3779548",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779548"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779548",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779548"
     },
     {
       "id": "doi:10.1145/3748173.3779563",
@@ -2305,7 +4225,9 @@
       "doi": "10.1145/3748173.3779563",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779563"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779563",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779563"
     },
     {
       "id": "doi:10.1145/3748173.3779197",
@@ -2334,7 +4256,9 @@
       "doi": "10.1145/3748173.3779197",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779197"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779197",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779197"
     },
     {
       "id": "doi:10.1145/3748173.3779573",
@@ -2360,7 +4284,9 @@
       "doi": "10.1145/3748173.3779573",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779573"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779573",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779573"
     },
     {
       "id": "doi:10.1145/3748173.3779202",
@@ -2384,7 +4310,9 @@
       "doi": "10.1145/3748173.3779202",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779202"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779202",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779202"
     },
     {
       "id": "doi:10.1145/3748173.3779570",
@@ -2412,7 +4340,9 @@
       "doi": "10.1145/3748173.3779570",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779570"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779570",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779570"
     },
     {
       "id": "doi:10.1145/3748173.3779203",
@@ -2443,7 +4373,9 @@
       "doi": "10.1145/3748173.3779203",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779203"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779203",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779203"
     },
     {
       "id": "doi:10.1145/3748173.3779189",
@@ -2470,7 +4402,9 @@
       "doi": "10.1145/3748173.3779189",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779189"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779189",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779189"
     },
     {
       "id": "doi:10.1145/3748173.3779207",
@@ -2495,7 +4429,9 @@
       "doi": "10.1145/3748173.3779207",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779207"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779207",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779207"
     },
     {
       "id": "doi:10.1145/3748173.3779190",
@@ -2519,7 +4455,9 @@
       "doi": "10.1145/3748173.3779190",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779190"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779190",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779190"
     },
     {
       "id": "doi:10.1145/3748173.3779200",
@@ -2547,7 +4485,9 @@
       "doi": "10.1145/3748173.3779200",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779200"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779200",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779200"
     },
     {
       "id": "doi:10.1145/3748173.3779553",
@@ -2572,7 +4512,9 @@
       "doi": "10.1145/3748173.3779553",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779553"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779553",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779553"
     },
     {
       "id": "doi:10.1145/3748173.3779201",
@@ -2596,7 +4538,9 @@
       "doi": "10.1145/3748173.3779201",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779201"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779201",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779201"
     },
     {
       "id": "doi:10.1145/3748173.3779192",
@@ -2620,7 +4564,9 @@
       "doi": "10.1145/3748173.3779192",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779192"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779192",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779192"
     },
     {
       "id": "doi:10.1145/3748173.3779184",
@@ -2643,7 +4589,9 @@
       "doi": "10.1145/3748173.3779184",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779184"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779184",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779184"
     },
     {
       "id": "doi:10.1145/3748173.3779559",
@@ -2669,7 +4617,9 @@
       "doi": "10.1145/3748173.3779559",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779559"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779559",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779559"
     },
     {
       "id": "doi:10.1145/3748173.3779185",
@@ -2693,7 +4643,9 @@
       "doi": "10.1145/3748173.3779185",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779185"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779185",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779185"
     },
     {
       "id": "doi:10.1145/3748173.3779572",
@@ -2718,7 +4670,9 @@
       "doi": "10.1145/3748173.3779572",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779572"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779572",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779572"
     },
     {
       "id": "doi:10.1145/3748173.3779546",
@@ -2745,7 +4699,9 @@
       "doi": "10.1145/3748173.3779546",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779546"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779546",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779546"
     },
     {
       "id": "doi:10.1145/3748173.3779187",
@@ -2770,7 +4726,9 @@
       "doi": "10.1145/3748173.3779187",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779187"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779187",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779187"
     },
     {
       "id": "doi:10.1145/3748173.3779193",
@@ -2794,7 +4752,9 @@
       "doi": "10.1145/3748173.3779193",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779193"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779193",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779193"
     },
     {
       "id": "doi:10.1145/3748173.3779196",
@@ -2818,7 +4778,9 @@
       "doi": "10.1145/3748173.3779196",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779196"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779196",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779196"
     },
     {
       "id": "doi:10.1145/3748173.3779558",
@@ -2846,7 +4808,9 @@
       "doi": "10.1145/3748173.3779558",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779558"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779558",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779558"
     },
     {
       "id": "doi:10.1145/3748173.3779543",
@@ -2870,7 +4834,9 @@
       "doi": "10.1145/3748173.3779543",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779543"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779543",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779543"
     },
     {
       "id": "doi:10.1145/3748173.3779188",
@@ -2893,7 +4859,9 @@
       "doi": "10.1145/3748173.3779188",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779188"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779188",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779188"
     },
     {
       "id": "doi:10.1145/3748173.3779550",
@@ -2919,7 +4887,9 @@
       "doi": "10.1145/3748173.3779550",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779550"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779550",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779550"
     },
     {
       "id": "doi:10.1145/3748173.3779571",
@@ -2943,7 +4913,9 @@
       "doi": "10.1145/3748173.3779571",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779571"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779571",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779571"
     },
     {
       "id": "doi:10.1145/3748173.3779195",
@@ -2967,7 +4939,9 @@
       "doi": "10.1145/3748173.3779195",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779195"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779195",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779195"
     },
     {
       "id": "doi:10.1145/3748173.3779544",
@@ -2990,7 +4964,9 @@
       "doi": "10.1145/3748173.3779544",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779544"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779544",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779544"
     },
     {
       "id": "doi:10.1145/3748173.3779555",
@@ -3014,7 +4990,9 @@
       "doi": "10.1145/3748173.3779555",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779555"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779555",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779555"
     },
     {
       "id": "doi:10.1145/3748173.3779566",
@@ -3040,7 +5018,9 @@
       "doi": "10.1145/3748173.3779566",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779566"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779566",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779566"
     },
     {
       "id": "doi:10.1145/3748173.3779205",
@@ -3066,7 +5046,9 @@
       "doi": "10.1145/3748173.3779205",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779205"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779205",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779205"
     },
     {
       "id": "doi:10.1145/3748173.3779557",
@@ -3091,7 +5073,9 @@
       "doi": "10.1145/3748173.3779557",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779557"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779557",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779557"
     },
     {
       "id": "doi:10.1145/3748173.3779560",
@@ -3116,7 +5100,9 @@
       "doi": "10.1145/3748173.3779560",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779560"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779560",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779560"
     },
     {
       "id": "doi:10.1145/3748173.3779564",
@@ -3140,7 +5126,9 @@
       "doi": "10.1145/3748173.3779564",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779564"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779564",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779564"
     },
     {
       "id": "doi:10.1145/3748173.3779562",
@@ -3170,7 +5158,9 @@
       "doi": "10.1145/3748173.3779562",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779562"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779562",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779562"
     },
     {
       "id": "doi:10.1145/3748173.3779561",
@@ -3194,7 +5184,9 @@
       "doi": "10.1145/3748173.3779561",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3748173.3779561"
+      "url": "https://dl.acm.org/doi/10.1145/3748173.3779561",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3748173.3779561"
     }
   ]
 }

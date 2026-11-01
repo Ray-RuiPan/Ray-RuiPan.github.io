@@ -17,7 +17,7 @@
         "Yu Feng",
         "Yiming Gan"
       ],
-      "summary": "",
+      "summary": "Rigid-flexible robots, integrating soft materials with rigid structures, have garnered increasing research interest due to their enhanced capabilities, flexibility, and inherent safety. However, existing control algorithms for these robots often exhibit high computational complexity, hindering real-time implementation. This work proposes VelKoz , an accelerator generation framework tailored for rigid-flexible robot control. It enables users to program in MATLAB and generate synthesizable Verilog code for control algorithms. A key challenge addressed is the integration of robotics domain knowledge with the dataflow representations commonly used in hardware accelerator design. Experimental results demonstrate that the generated accelerators achieve orders-of-magnitude lower latency and energy consumption compared to general-purpose CPUs and outperform customized high-level synthesis (HLS) implementations by 5.3 ×.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -32,7 +32,9 @@
       "doi": "10.1145/3797482",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3797482"
+      "url": "https://doi.org/10.1145/3797482",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3797482"
     },
     {
       "id": "doi:10.1145/3793848",
@@ -47,7 +49,7 @@
         "Vincent Beroulle",
         "Giorgio Di Natale"
       ],
-      "summary": "",
+      "summary": "Physical Unclonable Functions (PUFs) play a crucial role in enhancing the security of electronic devices by leveraging inherent manufacturing variations to generate unique and unclonable identifiers. This study explores the vulnerability of Ring Oscillator-based PUFs (RO-PUFs) to thermal attacks, focusing on two semiconductor technologies: Bulk 65 nm and Fully Depleted Silicon on Insulator (FDSOI) in 28 nm. Through detailed simulations, the effects of uniform and localized thermal variations on the stability of ring oscillator frequencies are analyzed. The results reveal that while the Bulk 65 nm technology shows resistance to uniform thermal attacks, it is highly sensitive to localized attacks. In contrast, the FDSOI 28 nm technology is vulnerable to both types of attacks due to its low variability. These observations underscore the need for robust countermeasures in the design of PUFs to ensure their reliability under varying thermal conditions.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -62,7 +64,9 @@
       "doi": "10.1145/3793848",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3793848"
+      "url": "https://doi.org/10.1145/3793848",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3793848"
     },
     {
       "id": "doi:10.1145/3797481",
@@ -78,7 +82,7 @@
         "Rui Yin (尹睿)",
         "Mingyu Li (李明玉)"
       ],
-      "summary": "",
+      "summary": "As a forefront core functional module, a bootstrapped sampling switch (BSS) built-in an analog-digital converter (ADC) contributes to realize a high-precision signal sampling in bioelectrical sensing systems. A novel algorithm-based automatic approach to guide the optimal design of a high-performance bootstrapped sampling switch is proposed. Within the first manual topology optimization, a complementary sampling transfer-gate is designed to suppress the clock feed-through effect, and a dynamic body bias control module and an improved bootstrapped closed-loop-path are constructed to effectively improve the linearity. In the secondary core algorithm-based performance solving stage, a support vector regression (SVR) machine is adopted to further explore the best design tradeoff between dynamic noise feature and power dissipation according to the model-training-based optimal solution of the design parameters. SMIC 180 nm/1.8 V standard CMOS technology is employed to implement the front/back-end design of the proposed BSS circuit, and pre-/post-layout simulations for feature verification are performed. Final experimental results show that, targeting a test benchmark signal of 100 Hz and 1.2 V p-p in 51.2 kHz sampling frequency, after mixed-optimization-based ENOB and SNR can be reached up to 12.969 bits and 103.046 dB, respectively. Similar to the other two key dynamic performance indexes, SFDR and THD are also improved to 70.905 dBc and -69.508 dB, respectively. In the design case comparison, with a higher power supply voltage of 1.8 V and kHz-order frequency, the average power consumption is only approximately 0.188 μW. These feature results demonstrated the significant effectiveness of the proposed SVR algorithm aided artificial optimization approach on bootstrapped sampling switch design, and the comprehensive specification of switches can meet the demand of the specific application of highly accurate human bioelectrical signal sampling.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -93,7 +97,9 @@
       "doi": "10.1145/3797481",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3797481"
+      "url": "https://doi.org/10.1145/3797481",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3797481"
     },
     {
       "id": "doi:10.1145/3796520",
@@ -108,7 +114,7 @@
         "Bei Yu",
         "Wenxing Zhu"
       ],
-      "summary": "",
+      "summary": "Timing convergence is paramount for the feasibility of VLSI circuit design, which is highly dependent on timing optimization during VLSI placement. Timing-driven placement usually achieves timing optimization by optimizing the locations of timing-violating cells. These cells are often characterized by timing criticality in global and detailed placement. However, we find that this metric cannot accurately capture the cells whose movement will affect the overall timing results. To bridge this gap, this article proposes a timing sensitivity analysis framework to precisely quantify the impact of physical objects (pins, combinational cells, FFs, and nets) on overall timing. Within this framework, we derive the TNS and WNS sensitivities of pins, combinational cells, FFs, and nets. Moreover, we introduce a total timing sensitivity metric to estimate how much physical objects affect the total timing. To validate its effectiveness, the timing sensitivity analysis framework is utilized to refine the combinational cell movement techniques in Rsyn [ 6 , 7 ]. Moreover, we develop an FF classification and moving scheme based on the timing sensitivity analysis framework, to further enhance timing optimization. Experimental results show that our approach achieves remarkable average improvements in TNS and WNS without compromising total wirelength and routability, compared to the state-of-the-art timing-driven detailed placer.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -123,7 +129,9 @@
       "doi": "10.1145/3796520",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3796520"
+      "url": "https://doi.org/10.1145/3796520",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3796520"
     },
     {
       "id": "doi:10.1145/3797485",
@@ -137,7 +145,7 @@
         "Yi Kang",
         "Bei Yu"
       ],
-      "summary": "",
+      "summary": "Large-scale resistive random access memory (ReRAM) crossbar arrays have attracted considerable interest for in-memory computing (IMC) applications due to their high integration density and intrinsic parallelism. To enable systematic exploration of architectural design spaces, accurate modeling and efficient simulation of arrays are crucial. However, as arrays sizes increase, non-ideal effects—such as IR-Drop, I-V nonlinearity, and device noises—significantly degrade computational accuracy and efficiency. Although SPICE-based circuit simulators provide high fidelity, their excessive computational and memory overhead makes them impractical for simulating large-scale arrays under non-ideal conditions. In this article, we propose an efficient and scalable numerical framework for simulating large-scale ReRAM crossbar arrays under various conditions, including ideal behavior, I-V nonlinearity, and device noises, and so on. The proposed methodology integrates Cholesky decomposition with a fast iterative solver to enhance computational efficiency. Experimental results demonstrate that compared with existing solvers, our framework achieves high accuracy while greatly reducing runtime and memory consumption in modeling large-scale ReRAM crossbar arrays. This advantage is particularly evident under ReRAM nonlinearity and IR-Drop effects, achieving an average speedup of 162.9× over HSPICE across array sizes ranging from 128 to 2048. This work facilitates efficient and accurate design space exploration for next-generation ReRAM-based accelerators.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -152,7 +160,9 @@
       "doi": "10.1145/3797485",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3797485"
+      "url": "https://doi.org/10.1145/3797485",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3797485"
     },
     {
       "id": "doi:10.1145/3795519",
@@ -168,7 +178,7 @@
         "Zhigang Cai",
         "Jianwei Liao"
       ],
-      "summary": "",
+      "summary": "Read disturb is a circuit-level noise in high-density solid-state drives (SSDs), which may corrupt existing data in SSD blocks and then cause high read error rates. The approach of read reclaim (RR) is commonly used to avoid read disturb errors by migrating the valid data pages to other free blocks for resetting the negative effects of read disturbs, but it affects both I/O responsiveness and SSD lifetime. This article proposes SWEEP to minimize the number of RR operations. Specifically, it gathers hot read and hot write data pages together, and saves them in a portion of designated blocks. After that, the hot write data pages will be invalidated and the hot read data pages in such blocks are likely to be migrated to other blocks through garbage collection (GC). Consequently, the read disturbs on these hot read data pages will be reset, without additional RR operations. Trace-driven simulation experiments show that our proposal can significantly reduce the number of RR operations by between 1.6 % and 74.4 %, which contributes to a maximum reduction of 29.7 % on total erase operations, indicating a better lifetime of SSD devices. In addition, it can reduce the overall I/O response time by up to 52.9 %, compared to existing optimization schemes for SSDs.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -183,7 +193,9 @@
       "doi": "10.1145/3795519",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3795519"
+      "url": "https://doi.org/10.1145/3795519",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3795519"
     },
     {
       "id": "doi:10.1145/3800954",
@@ -195,7 +207,7 @@
         "Mojtaba Valinataj",
         "Paria Darbani"
       ],
-      "summary": "",
+      "summary": "Deep neural networks (DNNs) have gained significant attention due to the rapid growth of learning-based applications. However, the computational demands of DNNs limit their performance in many of these applications. As a result, extensive research has focused on hardware implementations of these networks as accelerators. Array-based accelerators are an efficient architecture type that employs an array of processing elements (PEs) for parallel computations. However, array-based accelerators cannot reach their potential performance due to having fixed dimensions to execute different layers of DNNs. This article proposes a reconfigurable architecture to address this limitation by adaptively selecting the size of PEs to better align with the dimensions of the active DNN layers. Simulations demonstrate significant improvements for various DNN models compared to state-of-the-art architectures. Experimental results show that the proposed architecture achieves, on average, 43% higher speed, 32% more resource utilization, and a 38% reduction in on-chip memory access rate compared to the baseline architecture when executing GoogLeNet model layers. These enhancements are achieved with only a 1.6% area overhead, making the proposed architecture a cost-effective design. Furthermore, by incorporating multithreading into the simulator's source code, we significantly accelerate simulations compared to the basic version.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -210,7 +222,9 @@
       "doi": "10.1145/3800954",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3800954"
+      "url": "https://doi.org/10.1145/3800954",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3800954"
     },
     {
       "id": "doi:10.1145/3786351",
@@ -225,7 +239,7 @@
         "Cong Li",
         "Richard Sun"
       ],
-      "summary": "",
+      "summary": "As the scale and complexity of designs increase, functional verification becomes a critical part of the very-large-scale integration (VLSI) design flow. However, existing processor-based emulation systems suffer from inefficiencies due to the misalignment objective between partitioning and scheduling, which are traditionally treated as separate and independent stages during compilation. To address this issue, we propose ParSCo , a partitioning and scheduling co-optimization framework that explicitly aligns the objectives of both stages by jointly considering cut minimization and topological order balancing (TOB) under multiple constraints. To integrate these objectives and constraints into our framework, we incorporate them into all partitioning and scheduling stages and further develop a set of novel techniques, including TOB-aware coarsening with multiple constraints , global growing initial partitioning with fixed nodes , TopoRefinement , and partitioning-aware scheduling , which collectively enhance the co-optimization process in emulation compilation. Furthermore, we establish theorems that reduce the time complexity of gain calculation and update to O (1), significantly improving the computational efficiency of the whole process. Furthermore, we evaluate the proposed method on the public and open-source chip design benchmarks, which have up to nearly 10 million cells. ParSCo significantly extends ideas and algorithms that first appeared in our previous work TopoOrderPart and achieves a 15% improvement. Extensive experimental results demonstrate the effectiveness of ParSCo , achieving an average improvement of 22.5% in time step reduction, 72% enhancement in TOB, and 55% acceleration in CPU time compared to the state-of-the-art (SOTA) two-stage partitioning and scheduling approach.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -240,7 +254,9 @@
       "doi": "10.1145/3786351",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3786351"
+      "url": "https://doi.org/10.1145/3786351",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3786351"
     },
     {
       "id": "doi:10.1145/3799979",
@@ -255,7 +271,7 @@
         "Tsungyi Ho",
         "Bei Yu"
       ],
-      "summary": "",
+      "summary": "Analog circuit placement is crucial for optimal performance, but achieving a decent layout demands expertise and time. Recent advances in machine learning techniques have shown promising results in modeling analog layout performance. PAPlace further extends these methods and integrates them into the core analog placement engine, allowing direct optimization of the post-layout performance effectively. Our approach proposes a differentiable prediction model that combines layout and wiring information into a non-linear analog placement engine. We then incorporate the differentiable performance model into a gradient-descent-based global placement engine. A multi-objective optimization method is further proposed to find the common gradient descent direction for different metrics. The experimental results on benchmarks under the TSMC 40nm technology node demonstrate the superiority of the proposed framework compared with the cutting-edge works, with up to 2163.00μ V , 73.95dB, 62.25MHz, 57.84dB improvement in Offset Voltage, CMRR, BandWidth, DC Gain metrics.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -270,7 +286,9 @@
       "doi": "10.1145/3799979",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3799979"
+      "url": "https://doi.org/10.1145/3799979",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3799979"
     },
     {
       "id": "doi:10.1145/3798101",
@@ -286,7 +304,7 @@
         "Zhengfeng Huang",
         "Yingchun Lu"
       ],
-      "summary": "",
+      "summary": "True random number generator (TRNG) is a key component in ensuring hardware security, and with the development of technologies such as high-speed communications, there is a higher demand for its generation rate. In this work, an ultra-high throughput rate TRNG based on a scalable cascaded full feedback ring oscillator (CFFRO) as the entropy source circuit is presented and implemented on Xilinx Artix-7, Kintex-7, and zynq UltraScale+ FPGAs devices. Unlike previous works, the proposed CFFRO is designed to be constructed as multiple parallel internal ROs, which, in turn, are sequentially cascaded and coupled to each other to disrupt the frequency spectrum of each ring oscillator and enhance the output uncertainty. Each internal ring oscillator in CFFRO can be used as an output for random numbers, creating multi-channel TRNG with parallel outputs and single-channel TRNG with multi-bit serial outputs. Measurements of the sequences extracted by both random number output schemes of TRNG show good randomness in the NIST SP800-22 suits and high entropy values in both the NIST SP 800-90B and AIS-31 testing suits, and the Dieharder suite verified the robustness under voltage and temperature variations. Moreover, due to the good extensibility of CFFRO, TRNGs with 2–8 channel counts are implemented in this work. At a sampling frequency of 400 MHz, the random sequences generated by 2–8 channel TRNGs can pass the tests.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -301,7 +319,9 @@
       "doi": "10.1145/3798101",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3798101"
+      "url": "https://doi.org/10.1145/3798101",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798101"
     },
     {
       "id": "doi:10.1145/3795522",
@@ -315,7 +335,7 @@
         "Zuochang Ye",
         "Wenjian Yu"
       ],
-      "summary": "",
+      "summary": "Ordered escape routing (OER), which seeks the routing paths from some signal pins to the boundary of a pin array in a given order, is an important research topic for PCB design. Although reinforcement learning based methods for OER have been proposed, the routing capacity between two adjacent pins is assumed to be just one. In this work, we propose MCMC-Escape, a Monte-Carlo tree search (MCTS) based multi-capacity ordered escape router, which includes, in turn, the initial solving approach, the improved Monte-Carlo tree search (improved MCTS) process, and the last routing attempt approach based on wires removing and re-routing. In the improved MCTS, the prior knowledge based pruning strategies and the fine-tuning strategy are proposed to enhance the efficiency of solving multi-capacity OER (MC-OER) problems, while the weight adjusting strategy is proposed to address the path occupancy issues arising from multiple capacity. Experimental results demonstrate that MCMC-Escape can effectively solve large-scale MC-OER problems and outperform existing methods in terms of routing success rate, runtime and wire length. For a set of problems with 50×50 pin array, MCMC-Escape achieves 4X higher success rate of routing with 50% less solving time than MCMCF-Router [ 1 ], while reducing the average total wire length.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -330,7 +350,9 @@
       "doi": "10.1145/3795522",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3795522"
+      "url": "https://doi.org/10.1145/3795522",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3795522"
     },
     {
       "id": "doi:10.1145/3799714",
@@ -342,7 +364,7 @@
         "Chandan Kumar Jha",
         "Rolf Drechsler"
       ],
-      "summary": "",
+      "summary": "Ensuring the functional correctness of a digital system is achievable through formal verification. Despite the increased complexity of modern systems, formal verification still needs to be done in a reasonable time. Hence, Polynomial Formal Verification (PFV) techniques are being explored, as they provide guaranteed polynomial upper bounds on the time and space required for the verification process. Recently, it was shown that circuits characterized by a constant cutwidth can be verified in linear time using Answer Set Programming (ASP) . However, these results are limited to combinational circuits, whereas most designs used in digital systems are sequential. In this article, we introduce Linear Formal Verification (LFV) as a subclass of PFV for sequential circuits with constant cutwidth, which are verifiable in linear time and space using ASP. We achieve this by proposing a new data structure called Weighted And-Inverter Graph (W-AIG) . Unlike existing formal verification methods, we prove that our approach can verify any sequential circuit with a constant cutwidth in linear time and space. Finally, we implement our approach and experimentally show that a variety of sequential circuits, such as pipelined adders, serial adders, and shift registers, can be verified in linear time and space, while ring counters can be verified in polynomial time and space, confirming our theoretical findings.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -357,7 +379,9 @@
       "doi": "10.1145/3799714",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3799714"
+      "url": "https://doi.org/10.1145/3799714",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3799714"
     },
     {
       "id": "doi:10.1145/3795533",
@@ -368,7 +392,7 @@
         "Chang Yue",
         "Niraj Jha"
       ],
-      "summary": "",
+      "summary": "Neural networks (NNs) achieve outstanding performance in many domains; however, their decision processes are often opaque and their inference can be computationally expensive in resource-constrained environments. We recently proposed Differentiable Logic Networks (DLNs) to address these issues for tabular classification based on relaxing discrete logic into a differentiable form, thereby enabling gradient-based learning of networks built from binary logic operations. DLNs offer interpretable reasoning and substantially lower inference cost. We extend the DLN framework to supervised tabular regression. We first redesign the final output layer (the SumLayer) to support continuous targets. More critically, we find the original two-phase training procedure used for classification is suboptimal for regression, and thus develop a unified, single-stage optimization procedure. We also demonstrate that temperature annealing of the network’s differentiable relaxations is decisive for achieving stable convergence and high accuracy. We evaluate the resulting model on 15 public regression benchmarks, comparing it with modern neural networks and classical regression baselines. Regression DLNs match or exceed baseline accuracy while preserving interpretability and fast inference. Our results show that DLNs are a viable, cost-effective alternative for regression tasks, especially where model transparency and computational efficiency are important.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -383,7 +407,9 @@
       "doi": "10.1145/3795533",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3795533"
+      "url": "https://doi.org/10.1145/3795533",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3795533"
     },
     {
       "id": "doi:10.1145/3799428",
@@ -398,7 +424,7 @@
         "Yiran Chen",
         "Xin Zhang"
       ],
-      "summary": "",
+      "summary": "In the realm of electronic and electrical engineering, automation of analog circuit is increasingly vital given the complexity and customized requirements of modern applications. However, existing methods only develop search-based algorithms that require many simulation iterations to design a custom circuit topology, which is usually a time-consuming process. To this end, we introduce LaMAGIC, a language model-based topology generation model that leverages supervised finetuning for automated analog circuit design. LaMAGIC can efficiently generate an optimized circuit design from the custom specification in a single pass. The generated circuit is validated by the simulator to meet the performance requirement with high precision. Our approach involves a meticulous development and analysis of various input and output formulations for circuit. These formulations can ensure canonical representations and align with the autoregressive nature of LMs for representing analog circuits as graphs. In addition, our novel transformer model supports float-input to effectively learn the mapping between numerical performance and circuits. The experimental results show that LaMAGIC achieves a success rate of up to 96% under a strict tolerance of 0.01. Also, we examine the scalability and adaptability of LaMAGIC under scarce data scenario on more complex circuits. Our findings reveal the enhanced effectiveness of our succinct float-input canonical formulation with identifier, suggesting its suitability for handling intricate circuits. Our ablation study evaluates various design choices of LM training and inference, providing insights for future domain-specific generation tasks. This research not only demonstrates the potential of language models in graph generation, but also builds a foundational framework for future explorations in automated analog circuit design.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -413,7 +439,9 @@
       "doi": "10.1145/3799428",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3799428"
+      "url": "https://doi.org/10.1145/3799428",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3799428"
     },
     {
       "id": "doi:10.1145/3795795",
@@ -425,7 +453,7 @@
         "Longkun Guo",
         "Weijie Fang"
       ],
-      "summary": "",
+      "summary": "Any-direction wires and complex obstacle environments in emerging Printed Circuit Board (PCB) routing applications impose new challenges for length matching. To address these challenges, we develop a suite of area assignment approaches that leverage network flow theory and Linear Programming (LP) techniques. First, we partition the initial PCB region into a set of subregions and propose an LP formulation to model the area assignment of subregions to the wires in sparse PCB layouts. We then refine the LP formulation to handle dense PCB scenarios effectively. To enhance the algorithm’s performance further, we introduce utility constraints that consider complex obstacles and propose an Integer Linear Programming (ILP) model to optimize the subregion area assignment. Given the high computational complexity of solving the ILP model, we develop a combinatorial algorithm based on minimum-weight hierarchical flow to efficiently tackle the area assignment problem. By leveraging LP primal-dual techniques, we demonstrate that the proposed algorithm achieves near-optimal solutions even under upper bound constraints, and we further extend the approach to accommodate lower bound constraints. Notably, our algorithm allows the modification of the wire topology to generate better area assignment solutions. In addition, the proposed methodology is extensible to length-matching tasks in multilayer PCB designs. Lastly, we conduct extensive experiments to evaluate the effectiveness of our approach, demonstrating significant performance improvements over existing state-of-the-art methods, particularly in complex PCB routing scenarios.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -440,7 +468,9 @@
       "doi": "10.1145/3795795",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3795795"
+      "url": "https://doi.org/10.1145/3795795",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3795795"
     },
     {
       "id": "doi:10.1145/3796531",
@@ -454,7 +484,7 @@
         "Yulian Li",
         "Jin Liu"
       ],
-      "summary": "",
+      "summary": "Large Language Models (LLMs) are being increasingly applied in various natural language processing tasks including safety-critical systems (e.g., medical diagnosis querying, and code generation for self-driving), where resilience to hardware transient faults is essential for guaranteed safety. Traditional Fault Injection (FI) approaches are time consuming due to a large number of repeated executions, which limits their scalability to fast evaluate large-scale resilience. To address these challenges, we propose LLM-IARE, a novel Input-Aware Resilience Estimation Model for LLMs under hardware transient faults. It takes advantage of twice static analysis and once dynamic execution to extract critical parameters to compute general resilience metrics such as Silent Data Corruption (SDC) rates. Fast static analysis can obtain the primary LLM parameters, while dynamic execution can provide input-sensitive attention profiling to characterize how input variations influence internal attention patterns dynamically. More importantly, our proposed LLM-IARE uses the obtained parameters for modeling at three levels (operation, module, and layer) so that the SDC rates of transient fault impacts on LLMs can be calculated quickly and accurately. Additionally, LLM-IARE is further extended to estimate the LLM application-level resilience metric, the cosine similarity reflecting the bit-upset induced semantic fault impacts on final output quality. Comprehensive experiments on six representative LLMs (for example, GPT-2, T5 and RoBERTa), and 30 BERT variants demonstrate that LLM-IARE achieves a fast and accurate LLMs resilience evaluation, with up to 7335× (average 4500×) speedup and an average logarithmic relative error of 3.94% compared with advanced LLVM-based fault injection methods. We further extend the evaluation to four larger Qwen2.5 models (0.5B–7B), where LLM-IARE maintains stable accuracy with logarithmic relative errors between 1.96% and 4.21% (average 3.39%).",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -469,7 +499,9 @@
       "doi": "10.1145/3796531",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3796531"
+      "url": "https://doi.org/10.1145/3796531",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3796531"
     },
     {
       "id": "doi:10.1145/3796530",
@@ -481,7 +513,7 @@
         "Yuang Ma",
         "Yi Kang"
       ],
-      "summary": "",
+      "summary": "The Deep Learning Recommendation Model (DLRM), one of the most popular recommendation system models, faces a performance bottleneck due to its memory-bound embedding layers. In recent years, processing-in-memory (PIM) has emerged as a solution to address the “memory wall” problem. Numerous PIM-based works have been published aiming to enhance DLRM performance by exploiting data locality. However, existing methods have yet to fully capitalize on locality. To better resolve the locality issue of the embedding layer and boost the performance of DLRM, we propose I2Rec, an architecture based on PIM that can further explore the locality in a DLRM system. I2Rec employs both intra-batch and inter-batch reuse strategies, releasing the potential of inter-batch reuse. As the embedding table size grows, I2Rec can uncover more reuse opportunities so the locality can be utilized more efficiently. Compared with spatial locality methods, I2Rec avoids a long preprocessing flow and achieves better locality exploration. Experimental results show that I2Rec achieves a 1.28× speedup and reduces memory accesses by 27% compared with intra-batch reuse alone under the same cache size and up to 1.41× speedup with a little extra overhead. Additionally, I2Rec outperforms state-of-the-art spatial locality algorithms, reducing memory traffic to 40% and achieving a 2.40× improvement in performance.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -496,7 +528,9 @@
       "doi": "10.1145/3796530",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3796530"
+      "url": "https://doi.org/10.1145/3796530",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3796530"
     },
     {
       "id": "doi:10.1145/3801559",
@@ -515,7 +549,7 @@
         "Zhengwu Liu",
         "Ngai Wong"
       ],
-      "summary": "",
+      "summary": "Low-rank adaptation (LoRA) is a predominant parameter-efficient finetuning method for adapting large language models (LLMs) to downstream tasks. Meanwhile, Compute-in-Memory (CIM) architectures demonstrate superior energy efficiency due to their array-level parallel in-memory computing designs. In this article, we propose deploying the LoRA-finetuned LLMs on the hybrid CIM architecture (i.e., pretrained weights onto energy-efficient Resistive Random-Access Memory (RRAM) and LoRA branches onto noise-free Static Random-Access Memory (SRAM)), reducing the energy cost to about 3% compared with the Nvidia A100 GPU. However, the inherent noise of RRAM on the saved weights leads to performance degradation, simultaneously. To address this issue, we design a novel Hardware-aware Low-rank Adaptation (HaLoRA) method. The key insight is to train a LoRA branch that is robust toward such noise and then deploy it on noise-free SRAM, while the extra cost is negligible since the parameters of LoRAs are much fewer than pretrained weights (e.g., 0.15% for LLaMA-3.2 1B model). To improve the robustness towards the noise, we theoretically analyze the gap between the optimization trajectories of the LoRA branch under both ideal and noisy conditions and further design an extra loss to minimize the upper bound of this gap. Therefore, we can enjoy both energy efficiency and accuracy during inference. Experiments finetuning the Qwen and LLaMA series demonstrate the effectiveness of HaLoRA across multiple reasoning tasks, achieving up to 22.7 improvement in average score while maintaining robustness at various noise types and noise levels.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -530,7 +564,9 @@
       "doi": "10.1145/3801559",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3801559"
+      "url": "https://doi.org/10.1145/3801559",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3801559"
     },
     {
       "id": "doi:10.1145/3798103",
@@ -545,7 +581,7 @@
         "Jia Wang",
         "Fan Yang"
       ],
-      "summary": "",
+      "summary": "Timing-driven placement is very important to achieve timing closure especially as designs become increasingly complex. This article presents a novel Timing-Driven Placement (TDP) framework that integrates a graph convolutional network (GCN), Dirichlet boundary conditions, and a nonlinear placement engine to optimize placement quality with timing awareness throughout the flow. The proposed methodology begins by clustering components based on their interconnection topology, while Dirichlet boundary conditions are applied to handle fixed components such as IOs and macros. This yields a reduced graph with minimized inter-cluster connectivity, simplifying timing optimization. A GCN is then trained to learn a generalized and optimized mapping from circuit connectivity to physical wirelength. To improve early-stage timing estimation, virtual buffers are inserted prior to Static Timing Analysis (STA) to eliminate maximum capacitance violations. With this improved timing fidelity, STA provides pin-level slack, which is then used to dynamically adjust interconnection weights, guiding the placement of timing-critical components toward improved timing closure. Experimental results on ICCAD2015 contest benchmarks demonstrate that our algorithm can improve worse negative slack and total negative slack by 6% compared to the state-of-the-art method.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -560,7 +596,9 @@
       "doi": "10.1145/3798103",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3798103"
+      "url": "https://doi.org/10.1145/3798103",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798103"
     },
     {
       "id": "doi:10.1145/3798108",
@@ -570,7 +608,7 @@
       "authors": [
         "Irith Pomeranz"
       ],
-      "summary": "",
+      "summary": "Chiplet-based designs use large numbers of interconnects that need to be tested thoroughly. Standard isolation logic allows the logic blocks (chiplets) and the interconnects to be tested separately. It was recently suggested for additional defect coverage to use a scan-based test set that tests the interconnects together with the logic blocks in a mode of operation that is closer to functional. In this scenario, a scan-based test set for a logic block targets faults in the logic block as well as the interconnects it drives. An exhaustive static fault model was used earlier for subsets of adjacent interconnects. In the same scenario, this article studies the presence of functionally undetectable interconnect faults, and their relationship to the configuration of the interconnects as a two-dimensional array. The article observes that the specific configuration of the interconnects in the two-dimensional array can affect the number of functionally undetectable faults. Moreover, by modifying the configuration, it is possible to eliminate functionally undetectable faults that are important to consider in other configurations. The article describes a test generation procedure that includes the identification of functionally undetectable interconnect faults, and a procedure for reconfiguring the interconnects to eliminate undetectable faults. The implementation of the procedures was carried out in an academic simulation environment. Experimental results for benchmark circuits demonstrate the effectiveness of the procedures in achieving complete interconnect fault coverage, and eliminating all the undetectable interconnect faults.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -585,7 +623,9 @@
       "doi": "10.1145/3798108",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3798108"
+      "url": "https://doi.org/10.1145/3798108",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798108"
     },
     {
       "id": "doi:10.1145/3798106",
@@ -602,7 +642,7 @@
         "Xiaoqing Wen",
         "Hiroshi Takahashi"
       ],
-      "summary": "",
+      "summary": "Logic-level defects that escape manufacturing tests pose reliability risks in modern systems and require functional testing to identify their activation and propagation behaviors. However, effective functional testing is limited by the high cost of long-cycle fault simulations. To address this challenge, we propose a Spatio-Temporal Graph Convolutional Network framework to efficiently and accurately predict the Fault Impact Probability on the circuit's function cross-over multiple function cycles, enabling rapid quantitative assessment of functionally possible faults. Our method represents gate-level netlists as spatio-temporal graphs, capturing both structural connectivity and short-range signal-propagation dynamics. With dedicated spatial and temporal encoders, the proposed ST-GCN enables accurate prediction of multi-cycle circuit-level FIP. Experiments on ISCAS’89 benchmarks show that the approach reduces fault-simulation cost by over an order of magnitude while maintaining high accuracy (mean absolute error as low as 0.024 for 5-cycle predictions). The framework supports both testability-metric-based and simulation-based feature construction, enabling a tunable balance between efficiency and accuracy. A case study on test point selection further demonstrates that using predicted FIPs to guide observation-point placement improves the detectability of multi-cycle, hard-to-detect circuit-level faults. Overall, this work provides a scalable solution for circuit-level multi-cycle fault-impact assessment and can be readily integrated into functional test generation and other Electronic Design Automation workflows.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -617,7 +657,9 @@
       "doi": "10.1145/3798106",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3798106"
+      "url": "https://doi.org/10.1145/3798106",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798106"
     },
     {
       "id": "doi:10.1145/3799991",
@@ -633,7 +675,7 @@
         "Bei Yu",
         "Shisheng Xiong"
       ],
-      "summary": "",
+      "summary": "Layout pattern generation provides dataset support to numerous Design for Manufacturability (DFM) studies, with different research objectives requiring distinct styles of layout patterns. However, existing layout pattern generation methods only support random generation or limited conditional generation based on image-text pairs annotated for specific tasks, which fails to meet the diverse requirements of downstream tasks. To address this limitation, we propose ForgePattern, a flexible layout pattern generation framework that accommodates diverse task-specific requirements through adaptive selection among customizable reward functions. ForgePattern leverages a customized diffusion model as the generative backbone and incorporates reinforcement learning to directly optimize the diffusion model. By maximizing the expected reward of the reinforcement learning objective, ForgePattern aligns the generated layout patterns with specific requirements without requiring additional data collection or human annotation. Experimental results on challenging layout pattern generation tasks demonstrate that ForgePattern can effectively generate high-quality layout patterns while meeting diverse customization requirements.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -648,7 +690,9 @@
       "doi": "10.1145/3799991",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3799991"
+      "url": "https://doi.org/10.1145/3799991",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3799991"
     },
     {
       "id": "doi:10.1145/3796534",
@@ -667,7 +711,7 @@
         "Changsheng Xie",
         "Fei Wu"
       ],
-      "summary": "",
+      "summary": "3D NAND flash memory is currently the mainstream storage medium due to high density and large capacity. However, the high raw bit error rate (RBER) poses challenges to data reliability. Low-density parity-check (LDPC) codes, known for strong error correction capabilities, are widely used to ensure data reliability. Traditional error correction schemes employ a single, fixed LDPC code, resulting in suboptimal performance–excess decoding overhead at low RBER and insufficient correction capability at high RBER. To address these limitations, we propose DyLDPC: a dynamic LDPC code with variable correction capability to improve decoding performance for 3D NAND flash memory. DyLDPC dynamically adjusts the error correction capability of LDPC codes based on the temporal and spatial variations of RBER in 3D NAND flash memory. Temporally, RBER increases with retention time and program/erase (P/E) cycles. Spatially, RBER varies across layers and pages. DyLDPC predicts RBER under varying conditions and allocates appropriate LDPC codes accordingly, effectively reducing ECC storage overhead, extending flash memory lifespan, and improving decoding efficiency. While ensuring data reliability, it optimizes error correction performance. Evaluations indicate that DyLDPC reduces decoding iterations by 8.1% and latency by 74% on average compared to static schemes. Additionally, using differentiated LDPC codes for most significant bit (MSB) and least significant bit (LSB) pages in multi-level cell (MLC) NAND further reduces LSB decoding latency by 27.8%.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -682,7 +726,9 @@
       "doi": "10.1145/3796534",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3796534"
+      "url": "https://doi.org/10.1145/3796534",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3796534"
     },
     {
       "id": "doi:10.1145/3795530",
@@ -697,7 +743,7 @@
         "Yushan Pan",
         "Xinfei Guo"
       ],
-      "summary": "",
+      "summary": "Physical dataflow, which defines the detailed connections among cells and macros, is a critical yet underexplored factor in automatic macro placement. It becomes increasingly important for enabling intelligent design automation to minimize manual intervention and reduce design iterations. Existing macro or mixed-size placers with dataflow awareness primarily focus on intrinsic relationships among macros, overlooking the crucial influence of standard cell clusters on macro placement. To address this, we propose DARE, which extracts hidden connections between macros and standard cells and incorporates a series of algorithms to enrich dataflow awareness, integrating them into placement constraints for improved macro placement. To further optimize placement results, we introduce two fine-tuning steps: (1) congestion optimization by taking macro area into consideration, and (2) flipping decisions to determine the optimal macro orientation based on the extracted dataflow information. By integrating enhanced dataflow awareness into placement constraints and applying these fine-tuning steps, the proposed approach achieves an average 7.9% improvement in half-perimeter wirelength (HPWL) across multiple widely used benchmark designs compared to a state-of-the-art dataflow-aware macro placer. Additionally, it significantly improves congestion, reducing overflow by an average of 82.5%, and achieves improvements of 36.97% in Worst Negative Slack (WNS) and 59.44% in Total Negative Slack (TNS). The approach also maintains efficient runtime throughout the entire placement, incurring less than a 1.5% runtime overhead. These results show that the proposed dataflow-driven methodology, combined with the fine-tuning steps, provides an effective foundation for macro placement within the OpenROAD flow and can be further extended to other design flows in the future to enhance placement quality.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -712,7 +758,9 @@
       "doi": "10.1145/3795530",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3795530"
+      "url": "https://doi.org/10.1145/3795530",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3795530"
     },
     {
       "id": "doi:10.1145/3816442",
@@ -724,7 +772,7 @@
         "Mojtaba Valinataj",
         "Paria Darbani"
       ],
-      "summary": "",
+      "summary": "This is a corrigendum for the article \"RADI: A High-Performance Reconfigurable Array-Based Accelerator for DNN Implementations\" published in ACM Trans. Des. Autom. Electron. Syst. 31, 5, Article 116 (April 2026), 27 pages.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -739,7 +787,9 @@
       "doi": "10.1145/3816442",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3816442"
+      "url": "https://doi.org/10.1145/3816442",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3816442"
     },
     {
       "id": "doi:10.1145/3802988",
@@ -766,7 +816,7 @@
         "Huawei Li",
         "Ying Wang"
       ],
-      "summary": "",
+      "summary": "This is a corrigendum for the article “A data-centric chip design agent framework for Verilog code generation” published in ACM Trans. Des. Autom. Electron Syst. 30, 6, Article 93 (October 2025), 27 pages.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -781,7 +831,9 @@
       "doi": "10.1145/3802988",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3802988"
+      "url": "https://doi.org/10.1145/3802988",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3802988"
     },
     {
       "id": "doi:10.1145/3797030",
@@ -797,7 +849,7 @@
         "Xiaochen Li",
         "He Jiang"
       ],
-      "summary": "",
+      "summary": "Simulink is MathWorks’ commercial cyber-physical systems development tool, which enables engineers to do rapid prototyping of their systems through simulation and embedded code generation. When a Simulink model meets requirements, engineers can utilize embedded coder to convert it into embedded code (e.g., C source code) and deploy it in safety-critical applications such as automotive, aerospace, and healthcare. However, bugs or incorrect implementations in code generation may lead to unexpected behaviors in target applications, posing security risks. Therefore, it is crucial to eliminate such bugs in embedded code generation. To address this issue, we propose DESCO, a differential testing approach to test embedded code generation in Simulink. DESCO considers the functional correlation between Simulink blocks for partitioning, aiming to generate diverse and complex bug-triggering Simulink models to thoroughly exercise the embedded code generation. DESCO then detects bugs by analyzing the outputs of these Simulink models by differential testing. The experiments demonstrate that DESCO significantly outperforms existing approaches. In three months, DESCO reported 16 issues, including 12 confirmed as bugs by MathWorks Support.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -812,7 +864,9 @@
       "doi": "10.1145/3797030",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3797030"
+      "url": "https://doi.org/10.1145/3797030",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3797030"
     },
     {
       "id": "doi:10.1145/3796532",
@@ -826,7 +880,7 @@
         "Bodhisatta Pramanik",
         "Zhiang Wang"
       ],
-      "summary": "",
+      "summary": "Industry adoption of chiplets has been growing as chiplets are a cost-effective option for making large, high-performance systems. Consequently, partitioning large systems into chiplets is increasingly important. In this work, we introduce ChipletPart —a cost-driven 2.5D system partitioner that addresses the unique constraints of chiplet systems, including complex objective functions, limited reach of inter-chiplet I/O transceivers, and the assignment of heterogeneous manufacturing technologies to different chiplets. ChipletPart integrates a sophisticated chiplet cost model with a genetic algorithm (GA)-based technology assignment and partitioning methodology, along with a simulated annealing (SA)-based chiplet floorplanner. Our results show that ChipletPart : (i) reduces chiplet cost by up to 58% (20% geometric mean) compared to state-of-the-art min-cut partitioners, which often yield floorplan-infeasible solutions; (ii) generates partitions with up to 47% (6% geometric mean) lower cost compared to the prior work Floorplet ; (iii) reduces chiplet cost up to 48% (30% geometric mean) compared to Chipletizer , while consistently producing I/O-feasible chiplet solutions across all testcases; and (iv) for the testcases we study, heterogeneous integration reduces cost by up to 43% (15% geometric mean) compared to homogeneous implementations. Additionally, we explore Bayesian optimization (BO) for finding low cost and floorplan-feasible chiplet solutions with technology assignments. On some testcases, our BO framework achieves better system cost (up to 5.3% improvement) with higher runtime overhead (up to 4×) compared to our GA-based framework. We also present case studies that show how changes in packaging and inter-chiplet signaling technologies can affect partitioning solutions. Finally, ChipletPart , the underlying chiplet cost model, and our chiplet testcase generator are available as open-source tools for the community.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -841,7 +895,9 @@
       "doi": "10.1145/3796532",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3796532"
+      "url": "https://doi.org/10.1145/3796532",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3796532"
     },
     {
       "id": "doi:10.1145/3796529",
@@ -863,7 +919,7 @@
         "Ying Wang",
         "Yujie Wang"
       ],
-      "summary": "",
+      "summary": "With the slowdown of Moore’s Law, conventional monolithic chip architectures face challenges such as excessive die sizes and prohibitive manufacturing costs. Consequently, chiplets have emerged as a pivotal technology in the post-Moore era, attracting significant attention from both academia and industry. Multi-chiplet systems offer compelling advantages over monolithic ones, including enhanced integration density, reduced cost, and shortened time-to-market. However, realizing these benefits necessitates design flows capable of optimizing parameters across logical, physical, and circuit layers, which introduces substantial design complexity. Numerous design automation technologies have been proposed to address these challenges. This article provides a comprehensive overview of related advancements, categorizing chiplet design methodologies into two primary types: (i) top-down flows disintegrating existing hardware designs into chiplets and subsequently reintegrating them into multi-chiplet systems, and (ii) bottom-up flows combining existing chiplets into multi-chiplet systems based on user applications. This article begins by introducing foundational concepts, technical characteristics, and evaluation models relevant to multi-chiplet systems. We then systematically summarize the problem formulations, design spaces, and optimization techniques associated with top-down and bottom-up design flows. Finally, we discuss key challenges and potential future research directions in chiplet design automation, aimed at further harnessing the potential of chiplet-based integration.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -878,7 +934,9 @@
       "doi": "10.1145/3796529",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3796529"
+      "url": "https://doi.org/10.1145/3796529",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3796529"
     },
     {
       "id": "doi:10.1145/3795797",
@@ -895,7 +953,7 @@
         "Xuan Zeng",
         "Ye Lu"
       ],
-      "summary": "",
+      "summary": "As semiconductor technology node advances, the number of parameters in the modern device compact model increases drastically. Manual extraction of these model parameters becomes not only tedious but also impossible, and the automatic method is strongly desired. Traditional black-box optimization suffers from poor scalability due to the curse of dimensionality, while deep learning–based methods typically require large amounts of training data. To address these challenges, we propose CDRPE: a combined deep learning and self-attention enhanced reinforcement learning framework for automatically extracting a large set of DCM parameters across multiple electrical characteristics. The framework leverages a pre-trained multilayer perceptron to initialize core parameters, incorporates device physics knowledge to guide the search, and employs a self-attention–enhanced RL agent for efficient exploration in high-dimensional parameter spaces. Experimental results on BSIM4, BSIMSOI, and BSIMCMG demonstrate that CDRPE can automatically extract 100 parameters with root-mean-square error below 5% relative to TCAD and silicon data. Compared with existing methods, the proposed framework achieves a 7.7x speed up. Moreover, the generated models show good convergence in both digital and analog circuit simulations, exhibiting the potential of this framework for future practical applications.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -910,7 +968,9 @@
       "doi": "10.1145/3795797",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3795797"
+      "url": "https://doi.org/10.1145/3795797",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3795797"
     },
     {
       "id": "doi:10.1145/3797484",
@@ -927,7 +987,7 @@
         "Yanling Shi",
         "Yong-Fu Li"
       ],
-      "summary": "",
+      "summary": "Compact models of transistors are essential for simulating and optimizing circuits with the use of SPICE simulation tool. Parameter extraction, which is calibrating these models, is essential to ensure their alignment with measured or simulated data. However, conventional parameter extraction methods are generally iterative and experience-dependent, requiring significant time and effort from modeling engineers. Moreover, as semiconductor devices and compact models become increasingly advanced, the need for a tailored extraction process for each model has become increasingly inefficient. To address the above challenges, this work proposes an agile transistor compact modeling framework, ATMAD. The proposed framework takes a compact model file and a set of electrical characteristic data as inputs, producing a calibrated model with minimal human intervention. ATMAD automatically retrieves the equations in the compact model and converts them into computational flow graphs, thus supporting different compact models with a generalized process. A graph unlooping technique is proposed to support automatic differentiation for compact models with implicit functions (e.g., series resistance and surface potential solving). Based on the computational flow graph, ATMAD adopts automatic differentiation technique to achieve automatic and parallel optimization of model parameters. The proposed ATMAD framework is validated on commonly-used compact models in academia and industry, showing its effectiveness for compact modeling for both I-V and C-V characteristics.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -942,7 +1002,9 @@
       "doi": "10.1145/3797484",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3797484"
+      "url": "https://doi.org/10.1145/3797484",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3797484"
     },
     {
       "id": "doi:10.1145/3801550",
@@ -956,7 +1018,7 @@
         "Feng Zhang",
         "Yuan Liu"
       ],
-      "summary": "",
+      "summary": "Physical Unclonable Functions (PUFs) are vital for secure hardware authentication due to their intrinsic uniqueness. RRAM-based PUFs offer advantages such as compactness, low power, and CMOS compatibility, but suffer from reliability issues under environmental stress such as temperature and aging. This work proposes a self-checking RRAM-based PUF architecture using a resistance-delay mapping method to generate reliability-quantified challenge-response pairs (CRPs). A configurable Delay Amplification Chain (DAC) converts device-to-device(D2D) resistance variations into measurable timing differences, ensuring stable operation from -55°C to 125°C and ± 10% VDD fluctuations. A built-in self-checking mechanism filters unstable CRPs via complementary delay biases during the dark bit filtration stage, reducing bit error rate (BER) from 5.2% to 0.77%. A hierarchical framework further classifies CRPs into 11 reliability levels, enabling adaptive key management. Implemented in 180nm CMOS/RRAM technology, the design achieves 49.61% inter-chip and 49.80% reconfig Hamming distances across 50 instances, showing strong uniqueness and reconfigurability. No BER degradation was found in 10-year aging simulations. The design meets NIST SP800-22 randomness standards and offers a scalable and entropy-aware solution for IoT security.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -971,7 +1033,9 @@
       "doi": "10.1145/3801550",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3801550"
+      "url": "https://doi.org/10.1145/3801550",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3801550"
     },
     {
       "id": "doi:10.1145/3801570",
@@ -991,7 +1055,7 @@
         "Yingchun Lu",
         "Zhengfeng Huang"
       ],
-      "summary": "",
+      "summary": "Strong Physical Unclonable Functions (PUFs) are critical for lightweight authentication in the Internet of Things (IoT). However, traditional Strong PUF designs are susceptible to advanced Machine Learning (ML) modeling attacks. In this article, we propose a novel modeling-attack-resilient Strong PUF architecture that transforms the challenge-response mapping from a statically approximable function into a mathematically rigorous Keyed Pseudo-Random Function (Keyed-PRF). The proposed architecture features two core innovations: a Sponge-Based Configuration Mechanism (SCM) that utilizes reliable Weak PUFs to dynamically configure the feedback polynomial of a Linear Feedback Shift Register (LFSR), effectively creating a device-specific secret key; and a Response-Modulated State Evolution Mechanism (RM-SEM), where the instantaneous physical responses of the underlying Arbiter PUF determine the evolution step size of the LFSR. This creates a deep temporal feedback loop that transforms the system into a Hidden Markov Model (HMM), blocking gradient-based learning strategies. We also introduce a reliability screening strategy based on a strict bit-error-rate threshold to ensure stability. Experimental results on Xilinx Artix-7 FPGAs demonstrate that the proposed PUF maintains a prediction accuracy of approximately 50% against four mainstream modeling attacks even with 1 million training Challenge-Response Pairs (CRPs). Furthermore, the design exhibits excellent uniformity, uniqueness, and reliability, achieving these security properties with minimal hardware overhead.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1006,7 +1070,9 @@
       "doi": "10.1145/3801570",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3801570"
+      "url": "https://doi.org/10.1145/3801570",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3801570"
     },
     {
       "id": "doi:10.1145/3801553",
@@ -1021,7 +1087,7 @@
         "Qi Sun",
         "Cheng Zhuo"
       ],
-      "summary": "",
+      "summary": "Large language models (LLMs) have been the driving force behind significant advancements in artificial intelligence. However, their unique self-attention mechanism leads to difficulties in accelerating the inference. Softmax, with its complex nonlinear operations and low parallelism, significantly limits the efficiency of LLMs for long sequences. This work proposes a novel high-parallelism hardware/software co-design Softmax solution. By incorporating a sum estimation algorithm, we eliminate the need for complex exponential on all elements. A high-speed low-energy hardware architecture is introduced by applying high-parallelism statistical module and simplified division module. Experimental results demonstrate that our approach achieves a 9.90–44.75% reduction in latency and up to a 17.36% reduction in energy consumption compared with state-of-the-art Softmax hardware, with minimal impact on model inference accuracy.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1036,7 +1102,9 @@
       "doi": "10.1145/3801553",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3801553"
+      "url": "https://doi.org/10.1145/3801553",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3801553"
     },
     {
       "id": "doi:10.1145/3848639",
@@ -1051,7 +1119,7 @@
         "Yibo Lin",
         "Runsheng Wang"
       ],
-      "summary": "",
+      "summary": "Analog routing must balance design rules and layout constraints while managing interconnect resistance and capacitance. Many analog-routing frameworks combine wirelength objectives with constraint handling and evaluate detailed parasitic effects after routing. This separation motivates investigating whether low-latency parasitic estimates can guide candidate expansions during routing. We present APEC-Route, an analog-routing framework that combines interval-tree-based wire segmentation, a multilayer perceptron (MLP)-based neighbor-aware total-capacitance model, and analytical wire-resistance evaluation. The resulting estimates guide the search in parasitic-minimization and parasitic-matching modes. On four finalized 65 nm layouts, the extractor attains a geometric-mean relative error of 5.54–6.77% and a mean absolute percentage error of 7.41–9.93% against the field-solver reference; each in-search query takes 251–345 μ s. For each of three 65 nm block-level routed-circuit cases—an operational transconductance amplifier (OTA), a comparator, and a capacitive digital-to-analog converter (CDAC)—SAGERoute and the w/o-R/C, R-only, CC-only, and full APEC-Route variants use the same fixed placement. Across both controlled capacitance-term comparisons, enabling the capacitance term improves eight of nine independent circuit metrics, with OTA phase margin as the sole exception. The derived ENOB increases consistently with SINAD. Relative to w/o R/C, the full objective increases OTA gain and CMRR by 2.7 and 1.0 dB and UGB by 0.01 MHz, reduces comparator delay, hysteresis voltage, and offset voltage by 20.5%, 16.0%, and 26.6%, and reduces CDAC delay by 10.4% while increasing SINAD by 16.4 dB; OTA phase margin decreases by 1.1°.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1066,7 +1134,9 @@
       "doi": "10.1145/3848639",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3848639"
+      "url": "https://doi.org/10.1145/3848639",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3848639"
     },
     {
       "id": "doi:10.1145/3846380",
@@ -1078,7 +1148,7 @@
         "Debasis Gountia",
         "Soumya Mahanta"
       ],
-      "summary": "",
+      "summary": "The existing computer-aided design approaches for Digital Microfluidic Biochips focus on optimising execution time and electrode utilisation, but overlook security verification overhead as a synthesis constraint. The advanced detection method, based on ResNet-50 deep neural networks with 98% accuracy, requires three to four orders of magnitude more computational capacity (3.8 GFLOPS) than the embedded biochip controllers. Existing reactive recovery approaches suffer from prohibitive latency, with re-synthesis algorithms requiring seconds to 33 minutes on desktop processors, causing timing violations incompatible with real-time bioassay constraints. We present a security-aware computer-aided design framework, called FASP (Fault-Aware Synthesis and Partitioning), that integrates the computational cost of verification as a design-time synthesis constraint through hardware and software partitioning to enable effective placement of the detection method. The formulation of a multi-objective optimisation problem for security integration across diverse computing substrates is presented, along with a synthesis algorithm with O ( k · r · n log n ) complexity. The algorithm performs critical path analysis, selective module replication, and communication fabric synthesis to adapt the verification pipeline configuration to meet real-time deadlines and reliability requirements before deployment. Experimental results show this method yields an average verification success rate of 84.44% (over 5.59% better than the nearest baseline placements) across system scales from 4 to 324. The proposed method achieves synthesis times of 16–50 ms on average for redundancy levels 3–6, while an overall average latency of 128.86 ms enables the integration of verification directly into the design-time phase.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1093,7 +1163,9 @@
       "doi": "10.1145/3846380",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3846380"
+      "url": "https://doi.org/10.1145/3846380",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3846380"
     },
     {
       "id": "doi:10.1145/3844511",
@@ -1109,7 +1181,7 @@
         "Li Shang",
         "Fan Yang"
       ],
-      "summary": "",
+      "summary": "Large language models (LLMs) exhibit strong performance across applications, but their inference is computationally intensive, posing significant challenges for edge deployment. Quantization is among the most effective and widely used optimizations. In particular, ternary-weight quantization further lowers compute cost by replacing many multiplications with lightweight additions, thereby reducing complexity and energy. However, existing GPU/ASIC solutions often exhibit low utilization for ternary-weight LLMs and fail to exploit their inherent sparsity, leading to inefficient execution. To address this, we propose SATLLM, a lightweight accelerator optimized for ternary weights and sparsity. At the algorithm level, we propose a co-optimization method based on unstructured pruning and ternary-weight clustering to effectively enhance the sparsity. To further exploit this sparsity, we design a hardware-friendly sparsity-aware merging scheme and develop a customized BitLinear engine to support efficient sparse computation. In addition, we optimize the dataflow between the BitLinear engine and the GEMM unit, effectively alleviating performance bottlenecks caused by workload imbalance. Together, these optimizations significantly improve the throughput and energy efficiency of ternary-weight LLM inference. The experiments show that our proposed accelerator achieves an energy efficiency of 9.42 TOPS/W, with improvements of up to 42.41 ×, 16.99 ×, 4.42 ×, 2.49 ×, and 1.90 × compared to NVIDIA V100, A100, ANT, MECLA, and RMFA, respectively.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1124,7 +1196,9 @@
       "doi": "10.1145/3844511",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3844511"
+      "url": "https://doi.org/10.1145/3844511",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3844511"
     },
     {
       "id": "doi:10.1145/3843236",
@@ -1137,7 +1211,7 @@
         "Yang Luo",
         "Yuzhe Ma"
       ],
-      "summary": "",
+      "summary": "Prefix adders are fundamental arithmetic circuits, but their design space grows exponentially with bit-width, posing significant optimization challenges. Previous works face limitations in performance, generalization, and scalability. To address these challenges, we propose PrefixAgent , a large language model (LLM)-powered framework that enables efficient prefix adder optimization. Firstly, we reformulate the problem into two subtasks, namely backbone synthesis and structure refinement, which effectively reduces the search space. The LLM performs these two phases of optimization by invoking tools through function calls, enabling it to iteratively construct the backbone and refine local structures based on reasoning and EDA feedback. Secondly, this new design perspective allows us to systematically collect large-scale, high-quality supervision data. We leverage the rewriting and equality saturation capabilities of e-graphs to comprehensively explore the prefix adder solution space. In addition, the explainability of e-graphs enables us to extract fine-grained rewrite trajectories, which serve as interpretable and effective training data. PrefixAgent is then fine-tuned on this dataset, significantly enhancing its optimization ability and reasoning generalization. Experimental results show that PrefixAgent synthesizes prefix adders with smaller areas than baseline methods in nearly all configurations, with the advantage growing at larger bit-widths, and it remains effective under a commercial EDA flow.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1152,7 +1226,9 @@
       "doi": "10.1145/3843236",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3843236"
+      "url": "https://doi.org/10.1145/3843236",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843236"
     },
     {
       "id": "doi:10.1145/3846000",
@@ -1168,7 +1244,7 @@
         "Ming Zhu",
         "Xiulong Wu"
       ],
-      "summary": "",
+      "summary": "Layout hotspot detection (LHD) aims to localize potential hotspot regions from complex layouts that may cause exposure distortions, which is crucial in the physical verification process. With the development of technology nodes to the physical limit, traditional methods can only retrieve hotspot patterns with simple structures and struggle to handle more complex patterns, thus failing to adequately address practical requirements. In this study, we model the layout hotspot detection task as a process of multi-feature representation learning, and accordingly design a novel layout hotspot detection network based on multi-feature representation learning (MFRLNet). Specifically, we design a reconstruction network (Rec Net) and an adaptive cross-layer feature fusion network (ACFF Net) to perform feature reconstruction and selectively fuse multi-scale reconstructed features in MFRLNet, respectively. Motivated by the multi-feature modeling and interaction (MFM-I), Rec Net extracts visual and geometric features from various layers using MFM-I, and conducts interactive learning to enhance the representational capacity of the network. Thereby, the module facilitates learning by the subsequent Classifier. Moreover, due to the extreme imbalance between hotspots and nonhotspots, we propose a two-stage training strategy to alleviate the issue of the network overfocusing on nonhotspot features. Experiments on the public datasets ICCAD 12 and ICCAD 19 demonstrate that our method achieves superior performance. Our code will be released at https://github.com/ChenHan-AnHui/MFRLNet.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1183,7 +1259,9 @@
       "doi": "10.1145/3846000",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3846000"
+      "url": "https://doi.org/10.1145/3846000",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3846000"
     },
     {
       "id": "doi:10.1145/3847663",
@@ -1195,7 +1273,7 @@
         "Ranxi Lin",
         "Pingqiang Zhou"
       ],
-      "summary": "",
+      "summary": "Side-channel attacks (SCAs) pose critical security threats to neural networks (NNs) deployed on hardware platforms, particularly in cloud-based Field-Programmable Gate Array (FPGA) environments. This paper introduces a channel-level parallel structure for matrix operations to enhance NN resilience against SCAs, which mainly targets convolutional layers in Convolutional Neural Networks (CNNs) and multi-head attention layers in Transformers. Unlike kernel-level parallelism which is the common base of parallel structure for FPGA NN Accelerator, our methodology reorganizes computational sequences by associating single inputs with weights from multiple CNN channels or multiple Query/Key/Value (Q/K/V) matrices across Transformer heads. This strategy effectively thwarts Correlation Power Analysis (CPA) attacks targeting layer weight extraction. Comprehensive evaluation on PYNQ-Z2 FPGA demonstrates significant security improvements over state-of-the-art masking techniques. For CNN convolutional layers, SCA success rates drop from \\(96.98\\% \\) to \\(7.27\\% \\) on average. The architecture achieves either: low resource overhead ( \\(87.3\\% \\) average reduction vs. state-of-the-art masking method) or enhanced timing performance ( \\(51.37\\% \\) average improvement vs. baseline). Similarly, Transformer multi-head attention layers exhibit reduced SCA success rates from \\(86.98\\% \\) to \\(7.03\\% \\) on average, with either \\(73.35\\% \\) resource reduction on average or \\(31.94\\% \\) timing improvement on average. Additional analysis examines weight distribution impact across channels for precise security assessment. Results confirm the proposed structure provides robust SCA protection for secure NN hardware deployment.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1210,7 +1288,9 @@
       "doi": "10.1145/3847663",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3847663"
+      "url": "https://doi.org/10.1145/3847663",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3847663"
     },
     {
       "id": "doi:10.1145/3838804",
@@ -1224,7 +1304,7 @@
         "Sheng Liu",
         "Li Shen"
       ],
-      "summary": "",
+      "summary": "Graph Convolutional Networks (GCNs) are widely used in tasks involving irregular graph data, such as recommendation. The hybrid execution pattern of sparse aggregation and dense combination during inference limits the efficiency of general processors like CPU and GPU. Therefore, designing dedicated accelerators for GCN inference has become an important research direction. However, existing GCN accelerators still suffer from high storage overhead caused by sparse indices and frequent read-after-write (RAW) conflicts during the aggregation phase, which limit system throughput and energy efficiency. To address these challenges, we adopt the hardware-software co-design approach and present DCSR-GCN, a high-performance GCN accelerator based on dynamic compression and sparsity reordering. First, we design an Enhanced Compressed Sparse Row (ECSR) format to reduce adjacency index storage space, and directly embed node degree fields to eliminate redundant computations in aggregation. Second, we propose a two-phase reordering algorithm that combines conflict-aware row scheduling with reuse-aware column grouping, thereby mitigating RAW conflicts and improving memory access efficiency. Finally, to fully exploit the benefits of sparse optimizations, we design a high-throughput vector systolic array that accelerates feature transformation in combination. Evaluations show that DCSR-GCN achieves up to 26.03 ×, 4.19 ×, and 3.52 × speedup compared to HyGCN, GCNAX, and MEGA, respectively.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1239,7 +1319,9 @@
       "doi": "10.1145/3838804",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3838804"
+      "url": "https://doi.org/10.1145/3838804",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3838804"
     },
     {
       "id": "doi:10.1145/3841480",
@@ -1255,7 +1337,7 @@
         "limin xiao",
         "Zhisheng Huo"
       ],
-      "summary": "",
+      "summary": "To address the low quality of Pareto solution sets and poor search efficiency in multi-objective optimization for XNOR/OR-based Fixed Polarity Reed-Muller (FPRM) logic circuits, this paper proposes an Experience Interaction Mechanism-based Area and Power Co-optimization method (EIM-APCO). At its core is the Dynamic Intelligent Experience-based Dung Beetle Optimizer (DIEDBO), which incorporates three complementary strategies: a dual-mode adaptive exploration strategy that balances global and local search via dynamic mode switching; a jump-based exploitation strategy that uses adaptive step sizes to escape local optima; and a phase-aware intelligent experience fusion strategy that facilitates information sharing and co-evolution within the population. Extensive experiments on 12 MCNC benchmark circuits—including orthogonal parameter tuning, ablation studies, HV indicator analysis, runtime comparison, and Wilcoxon statistical tests—demonstrate that DIEDBO outperforms DBO, MMODE_SPDN, MOGWO, IMOPSO, and MOEA/D, achieving maximum area and power savings of 42.58% and 23.33%, respectively, with an average runtime saving of 45.87%. The results confirm the effectiveness and competitiveness of the proposed method in multi‑objective FPRM circuit optimization.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1270,7 +1352,9 @@
       "doi": "10.1145/3841480",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3841480"
+      "url": "https://doi.org/10.1145/3841480",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3841480"
     },
     {
       "id": "doi:10.1145/3847670",
@@ -1286,7 +1370,7 @@
         "An Wang",
         "Zulie Pan"
       ],
-      "summary": "",
+      "summary": "Hardware Trojan detection is critical for ensuring integrated circuit security, particularly against instruction-activated hardware Trojans—which possess formidable stealth capabilities and targeted attack potential. Existing machine learning-based detection methods suffer from multiple limitations: insufficient feature separation, difficulty distinguishing normal noise from faint Trojan activation signals, and limited detection capability against instruction-activated Trojans. To address these challenges, this paper proposes the scale time attention detection (STAD) model, a semi-supervised anomaly detection method designed to resolve the issue of undefined anomaly boundaries in unsupervised learning. The model innovatively integrates multi-scale feature extraction with temporal attention mechanisms. Its core architecture comprises three parallel multi-scale temporal convolutional network (TCN) branches, capturing local temporal dependencies through sequences with varying dilation rates. The temporal attention mechanism applies local convolutional operations to learn adaptive importance weights for different time steps, leveraging the multi-scale temporal features encoded by the TCN branches. The dual-pooling layer preserves richer feature information, while the fully connected layer is used to compute anomaly scores. Experiments on the SAKURA-G development board demonstrate that the STAD detection model achieves favorable classification results using data from AES and RSA series hardware Trojans embedded in the Trust-Hub benchmark.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1301,7 +1385,9 @@
       "doi": "10.1145/3847670",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3847670"
+      "url": "https://doi.org/10.1145/3847670",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3847670"
     },
     {
       "id": "doi:10.1145/3847672",
@@ -1320,7 +1406,7 @@
         "Juho Kim",
         "Unsang Park"
       ],
-      "summary": "",
+      "summary": "Accurate spatial prediction of power-integrity issues such as IR drop is critical for reliable VLSI design, yet traditional simulation-based solvers do not scale efficiently to modern designs. We formulate static IR drop estimation as a pixel-wise regression problem over heterogeneous multi-channel layout maps. However, existing CNN-based surrogates implicitly assume uniform importance across input channels, overlooking the inherent imbalance among heterogeneous physical features. As a result, dense feature maps (e.g., hypothetical IR drop (HIRD) maps) tend to dominate channel attention, while sparse but physically critical cues—such as wire and via resistance—are suppressed, leading to degraded hotspot detection. To address this issue, we propose Weakness-Aware Channel Attention (WACA), a recursive two-stage gating mechanism that explicitly enhances underutilized yet informative channels. Unlike conventional attention mechanisms that primarily amplify already dominant features, WACA reuses the weights of standard channel-attention modules (e.g., SE, CBAM) to adaptively rebalance channel contributions without introducing additional learnable parameters. Integrated into a ConvNeXtV2-based Attention U-Net, WACA produces more balanced feature representations and improves localization robustness. On the ICCAD-2023 benchmark, WACA-UNet achieves an MAE of 0.0524 and an F1 score of 0.778, outperforming the contest winner by 61.1% and 71.0%, respectively. These results suggest that modeling channel-wise heterogeneity can serve as a useful inductive bias for hotspot-sensitive IR-drop prediction under the evaluated benchmark setting.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1335,7 +1421,9 @@
       "doi": "10.1145/3847672",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3847672"
+      "url": "https://doi.org/10.1145/3847672",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3847672"
     },
     {
       "id": "doi:10.1145/3847673",
@@ -1349,7 +1437,7 @@
         "Kyumyung Choi",
         "Taewhan Kim"
       ],
-      "summary": "",
+      "summary": "Design and technology co-optimization (DTCO) is the process of optimizing technology and design concurrently to enhance the performance, power, and area (PPA) of semiconductors, in which an essential ingredient is to evaluate technologies, design rules, and cell architectures using block-level PPA analysis. In this paper, we propose a novel DTCO framework assisted by machine learning (ML) for advanced process nodes. The key features of our framework are: (1) precise analysis of DTCO parameter changes in real time as well as identification of optimal DTCO parameter configurations within an acceptable runtime; (2) a full exploration of PPA metrics through standard cell (SC) library generation and PPA evaluation, for which we develop a new algorithm that accelerates the necessary physical design process; (3) supporting both Complementary-FET (CFET)-based SCs and multi-row-height SCs. Through experiments with benchmark circuits, we show that our DTCO framework preserves trends in PPA changes and precisely identifies optimal DTCO parameter sets while substantially improving efficiency. In addition, it is shown that our SC layout generator supporting CFET-based SCs and multi-row-height SCs provides a timely DTCO process relevant to ongoing technology advancements.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1364,7 +1452,9 @@
       "doi": "10.1145/3847673",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3847673"
+      "url": "https://doi.org/10.1145/3847673",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3847673"
     },
     {
       "id": "doi:10.1145/3846381",
@@ -1379,7 +1469,7 @@
         "Mehdi Tahoori",
         "Krishnendu Chakrabarty"
       ],
-      "summary": "",
+      "summary": "FPGAs are increasingly used in cloud computing infrastructures and reconfigurable system-on-chip, particularly for AI acceleration. The availability of FPGAs in cloud data centers has opened up new opportunities for users to improve application performance by implementing customizable hardware accelerators directly on the FPGA fabric. To improve resource utilization and flexibility, FPGAs allow multi-tenancy, in which multiple users share a single FPGA through dynamic partial reconfiguration. However, the virtualization and sharing of FPGA resources among multiple users open up new security vulnerabilities during reconfiguration. For instance, an adversary can inject faults into partial bitstreams during the reconfiguration process. Unlike prior runtime fault attacks, the injected faults become embedded in the bitstream and persist after configuration, continuing to corrupt FPGA operation even after the attack ceases. Cyclic redundancy check (CRC) is used in commercial FPGA toolchains for bitstream integrity verification, but CRC is insufficient against reconfiguration-time fault attacks. In particular, CRC performs coarse-grained, post-load bitstream verification, which prevents early detection of bitstream manipulation and can induce denial-of-service by forcing the configuration interface into an error state that blocks subsequent benign bitstreams. To address these limitations, we present a lightweight countermeasure that integrates ASCON, a standardized cryptographic authentication primitive, directly into the reconfiguration flow to detect and block fault-injected bitstreams from configuration. Experimental results on a Xilinx Pynq FPGA platform demonstrate preemptive detection and fine-grained localization of fault-injected regions within the bitstream, while incurring low overhead.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1394,7 +1484,9 @@
       "doi": "10.1145/3846381",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3846381"
+      "url": "https://doi.org/10.1145/3846381",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3846381"
     }
   ]
 }

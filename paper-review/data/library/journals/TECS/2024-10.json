@@ -32,7 +32,9 @@
       "doi": "10.1145/3702229",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3702229"
+      "url": "https://doi.org/10.1145/3702229",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3702229"
     },
     {
       "id": "doi:10.1145/3701621",
@@ -62,7 +64,9 @@
       "doi": "10.1145/3701621",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3701621"
+      "url": "https://doi.org/10.1145/3701621",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3701621"
     }
   ]
 }

@@ -35,7 +35,9 @@
       "doi": "10.1109/tpds.2023.3339474",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2023.3339474"
+      "url": "https://doi.org/10.1109/tpds.2023.3339474",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2023.3339474"
     },
     {
       "id": "doi:10.1109/tpds.2024.3357353",
@@ -66,7 +68,9 @@
       "doi": "10.1109/tpds.2024.3357353",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3357353"
+      "url": "https://doi.org/10.1109/tpds.2024.3357353",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3357353"
     },
     {
       "id": "doi:10.1109/tpds.2023.3349177",
@@ -95,7 +99,9 @@
       "doi": "10.1109/tpds.2023.3349177",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2023.3349177"
+      "url": "https://doi.org/10.1109/tpds.2023.3349177",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2023.3349177"
     },
     {
       "id": "doi:10.1109/tpds.2022.3185212",
@@ -123,7 +129,9 @@
       "doi": "10.1109/tpds.2022.3185212",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2022.3185212"
+      "url": "https://doi.org/10.1109/tpds.2022.3185212",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2022.3185212"
     },
     {
       "id": "doi:10.1109/tpds.2024.3350368",
@@ -152,7 +160,9 @@
       "doi": "10.1109/tpds.2024.3350368",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3350368"
+      "url": "https://doi.org/10.1109/tpds.2024.3350368",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3350368"
     },
     {
       "id": "doi:10.1109/tpds.2024.3357715",
@@ -181,7 +191,9 @@
       "doi": "10.1109/tpds.2024.3357715",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3357715"
+      "url": "https://doi.org/10.1109/tpds.2024.3357715",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3357715"
     },
     {
       "id": "doi:10.1109/tpds.2024.3351632",
@@ -209,7 +221,9 @@
       "doi": "10.1109/tpds.2024.3351632",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3351632"
+      "url": "https://doi.org/10.1109/tpds.2024.3351632",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3351632"
     },
     {
       "id": "doi:10.1109/tpds.2024.3349617",
@@ -239,7 +253,9 @@
       "doi": "10.1109/tpds.2024.3349617",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3349617"
+      "url": "https://doi.org/10.1109/tpds.2024.3349617",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3349617"
     },
     {
       "id": "doi:10.1109/tpds.2024.3354713",
@@ -268,7 +284,9 @@
       "doi": "10.1109/tpds.2024.3354713",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1109/tpds.2024.3354713"
+      "url": "https://doi.org/10.1109/tpds.2024.3354713",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/tpds.2024.3354713"
     }
   ]
 }

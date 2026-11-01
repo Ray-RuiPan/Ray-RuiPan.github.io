@@ -19,7 +19,7 @@
         "Dongbo Wang",
         "Zhiyao Xie"
       ],
-      "summary": "",
+      "summary": "With the growing demand for artificial intelligence (AI) applications, high-performance and energy-efficient AI chips are needed to support the computation. However, architectural-level AI chip design, PPA evaluation, and power estimation remain challenging due to the exponential set of possible designs and the difficulty of accurately modeling the impact of diverse dataflows and workflows on the underlying hardware at the architectural-design stage. We propose a novel open-source framework named OSCAR, which, given a set of hardware and workload specifications, provides architecture-level power estimation and can also automatically generate Chisel and synthesizable RTL of the custom AI chip. Our contributions include (1) a flexible and hierarchical AI chip design space, software and hardware stack, and an RTL generator supporting dense, Transformer, Winograd, systolic, and reconfigurable architectures in one unified framework, (2) hierarchy-based data-sensitive power model using architectural-level toggling features, achieving 3.8% error and correlation coefficient R > 0.99 to post-synthesis power, outperforming state-of-the-art power estimation methods, (3) validation of our power model by performing design space exploration, finding designs with better Pareto-optimality, 2.5 × lower power or 2 × better runtime metrics, compared with using prior art power models, (4) a tape-out of an AI chip based on DSE results, with OSCAR modeling its power with over 90% accuracy.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -34,7 +34,9 @@
       "doi": "10.1145/3841479",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3841479"
+      "url": "https://doi.org/10.1145/3841479",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3841479"
     },
     {
       "id": "doi:10.1145/3844513",
@@ -52,7 +54,7 @@
         "Yibo Lin",
         "Tsung-Wei Huang"
       ],
-      "summary": "",
+      "summary": "Critical Path Generation (CPG) is fundamental for many static timing analysis (STA) applications. As the circuit complexity continues to increase, CPG runtime has quickly become the bottleneck due to its time-consuming and iterative nature. Despite many CPG algorithms introduced by existing timers, nearly all of them are limited to a single CPU thread , leading to long runtime for large CPG queries. To mitigate this runtime challenge, we need a parallel CPG algorithm. However, designing a parallel CPG algorithm is very challenging because we need to strategically partition the path search space into multiple groups that can run in parallel while accommodating different slack priorities. To overcome this challenge, we propose C-PathGen , an exact and efficient CPU-parallel CPG algorithm. Building on our prior CPU-parallel CPG algorithm, PathGen, C-PathGen overcomes its inaccuracy by filtering out non-critical paths. Additionally, to eliminate contention caused by atomic operations on generated paths, we introduce a new exploration strategy that processes the paths directly in place. Compared to PathGen, C-PathGen is 6.8 × –10.3 × faster while producing exact results when dealing with large path queries on industrial circuit graphs.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -67,7 +69,9 @@
       "doi": "10.1145/3844513",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3844513"
+      "url": "https://doi.org/10.1145/3844513",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3844513"
     },
     {
       "id": "doi:10.1145/3842670",
@@ -83,7 +87,7 @@
         "Hengzhu Liu",
         "Xia Zhao"
       ],
-      "summary": "",
+      "summary": "Multi-chip-module (MCM) GPUs improve scalability by integrating multiple GPU chiplets, but spatial multitasking introduces severe performance interference due to non-uniform memory access and asymmetric inter-chip bandwidth. Existing GPU multitasking schedulers rely on runtime profiling metrics to guide placement decisions. These reactive approaches observe the consequence of interference rather than its structural cause, vary across inputs and co-running workloads, and incur non-trivial overhead. This paper presents SA-Scheduler , a structure-derived bottleneck-aware scheduling framework for multitasking MCM-GPUs. Instead of profiling execution behavior, SA-Scheduler derives hardware bottleneck regimes directly from kernel structure prior to execution. Through offline architecture-aware modeling, we extract iteration-normalized features such as warp-level working-set footprint and global memory intensity (GMI). A fine-tuned lightweight code model (Qwen-2.5-Coder-1.5B) assists semantic structural extraction for CUDA kernels. These features are translated via an analytical bottleneck model into distinct interference regimes (C, M1, M2, and M3), characterizing how kernels interact with hierarchical and asymmetric memory resources under co-execution. Based on the inferred regimes, SA-Scheduler determines chip placement without hardware modification or runtime bottleneck profiling. For streaming multiprocessor (SM) allocation and optional power-gating decisions, SA-Scheduler further employs lightweight counter-based feedback to tune resource usage under bounded overhead. Across 105 two-program workloads, SA-Scheduler improves system throughput (STP) by 17.63% and 10.48% over intra-chip and inter-chip scheduling, respectively, while increasing fairness by up to 33.27%. An energy-aware Power Mode further reduces average power by up to 25.39% under bounded throughput degradation. These results demonstrate that structure-derived bottleneck inference provides a principled and scalable foundation for multitasking on future MCM-GPUs.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -98,7 +102,9 @@
       "doi": "10.1145/3842670",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3842670"
+      "url": "https://doi.org/10.1145/3842670",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3842670"
     },
     {
       "id": "doi:10.1145/3830468",
@@ -109,7 +115,7 @@
         "Lantian Li",
         "Mohamed Aly"
       ],
-      "summary": "",
+      "summary": "Small language models (SLMs) are increasingly deployed in resource-constrained environments, motivating the development of specialized accelerators. However, designing efficient SLM accelerators remains challenging due to diverse application requirements and complex interplay among architectural parameters and workload characteristics. This paper proposes a closed-form analytical model that accurately evaluates latency and energy consumption for SLM accelerators across different dataflows and technology nodes (e.g., 28 nm CMOS and 7 nm FinFET). The model accounts for repeated data accesses, inter-processing element (PE) interconnections, and the energy costs of different DRAM operations, resulting in high simulation accuracy. Validation results show an average accuracy of \\(96.0\\% \\) for latency, \\(96.8\\% \\) for PE array energy, and \\(97.1\\% \\) for DRAM energy. Using the proposed model, we conduct extensive design space exploration (DSE) and derive empirical formulas for optimized PE array sizes, along with analytical methods for memory capacities that minimize redundant memory accesses. We also examine optimized combinations of PE array size, memory capacity, bandwidth, and dataflow. Furthermore, we investigate area-constrained scenarios (2 mm 2 , 7 mm 2 , 30 mm 2 ) and provide guidelines for allocating computation and memory resources. Results show that the optimized PE array size is around 240 × 240 for IS and OS, while WS requires at least 300 × 300, but with lower memory demands. Under relaxed area constraints, at least 30 GB/s of bandwidth is needed for full area utilization, whereas strict area limits favor maximizing the PE array. Overall, this work provides practical guidelines for hardware parameter selection, enabling optimized SLM accelerator deployment across diverse applications.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -124,7 +130,9 @@
       "doi": "10.1145/3830468",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3830468"
+      "url": "https://doi.org/10.1145/3830468",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830468"
     },
     {
       "id": "doi:10.1145/3842675",
@@ -144,7 +152,7 @@
         "Hai Li",
         "Yiran Chen"
       ],
-      "summary": "",
+      "summary": "Electronic Design Automation (EDA) remains heavily reliant on tool command language (Tcl) scripting to drive complex RTL-to-GDSII flows. This scripting-based paradigm is labor-intensive, error-prone, and difficult to scale across large design projects. Recent advances in large language models (LLMs) suggest a new paradigm of natural language–driven automation. However, existing EDA efforts remain limited and face key challenges, including the absence of standardized interaction protocols and dependence on external APIs that introduce privacy risks. We present AutoEDA , a framework that leverages the Model Context Protocol (MCP) to support natural-language construction and execution of evaluated RTL-to-GDSII design flows. AutoEDA combines a locally fine-tuned intent-to-IR client with stage-level MCP tools and deterministic server procedures for validation, template rendering, artifact management, execution, and report collection. We further contribute a benchmark generation pipeline for diverse EDA scenarios and extend CodeBLEU with Tcl-specific enhancements for domain-aware script-fidelity evaluation. Empirical results show that AutoEDA achieves up to 9.9 × higher CodeBLEU than the direct-generation baseline while reducing token usage by approximately 97% compared with in-context learning. Our evaluation focuses on the reliability layer of natural-language EDA automation: generating executable Tcl flows that preserve stage dependencies and produce reports for downstream timing, area, power, and routing analysis. It does not claim closed-loop QoR optimization or industrial sign-off quality.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -159,7 +167,9 @@
       "doi": "10.1145/3842675",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3842675"
+      "url": "https://doi.org/10.1145/3842675",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3842675"
     },
     {
       "id": "doi:10.1145/3837085",
@@ -171,7 +181,7 @@
         "Sanghamitra Roy",
         "Koushik Chakraborty"
       ],
-      "summary": "",
+      "summary": "Operating Tensor Processing Units (TPUs) in the near-threshold computing (NTC) region significantly reduces energy consumption but introduces high delay sensitivity to process variation and data activity. Conventional designs typically rely on a conservative, fixed global clock to ensure safety, which leaves large portions of timing margin unexploited as most operations finish well before the clock edge. We propose Dynamic Slack-Aware Clocking (DSAC), a proactive framework that replaces worst-case timing with operation-specific adjustments. DSAC employs lightweight Hamming-Distance, Most-Significant-Bit, and Hybrid predictors to estimate the delay sensitivity of individual multiply-accumulate (MAC) operations and classify them into three timing tiers. These tiers are enforced locally via dummy-hold cycles under a fixed global reference clock, enabling fine-grained timing adaptation without global clock retuning or frequency scaling. A closed-loop feedback controller monitors timing violations and updates tier thresholds at runtime to maintain resilience. Experiments on quantized DNN benchmarks demonstrate that the MSB predictor maintains high inference accuracy, with an average loss of only 1% even at aggressive performance points. Furthermore, DSAC achieves up to 1.55 × better energy efficiency at 2.15 × frequency scaling compared to a baseline TPU, while incurring an area overhead as low as 13%.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -186,7 +196,9 @@
       "doi": "10.1145/3837085",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3837085"
+      "url": "https://doi.org/10.1145/3837085",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837085"
     },
     {
       "id": "doi:10.1145/3841184",
@@ -197,7 +209,7 @@
         "Baharealsadat Parchamdar",
         "Benjamin Carrion Schafer"
       ],
-      "summary": "",
+      "summary": "Approximate computing exploits the inherent error tolerance of many applications to achieve significant improvements in area, energy, and performance. This work proposes a novel method to determine the smallest possible hardware design that satisfies a given maximum error threshold ( E max ) using High-Level Synthesis (HLS). HLS tools rely heavily on synthesis directives (pragmas) to control how arrays (e.g., RAMs, ROMs, registers), functions (e.g., inline, goto), and loops (e.g., full unroll, partial unroll, pipeline) are implemented. In this work we leverage this and introduce an automated, approximation-aware HLS design space exploration framework guided by an Approximation Friendliness Index (AFI), a static metric that can be computed efficiently. This index enables the rapid identification of hardware implementations generated by setting unique HLS pragma combinations, with high potential for approximation, allowing the proposed framework to approximate only the most promising designs rather than every variant generated during the exploration process. Finally, recognizing that many hardware systems are organized as dataflow architectures, where multiple components are connected sequentially (e.g., JPEG), we extend our approach to optimize the entire dataflows given as separated individual behavioral descriptions for HLS. The proposed method identifies the best pragma combinations and set of approximations in each description to minimize the overall design size while maintaining accuracy at the primary outputs of the dataflow within E max . Experimental results show that this approach leads to basically the same results as exhaustively approximating every new design, while being substantially faster.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -212,7 +224,9 @@
       "doi": "10.1145/3841184",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3841184"
+      "url": "https://doi.org/10.1145/3841184",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3841184"
     },
     {
       "id": "doi:10.1145/3840398",
@@ -227,7 +241,7 @@
         "Yu Yao",
         "Jiaqi Gu"
       ],
-      "summary": "",
+      "summary": "Diffractive optical neural networks (DONNs) have demonstrated unparalleled energy efficiency and parallelism by processing information directly in the optical domain. However, their computational expressivity is constrained by static, passive diffractive phase masks that lack efficient nonlinear responses and reprogrammability. To address these limitations, we introduce Recurrent Diffractive Optical Neural Processor ( ReDON ), a novel architecture featuring reconfigurable, recurrent self-modulated nonlinearity. This mechanism enables dynamic, input-dependent optical transmission through in-situ electro-optic self-modulation, providing a highly efficient and reprogrammable approach to optical computation. Inspired by the gated linear unit (GLU) in large language models, ReDON senses a fraction of the propagating optical field and modulates its phase or intensity via a lightweight, parametric function, enabling effective nonlinearity with minimal inference overhead. As a non-von Neumann architecture with the main weighting units (metasurfaces) being fixed, we substantially extend the DONN’s nonlinear representational capacity and task adaptability via recurrent optical hardware reuse and dynamically tunable nonlinearity. We systematically investigate various self-modulation configurations to uncover the trade-offs between hardware efficiency and expressivity. On image recognition and segmentation tasks, ReDON improves test accuracy and mIoU by up to 20% over prior DONNs with optical or digital nonlinearities at comparable complexity and negligible power overhead. This work establishes a new paradigm for reconfigurable nonlinear optical computing, uniting the benefits of recurrence and self-modulation in non-von Neumann analog processors.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -242,7 +256,9 @@
       "doi": "10.1145/3840398",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3840398"
+      "url": "https://doi.org/10.1145/3840398",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3840398"
     },
     {
       "id": "doi:10.1145/3834781",
@@ -258,7 +274,7 @@
         "Fukun Chen",
         "He Jiang"
       ],
-      "summary": "",
+      "summary": "As FPGA design complexity increases, the correctness and reliability of logic synthesis tools are critical to ensuring correct hardware implementation. These tools translate hardware description languages (e.g., Verilog) into gate-level netlists, where latent faults may introduce functional errors or performance degradation during synthesis. Existing approaches rely on automatically generated Verilog test cases to find these latent faults. However, their effectiveness depends heavily on generator configurations and is typically guided by input diversity, which fails to accurately capture differences in synthesis behavior. Moreover, the high-dimensional configuration space of generator further hinders efficient exploration. To address these challenges, we propose SynaSpace, a behavior-driven configuration optimization framework for fault detection in logic synthesis tools. SynaSpace focuses on synthesis behavior coverage to guide configuration search, by constructing behavioral representations through joint analysis of synthesis logs and gate-level netlists. The framework comprises four components: (1) configuration space modeling for unified parameter representation; (2) Bayesian optimization–based configuration search for efficient exploration; (3) synthesis behavior characterization and coverage evaluation for capturing and quantifying behavioral differences; and (4) fault detection and utility modeling for extracting effective feedback via differential testing and deduplication. These components are integrated into a unified optimization framework to enable efficient configuration exploration and improved testing effectiveness. We evaluate SynaSpace on two established logic synthesis tools (i.e., Vivado and Yosys). SynaSpace identifies 18 faults across four categories, all of which have been confirmed and fixed by vendors and the open-source community.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -273,7 +289,9 @@
       "doi": "10.1145/3834781",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3834781"
+      "url": "https://doi.org/10.1145/3834781",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3834781"
     },
     {
       "id": "doi:10.1145/3831711",
@@ -290,7 +308,7 @@
         "Jiaqi Gu",
         "Rena Huang"
       ],
-      "summary": "",
+      "summary": "The growing computational demands of artificial intelligence (AI) are challenging conventional electronics, making photonic computing a promising alternative. However, existing photonic architectures face fundamental scalability and reliability barriers. This paper introduces SKYLIGHT , a scalable 3D photonic in-memory tensor core architecture designed for real-time AI inference. By co-designing its topology, wavelength routing, accumulation, and programming in a 3D stack, SKYLIGHT overcomes key limitations. Its innovations include a low-loss 3D Si/SiN crossbar topology, a thermally robust non-micro-ring resonator (MRR)-based wavelength-division multiplexing (WDM) component, a hierarchical signal accumulation using a multi-port photodetector (PD), and optically programmed non-volatile phase-change material (PCM) weights. Importantly, SKYLIGHT enables in-situ weight updates that support label-free, layer-local learning (e.g., forward-forward local updates) in addition to inference. With comprehensive system-level modeling, we show that a single 144 × 256 SKYLIGHT core achieves a peak compute capability of 342.1 TOPS at 23.7 TOPS/W under a high-reuse tensor-core operating point. For end-to-end ResNet-50 inference, where the same physical core is reprogrammed across layers and tiles, SKYLIGHT reaches 1212 FPS with 60.9 mJ/image after explicitly accounting for PCM programming energy. System-level evaluations on four representative machine learning tasks, including unsupervised local self-learning, demonstrate SKYLIGHT ’s robustness to realistic hardware non-idealities (low-bit quantization and signal-proportional analog noise capturing modulation, PCM programming, and readout variations). With noise-aware training, SKYLIGHT maintains high task accuracy, validating its potential as a comprehensive solution for energy-efficient, large-scale photonic AI accelerators.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -305,7 +323,9 @@
       "doi": "10.1145/3831711",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3831711"
+      "url": "https://doi.org/10.1145/3831711",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831711"
     },
     {
       "id": "doi:10.1145/3819826",
@@ -322,7 +342,7 @@
         "Jixuan Tang",
         "LiZhou Wu"
       ],
-      "summary": "",
+      "summary": "AI workloads increasingly demand high parallelism and efficient on-chip memory utilization on modern GPUs. However, the limited capacity of shared memory often constrains thread-level parallelism, while portions of the L2 cache remain underutilized. In this work, we propose SAI , a mechanism that virtualizes shared memory into the L2 cache to improve GPU performance for AI applications. SAI dynamically activates virtualization based on runtime resource usage, enabling additional CTAs with minimal architectural modifications. We further introduce an L2 cache management strategy that integrates associativity-based virtual page allocation and a replacement information table, reducing page-swapping overhead while preserving L2 cache performance. Experimental results demonstrate that SAI achieves an 18.6% performance improvement over the baseline design and outperforms SMILE-opt, our reproduced state-of-the-art baseline, by 8.8%. Moreover, SAI captures 60.2% of the performance gain delivered by the idealized Double SMEM design while reducing energy consumption to 87.7% of the baseline. These results highlight the effectiveness of SAI in enhancing thread-level parallelism and optimizing on-chip memory for AI workloads.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -337,7 +357,9 @@
       "doi": "10.1145/3819826",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3819826"
+      "url": "https://doi.org/10.1145/3819826",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3819826"
     },
     {
       "id": "doi:10.1145/3833423",
@@ -350,7 +372,7 @@
         "Chia-Heng Tu",
         "Shih-Hao Hung"
       ],
-      "summary": "",
+      "summary": "Quantum computing has the potential to accelerate various fields by solving specific problems significantly faster than classical computers. Solving more complex problems generally requires a larger number of qubits. However, current quantum devices are constrained by limited qubit counts and environmental noise. Quantum circuit cutting bridges the gap between the theoretical requirements of large quantum circuits and the practical limitations of current quantum hardware by decomposing large circuits into smaller subcircuits. Tang et al. introduced CutQC, a framework that reduces the number of generated subcircuits and reconstructs the complete quantum state with limited memory consumption. Despite these advances, CutQC faces performance bottlenecks in classical postprocessing, leading to long execution times. To address this limitation, we propose QCutSim, an efficient simulation-based framework guided by insights from the postprocessing stage. It improves performance through optimized simulation and reconstruction strategies, along with computational optimizations such as vectorization and parallelization. QCutSim demonstrates that even consumer-grade systems can efficiently simulate 100-qubit circuits and achieves a speedup of up to 5.1x compared to prior work on the same hardware. In the worst-case scenario of reconstructing dense solution circuits, QCutSim achieves a speedup of 6 to 8 orders of magnitude.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -365,7 +387,9 @@
       "doi": "10.1145/3833423",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3833423"
+      "url": "https://doi.org/10.1145/3833423",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833423"
     },
     {
       "id": "doi:10.1145/3816255",
@@ -376,7 +400,7 @@
         "Vikram Gopalakrishnan",
         "Vidya Chhabria"
       ],
-      "summary": "",
+      "summary": "Today’s large-scale designs leverage power gating to achieve low power consumption, which necessitates the design of an efficient power switch network that accounts for both inrush current and wakeup latency. Optimizing this power switch network involves striking a balance between minimizing inrush current and reducing wakeup latency. However, analyzing inrush and wakeup latency for a given network is computationally expensive, particularly for complex systems, making optimization frameworks that rely on analysis engines prohibitively slow. To address this challenge, we frame the analysis of inrush and wakeup latency as a regression problem and train machine-learning (ML) models to predict these metrics. The ML model achieves mean errors of less than 10% for inrush current prediction and for wakeup latency prediction, while providing a speedup of over 50× compared to SPICE. By leveraging an ML model, we efficiently explore the design space and identify optimized power switch network patterns that minimize both wakeup latency and inrush current.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -391,7 +415,9 @@
       "doi": "10.1145/3816255",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3816255"
+      "url": "https://doi.org/10.1145/3816255",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3816255"
     },
     {
       "id": "doi:10.1145/3837868",
@@ -402,7 +428,7 @@
         "Menglin Yang",
         "Jian Hu"
       ],
-      "summary": "",
+      "summary": "Hardware verification of the register transfer level (RTL) designs is a critical step in the development of complex digital circuits, ensuring their functional correctness, performance, and reliability. Within this crucial process, bug localization is an essential component for precisely identifying the root causes of design errors. Dynamic bug localization (DBL) stands out as an efficient and automatic approach to locate bug source code by calculating statement suspiciousness based on execution traces. However, DBL methods rely solely on coverage information and simplistic statistical formulas to compute suspiciousness, which has been criticized for their limited precision and inadequate reduction of debugging effort. In this paper, we propose MulFetFL: a multi-features deep learning based bug localization for RTL designs. MulFetFL begins by extracting three multimodal features: abstract syntax tree (AST) features, signal features, and timing features from designs. It then employs Graph Attention Networks (GAT) to enhance node representations. A cross-modal attention mechanism is subsequently applied to fuse these complementary features from different modalities. Finally, the fused features are passed through a multi-layer perceptron (MLP) to compute the suspiciousness score for each statement. Experimental results show that MulFetFL effectively locates 293, 295 and 298 bugs within Top-1/Top-3/Top-5 ranks, significantly outperforming state-of-the-art bug localization methods across a range of benchmark designs.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -417,7 +443,9 @@
       "doi": "10.1145/3837868",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3837868"
+      "url": "https://doi.org/10.1145/3837868",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837868"
     },
     {
       "id": "doi:10.1145/3839241",
@@ -427,7 +455,7 @@
       "authors": [
         "Irith Pomeranz"
       ],
-      "summary": "",
+      "summary": "In a chiplet-based design, logic blocks (chiplets) are connected by a large number of interconnects to form larger functions. The interconnects require comprehensive testing to ensure that the design operates correctly. The interconnects are tested using isolation logic to support comprehensive structural testing. It was also suggested to test the interconnects together with the logic block that drives them in a closer to functional mode of operation. In this approach, fault effects are captured at the destination of the interconnects. Whereas the isolation logic on the source of the interconnects is bypassed, the isolation logic on their destination is not. This article suggests for the first time an approach where the isolation logic on both the source and destination of the interconnects is bypassed, operating the same as during functional operation. This requires an interconnect fault model that specifies fault effects. In addition, sequential test generation is used for more complete testing under functional operation conditions. Sequential test generation is applied only to interconnect faults to limit the computational effort. To further limit the computational effort, the article introduces a notion of potentially undetectable interconnect faults that is specific to this model. Experimental results for benchmark circuits in an academic simulation environment demonstrate the effectiveness of sequential test generation in this context.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -442,7 +470,9 @@
       "doi": "10.1145/3839241",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3839241"
+      "url": "https://doi.org/10.1145/3839241",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3839241"
     },
     {
       "id": "doi:10.1145/3815186",
@@ -454,7 +484,7 @@
         "Marios Visvardis",
         "Efthymios Efstathiou"
       ],
-      "summary": "",
+      "summary": "Floating random walk-based capacitance extraction has emerged in recent years as a tried and true approach for extracting parasitic capacitance in very large scale integrated circuits. Being a Monte Carlo method, its performance is dependent on the variance of sampled quantities and variance reduction methods are crucial for the challenges posed by ever denser process technologies and layout-dependent effects. In this work, we present a novel, universal variance reduction method for floating random walk-based capacitance extraction, which is conceptually simple, highly efficient and provably reduces variance in all extractions, especially when layout-dependent effects are present. It is complementary to existing mathematical formulations for variance reduction and its performance gains are experienced on top of theirs. Numerical experiments demonstrate substantial such gains of up to 50% in number of walks necessary as well as in actual extraction times compared to the best previously proposed variance reduction approaches for the floating random-walk.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -469,7 +499,9 @@
       "doi": "10.1145/3815186",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3815186"
+      "url": "https://doi.org/10.1145/3815186",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3815186"
     },
     {
       "id": "doi:10.1145/3837864",
@@ -487,7 +519,7 @@
         "Sijia Liu",
         "Zheng Zhang"
       ],
-      "summary": "",
+      "summary": "Physics intelligence and digital twins often require rapid and repeated performance evaluation of various engineering systems (e.g. robots, autonomous vehicles, semiconductor chips) to enable (almost) real-time actions or decision making. This has motivated the development of accelerated partial differential equation (PDE) solvers, in resource-constrained scenarios if the PDE solvers are to be deployed on the edge. Physics-informed neural networks (PINNs) have shown promise in solving high-dimensional PDEs, but the training time on state-of-the-art digital hardware (e.g., GPUs) is still orders-of-magnitude longer than the latency required for enabling real-time decision making. Photonic computing offers a potential solution to address this huge latency gap because of its ultra-high operation speed. However, the lack of photonic memory and the large device sizes prevent training real-size PINNs on photonic chips. This paper proposes a completely back-propagation-free (BP-free) and highly scalable framework for training real-size PINNs on silicon photonic platforms. Our approach involves three key innovations: (1) a sparse-grid Stein derivative estimator to avoid the BP in the loss evaluation of a PINN, (2) a dimension-reduced zeroth-order optimization via tensor-train decomposition to achieve better scalability and convergence in BP-free training, and (3) a scalable on-chip photonic PINN training accelerator design using photonic tensor cores. We validate our numerical methods on both low- and high-dimensional PDE benchmarks. Through pre-silicon simulation based on real device parameters, we further demonstrate the significant performance benefit (e.g., real-time training, huge chip area reduction) of our photonic accelerator. Our code is available at https://github.com/olokevin/scalable_bpfree_onn_training.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -502,7 +534,9 @@
       "doi": "10.1145/3837864",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3837864"
+      "url": "https://doi.org/10.1145/3837864",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837864"
     },
     {
       "id": "doi:10.1145/3834780",
@@ -515,7 +549,7 @@
         "Bei Yu",
         "Guoyong Shi"
       ],
-      "summary": "",
+      "summary": "The structural richness of analog integrated circuits poses significant challenges for automatic topology synthesis. Direct transistor-level construction introduces excessive structural details, whereas overly coarse abstraction may obscure critical transistor-level behaviors. This paper addresses the topology synthesis of multistage operational amplifiers (Op-Amps), whose compensation-dependent structural diversity makes automated synthesis particularly challenging. We propose AnalogSyn, a tool for compensation-aware topology synthesis of multistage Op-Amps. By decomposing synthesis into a two-step procedure, AnalogSyn organizes the topology synthesis space in a PZ-guided manner. At the macromodel level, compensation variability is explicitly captured, and infeasible topologies are efficiently pruned using a formal symbolic pole–zero analysis. At the transistor level, each validated macromodel is transformed into multiple transistor-level implementations via intermediate hypergraph representations, enabling structural diversity without blind enumeration. Experimental results demonstrate that AnalogSyn can recover most representative published three-stage Op-Amp topologies in our benchmark and generate previously unreported variants with promising initial pre-layout sizing results. Compared with existing methods, AnalogSyn achieves richer compensation strategy diversity and more efficient, interpretable topology-space exploration.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -530,7 +564,9 @@
       "doi": "10.1145/3834780",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3834780"
+      "url": "https://doi.org/10.1145/3834780",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3834780"
     },
     {
       "id": "doi:10.1145/3837865",
@@ -549,7 +585,7 @@
         "Hui Li",
         "He Jiang"
       ],
-      "summary": "",
+      "summary": "With the continued advancement of Very Large-Scale Integration (VLSI) technology, IR drop in Power Delivery Networks (PDNs) poses a serious threat to chip performance and reliability. Due to the complex cross-scale interactions between local hotspots and global power paths in real-world scenarios, existing approaches face the challenges of lacking a coupled representation of multi-scale features and ignoring long-range dependencies and spatiotemporal feature fusion. This severely limits the ability of IR drop prediction approaches to capture voltage-drop hotspots, undermining the accuracy and reliability of their predictions. Therefore, this paper proposes a novel prediction framework named IR-Hunter. IR-Hunter first employs heterogeneous convolution kernels to model local electrothermal hotspots and global PDN impedance distributions, precisely capturing hotspot locations and macro-scale current-flow paths critical for chip layout and routing. Then, it adaptively fuses these multi-scale features. Additionally, IR-Hunter learns global power interactions within the PDN to identify long-range voltage coupling effects affecting routing and power-grid stability. Finally, IR-Hunter leverages cross-metal-layer current propagation pathways, efficiently integrating cross-scale spatiotemporal information between the encoder and decoder stages, consistently improving IR drop prediction accuracy during chip design. Comprehensive experiments conducted on 20,578 samples collected from over 20K instances demonstrate IR-Hunter’s superior prediction accuracy, achieving an average 4.57% NRMSE reduction and 4.12% SSIM improvement compared to state-of-the-art approaches. Additionally, to foster advancements in the EDA community, we have open-sourced the code at https://github.com/xhhlzy/IR-Hunter.",
       "venue": "TODAES",
       "venueName": "TODAES",
       "journalName": "ACM Transactions on Design Automation of Electronic Systems",
@@ -564,7 +600,9 @@
       "doi": "10.1145/3837865",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3837865"
+      "url": "https://doi.org/10.1145/3837865",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837865"
     }
   ]
 }

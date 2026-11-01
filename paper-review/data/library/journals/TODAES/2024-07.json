@@ -35,7 +35,9 @@
       "doi": "10.1145/3661308",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3661308"
+      "url": "https://doi.org/10.1145/3661308",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3661308"
     },
     {
       "id": "doi:10.1145/3662734",
@@ -61,7 +63,9 @@
       "doi": "10.1145/3662734",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3662734"
+      "url": "https://doi.org/10.1145/3662734",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3662734"
     },
     {
       "id": "doi:10.1145/3674903",
@@ -88,7 +92,9 @@
       "doi": "10.1145/3674903",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3674903"
+      "url": "https://doi.org/10.1145/3674903",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3674903"
     },
     {
       "id": "doi:10.1145/3659101",
@@ -119,7 +125,9 @@
       "doi": "10.1145/3659101",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3659101"
+      "url": "https://doi.org/10.1145/3659101",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3659101"
     },
     {
       "id": "doi:10.1145/3659951",
@@ -146,7 +154,9 @@
       "doi": "10.1145/3659951",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3659951"
+      "url": "https://doi.org/10.1145/3659951",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3659951"
     },
     {
       "id": "doi:10.1145/3661309",
@@ -174,7 +184,9 @@
       "doi": "10.1145/3661309",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3661309"
+      "url": "https://doi.org/10.1145/3661309",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3661309"
     },
     {
       "id": "doi:10.1145/3659949",
@@ -206,7 +218,9 @@
       "doi": "10.1145/3659949",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3659949"
+      "url": "https://doi.org/10.1145/3659949",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3659949"
     },
     {
       "id": "doi:10.1145/3659952",
@@ -237,7 +251,9 @@
       "doi": "10.1145/3659952",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3659952"
+      "url": "https://doi.org/10.1145/3659952",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3659952"
     },
     {
       "id": "doi:10.1145/3664286",
@@ -268,7 +284,9 @@
       "doi": "10.1145/3664286",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3664286"
+      "url": "https://doi.org/10.1145/3664286",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3664286"
     },
     {
       "id": "doi:10.1145/3664652",
@@ -303,7 +321,9 @@
       "doi": "10.1145/3664652",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3664652"
+      "url": "https://doi.org/10.1145/3664652",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3664652"
     },
     {
       "id": "doi:10.1145/3653675",
@@ -329,7 +349,9 @@
       "doi": "10.1145/3653675",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3653675"
+      "url": "https://doi.org/10.1145/3653675",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3653675"
     },
     {
       "id": "doi:10.1145/3660633",
@@ -356,7 +378,9 @@
       "doi": "10.1145/3660633",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3660633"
+      "url": "https://doi.org/10.1145/3660633",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3660633"
     },
     {
       "id": "doi:10.1145/3672558",
@@ -385,7 +409,9 @@
       "doi": "10.1145/3672558",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3672558"
+      "url": "https://doi.org/10.1145/3672558",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3672558"
     }
   ]
 }

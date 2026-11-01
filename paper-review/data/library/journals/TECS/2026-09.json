@@ -2,7 +2,7 @@
   "meta": {
     "journal": "TECS",
     "month": "2026-09",
-    "count": 27
+    "count": 23
   },
   "records": [
     {
@@ -17,7 +17,7 @@
         "Saptarshi Debroy",
         "Keqin Li"
       ],
-      "summary": "",
+      "summary": "Recent research highlights a critical gap between the computing capabilities of modern IoT devices and the computational demands of Artificial Intelligent (AI) applications. The edge computing paradigm offers a promising solution by providing reliable and fast computing services close to the data source. Due to their inherent resource constraints, a single edge server often cannot handle the heavy computational load from nearby IoT devices, requiring multi-server collaboration. However, achieving efficient cooperation is challenging due to dynamic workload fluctuations and uneven data distribution. To address these issues, this article presents a novel solution that involves optimizing task execution paths and resource management to enhance the performance of edge servers, particularly in scenarios with unbalanced data or uneven distribution of IoT devices. Our approach not only deploys multiple edge servers, but also focuses on the intelligent allocation and management of computing tasks. Specifically, we propose c2mec , a cooperative multi-split and multi-hop edge computing framework. The proposed c2mec framework uses problem decomposition to efficiently decouple the variables that need to be optimized. In addition, c2mec employs a multi-agent Deep Reinforcement Learning (DRL) based algorithm to mitigate the negative impact of decoupling and provides a flexible data splitting strategy. Finally, c2mec designs an energy-aware training method for IoT devices to reduce their long-term training cost. Through our comprehensive experimental results, we demonstrate how c2mec achieves notable improvement in energy saving across different scenarios compared to existing solutions, such as full and partial task offloading.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -32,7 +32,9 @@
       "doi": "10.1145/3772281",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3772281"
+      "url": "https://doi.org/10.1145/3772281",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3772281"
     },
     {
       "id": "doi:10.1145/3822567",
@@ -44,7 +46,7 @@
         "Rajat Subhra Chakraborty",
         "Indrajit Chakrabarti"
       ],
-      "summary": "",
+      "summary": "As cyberattacks on mobile networks become increasingly sophisticated, particularly SIM-based threats like SIM swap fraud and cloning, there is a critical need for robust, hardware-rooted authentication mechanisms. This article introduces SafeSIM, a novel authentication framework aimed at enhancing SIM card security in mobile environments. Unlike traditional schemes that rely on fixed identifiers and shared secrets, such as the International Mobile Subscriber Identity (IMSI), which uniquely identifies users, and the Authentication Key ( Ki ), used to verify their identity, SafeSIM employs dynamic, privacy-preserving Zero-Knowledge Protocols (ZKPs) and hardware-anchored Physical Unclonable Functions (PUFs), specifically VIA PUFs, embedded in SIM cards to ensure hardware-level uniqueness and robust resistance to cloning and fraud. The choice of VIA PUF is intentional, as VIA PUFs are more suited to constrained environments such as SIM cards due to their compact design and simplicity of integration. The authentication protocol is designed to operate securely in both trusted and untrusted service provider environments. In adversarial scenarios, SafeSIM integrates a two-factor authentication mechanism combining biometric verification with ZKP-based authentication for scenarios involving untrusted service providers, thereby offering heightened protection even in adversarial environments. We have analyzed the security of the proposed scheme in detail, alongside practical implementation using an Android mobile application, demonstrating strong resilience against a wide range of cyberattacks. These results position SafeSIM as a scalable and secure solution for next-generation mobile network deployments.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -59,7 +61,9 @@
       "doi": "10.1145/3822567",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3822567"
+      "url": "https://doi.org/10.1145/3822567",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3822567"
     },
     {
       "id": "doi:10.1145/3820656",
@@ -75,7 +79,7 @@
         "Itallo da Silva",
         "Allan Martins"
       ],
-      "summary": "",
+      "summary": "TinyML enables the deployment of machine learning models on low-power embedded devices, offering energy-efficient solutions for real-world applications. However, TinyML faces significant challenges due to strict memory, processing, and energy constraints, making the implementation of robust and scalable models particularly difficult. Robustness in this context refers to the ability of models to maintain stable performance under adversarial conditions, sensor noise, and environmental variability, which makes it an essential requirement for reliable deployment in practical scenarios. This study conducts a systematic literature review to examine how robustness is assessed in TinyML, analyzing key factors such as input data types, accessibility of the dataset, real vs. simulated data usage, application domains, evaluated robustness types, hardware constraints, and commonly used performance metrics. The findings show a strong preference for sensor-based inputs, public and real-world datasets, and a focus on noise-related robustness challenges. Memory efficiency stands out as the main hardware constraint, while accuracy is the most used evaluation metric, reflecting the dominance of classification tasks in TinyML research. These insights provide a structured overview of current trends and reveal key gaps in TinyML robustness research, such as the lack of standardized benchmarking frameworks and the need for more advanced adversarial defense mechanisms tailored to low-power environments. They also highlight opportunities for integrating federated and physics-informed learning approaches, promoting the development of more secure, efficient, and resilient embedded machine learning systems.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -90,7 +94,9 @@
       "doi": "10.1145/3820656",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3820656"
+      "url": "https://doi.org/10.1145/3820656",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3820656"
     },
     {
       "id": "doi:10.1145/3736412",
@@ -106,7 +112,7 @@
         "Peipei Zhou",
         "Zheng Dong"
       ],
-      "summary": "",
+      "summary": "In the realm of connected autonomous vehicles, the integration of data from both onboard and edge sensors is vital for environmental perception and navigation. However, the fusion of this sensor data faces challenges due to timestamp disparities, particularly when edge devices are involved. The Robotic Operating System (ROS) addresses this with synchronization policies like Approximate and Exact Time, along with the newer Synchronizing the Earliest Arrival Messages (SEAM). Understanding SEAM’s performance in edge-assisted environments is crucial yet underexplored. This article presents a comprehensive analysis of SEAM synchronization within ROS. Our study focuses on critical latency metrics for ROS message synchronization in edge-assisted autonomous driving. Specifically, we analyze two key latency metrics, the passing latency and reaction latency, which are needed to analyze the end-to-end delay and reaction time on the system level. We conduct experiments under different settings to evaluate the precision of our proposed latency upper bounds against the maximum experimental latency in simulation.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -121,7 +127,9 @@
       "doi": "10.1145/3736412",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3736412"
+      "url": "https://doi.org/10.1145/3736412",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3736412"
     },
     {
       "id": "doi:10.1145/3769083",
@@ -134,7 +142,7 @@
         "Lei Bu",
         "Xuandong Li"
       ],
-      "summary": "",
+      "summary": "Cyber-physical systems (CPS) have been increasingly deployed in many safety-critical industrial environments, where effective and efficient optimal control synthesis is vital for ensuring reliable system operation. The optimal control problem—aimed at synthesizing an optimal control solution for a given control task—remains a key challenge in CPS, particularly due to the intricate coupling of CPS’s continuous and discrete (hybrid) dynamics. This challenge is further compounded in multi-component industrial systems, where the space of control solutions, including both discrete paths (control mode sequences) and continuous control parameters, is prone to the well-known state explosion problem. In this article, we propose an efficient path-encoding-based joint optimization method for the optimal control problem in multi-component hybrid systems. Our method jointly encodes paths and control parameters in a structured, integrated space, transforming the control synthesis problem into a well-defined optimization problem that can be efficiently solved by existing derivative-free optimization solvers. To further enhance efficiency, we introduce an optimized local path-encoding strategy, which decomposes the original one-dimensional path space into a multi-dimensional component-wise path space, enabling more effective exploration of paths. This strategy also reduces memory overhead and improves scalability. We implemented our method in a tool called PED, and experimental results show that it efficiently solves the optimal control problem in various complex multi-component hybrid systems. Moreover, the incorporation of our local path-encoding strategy further improves its performance.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -149,7 +157,9 @@
       "doi": "10.1145/3769083",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3769083"
+      "url": "https://doi.org/10.1145/3769083",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3769083"
     },
     {
       "id": "doi:10.1145/3779131",
@@ -164,7 +174,7 @@
         "Chenjieting Wu",
         "Keqin Li"
       ],
-      "summary": "",
+      "summary": "Renowned for their lightweight and portability, containers are increasingly deployed in edge computing to deliver low-latency and privacy-preserving computing services for industrial real-time systems. While layer reuse can potentially improve the execution efficiency of container-dependent tasks, the existing work suffers from two issues: (1) inefficient disk space utilization, which compromises image pull efficiency and reuse utility, and (2) inadequate consideration of resource capacity, leading to practical limitations. This article addresses the container-dependent task scheduling problem in edge computing-assisted industrial real-time systems by introducing a novel Layer Reuse-based Collaborative Scheduling (LRCS) framework. First, to ensure practical applicability, we comprehensively consider resource capacities and the cost terms of the task completion time. Second, a framework that collaborates scheduling and execution nodes in a weakly coupled manner is proposed. At the execution nodes, LRCS maximizes disk utilization by evicting layers only when disk space is insufficient. The eviction is modeled as a 0-1 knapsack problem, where dynamic layer value assessment enhances the reuse rate. At the scheduling node, LRCS formulates container-dependent task scheduling as a multidimensional online bin-packing problem. A value-based learning algorithm optimizes long-term processing efficiency by adjusting the scheduling order of online tasks. Experimental validation on a testbed using real device data and comparisons with state-of-the-art layer reuse-based algorithms demonstrate that the proposed algorithm outperforms all baselines.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -179,7 +189,9 @@
       "doi": "10.1145/3779131",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3779131"
+      "url": "https://doi.org/10.1145/3779131",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3779131"
     },
     {
       "id": "doi:10.1145/3834776",
@@ -192,7 +204,7 @@
         "Urbi Chatterjee",
         "Debdeep Mukhopadhyay"
       ],
-      "summary": "",
+      "summary": "The Secure Hardware Extension (SHE) provides crucial functionalities such as error-detection, authorization, and authentication of messages exchanged between Electronic Control Units (ECUs) over the Controller Area Network (CAN) bus with the help of Advanced Encryption Standard (AES) cryptographic cores. However, the security guarantees of SHE can be entirely compromised if an adversary with physical access to the vehicle extracts the secret key using power or electromagnetic side-channel measurements. While countermeasures like Threshold Implementation (TI) and Domain-Oriented Masking (DOM) offer robust protection, they are impractical for SHE due to the stringent resource constraints and real-time safety requirements of automotive systems. To address this critical vulnerability, this article explores the concept of re-keying, utilizing two rounds of AES hardware as a lightweight key derivation function. This approach eliminates the need for additional key exchanges between the sender and receiver. Our experimental results, supported by theoretical analysis, indicate that re-keying every 10 encryptions provides a practical and secure solution that limits the effectiveness of side-channel attacks; leakage analysis performed on over 1,000,000 electromagnetic (EM) traces for this configuration revealed no detectable leakage. These findings are supported by real-world side-channel attack experiments conducted on a prototype implemented on the Cora-Z7 platform, built on Xilinx’s Zynq-7000 system featuring a single or dual-core 667 MHz ARM Cortex-A9 processor and Artix-7 FPGA. The proposed lightweight architecture, named LISHARK, maintains the same area footprint as a standalone AES core, making it significantly more efficient compared to TI and DOM. Measurements show that when integrated with the Secure Onboard Communication (SecOC) protocol, the design achieves end-to-end message authentication in approximately 90 microseconds, well within the industry-standard threshold of 10 milliseconds.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -207,7 +219,9 @@
       "doi": "10.1145/3834776",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3834776"
+      "url": "https://doi.org/10.1145/3834776",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3834776"
     },
     {
       "id": "doi:10.1145/3831370",
@@ -234,7 +248,9 @@
       "doi": "10.1145/3831370",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3831370"
+      "url": "https://doi.org/10.1145/3831370",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831370"
     },
     {
       "id": "doi:10.1145/3831700",
@@ -248,7 +264,7 @@
         "Debapriya Basu Roy",
         "Anupam Chattopadhyay"
       ],
-      "summary": "",
+      "summary": "The threat of practical quantum attacks has catapulted viable alternatives like Post-Quantum Cryptography (PQC) into prominence. The adoption and integration of standardized PQC primitives across the entire digital stack are promoted by various standardization bodies, governments, and major corporate houses. A serious challenge in quantum migration is to ensure that there is no hidden backdoor in the PQC implementations of a hybrid cryptosystem (support for both pre-quantum and post-quantum algorithms), which are often procured from a third-party vendor. In this manuscript, we investigate the possibility of a Kleptographic backdoor on the NIST-recommended key-encapsulation mechanism CRYSTALS-Kyber. The modified Kyber Key-Generation() algorithm achieves indistinguishable decryption failure probability compared to the original CRYSTALS-Kyber. The Kleptographic module is also implemented in FPGA, embedded inside the CRYSTALS-Kyber accelerator with a very low area overhead (283 LUTs or 2% of total area), and thus can easily pass performance and functionality tests.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -263,7 +279,9 @@
       "doi": "10.1145/3831700",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3831700"
+      "url": "https://doi.org/10.1145/3831700",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831700"
     },
     {
       "id": "doi:10.1145/3827611",
@@ -276,7 +294,7 @@
         "Joakim Eriksson",
         "Thiemo Voigt"
       ],
-      "summary": "",
+      "summary": "Edge Artificial Intelligence (AI) allows machine learning models to run directly on resource-constrained IoT and edge devices instead of relying only on cloud resources. This shift reduces latency and improves privacy but introduces strict constraints on memory, energy, and connectivity across heterogeneous sensor nodes. Deploying AI on constrained devices also requires addressing fragmented toolchains and inconsistent evaluation practices. This survey provides a structured review of deployment methods for edge AI, including model compilation, intermediate representations, hardware-aware optimization, scheduling strategies, and connectivity-aware execution. Post-deployment aspects are also examined, including lifecycle management, secure over-the-air updates, and benchmarking frameworks that combine latency, accuracy, and energy. Use cases in healthcare, smart cities, autonomous systems, manufacturing, and agriculture illustrate practical applications. Across these areas, common challenges in portability, reproducibility, adaptivity, and security are identified, along with emerging directions such as dynamic orchestration across heterogeneous devices and modular update mechanisms. By combining perspectives from compiler design, system optimization, and lifecycle management, this survey highlights how deployment pipelines are evolving into key enablers for reliable and scalable intelligence at the network edge.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -291,7 +309,9 @@
       "doi": "10.1145/3827611",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3827611"
+      "url": "https://doi.org/10.1145/3827611",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3827611"
     },
     {
       "id": "doi:10.1145/3779130",
@@ -303,7 +323,7 @@
         "Arnab Sarkar",
         "Arijit Mondal"
       ],
-      "summary": "",
+      "summary": "The support for Multi-access Edge Computing (MEC) along with Quality of Service (QoS)-class specific communications in 5G+ mobile networks, are opening up horizons for new applications and business models. For example, this has ushered in the possibility of remotely executing real-time automated monitoring and control applications as edge services. Such services can be offered by futuristic carrier-network operated MECs with latency-sensitive communication capability. Due to the complex interactions among their functionalities, these real-time control applications are often modeled as Precedence-constrained Task Graphs (PTGs). Although, a majority of these applications are time-triggered and hence periodic in nature, many of them may be dynamically spawned being triggered by events such as alarms. In such PTGs, tasks may have multiple quality levels, with higher levels offering greater accuracy or reliability, enhancing application QoS. This article proposes a QoS-aware any-time methodology for dynamically scheduling an aperiodic PTG-structured application on an MEC system that is partially preoccupied by persistent, periodic real-time workloads. A two-phased heuristic list-scheduling strategy called Dynamic QoS Aware DAG Scheduler (D-QADS) has been proposed for this purpose. In the first phase, D-QADS generates a base schedule using a strategy derived by extending the well-known Heterogeneous Earliest Finish Time ( HEFT ) list scheduler, to enable schedule generation on partially pre-occupied systems. Subsequently, in the second phase, this base schedule is improved by iteratively enhancing the QoS levels of tasks. Extensive simulation-based experiments with both randomly generated as well as standard benchmark DAGs, along with comparisons to a baseline approach, Greedy D-QADS ( GD-QADS ), an extended version of the state-of-the-art HEFT algorithm, exhibited the efficacy of our algorithm in diverse scenarios. Results show that D-QADS can achieve up to 14% more QoS than GD-QADS . The algorithm is fast, reaching the maximum achievable QoS within 8.4 ms for 20-task PTGs on a 30% preloaded four-processor system.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -318,7 +338,9 @@
       "doi": "10.1145/3779130",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3779130"
+      "url": "https://doi.org/10.1145/3779130",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3779130"
     },
     {
       "id": "doi:10.1145/3779061",
@@ -334,7 +356,7 @@
         "Heyuan Shi",
         "Yu Jiang"
       ],
-      "summary": "",
+      "summary": "Rt-Linux is a branch of the Linux kernel with modifications to meet real-time requirements, whose components are often less tested due to their deep integration with kernel logic and their dependence on certain configurations, which complicate traditional testing approaches. These challenges make it difficult to achieve comprehensive coverage of Rt-Linux ’s unique code sections, leaving systems vulnerable to bugs. We present DRLF-C , a configuration-aware directed fuzzer tailored for Rt-Linux , enabling efficient testing of its unique code sections. DRLF-C constructs a kernel-level weighted callgraph to prioritize input sequences closer to the target code and integrates static and dynamic configurations to test in realistic scenarios. Evaluations show that DRLF-C achieves a 24.70% increase in target coverage compared to Syzkaller and discovers 13 previously unknown bugs, now fixed by the Rt-Linux team. DRLF-C is currently integrated into Alibaba’s CI/CD pipeline of operating systems for continuous testing.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -349,7 +371,9 @@
       "doi": "10.1145/3779061",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3779061"
+      "url": "https://doi.org/10.1145/3779061",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3779061"
     },
     {
       "id": "doi:10.1145/3778862",
@@ -361,7 +385,7 @@
         "Heng Li",
         "Wanli Chang"
       ],
-      "summary": "",
+      "summary": "Directed Acyclic Graphs (DAGs) are essential for modelling task dependencies across various domains, including industrial automation, autonomous systems, and many-core processors. DAG generators are widely used to evaluate the performance of scheduling algorithms. This survey systematically analyzes existing DAG generation algorithms, evaluating their search space, efficiency, and uniformity. We categorise existing DAG generators into three primary methodologies: Triangular Matrix-Based (TMB), Layer-by-Layer (LBL), and Poset-Based (POB) methods. Furthermore, we introduce a dedicated testing tool that quantitatively assesses various DAG generators’ performance. Experimental results show each DAG generator’s strengths and limitations, offering insights into their applicability in real-world scheduling and resource allocation problems. These findings provide a foundation for selecting suitable DAG generation methods for benchmarking scheduling heuristics and improving DAG task modelling.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -376,7 +400,9 @@
       "doi": "10.1145/3778862",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3778862"
+      "url": "https://doi.org/10.1145/3778862",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3778862"
     },
     {
       "id": "doi:10.1145/3820374",
@@ -391,7 +417,7 @@
         "Begum Kasap",
         "Soheil Ghiasi"
       ],
-      "summary": "",
+      "summary": "Separating sensed signals is a crucial task for many wearable systems, where the acquired data contains a mixture of a target signal of interest and several interfering signals, arising from quasi-periodic physiological phenomena such as cardiac and respiratory activity with slowly varying frequency and amplitude. In practice, the task of separating the signals is challenged by quality and quantity of available physiological data. To overcome this limitation, we propose a novel signal separation technique that can effectively isolate the target signal from a sensed mixed signal, using only a single trace of data. We leverage application-specific attributes of the problem, and approach signal separation as an instance of spectrogram in-painting with a custom-designed generative neural network model. The efficacy of the method is demonstrated in the context of transabdominal fetal pulse oximetry application, using both synthesized and in-vivo data collected from pregnant ovine models. Our approach significantly outperforms prior art, achieving 106% average improvement in signal-to-distortion ratio and 85% reduction in mean squared error in synthesized data, compared to the best competing method. In case of in-vivo data collected in animal experiments, where reference signals are unknown, our method substantially improves performance of a downstream task. Specifically, the proposed method reduces the correlation error in estimated fetal blood oxygen saturation by 80.5% compared to a state of the art technique, showcasing its potential to advance wearable systems.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -406,7 +432,9 @@
       "doi": "10.1145/3820374",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3820374"
+      "url": "https://doi.org/10.1145/3820374",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3820374"
     },
     {
       "id": "doi:10.1145/3777551",
@@ -420,7 +448,7 @@
         "G.F. Sun",
         "X.M. Tang"
       ],
-      "summary": "",
+      "summary": "To address the information leak problem in cloud computing, privacy protection techniques are receiving widespread attention. Among them, the Paillier homomorphism algorithm is an effective one since it allows addition and scalar multiplication operations when information is in decrypted state. However, its computational efficiency is limited by complex modulo operations due to the ciphertext expansion followed by encryption. To accelerate its decryption, the Chinese Remainder Theorem (CRT) is often used to optimize these modulo operations, which makes the decryption chain undesirably long in turn. To address this issue, we propose an eCRT-Paillier decryption algorithm that shortens the decryption computation chain by combining precomputed parameters and eliminating extra judgment operations introduced by Montgomery modular multiplications. These two improvements reduce 50% modular multiplications and 60% judgment operations in the postprocessing of the CRT-Paillier decryption algorithm. Based on these improvements, we propose a highly parallel full-pipeline architecture to remove stalls caused by multiplier reuse in traditional modular exponentiation operations. This architecture also adopts some optimization methods, such as simplifying modular exponentiation units by dividing the exponent into segments and parallelizing data flow by multi-core instantiation. Finally, a high-throughput and efficient Paillier accelerator named MESA is implemented on the Xilinx Virtex-7 FPGA for evaluation. As the experimental result shows, it can complete a decryption within 0.577ms under a 100 MHz clock when using a 2048-bit key. Compared with previous works in the identical conditions, MESA can achieve a 1.16 × to 313.21 × increase in throughput, as well as 2.59% to 96.04% improvement in the Area Time Product (ATP).",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -435,7 +463,9 @@
       "doi": "10.1145/3777551",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3777551"
+      "url": "https://doi.org/10.1145/3777551",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3777551"
     },
     {
       "id": "doi:10.1145/3769679",
@@ -450,7 +480,7 @@
         "Haocheng Zhong",
         "Keqin Li"
       ],
-      "summary": "",
+      "summary": "OpenMP is one of the most popular parallel frameworks in the HPC area. Many researchers have proposed OpenMP thread throttling techniques for searching the optimal configuration of parallelism to improve computational efficiency. However, existing research mainly focuses on the optimal solution and ignores the average performance of the program during the search process. In addition, there are various types of workloads in HPC production environments. The OpenMP configuration needs to be adjusted according to the real-time running status of programs. Otherwise, it may lead to a deviation of the actual improvement in the real-time environment from the theory. In this article, we propose an OpenMP thread throttling method. The method uses the search results of historical workloads to train the performance vertex prediction model, quickly identifies the approximate range of the optimal number of threads for unknown workloads, and searches in a small range with a neighborhood-sampling-based bidirectional hill-climbing search algorithm. The method improves real-time optimization efficiency in HPC systems with multiple unknown loads. Through experiments, we demonstrate the advantages of our method compared to a variety of commonly used thread throttling methods. With minor differences in the optimal solutions, the average performance and convergence speed of our method during the search can be improved by up to 10.6% and 22.7% compared to the best method.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -465,7 +495,9 @@
       "doi": "10.1145/3769679",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3769679"
+      "url": "https://doi.org/10.1145/3769679",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3769679"
     },
     {
       "id": "doi:10.1145/3777380",
@@ -479,7 +511,7 @@
         "Wei Liang",
         "Haibo Zeng"
       ],
-      "summary": "",
+      "summary": "Heterogeneous systems offer high instruction throughput and cost advantages but face dual challenges of energy efficiency and task scheduling, especially for periodic tasks with data dependencies—such as signal processing and process control—which require precise execution and careful handling of continuous sampling, data transmission, and processing. The Directed Acyclic Graph (DAGs) are commonly used to capture data dependencies among tasks, where nodes and directed edges represent tasks and data dependencies, respectively. This article focuses on the non-preemptive scheduling problem of such tasks on heterogeneous platforms for time-critical applications, aiming to minimize energy consumption while guaranteeing worst-case deadline constraints. Clearly, this is an NP-hard problem, making it difficult to obtain an optimal solution in polynomial time. Although Dynamic Voltage and Frequency Scaling (DVFS) is a widely used energy-saving technique, its practical effectiveness is limited by potential transient faults, reduced processor lifespan, and overheads caused by switching. First, this article analyzes priority constraints within DAGs and simplifies the structure by removing unnecessary dependencies to improve execution efficiency. Then, it reduces energy consumption through two sequential approaches: task scheduling optimization and processor frequency adjustment. Accordingly, two energy-efficient algorithms are proposed: the Time and Energy Balanced Scheduling (TEBS) algorithm and the DVFS-Weakly Dependent Energy Saving (DWDES) algorithm. The former reduces makespan and energy consumption purely through scheduling strategies without considering DVFS, while the latter adjusts processor frequencies based on TEBS to further minimize energy use, allowing DVFS only during application switching. Experimental results show that the proposed algorithms achieve significant energy savings compared to state-of-the-art methods while satisfying deadline constraints. Specifically, taking the classic IPPTS algorithm’s energy consumption as the baseline, TEBS and DWDES achieve energy savings of 15.58% and 46.31%, respectively.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -494,7 +526,9 @@
       "doi": "10.1145/3777380",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3777380"
+      "url": "https://doi.org/10.1145/3777380",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3777380"
     },
     {
       "id": "doi:10.1145/3820365",
@@ -508,7 +542,7 @@
         "Chi Xu",
         "Xi Jin"
       ],
-      "summary": "",
+      "summary": "Accompanied by the rapid integration of information technology, communication technology and control technology, the industrial control system is gradually evolving into a cyber-physical production system (CPPS), with flexibilization and intelligence as its main goals. CPPS is a system that integrates computer science, information technology and physical manufacturing processes, organically combines digital manufacturing and physical manufacturing, and realizes real-time monitoring, intelligent manufacturing and flexible production. Cloud-edge collaborative CPPS, as the main method and foundation of CPPSs, can ensure the real-time and reliable operation of dynamic tasks through intelligent decision-making on the edge, which provides a new solution for flexibilization and intelligence and is a common research hotspot between industries and academics. In this article, we provide a survey of cloud-edge collaborative scheduling strategies for CPPSs. First, we introduce CPPS, a cyber-physical production system empowered by cloud-edge collaborative technology. Then, the current research situations and problems faced by domestic and international studies on CPPS cloud-edge collaborative scheduling technology are reviewed, and on this basis, the scheduling requirements, optimization objectives and other multiple perspectives are analyzed and compared. Finally, future research directions are summarized and the outlook for existing methods and problems of CPPS cloud-edge collaborative scheduling techniques is given.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -523,7 +557,9 @@
       "doi": "10.1145/3820365",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3820365"
+      "url": "https://doi.org/10.1145/3820365",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3820365"
     },
     {
       "id": "doi:10.1145/3779218",
@@ -537,7 +573,7 @@
         "Huilong Pi",
         "Kenli Li"
       ],
-      "summary": "",
+      "summary": "Convolutional Neural Network (CNN) has achieved great success in various fields of machine vision, such as image classification and recognition, image segmentation, and video analysis. In specific applications, it is often necessary to customize the network structure by altering image size, convolution kernel size, pooling size, network architecture, and the number of network layers. These customizations pose significant challenges to the architecture of CNN accelerator especially in real-time systems, and as the number of these network variables increases, the internal convolution calculations become extremely demanding. The inference speed and energy consumption of CNN are becoming more and more important, which requires the design of the accelerator to adapt to different network architecture and run efficiently. Field-programmable gate arrays (FPGAs) is an ideal choice for a CNN accelerator due to its high programmability and low power consumption. To address the aforementioned challenges, we present NRUCA, a novel network reconfigurable universal CNN accelerator based on FPGA. On one hand, we have designed a flexible architecture that can dynamically configure CNN’s network structure parameters. These parameters can be sent to the FPGA via a configuration file, enabling the same design to run different CNN networks and allowing to modify on the fly. This forms the basis of the architecture’s adaptability presented in this article. On the other hand, we employ a multi-channel parallel and efficient pipeline matrix multiplication architecture to implement the convolution and fully-connected layers, which constitute the majority of the computational load in CNNs. By utilizing an innovative inverted matrix multiplication algorithm and an interleaving cache data method, we reduce the internal cache required for multi-channel data. Furthermore, most of the intermediate calculation data does not need to be output to DDR, significantly improving the operation efficiency of the accelerator. We also fully leverage the FPGA chip architecture to compile multiple calculation kernels, which can be flexibly scheduled and combined to cater to various application scenarios. Based on the flexible and efficient overall design architecture, the layout of various resources of FPGA is balanced, which enables the designed FPGA project to compile four acceleration kernels with the running clock up to 300MHz in Xilinx Vitis and test them on Xilinx Alveo U250. We verified the adaptability and acceleration capabilities of our FPGA project using LeNet, AlexNet, VGG11, VGG13, VGG16, and VGG19 networks. Experiments demonstrated that our FPGA architecture achieves 33X and 35X energy savings compared with the Intel Xeon 5220R CPU, and 1.08X and 1.05X energy savings compared with the Nvidia Tesla P100 GPU, when accelerating AlexNet and VGG16, respectively.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -552,7 +588,9 @@
       "doi": "10.1145/3779218",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3779218"
+      "url": "https://doi.org/10.1145/3779218",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3779218"
     },
     {
       "id": "doi:10.1145/3830905",
@@ -566,7 +604,7 @@
         "Michael Gruber",
         "Georg Sigl"
       ],
-      "summary": "",
+      "summary": "Protection against hardware attacks is a fundamental requirement for cryptographic implementations deployed on devices that may be physically accessible to adversaries. The primary threats in such scenarios are SCA and FIA, which are increasingly being combined into potent joint attacks. A prominent example is the technique, which has been shown to circumvent DOMREP, a countermeasure designed to provide individual protections against both SCA and FIA. In this work, we present DOMREP-II, which extends the original scheme to withstand powerful adversaries with SCA-NFA capabilities. We adapt non-linear DOM gates to ensure strong non-interference under the presence of faults and develop a protected error-correction gate that eliminates secret-dependent leakage during the redundancy-checking phase. The proposed countermeasure is validated using first-order TVLA and a detailed empirical SCA-NFA analysis on a microcontroller platform. Our results demonstrate that while the original Domain Oriented Masking with REPetiton codes (DOMREP) implementation leaks the secret key within 100,000 traces, DOMREP-II successfully mitigates this leakage. When applied to the Gimli permutation, the enhanced protection introduces a moderate performance overhead of 18.8% in cycle count and only 4.4% in code size. Furthermore, we show that the authenticated structure of our countermeasure enables secure randomness reuse, reducing the entropy demand to 696 bytes per permutation. These findings confirm that DOMREP-II provides a practical and scalable security-performance tradeoff for high-assurance cryptographic implementations.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -581,7 +619,9 @@
       "doi": "10.1145/3830905",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3830905"
+      "url": "https://doi.org/10.1145/3830905",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830905"
     },
     {
       "id": "doi:10.1145/3849090",
@@ -601,7 +641,7 @@
         "Mengfei Yang",
         "Naijun Zhan"
       ],
-      "summary": "",
+      "summary": "This paper presents MARS 2.0, an integrated toolchain for the model-driven design of safety-critical Cyber-Physical Systems (CPSs). MARS 2.0 supports an end-to-end workflow spanning unified modeling, formal verification, and trusted code generation. Building on its predecessor, MARS 2.0 introduces three key enhancements: (1) a co-modeling framework that combines AADL (for system architecture) and Simulink/Stateflow (for functional and physical behaviors)—denoted \\(\\textsf {AADL}\\!\\oplus \\!\\textsf {S/S} \\) ; (2) provers based on Hybrid Hoare Logic (HHL) for verifying formal models; and (3) correct-by-construction code generation from verified models. In MARS 2.0, users first construct an \\(\\textsf {AADL}\\!\\oplus \\!\\textsf {S/S} \\) model to capture the system’s architecture, control logic, and continuous dynamics in a unified framework. This model is then automatically translated into Hybrid Communicating Sequential Processes (HCSP), a formal modeling language for hybrid systems. The resulting HCSP program can be (1) simulated for rapid validation, and (2) formally verified using the HHLProver suite. Finally, once verified, the HCSP model is compiled into executable ANSI-C or SystemC code. Critically, both the “ \\(\\textsf {AADL}\\!\\oplus \\!\\textsf {S/S} \\) to HCSP” translation and the “HCSP to ANSI-C/SystemC” code generation are backed by formal proofs of semantic preservation. By bridging industrial modeling notations with formal methods, MARS 2.0 makes rigorous CPS development accessible to engineers.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -616,7 +656,9 @@
       "doi": "10.1145/3849090",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3849090"
+      "url": "https://doi.org/10.1145/3849090",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3849090"
     },
     {
       "id": "doi:10.1145/3844944",
@@ -631,7 +673,7 @@
         "Yuhao Wang",
         "Wufei Wu"
       ],
-      "summary": "",
+      "summary": "Currently, distributed computing has become an effective approach to meet the demand for computing power while optimizing the scheduling length under priority constraints. However, the scheduling of parallel application tasks in distributed systems remains inadequately addressed. To solve this problem, this paper proposes a novel scheduling algorithm TMSO for energy-constrained parallel applications in heterogeneous distributed systems. The algorithm integrates HEFT, ESECC and TSSA priority assignment schemes to assign task priorities, merges tasks that meet the preset merging conditions, and optimizes the scheduling process based on the average energy consumption of tasks on different types of processors. For scenarios where no tasks satisfy the basic merging conditions, a critical-path-first lightweight node merging strategy is further proposed, which effectively makes up for the scenario coverage limitation of traditional merging strategies and further reduces the scheduling length. Experimental results show that the proposed TMSO algorithm can effectively shorten the scheduling length of parallel applications under energy constraints; in particular, for applications based on Gaussian elimination transformation, the algorithm reduces the scheduling length by 41.3% compared with the MSLECC algorithm.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -646,127 +688,9 @@
       "doi": "10.1145/3844944",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3844944"
-    },
-    {
-      "id": "doi:10.1145/3847669",
-      "source": "library",
-      "kind": "journal",
-      "title": "Stall-Free Software–Hardware Co-Design for Perception-Driven Contrast-Limited Adaptive Histogram Equalization",
-      "authors": [
-        "Zeqi Yu",
-        "Heng Zhao",
-        "Zuhe Li",
-        "Yushan Pan",
-        "Xinfei Guo"
-      ],
-      "summary": "",
-      "venue": "TECS",
-      "venueName": "TECS",
-      "journalName": "ACM Transactions on Embedded Computing Systems",
-      "area": "Embedded Systems",
-      "year": 2026,
-      "month": "2026-09",
-      "track": "未标注 Track",
-      "published": "2026-09-11",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "doi": "10.1145/3847669",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3847669"
-    },
-    {
-      "id": "doi:10.1145/3846378",
-      "source": "library",
-      "kind": "journal",
-      "title": "NEXUS: Speeding Up the Next Wave of AI Workloads, GNN and SSM Optimization on NPUs",
-      "authors": [
-        "Arghadip Das",
-        "Arnab Raha",
-        "Shamik Kundu",
-        "Soumendu Ghosh",
-        "Deepak Mathaikutty",
-        "Vijay Raghunathan"
-      ],
-      "summary": "",
-      "venue": "TECS",
-      "venueName": "TECS",
-      "journalName": "ACM Transactions on Embedded Computing Systems",
-      "area": "Embedded Systems",
-      "year": 2026,
-      "month": "2026-09",
-      "track": "未标注 Track",
-      "published": "2026-09-07",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "doi": "10.1145/3846378",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3846378"
-    },
-    {
-      "id": "doi:10.1145/3845803",
-      "source": "library",
-      "kind": "journal",
-      "title": "Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints",
-      "authors": [
-        "Bin Yu",
-        "Xu Lu",
-        "Yuanzhe Liu",
-        "Zixuan Yuan",
-        "Letian Wang",
-        "Meng Wang",
-        "Chu Chen",
-        "Yansong Dong"
-      ],
-      "summary": "",
-      "venue": "TECS",
-      "venueName": "TECS",
-      "journalName": "ACM Transactions on Embedded Computing Systems",
-      "area": "Embedded Systems",
-      "year": 2026,
-      "month": "2026-09",
-      "track": "未标注 Track",
-      "published": "2026-09-03",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "doi": "10.1145/3845803",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3845803"
-    },
-    {
-      "id": "doi:10.1145/3841637",
-      "source": "library",
-      "kind": "journal",
-      "title": "Compatibility Ratio as a Guideline for Hardware/DNN Co-Design of Embedded Accelerators",
-      "authors": [
-        "Lukas Groth",
-        "Andrija Neskovic",
-        "Rainer Buchty",
-        "Mladen Berekovic",
-        "Saleh Mulhem"
-      ],
-      "summary": "",
-      "venue": "TECS",
-      "venueName": "TECS",
-      "journalName": "ACM Transactions on Embedded Computing Systems",
-      "area": "Embedded Systems",
-      "year": 2026,
-      "month": "2026-09",
-      "track": "未标注 Track",
-      "published": "2026-09-03",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "doi": "10.1145/3841637",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3841637"
+      "url": "https://doi.org/10.1145/3844944",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3844944"
     },
     {
       "id": "doi:10.1145/3842737",
@@ -778,7 +702,7 @@
         "Jiangwei Li",
         "Guoqi Xie"
       ],
-      "summary": "",
+      "summary": "The Controller Area Network (CAN) is widely used in safety-critical systems, such as powertrain and chassis control systems in automotive embedded systems. Because the functions in safety-critical systems are highly time-sensitive, any slight time deviation (i.e., offset) among the Electronic Control Units (ECUs) of these systems may cause functions to run abnormally. The offset is mainly caused by clock drift. The clock frequency of ECU driven by a crystal oscillator may have different deviations (known as clock drift) due to differences in hardware manufacturers’ engineering and process or external environmental factors such as temperature and vibration. The clock drift will affect clock accuracy and eventually be reflected in the timestamps of CAN controller when sending or receiving CAN frames, meaning that the generation of offset occurs in ECU. Reducing the offset using time synchronization techniques is of utmost importance. In order to further lower the offset, we propose a clock drift correction-based Precision Time Protocol (DC-PTP) for CAN to solve this problem. For clock drift correction, we first measure the clock drift of master ECU and slave ECU, and then calculate the relative clock drift between the master and slave on the basis of the measured clock drift. The relative clock drift is used to correct the acquired timestamps during Precision Time Protocol time synchronization to reduce the effect of clock drift. Furthermore, a synchronization convergence approach is presented to continuously converge the offset until the offset is within the given range. We implement DC-PTP on a prototype built with heterogeneous microcontrollers. Experimental results show that the offset using DC-PTP is within 1 μ s along with low memory overheads of 2% for the master. The memory overhead of the slave is slightly higher than that of the master, and the bus load of DC-PTP is only 17%.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -793,7 +717,9 @@
       "doi": "10.1145/3842737",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3842737"
+      "url": "https://doi.org/10.1145/3842737",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3842737"
     }
   ]
 }

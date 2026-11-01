@@ -2,7 +2,7 @@
   "meta": {
     "venue": "ICCAD",
     "year": 2025,
-    "count": 242
+    "count": 120
   },
   "records": [
     {
@@ -28,7 +28,9 @@
       "doi": "10.1109/camad67323.2025.11229912",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229912/"
+      "url": "https://ieeexplore.ieee.org/document/11229912/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229912"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229891",
@@ -52,7 +54,9 @@
       "doi": "10.1109/camad67323.2025.11229891",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229891/"
+      "url": "https://ieeexplore.ieee.org/document/11229891/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229891"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229915",
@@ -78,7 +82,9 @@
       "doi": "10.1109/camad67323.2025.11229915",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229915/"
+      "url": "https://ieeexplore.ieee.org/document/11229915/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229915"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229924",
@@ -105,7 +111,9 @@
       "doi": "10.1109/camad67323.2025.11229924",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229924/"
+      "url": "https://ieeexplore.ieee.org/document/11229924/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229924"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229916",
@@ -133,7 +141,9 @@
       "doi": "10.1109/camad67323.2025.11229916",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229916/"
+      "url": "https://ieeexplore.ieee.org/document/11229916/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229916"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229920",
@@ -158,7 +168,9 @@
       "doi": "10.1109/camad67323.2025.11229920",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229920/"
+      "url": "https://ieeexplore.ieee.org/document/11229920/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229920"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229895",
@@ -187,7 +199,9 @@
       "doi": "10.1109/camad67323.2025.11229895",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229895/"
+      "url": "https://ieeexplore.ieee.org/document/11229895/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229895"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229890",
@@ -213,7 +227,9 @@
       "doi": "10.1109/camad67323.2025.11229890",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229890/"
+      "url": "https://ieeexplore.ieee.org/document/11229890/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229890"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229923",
@@ -238,7 +254,9 @@
       "doi": "10.1109/camad67323.2025.11229923",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229923/"
+      "url": "https://ieeexplore.ieee.org/document/11229923/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229923"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229903",
@@ -262,7 +280,9 @@
       "doi": "10.1109/camad67323.2025.11229903",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229903/"
+      "url": "https://ieeexplore.ieee.org/document/11229903/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229903"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229922",
@@ -287,7 +307,9 @@
       "doi": "10.1109/camad67323.2025.11229922",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229922/"
+      "url": "https://ieeexplore.ieee.org/document/11229922/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229922"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229899",
@@ -311,7 +333,9 @@
       "doi": "10.1109/camad67323.2025.11229899",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229899/"
+      "url": "https://ieeexplore.ieee.org/document/11229899/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229899"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229892",
@@ -335,7 +359,9 @@
       "doi": "10.1109/camad67323.2025.11229892",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229892/"
+      "url": "https://ieeexplore.ieee.org/document/11229892/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229892"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229893",
@@ -361,7 +387,9 @@
       "doi": "10.1109/camad67323.2025.11229893",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229893/"
+      "url": "https://ieeexplore.ieee.org/document/11229893/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229893"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229909",
@@ -386,7 +414,9 @@
       "doi": "10.1109/camad67323.2025.11229909",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229909/"
+      "url": "https://ieeexplore.ieee.org/document/11229909/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229909"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229918",
@@ -414,7 +444,9 @@
       "doi": "10.1109/camad67323.2025.11229918",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229918/"
+      "url": "https://ieeexplore.ieee.org/document/11229918/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229918"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229911",
@@ -444,7 +476,9 @@
       "doi": "10.1109/camad67323.2025.11229911",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229911/"
+      "url": "https://ieeexplore.ieee.org/document/11229911/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229911"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229894",
@@ -470,7 +504,9 @@
       "doi": "10.1109/camad67323.2025.11229894",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229894/"
+      "url": "https://ieeexplore.ieee.org/document/11229894/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229894"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229897",
@@ -495,7 +531,9 @@
       "doi": "10.1109/camad67323.2025.11229897",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229897/"
+      "url": "https://ieeexplore.ieee.org/document/11229897/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229897"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229901",
@@ -522,7 +560,9 @@
       "doi": "10.1109/camad67323.2025.11229901",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229901/"
+      "url": "https://ieeexplore.ieee.org/document/11229901/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229901"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229907",
@@ -546,7 +586,9 @@
       "doi": "10.1109/camad67323.2025.11229907",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229907/"
+      "url": "https://ieeexplore.ieee.org/document/11229907/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229907"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229913",
@@ -569,7 +611,9 @@
       "doi": "10.1109/camad67323.2025.11229913",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229913/"
+      "url": "https://ieeexplore.ieee.org/document/11229913/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229913"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229910",
@@ -602,7 +646,9 @@
       "doi": "10.1109/camad67323.2025.11229910",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229910/"
+      "url": "https://ieeexplore.ieee.org/document/11229910/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229910"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229902",
@@ -628,7 +674,9 @@
       "doi": "10.1109/camad67323.2025.11229902",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229902/"
+      "url": "https://ieeexplore.ieee.org/document/11229902/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229902"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229908",
@@ -660,7 +708,9 @@
       "doi": "10.1109/camad67323.2025.11229908",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229908/"
+      "url": "https://ieeexplore.ieee.org/document/11229908/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229908"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229900",
@@ -683,7 +733,9 @@
       "doi": "10.1109/camad67323.2025.11229900",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229900/"
+      "url": "https://ieeexplore.ieee.org/document/11229900/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229900"
     },
     {
       "id": "doi:10.1109/camad67323.2025.11229919",
@@ -709,7 +761,9 @@
       "doi": "10.1109/camad67323.2025.11229919",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11229919/"
+      "url": "https://ieeexplore.ieee.org/document/11229919/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/camad67323.2025.11229919"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307342",
@@ -731,7 +785,9 @@
       "doi": "10.1109/iciscae66104.2025.11307342",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307342/"
+      "url": "https://ieeexplore.ieee.org/document/11307342/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307342"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307729",
@@ -753,7 +809,9 @@
       "doi": "10.1109/iciscae66104.2025.11307729",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307729/"
+      "url": "https://ieeexplore.ieee.org/document/11307729/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307729"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307694",
@@ -778,7 +836,9 @@
       "doi": "10.1109/iciscae66104.2025.11307694",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307694/"
+      "url": "https://ieeexplore.ieee.org/document/11307694/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307694"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307440",
@@ -800,7 +860,9 @@
       "doi": "10.1109/iciscae66104.2025.11307440",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307440/"
+      "url": "https://ieeexplore.ieee.org/document/11307440/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307440"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307770",
@@ -824,7 +886,9 @@
       "doi": "10.1109/iciscae66104.2025.11307770",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307770/"
+      "url": "https://ieeexplore.ieee.org/document/11307770/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307770"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307301",
@@ -852,7 +916,33 @@
       "doi": "10.1109/iciscae66104.2025.11307301",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307301/"
+      "url": "https://ieeexplore.ieee.org/document/11307301/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307301"
+    },
+    {
+      "id": "doi:10.1109/iciscae66104.2025.11307355",
+      "source": "library",
+      "kind": "conference",
+      "title": "Research on the Application of Quantum Annealing Algorithms in Multi-Task Modelling",
+      "authors": [
+        "Hong Zhang"
+      ],
+      "summary": "",
+      "venue": "ICCAD",
+      "venueName": "ICCAD",
+      "area": "EDA",
+      "year": 2025,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2025-09-27",
+      "pages": "1238-1244",
+      "doi": "10.1109/iciscae66104.2025.11307355",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11307355/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307355"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307365",
@@ -878,7 +968,9 @@
       "doi": "10.1109/iciscae66104.2025.11307365",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307365/"
+      "url": "https://ieeexplore.ieee.org/document/11307365/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307365"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307775",
@@ -904,7 +996,9 @@
       "doi": "10.1109/iciscae66104.2025.11307775",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307775/"
+      "url": "https://ieeexplore.ieee.org/document/11307775/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307775"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307782",
@@ -926,7 +1020,9 @@
       "doi": "10.1109/iciscae66104.2025.11307782",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307782/"
+      "url": "https://ieeexplore.ieee.org/document/11307782/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307782"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307712",
@@ -951,7 +1047,9 @@
       "doi": "10.1109/iciscae66104.2025.11307712",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307712/"
+      "url": "https://ieeexplore.ieee.org/document/11307712/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307712"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307756",
@@ -975,7 +1073,9 @@
       "doi": "10.1109/iciscae66104.2025.11307756",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307756/"
+      "url": "https://ieeexplore.ieee.org/document/11307756/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307756"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307767",
@@ -999,7 +1099,9 @@
       "doi": "10.1109/iciscae66104.2025.11307767",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307767/"
+      "url": "https://ieeexplore.ieee.org/document/11307767/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307767"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307430",
@@ -1022,7 +1124,9 @@
       "doi": "10.1109/iciscae66104.2025.11307430",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307430/"
+      "url": "https://ieeexplore.ieee.org/document/11307430/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307430"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307723",
@@ -1048,7 +1152,9 @@
       "doi": "10.1109/iciscae66104.2025.11307723",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307723/"
+      "url": "https://ieeexplore.ieee.org/document/11307723/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307723"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307785",
@@ -1073,7 +1179,9 @@
       "doi": "10.1109/iciscae66104.2025.11307785",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307785/"
+      "url": "https://ieeexplore.ieee.org/document/11307785/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307785"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307304",
@@ -1099,7 +1207,9 @@
       "doi": "10.1109/iciscae66104.2025.11307304",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307304/"
+      "url": "https://ieeexplore.ieee.org/document/11307304/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307304"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307329",
@@ -1123,7 +1233,9 @@
       "doi": "10.1109/iciscae66104.2025.11307329",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307329/"
+      "url": "https://ieeexplore.ieee.org/document/11307329/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307329"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307681",
@@ -1145,7 +1257,9 @@
       "doi": "10.1109/iciscae66104.2025.11307681",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307681/"
+      "url": "https://ieeexplore.ieee.org/document/11307681/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307681"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307711",
@@ -1168,7 +1282,9 @@
       "doi": "10.1109/iciscae66104.2025.11307711",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307711/"
+      "url": "https://ieeexplore.ieee.org/document/11307711/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307711"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307418",
@@ -1195,7 +1311,9 @@
       "doi": "10.1109/iciscae66104.2025.11307418",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307418/"
+      "url": "https://ieeexplore.ieee.org/document/11307418/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307418"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307793",
@@ -1221,7 +1339,9 @@
       "doi": "10.1109/iciscae66104.2025.11307793",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307793/"
+      "url": "https://ieeexplore.ieee.org/document/11307793/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307793"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307350",
@@ -1246,7 +1366,9 @@
       "doi": "10.1109/iciscae66104.2025.11307350",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307350/"
+      "url": "https://ieeexplore.ieee.org/document/11307350/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307350"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307259",
@@ -1268,7 +1390,9 @@
       "doi": "10.1109/iciscae66104.2025.11307259",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307259/"
+      "url": "https://ieeexplore.ieee.org/document/11307259/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307259"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307691",
@@ -1291,7 +1415,9 @@
       "doi": "10.1109/iciscae66104.2025.11307691",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307691/"
+      "url": "https://ieeexplore.ieee.org/document/11307691/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307691"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307232",
@@ -1314,7 +1440,37 @@
       "doi": "10.1109/iciscae66104.2025.11307232",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307232/"
+      "url": "https://ieeexplore.ieee.org/document/11307232/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307232"
+    },
+    {
+      "id": "doi:10.1109/iciscae66104.2025.11307476",
+      "source": "library",
+      "kind": "conference",
+      "title": "Optimization Configuration Method of Distributed Energy Storage for Enhancing the Hosting Capacity of Distributed Network",
+      "authors": [
+        "Yunfei Xu",
+        "Xiulu Zhang",
+        "Guojun Lan",
+        "Xia Miao",
+        "Yiqiong He"
+      ],
+      "summary": "",
+      "venue": "ICCAD",
+      "venueName": "ICCAD",
+      "area": "EDA",
+      "year": 2025,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2025-09-27",
+      "pages": "778-784",
+      "doi": "10.1109/iciscae66104.2025.11307476",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11307476/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307476"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307758",
@@ -1341,7 +1497,9 @@
       "doi": "10.1109/iciscae66104.2025.11307758",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307758/"
+      "url": "https://ieeexplore.ieee.org/document/11307758/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307758"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307794",
@@ -1367,7 +1525,9 @@
       "doi": "10.1109/iciscae66104.2025.11307794",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307794/"
+      "url": "https://ieeexplore.ieee.org/document/11307794/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307794"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307223",
@@ -1392,7 +1552,9 @@
       "doi": "10.1109/iciscae66104.2025.11307223",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307223/"
+      "url": "https://ieeexplore.ieee.org/document/11307223/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307223"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307354",
@@ -1417,7 +1579,9 @@
       "doi": "10.1109/iciscae66104.2025.11307354",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307354/"
+      "url": "https://ieeexplore.ieee.org/document/11307354/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307354"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307218",
@@ -1443,7 +1607,9 @@
       "doi": "10.1109/iciscae66104.2025.11307218",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307218/"
+      "url": "https://ieeexplore.ieee.org/document/11307218/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307218"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307705",
@@ -1465,7 +1631,38 @@
       "doi": "10.1109/iciscae66104.2025.11307705",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307705/"
+      "url": "https://ieeexplore.ieee.org/document/11307705/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307705"
+    },
+    {
+      "id": "doi:10.1109/iciscae66104.2025.11307736",
+      "source": "library",
+      "kind": "conference",
+      "title": "Mechanism, Influencing Factors and Simulation Analysis of Commutation Failure at Receiving End of UHVDC Transmission",
+      "authors": [
+        "Hongbin Wang",
+        "Yahu Gao",
+        "Ruiling Huang",
+        "Tingting Li",
+        "Xin Wang",
+        "Jing Zhang"
+      ],
+      "summary": "",
+      "venue": "ICCAD",
+      "venueName": "ICCAD",
+      "area": "EDA",
+      "year": 2025,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2025-09-27",
+      "pages": "462-468",
+      "doi": "10.1109/iciscae66104.2025.11307736",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11307736/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307736"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307406",
@@ -1487,7 +1684,9 @@
       "doi": "10.1109/iciscae66104.2025.11307406",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307406/"
+      "url": "https://ieeexplore.ieee.org/document/11307406/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307406"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307229",
@@ -1513,7 +1712,9 @@
       "doi": "10.1109/iciscae66104.2025.11307229",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307229/"
+      "url": "https://ieeexplore.ieee.org/document/11307229/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307229"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307433",
@@ -1535,7 +1736,9 @@
       "doi": "10.1109/iciscae66104.2025.11307433",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307433/"
+      "url": "https://ieeexplore.ieee.org/document/11307433/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307433"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307432",
@@ -1558,7 +1761,9 @@
       "doi": "10.1109/iciscae66104.2025.11307432",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307432/"
+      "url": "https://ieeexplore.ieee.org/document/11307432/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307432"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307684",
@@ -1580,7 +1785,9 @@
       "doi": "10.1109/iciscae66104.2025.11307684",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307684/"
+      "url": "https://ieeexplore.ieee.org/document/11307684/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307684"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307327",
@@ -1603,7 +1810,9 @@
       "doi": "10.1109/iciscae66104.2025.11307327",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307327/"
+      "url": "https://ieeexplore.ieee.org/document/11307327/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307327"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307239",
@@ -1630,7 +1839,9 @@
       "doi": "10.1109/iciscae66104.2025.11307239",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307239/"
+      "url": "https://ieeexplore.ieee.org/document/11307239/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307239"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307692",
@@ -1654,7 +1865,9 @@
       "doi": "10.1109/iciscae66104.2025.11307692",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307692/"
+      "url": "https://ieeexplore.ieee.org/document/11307692/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307692"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307773",
@@ -1679,7 +1892,9 @@
       "doi": "10.1109/iciscae66104.2025.11307773",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307773/"
+      "url": "https://ieeexplore.ieee.org/document/11307773/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307773"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307737",
@@ -1704,7 +1919,38 @@
       "doi": "10.1109/iciscae66104.2025.11307737",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307737/"
+      "url": "https://ieeexplore.ieee.org/document/11307737/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307737"
+    },
+    {
+      "id": "doi:10.1109/iciscae66104.2025.11307263",
+      "source": "library",
+      "kind": "conference",
+      "title": "Dynamic Adjustment of Network Security Policies Driven by Reinforcement Learning",
+      "authors": [
+        "Zongrong Li",
+        "Denghui Ma",
+        "Nanfang Li",
+        "Xiang Li",
+        "Haishan Cao",
+        "Lijun Yan"
+      ],
+      "summary": "",
+      "venue": "ICCAD",
+      "venueName": "ICCAD",
+      "area": "EDA",
+      "year": 2025,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2025-09-27",
+      "pages": "1226-1230",
+      "doi": "10.1109/iciscae66104.2025.11307263",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11307263/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307263"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307293",
@@ -1726,7 +1972,9 @@
       "doi": "10.1109/iciscae66104.2025.11307293",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307293/"
+      "url": "https://ieeexplore.ieee.org/document/11307293/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307293"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307698",
@@ -1753,7 +2001,9 @@
       "doi": "10.1109/iciscae66104.2025.11307698",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307698/"
+      "url": "https://ieeexplore.ieee.org/document/11307698/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307698"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307204",
@@ -1776,7 +2026,9 @@
       "doi": "10.1109/iciscae66104.2025.11307204",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307204/"
+      "url": "https://ieeexplore.ieee.org/document/11307204/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307204"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307687",
@@ -1805,7 +2057,9 @@
       "doi": "10.1109/iciscae66104.2025.11307687",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307687/"
+      "url": "https://ieeexplore.ieee.org/document/11307687/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307687"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307407",
@@ -1831,7 +2085,9 @@
       "doi": "10.1109/iciscae66104.2025.11307407",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307407/"
+      "url": "https://ieeexplore.ieee.org/document/11307407/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307407"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307726",
@@ -1856,7 +2112,9 @@
       "doi": "10.1109/iciscae66104.2025.11307726",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307726/"
+      "url": "https://ieeexplore.ieee.org/document/11307726/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307726"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307716",
@@ -1882,7 +2140,9 @@
       "doi": "10.1109/iciscae66104.2025.11307716",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307716/"
+      "url": "https://ieeexplore.ieee.org/document/11307716/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307716"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307332",
@@ -1904,7 +2164,9 @@
       "doi": "10.1109/iciscae66104.2025.11307332",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307332/"
+      "url": "https://ieeexplore.ieee.org/document/11307332/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307332"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307337",
@@ -1928,7 +2190,9 @@
       "doi": "10.1109/iciscae66104.2025.11307337",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307337/"
+      "url": "https://ieeexplore.ieee.org/document/11307337/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307337"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307344",
@@ -1951,7 +2215,9 @@
       "doi": "10.1109/iciscae66104.2025.11307344",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307344/"
+      "url": "https://ieeexplore.ieee.org/document/11307344/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307344"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307383",
@@ -1974,7 +2240,9 @@
       "doi": "10.1109/iciscae66104.2025.11307383",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307383/"
+      "url": "https://ieeexplore.ieee.org/document/11307383/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307383"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307752",
@@ -1996,7 +2264,9 @@
       "doi": "10.1109/iciscae66104.2025.11307752",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307752/"
+      "url": "https://ieeexplore.ieee.org/document/11307752/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307752"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307278",
@@ -2020,7 +2290,9 @@
       "doi": "10.1109/iciscae66104.2025.11307278",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307278/"
+      "url": "https://ieeexplore.ieee.org/document/11307278/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307278"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307321",
@@ -2042,7 +2314,36 @@
       "doi": "10.1109/iciscae66104.2025.11307321",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307321/"
+      "url": "https://ieeexplore.ieee.org/document/11307321/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307321"
+    },
+    {
+      "id": "doi:10.1109/iciscae66104.2025.11307797",
+      "source": "library",
+      "kind": "conference",
+      "title": "A Deep Learning-Based Method for Lumbar Disc Degeneration MRI Segmentation",
+      "authors": [
+        "Jie Cao",
+        "Ruxi Liu",
+        "Qingxuan Jiang",
+        "Boshuo Li"
+      ],
+      "summary": "",
+      "venue": "ICCAD",
+      "venueName": "ICCAD",
+      "area": "EDA",
+      "year": 2025,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2025-09-27",
+      "pages": "226-231",
+      "doi": "10.1109/iciscae66104.2025.11307797",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://ieeexplore.ieee.org/document/11307797/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307797"
     },
     {
       "id": "doi:10.1109/iciscae66104.2025.11307376",
@@ -2065,7 +2366,9 @@
       "doi": "10.1109/iciscae66104.2025.11307376",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11307376/"
+      "url": "https://ieeexplore.ieee.org/document/11307376/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iciscae66104.2025.11307376"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00018",
@@ -2096,7 +2399,9 @@
       "doi": "10.1109/iclad65226.2025.00018",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105588/"
+      "url": "https://ieeexplore.ieee.org/document/11105588/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00018"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00026",
@@ -2124,7 +2429,9 @@
       "doi": "10.1109/iclad65226.2025.00026",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106068/"
+      "url": "https://ieeexplore.ieee.org/document/11106068/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00026"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00017",
@@ -2153,7 +2460,9 @@
       "doi": "10.1109/iclad65226.2025.00017",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106053/"
+      "url": "https://ieeexplore.ieee.org/document/11106053/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00017"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00012",
@@ -2178,7 +2487,9 @@
       "doi": "10.1109/iclad65226.2025.00012",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105964/"
+      "url": "https://ieeexplore.ieee.org/document/11105964/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00012"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00010",
@@ -2207,7 +2518,9 @@
       "doi": "10.1109/iclad65226.2025.00010",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106005/"
+      "url": "https://ieeexplore.ieee.org/document/11106005/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00010"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00013",
@@ -2234,7 +2547,9 @@
       "doi": "10.1109/iclad65226.2025.00013",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105957/"
+      "url": "https://ieeexplore.ieee.org/document/11105957/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00013"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00016",
@@ -2258,7 +2573,9 @@
       "doi": "10.1109/iclad65226.2025.00016",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105967/"
+      "url": "https://ieeexplore.ieee.org/document/11105967/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00016"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00024",
@@ -2282,7 +2599,9 @@
       "doi": "10.1109/iclad65226.2025.00024",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106137/"
+      "url": "https://ieeexplore.ieee.org/document/11106137/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00024"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00037",
@@ -2312,7 +2631,9 @@
       "doi": "10.1109/iclad65226.2025.00037",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105991/"
+      "url": "https://ieeexplore.ieee.org/document/11105991/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00037"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00020",
@@ -2336,7 +2657,9 @@
       "doi": "10.1109/iclad65226.2025.00020",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106035/"
+      "url": "https://ieeexplore.ieee.org/document/11106035/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00020"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00038",
@@ -2366,7 +2689,9 @@
       "doi": "10.1109/iclad65226.2025.00038",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106163/"
+      "url": "https://ieeexplore.ieee.org/document/11106163/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00038"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00039",
@@ -2391,7 +2716,9 @@
       "doi": "10.1109/iclad65226.2025.00039",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106006/"
+      "url": "https://ieeexplore.ieee.org/document/11106006/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00039"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00015",
@@ -2420,7 +2747,9 @@
       "doi": "10.1109/iclad65226.2025.00015",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105933/"
+      "url": "https://ieeexplore.ieee.org/document/11105933/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00015"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00025",
@@ -2448,7 +2777,9 @@
       "doi": "10.1109/iclad65226.2025.00025",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105817/"
+      "url": "https://ieeexplore.ieee.org/document/11105817/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00025"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00011",
@@ -2473,7 +2804,9 @@
       "doi": "10.1109/iclad65226.2025.00011",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106097/"
+      "url": "https://ieeexplore.ieee.org/document/11106097/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00011"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00040",
@@ -2497,7 +2830,9 @@
       "doi": "10.1109/iclad65226.2025.00040",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106026/"
+      "url": "https://ieeexplore.ieee.org/document/11106026/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00040"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00022",
@@ -2522,7 +2857,9 @@
       "doi": "10.1109/iclad65226.2025.00022",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105884/"
+      "url": "https://ieeexplore.ieee.org/document/11105884/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00022"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00032",
@@ -2549,7 +2886,9 @@
       "doi": "10.1109/iclad65226.2025.00032",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106161/"
+      "url": "https://ieeexplore.ieee.org/document/11106161/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00032"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00031",
@@ -2577,7 +2916,9 @@
       "doi": "10.1109/iclad65226.2025.00031",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105878/"
+      "url": "https://ieeexplore.ieee.org/document/11105878/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00031"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00021",
@@ -2600,7 +2941,9 @@
       "doi": "10.1109/iclad65226.2025.00021",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106033/"
+      "url": "https://ieeexplore.ieee.org/document/11106033/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00021"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00034",
@@ -2632,7 +2975,9 @@
       "doi": "10.1109/iclad65226.2025.00034",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106012/"
+      "url": "https://ieeexplore.ieee.org/document/11106012/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00034"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00019",
@@ -2660,7 +3005,9 @@
       "doi": "10.1109/iclad65226.2025.00019",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106162/"
+      "url": "https://ieeexplore.ieee.org/document/11106162/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00019"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00029",
@@ -2695,7 +3042,9 @@
       "doi": "10.1109/iclad65226.2025.00029",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105939/"
+      "url": "https://ieeexplore.ieee.org/document/11105939/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00029"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00035",
@@ -2726,7 +3075,9 @@
       "doi": "10.1109/iclad65226.2025.00035",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105981/"
+      "url": "https://ieeexplore.ieee.org/document/11105981/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00035"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00036",
@@ -2750,7 +3101,9 @@
       "doi": "10.1109/iclad65226.2025.00036",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106002/"
+      "url": "https://ieeexplore.ieee.org/document/11106002/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00036"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00028",
@@ -2775,7 +3128,9 @@
       "doi": "10.1109/iclad65226.2025.00028",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105886/"
+      "url": "https://ieeexplore.ieee.org/document/11105886/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00028"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00030",
@@ -2802,7 +3157,9 @@
       "doi": "10.1109/iclad65226.2025.00030",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106091/"
+      "url": "https://ieeexplore.ieee.org/document/11106091/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00030"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00009",
@@ -2827,7 +3184,9 @@
       "doi": "10.1109/iclad65226.2025.00009",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105590/"
+      "url": "https://ieeexplore.ieee.org/document/11105590/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00009"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00027",
@@ -2852,7 +3211,9 @@
       "doi": "10.1109/iclad65226.2025.00027",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105875/"
+      "url": "https://ieeexplore.ieee.org/document/11105875/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00027"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00033",
@@ -2876,7 +3237,9 @@
       "doi": "10.1109/iclad65226.2025.00033",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105805/"
+      "url": "https://ieeexplore.ieee.org/document/11105805/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00033"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00014",
@@ -2905,7 +3268,9 @@
       "doi": "10.1109/iclad65226.2025.00014",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11105794/"
+      "url": "https://ieeexplore.ieee.org/document/11105794/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00014"
     },
     {
       "id": "doi:10.1109/iclad65226.2025.00023",
@@ -2930,3471 +3295,9 @@
       "doi": "10.1109/iclad65226.2025.00023",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11106057/"
-    },
-    {
-      "id": "doi:10.1117/12.3047312",
-      "source": "library",
-      "kind": "conference",
-      "title": "AI-driven race prediction from mammographic images: anatomical insights for AI model's bias mitigation",
-      "authors": [
-        "Tamerlan Mustafaev",
-        "Md Belayat Hossain",
-        "Robert M. Nishikawa",
-        "Juhun Lee"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-11",
-      "pages": "30",
-      "doi": "10.1117/12.3047312",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047312/AI-driven-race-prediction-from-mammographic-images--anatomical-insights/10.1117/12.3047312.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047247",
-      "source": "library",
-      "kind": "conference",
-      "title": "Worse is better? Performance and bias implications of feature selection in radiomics-based survival analysis",
-      "authors": [
-        "Jacob J. Peoples",
-        "Mohammad Hamghalam",
-        "Joshua Virani-Wall",
-        "Imani James",
-        "Maida Wasim",
-        "Natalie Gangai",
-        "Hyunseon Christine Kang",
-        "X. John Rong",
-        "Yun Shin Chun",
-        "Richard K. G. Do",
-        "Amber L. Simpson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "34",
-      "doi": "10.1117/12.3047247",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047247/Worse-is-better-Performance-and-bias-implications-of-feature-selection/10.1117/12.3047247.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047279",
-      "source": "library",
-      "kind": "conference",
-      "title": "Weighted ensemble learning for accurate COVID-19 CT image segmentation",
-      "authors": [
-        "Hao Fang",
-        "Guangcheng Luo",
-        "Yong Peng",
-        "Xiongbiao Luo"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "101",
-      "doi": "10.1117/12.3047279",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047279/Weighted-ensemble-learning-for-accurate-COVID-19-CT-image-segmentation/10.1117/12.3047279.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047558",
-      "source": "library",
-      "kind": "conference",
-      "title": "WPDM: enhancing subarachnoid hemorrhage CT detection with Worley-Perlin noise diffusion on imbalanced data",
-      "authors": [
-        "Zhongyang Lu",
-        "Tao Hu",
-        "Masahiro Oda",
-        "Yuichiro Hayashi",
-        "Takeyuki Watadani",
-        "Kensaku Mori"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "47",
-      "doi": "10.1117/12.3047558",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047558/WPDM--enhancing-subarachnoid-hemorrhage-CT-detection-with-Worley-Perlin/10.1117/12.3047558.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045954",
-      "source": "library",
-      "kind": "conference",
-      "title": "Visual acuity assessment from optical coherence tomography images using the foundation model RETFound",
-      "authors": [
-        "Caroline v. Dresky",
-        "Claus von der Burchard",
-        "Julia Andresen",
-        "Marc S. Seibel",
-        "Marc Rowedder",
-        "Timo Kepp",
-        "Johann Roider",
-        "Heinz Handels"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "14",
-      "doi": "10.1117/12.3045954",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045954/Visual-acuity-assessment-from-optical-coherence-tomography-images-using-the/10.1117/12.3045954.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045810",
-      "source": "library",
-      "kind": "conference",
-      "title": "Vision transformer for efficient chest x-ray and gastrointestinal image classification",
-      "authors": [
-        "Smriti Regmi",
-        "Aliza Subedi",
-        "Nikhil Kumar Tomar",
-        "Ulas Bagci",
-        "Debesh Jha"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "111",
-      "doi": "10.1117/12.3045810",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045810/Vision-transformer-for-efficient-chest-x-ray-and-gastrointestinal-image/10.1117/12.3045810.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047303",
-      "source": "library",
-      "kind": "conference",
-      "title": "Using an adult retinal image analysis foundation model for retinopathy of prematurity staging: are there benefits?",
-      "authors": [
-        "Zaid Mahboob",
-        "Ahmad O. Ahsan",
-        "Matthias Wilms"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "116",
-      "doi": "10.1117/12.3047303",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047303/Using-an-adult-retinal-image-analysis-foundation-model-for-retinopathy/10.1117/12.3047303.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047409",
-      "source": "library",
-      "kind": "conference",
-      "title": "Unsupervised hybrid framework for anomaly detection (HAND): applied to screening mammogram",
-      "authors": [
-        "Zhemin Zhang",
-        "Gokul Ramasamy"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "31",
-      "doi": "10.1117/12.3047409",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047409/Unsupervised-hybrid-framework-for-anomaly-detection-HAND--applied-to/10.1117/12.3047409.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047160",
-      "source": "library",
-      "kind": "conference",
-      "title": "Unsupervised CBCT quality improvement for quantitative image analysis in radiotherapy using patient-specific score-based prior",
-      "authors": [
-        "Junbo Peng",
-        "Yuan Gao",
-        "Chih-Wei Chang",
-        "Richard Qiu",
-        "Tonghe Wang",
-        "Aparna Kesarwala",
-        "David Yu",
-        "Xiaofeng Yang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "106",
-      "doi": "10.1117/12.3047160",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047160/Unsupervised-CBCT-quality-improvement-for-quantitative-image-analysis-in-radiotherapy/10.1117/12.3047160.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045410",
-      "source": "library",
-      "kind": "conference",
-      "title": "Uncertainty in automated stenosis quantification using multiview x-ray coronary angiography videos",
-      "authors": [
-        "Antonia Popp",
-        "Alaa Abd El Al",
-        "Marie Hoffmann",
-        "Ann Laube",
-        "Jörg Kempfert",
-        "Anja Hennemuth",
-        "Alexander Meyer"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "93",
-      "doi": "10.1117/12.3045410",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045410/Uncertainty-in-automated-stenosis-quantification-using-multiview-x-ray-coronary/10.1117/12.3045410.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047069",
-      "source": "library",
-      "kind": "conference",
-      "title": "Two-level classification for differential diagnosis and molecular subtype classification of pediatric medulloblastoma from other posterior fossa tumors",
-      "authors": [
-        "Celine Lee",
-        "Neda Khalili",
-        "Ariana M. Familiar",
-        "Meen Chul Kim",
-        "Arastoo Vossough",
-        "Deep Gandhi",
-        "Paarth Jain",
-        "Nastaran Khalili",
-        "Debanjan Haldar",
-        "Jeffrey B. Ware",
-        "Phillip B. Storm",
-        "Adam C. Resnick",
-        "Ali Nabavizadeh",
-        "Anahita Fathi Kazerooni"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "45",
-      "doi": "10.1117/12.3047069",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047069/Two-level-classification-for-differential-diagnosis-and-molecular-subtype-classification/10.1117/12.3047069.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047106",
-      "source": "library",
-      "kind": "conference",
-      "title": "Towards synergistic deep learning models for volumetric cirrhotic liver segmentation in MRIs",
-      "authors": [
-        "Vandan Gorade",
-        "Debesh Jha",
-        "Koushik Biswas",
-        "Onkar Susladkar",
-        "Gorkem Durak",
-        "Elif Keles",
-        "Ertugrul Aktas",
-        "Neethi R. Dasu",
-        "Timurhan Cebeci",
-        "Alpay Medetalibeyoglu",
-        "Daniela Ladner",
-        "Amir Borhani",
-        "Ulas Bagci"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "5",
-      "doi": "10.1117/12.3047106",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047106/Towards-synergistic-deep-learning-models-for-volumetric-cirrhotic-liver-segmentation/10.1117/12.3047106.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046251",
-      "source": "library",
-      "kind": "conference",
-      "title": "Toward non-invasive diagnosis of Bankart lesions with deep learning",
-      "authors": [
-        "Sahil Sethi",
-        "Sai Reddy",
-        "Mansi Sakarvadia",
-        "Jordan Serotte",
-        "Darlington Nwaudo",
-        "Nicholas Maassen",
-        "Lewis Shi"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "134",
-      "doi": "10.1117/12.3046251",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046251/Toward-non-invasive-diagnosis-of-Bankart-lesions-with-deep-learning/10.1117/12.3046251.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048815",
-      "source": "library",
-      "kind": "conference",
-      "title": "The search for CT imaging subtypes of colorectal liver metastases and the impacts of slice thickness",
-      "authors": [
-        "Kaitlyn S. Kobayashi",
-        "Dashti A. Ali",
-        "Ramtin Mojtahedi",
-        "Jacob J. Peoples",
-        "Mohammad Hamghalam",
-        "Natalie Gangai",
-        "Mithat Gönen",
-        "Richard K. G. Do",
-        "Yun Shin Chun",
-        "HyunSeon Christine Kang",
-        "Amber L. Simpson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "54",
-      "doi": "10.1117/12.3048815",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048815/The-search-for-CT-imaging-subtypes-of-colorectal-liver-metastases/10.1117/12.3048815.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047478",
-      "source": "library",
-      "kind": "conference",
-      "title": "Survival prediction in head and neck cancer utilizing vision graph neural network on PET/CT images",
-      "authors": [
-        "Xiaohan Yuan",
-        "Mojtaba Safari",
-        "Yishu Li",
-        "Mingzhe Hu",
-        "Xiaofeng Yang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "120",
-      "doi": "10.1117/12.3047478",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047478/Survival-prediction-in-head-and-neck-cancer-utilizing-vision-graph/10.1117/12.3047478.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046951",
-      "source": "library",
-      "kind": "conference",
-      "title": "SentinelAdvMedical: toward adversarial attacks detection on medical image classification via out-of-distribution strategies",
-      "authors": [
-        "Erikson Júlio de Aguiar",
-        "Agma Juci Juci Machado Traina",
-        "Abdelsalam Helal"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "108",
-      "doi": "10.1117/12.3046951",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046951/SentinelAdvMedical--toward-adversarial-attacks-detection-on-medical-image-classification/10.1117/12.3046951.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047222",
-      "source": "library",
-      "kind": "conference",
-      "title": "Semantic segmentation of TB in chest x-rays: a new dataset and generalization evaluation",
-      "authors": [
-        "Karthik Kantipudi",
-        "Vy Bui",
-        "Hang Yu",
-        "Fleming Y. M. Lure",
-        "Stefan Jaeger",
-        "Ziv R. Yaniv"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "97",
-      "doi": "10.1117/12.3047222",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047222/Semantic-segmentation-of-TB-in-chest-x-rays--a/10.1117/12.3047222.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047523",
-      "source": "library",
-      "kind": "conference",
-      "title": "Retina layers thickness guided vision transformer for glaucoma diagnosis",
-      "authors": [
-        "Wenjun Yang",
-        "Jui-Kai Wang",
-        "Randy H. Kardon"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "119",
-      "doi": "10.1117/12.3047523",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047523/Retina-layers-thickness-guided-vision-transformer-for-glaucoma-diagnosis/10.1117/12.3047523.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047488",
-      "source": "library",
-      "kind": "conference",
-      "title": "Rapid, automated prediction of post-stroke cognitive impairment for ischemic stroke",
-      "authors": [
-        "Michal Brzus",
-        "Jamie Kaminski",
-        "Trevor Viohl",
-        "Joel Bruss",
-        "Daniel Tranel",
-        "Aaron D. Boes",
-        "Hans J. Johnson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "71",
-      "doi": "10.1117/12.3047488",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047488/Rapid-automated-prediction-of-post-stroke-cognitive-impairment-for-ischemic/10.1117/12.3047488.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048474",
-      "source": "library",
-      "kind": "conference",
-      "title": "Prospective study on the reproducibility of radiomic features in the setting of variable CT contrast timing: initial results",
-      "authors": [
-        "Joshua Virani-Wall",
-        "Jacob Peoples",
-        "Mohammad Hamghalam",
-        "Natalie Gangai",
-        "Mithat Gonen",
-        "Imani James",
-        "Christine Kang",
-        "John Rong",
-        "Maida Wasim",
-        "Yun Shin Chun",
-        "Richard Do",
-        "Amber L. Simpson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "33",
-      "doi": "10.1117/12.3048474",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048474/Prospective-study-on-the-reproducibility-of-radiomic-features-in-the/10.1117/12.3048474.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046372",
-      "source": "library",
-      "kind": "conference",
-      "title": "Prediction of major adverse cardiovascular events (MACE) in Agatston low-risk patients using comprehensive AI analysis of low-cost screening CT calcium score exams",
-      "authors": [
-        "Tao Hu",
-        "Ammar Hoori",
-        "Joshua Freeze",
-        "Prerna Singh",
-        "Hao Wu",
-        "Yingnan Song",
-        "Sadeer Al-Kindi",
-        "Sanjay Rajagopalan",
-        "David L. Wilson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "92",
-      "doi": "10.1117/12.3046372",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046372/Prediction-of-major-adverse-cardiovascular-events-MACE-in-Agatston-low/10.1117/12.3046372.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047398",
-      "source": "library",
-      "kind": "conference",
-      "title": "Prediction of kidney function decline in patients with autosomal dominant polycystic kidney disease using radiomic features extracted from the non-cystic kidney parenchyma",
-      "authors": [
-        "Linnea E. Kremer",
-        "Erick L. Figueroa",
-        "Ravi Mangar",
-        "Mitchell Velasco",
-        "Adam Starkey",
-        "Arlene B. Chapman",
-        "Samuel G. Armato"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "67",
-      "doi": "10.1117/12.3047398",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047398/Prediction-of-kidney-function-decline-in-patients-with-autosomal-dominant/10.1117/12.3047398.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048961",
-      "source": "library",
-      "kind": "conference",
-      "title": "Predicting response to therapy in pancreatic ductal adenocarcinoma using convolutional neural networks",
-      "authors": [
-        "John Zhou",
-        "Dashti A. Ali",
-        "Ramtin Mojtahedi",
-        "Ahmad B. Barekzai",
-        "Jayasree Chakraborty",
-        "Hala Khasawneh",
-        "Camila Vilela",
-        "Natally Horvat",
-        "Joao Miranda",
-        "Alice C. Wei",
-        "Amber L. Simpson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "49",
-      "doi": "10.1117/12.3048961",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048961/Predicting-response-to-therapy-in-pancreatic-ductal-adenocarcinoma-using-convolutional/10.1117/12.3048961.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047592",
-      "source": "library",
-      "kind": "conference",
-      "title": "Predicting high-risk plaque features using epicardial adipose tissue assessments from non-contrast CT calcium scoring scan",
-      "authors": [
-        "Nicholas Bricker",
-        "Ahmed Al-Rawi",
-        "Tao Hu",
-        "Ammar Hoori",
-        "Hao Wu",
-        "Justin N. Kim",
-        "Michelle C. Williams",
-        "David E. Newby",
-        "David L. Wilson",
-        "Juhwan Lee"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "90",
-      "doi": "10.1117/12.3047592",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047592/Predicting-high-risk-plaque-features-using-epicardial-adipose-tissue-assessments/10.1117/12.3047592.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045828",
-      "source": "library",
-      "kind": "conference",
-      "title": "Predicting future lung cancer risk in low-dose CT screening patients with AI tools",
-      "authors": [
-        "Liton Devnath",
-        "Ian Janzen",
-        "Stephen Lam",
-        "Ren Yuan",
-        "Calum MacAulay"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "98",
-      "doi": "10.1117/12.3045828",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045828/Predicting-future-lung-cancer-risk-in-low-dose-CT-screening/10.1117/12.3045828.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048789",
-      "source": "library",
-      "kind": "conference",
-      "title": "Predicting early hepatic recurrence in patients with pancreatic ductal adenocarcinoma using handcrafted and deep radiomics features",
-      "authors": [
-        "Hadi Ghahremannezhad",
-        "Ahmad B. Barekzai",
-        "Joséphine Magnin",
-        "Constantinos Zambririnis",
-        "Natally Horvat",
-        "Mithat Gönen",
-        "Lawrence Schwartz",
-        "Richard K. G. Do",
-        "Kevin Soares",
-        "Vinod Balachandran",
-        "Jeffrey Drebin",
-        "T. Peter Kingham",
-        "Michael D’Angelica",
-        "Alice C. Wei",
-        "William R. Jarnagin",
-        "Jayasree Chakraborty"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "57",
-      "doi": "10.1117/12.3048789",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048789/Predicting-early-hepatic-recurrence-in-patients-with-pancreatic-ductal-adenocarcinoma/10.1117/12.3048789.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047285",
-      "source": "library",
-      "kind": "conference",
-      "title": "Pitfalls with anomaly detection for breast cancer risk prediction",
-      "authors": [
-        "Tom Lucas Koller",
-        "Kai Geißler",
-        "Ani Ambroladze",
-        "Eva M. Fallenberg",
-        "Michael Ingrisch",
-        "Heba Amer",
-        "Phillip Seeböck",
-        "Georg Langs",
-        "Horst K. Hahn"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "82",
-      "doi": "10.1117/12.3047285",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047285/Pitfalls-with-anomaly-detection-for-breast-cancer-risk-prediction/10.1117/12.3047285.full"
-    },
-    {
-      "id": "doi:10.1117/12.3055543",
-      "source": "library",
-      "kind": "conference",
-      "title": "Pioneering vision: the journey of building AI for transformative healthcare",
-      "authors": [
-        "Elad Walach"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "508",
-      "doi": "10.1117/12.3055543",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3055543/Pioneering-vision--the-journey-of-building-AI-for-transformative/10.1117/12.3055543.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048978",
-      "source": "library",
-      "kind": "conference",
-      "title": "Personalized prediction of tumor recurrence with image-guided physics-informed computational model in high-grade gliomas",
-      "authors": [
-        "Walia Farzana",
-        "Khan M. Iftekharuddin"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "44",
-      "doi": "10.1117/12.3048978",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048978/Personalized-prediction-of-tumor-recurrence-with-image-guided-physics-informed/10.1117/12.3048978.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047078",
-      "source": "library",
-      "kind": "conference",
-      "title": "Persistence image from 3D medical image: superpixel and optimized Gaussian coefficient",
-      "authors": [
-        "Yanfan Zhu",
-        "Yash Singh",
-        "Khaled Younis",
-        "Shunxing Bao",
-        "Yuankai Huo"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "112",
-      "doi": "10.1117/12.3047078",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047078/Persistence-image-from-3D-medical-image--superpixel-and-optimized/10.1117/12.3047078.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048943",
-      "source": "library",
-      "kind": "conference",
-      "title": "Performance evaluation of a stacked classifier for predicting treatment response in unresectable colorectal liver metastases",
-      "authors": [
-        "Mane Piliposyan",
-        "Mohammad Hamghalam",
-        "Ramtin Mojtahedi",
-        "Jacob Peoples",
-        "Kaitlyn Kobayashi",
-        "E. Claire Bunker",
-        "Natalie Gangai",
-        "Yun Shin Chun",
-        "Richard Do",
-        "Christian Muise",
-        "Amber L. Simpson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "61",
-      "doi": "10.1117/12.3048943",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048943/Performance-evaluation-of-a-stacked-classifier-for-predicting-treatment-response/10.1117/12.3048943.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047391",
-      "source": "library",
-      "kind": "conference",
-      "title": "Pediatric osteopenia prediction and interpretation in wrist x-rays",
-      "authors": [
-        "Chelsea E. Harris",
-        "Lingling Liu",
-        "Sokratis Makrogiannis"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "132",
-      "doi": "10.1117/12.3047391",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047391/Pediatric-osteopenia-prediction-and-interpretation-in-wrist-x-rays/10.1117/12.3047391.full"
-    },
-    {
-      "id": "doi:10.1117/12.3040541",
-      "source": "library",
-      "kind": "conference",
-      "title": "Parsing disease heterogeneity in structural and functional MRI-derived measures using normative modeling and generative adversarial networks (GANs)",
-      "authors": [
-        "Sai Spandana Chintapalli",
-        "Sindhuja T. Govindarajan",
-        "Haochang Shou",
-        "Yong Fan",
-        "Hao Huang",
-        "Christos Davatzikos"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "114",
-      "doi": "10.1117/12.3040541",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3040541/Parsing-disease-heterogeneity-in-structural-and-functional-MRI-derived-measures/10.1117/12.3040541.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046253",
-      "source": "library",
-      "kind": "conference",
-      "title": "Parameter-efficient fine-tuning and few-shot learning of multiscale vision transformers for liver tumour segmentation in CT",
-      "authors": [
-        "Ramtin Mojtahedi",
-        "Mohammad Hamghalam",
-        "Jacob J. Peoples",
-        "William R. Jarnagin",
-        "Richard K. G. Do",
-        "Amber L. Simpson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "125",
-      "doi": "10.1117/12.3046253",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046253/Parameter-efficient-fine-tuning-and-few-shot-learning-of-multiscale/10.1117/12.3046253.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047374",
-      "source": "library",
-      "kind": "conference",
-      "title": "Parameter efficient fine-tuning of transformer-based masked autoencoder enhances resource constrained neuroimage analysis",
-      "authors": [
-        "Nikhil J. Dhinagar",
-        "Saket S. Ozarkar",
-        "Ketaki U. Buwa",
-        "Sophia I. Thomopoulos",
-        "Conor Owens-Walton",
-        "Emily Laltoo",
-        "Chirag Jagad",
-        "Yao-Liang Chen",
-        "Philip Cook",
-        "Corey McMillan",
-        "Chih-Chien Tsai",
-        "J-J Wang",
-        "Yih-Ru Wu",
-        "Paul M. Thompson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "42",
-      "doi": "10.1117/12.3047374",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047374/Parameter-efficient-fine-tuning-of-transformer-based-masked-autoencoder-enhances/10.1117/12.3047374.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048971",
-      "source": "library",
-      "kind": "conference",
-      "title": "PanNet: a feature-based attention aggregation model for segmenting pancreatic ductal adenocarcinoma on contrast-enhanced CT images of the abdomen",
-      "authors": [
-        "Debojyoti Pal",
-        "Kaushik Dutta",
-        "Daniel R. Ludwig",
-        "Kooresh Shoghi"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "63",
-      "doi": "10.1117/12.3048971",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048971/PanNet--a-feature-based-attention-aggregation-model-for-segmenting/10.1117/12.3048971.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048988",
-      "source": "library",
-      "kind": "conference",
-      "title": "Outlier detection to identify presence of clinical confounders to AI performance: application to coronary angiography and LVEF prediction",
-      "authors": [
-        "Kuan Zhang",
-        "Behrouz Rostami",
-        "Shahriar Faghani",
-        "Eric Chang",
-        "Douglas Svestka",
-        "Kenneth Fetterly",
-        "Bradley J. Erickson",
-        "Mohamad Alkhouli"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "21",
-      "doi": "10.1117/12.3048988",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048988/Outlier-detection-to-identify-presence-of-clinical-confounders-to-AI/10.1117/12.3048988.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046353",
-      "source": "library",
-      "kind": "conference",
-      "title": "Ordinal classification framework for multiclass grading of pneumoconiosis",
-      "authors": [
-        "Meiqi Liu",
-        "Ian Loveless",
-        "Zenas Huang",
-        "Michal Borek",
-        "Kenneth Rosenman",
-        "Adam Alessio",
-        "Ling Wang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "104",
-      "doi": "10.1117/12.3046353",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046353/Ordinal-classification-framework-for-multiclass-grading-of-pneumoconiosis/10.1117/12.3046353.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046525",
-      "source": "library",
-      "kind": "conference",
-      "title": "Optimizing mammography computer-aided detection: from bilateral learning to single-view inference",
-      "authors": [
-        "Ryuta Konishi",
-        "Nodoka Machida",
-        "Shinsuke Katsuhara",
-        "Hitoshi Futamura"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "80",
-      "doi": "10.1117/12.3046525",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046525/Optimizing-mammography-computer-aided-detection--from-bilateral-learning-to/10.1117/12.3046525.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047390",
-      "source": "library",
-      "kind": "conference",
-      "title": "Optimizing deep learning for brain vessel segmentation in CT angiography: a study on domain adaptation and generalizability",
-      "authors": [
-        "Tatsat Rajendra Patel",
-        "Nandor Pinter",
-        "Adnan H. Siddiqui",
-        "Naoki Kaneko",
-        "Vincent M. Tutino"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "20",
-      "doi": "10.1117/12.3047390",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047390/Optimizing-deep-learning-for-brain-vessel-segmentation-in-CT-angiography/10.1117/12.3047390.full"
-    },
-    {
-      "id": "doi:10.1117/12.3049033",
-      "source": "library",
-      "kind": "conference",
-      "title": "Observer study: impact of case complexities and physician characteristics on AI-assisted treatment response assessment in bladder cancer",
-      "authors": [
-        "Di Sun",
-        "Lubomir Hadjiiski",
-        "Ajjai Alva",
-        "Yousef Zakharia",
-        "Monika Joshi",
-        "Heang-Ping Chan",
-        "Rohan Garje",
-        "Lauren Pomerantz",
-        "Dean Elhag",
-        "Richard Cohan",
-        "Elaine Caoili",
-        "Wesley Kerr",
-        "Galina Kirova-Nedyalkova",
-        "Matthew Davenport",
-        "Prasad Shankar",
-        "Isaac Francis",
-        "Kimberly Shampain",
-        "Nathaniel Meyer",
-        "Daniel Barkmeier",
-        "Sean Woolen",
-        "Phillip Palmbos",
-        "Alon Weizer",
-        "Chuan Zhou",
-        "Martha Matuszak"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "56",
-      "doi": "10.1117/12.3049033",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3049033/Observer-study--impact-of-case-complexities-and-physician-characteristics/10.1117/12.3049033.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048977",
-      "source": "library",
-      "kind": "conference",
-      "title": "Obesity prediction from structural MRI using conformal deep learning with uncertainty quantification",
-      "authors": [
-        "Walia Farzana",
-        "Ahmed Temtam",
-        "Bryant Humud-Arboleda",
-        "Liangsuo Ma",
-        "Melanie Bean",
-        "Gerry Moeller",
-        "Khan M. Iftekharuddin"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "110",
-      "doi": "10.1117/12.3048977",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048977/Obesity-prediction-from-structural-MRI-using-conformal-deep-learning-with/10.1117/12.3048977.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047178",
-      "source": "library",
-      "kind": "conference",
-      "title": "Multiview contrastive learning for myelodysplastic syndrome screening : adding deep image representation to blood parameters",
-      "authors": [
-        "Cédric De Almeida Braga",
-        "Maxence Bauvais",
-        "Samy Benhouhou",
-        "Alice Garnier",
-        "Pierre Peterlin",
-        "Patrice Chevallier",
-        "Emmanuelle Rault",
-        "Olivier Hérault",
-        "Anna Raimbault",
-        "Perrine Paul-Gilloteaux",
-        "Marion Eveillard",
-        "Nicolas Normand"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "109",
-      "doi": "10.1117/12.3047178",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047178/Multiview-contrastive-learning-for-myelodysplastic-syndrome-screening---adding/10.1117/12.3047178.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047095",
-      "source": "library",
-      "kind": "conference",
-      "title": "Multitask transfer learning based on multiview MRI images for diagnosis of patellar instability",
-      "authors": [
-        "Qin Zhang",
-        "Rui Zhang",
-        "Yuhua Liu",
-        "Qiang Ye",
-        "Lin Chen",
-        "Yichuan Hu",
-        "Yinghua Zhao",
-        "Yao Lu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "133",
-      "doi": "10.1117/12.3047095",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047095/Multitask-transfer-learning-based-on-multiview-MRI-images-for-diagnosis/10.1117/12.3047095.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047168",
-      "source": "library",
-      "kind": "conference",
-      "title": "Multioutput lesion-symptom mapping with explainable artificial intelligence in cerebral small vessel disease",
-      "authors": [
-        "Ryanne Offenberg",
-        "Ana San Román Gaitero",
-        "Josien Pluim",
-        "Alberto de Luca",
-        "Geert Jan Biessels",
-        "Hugo Kuijf"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "75",
-      "doi": "10.1117/12.3047168",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047168/Multioutput-lesion-symptom-mapping-with-explainable-artificial-intelligence-in-cerebral/10.1117/12.3047168.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047118",
-      "source": "library",
-      "kind": "conference",
-      "title": "Multilabel learning and model visualization for reliable head and neck cancer radiotherapy outcome prediction",
-      "authors": [
-        "Meixu Chen",
-        "Kai Wang",
-        "Jing Wang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "13",
-      "doi": "10.1117/12.3047118",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047118/Multilabel-learning-and-model-visualization-for-reliable-head-and-neck/10.1117/12.3047118.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047163",
-      "source": "library",
-      "kind": "conference",
-      "title": "Multiclass characterization of colorectal polyps under class imbalance using a calibrated cascade model",
-      "authors": [
-        "Nikoo Dehghani",
-        "Ayla Thijssen",
-        "Quirine E. van der Zander",
-        "Ramon-Michel Schreuder",
-        "Erik J. Schoon",
-        "Peter H. de With",
-        "Fons van der Sommen"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "55",
-      "doi": "10.1117/12.3047163",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047163/Multiclass-characterization-of-colorectal-polyps-under-class-imbalance-using-a/10.1117/12.3047163.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047262",
-      "source": "library",
-      "kind": "conference",
-      "title": "Modal interaction attention-based multimodal fusion network for early prediction of response to neoadjuvant chemotherapy in breast cancer",
-      "authors": [
-        "Xiaoxia Xing",
-        "Jiaping Li",
-        "Jia Luo",
-        "Xiaoyan Xie",
-        "Yanling Zheng",
-        "Yao Lu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "79",
-      "doi": "10.1117/12.3047262",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047262/Modal-interaction-attention-based-multimodal-fusion-network-for-early-prediction/10.1117/12.3047262.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048802",
-      "source": "library",
-      "kind": "conference",
-      "title": "Masked image modeling in medical hyperspectral imaging: reconstruction evaluation and downstream tasks",
-      "authors": [
-        "Kelden Pruitt",
-        "Hemanth Pasupuleti",
-        "James Yu",
-        "Weston DeAtley",
-        "Baowei Fei"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "52",
-      "doi": "10.1117/12.3048802",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048802/Masked-image-modeling-in-medical-hyperspectral-imaging--reconstruction-evaluation/10.1117/12.3048802.full"
-    },
-    {
-      "id": "doi:10.1117/12.3049018",
-      "source": "library",
-      "kind": "conference",
-      "title": "Longitudinal assessment of lung lesion burden in CT",
-      "authors": [
-        "Tejas Sudharshan Mathai",
-        "Benjamin Hou",
-        "Ronald M. Summers"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "103",
-      "doi": "10.1117/12.3049018",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3049018/Longitudinal-assessment-of-lung-lesion-burden-in-CT/10.1117/12.3049018.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046856",
-      "source": "library",
-      "kind": "conference",
-      "title": "Leveraging prior knowledge in machine intelligence for improving cancer diagnostic accuracy",
-      "authors": [
-        "Zhengrong Liang",
-        "Shaojie Chang",
-        "Yongfeng Gao",
-        "Weiguo Cao",
-        "Marc J. Pomeroy",
-        "Licheng R. Kuo",
-        "Haifang Li",
-        "Lihong C. Li",
-        "Perry J. Pickhardt",
-        "Mahsa Kochi",
-        "John Ferretti",
-        "Elaine Gould"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "126",
-      "doi": "10.1117/12.3046856",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046856/Leveraging-prior-knowledge-in-machine-intelligence-for-improving-cancer-diagnostic/10.1117/12.3046856.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045640",
-      "source": "library",
-      "kind": "conference",
-      "title": "Leveraging persistent homology for liver tumour classification",
-      "authors": [
-        "Dashti A. Ali",
-        "Jacob J. Peoples",
-        "Ramtin Mojtahedi",
-        "Kaitlyn Kobayashi",
-        "William R. Jarnagin",
-        "Richard K. G. Do",
-        "Amber L. Simpson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "62",
-      "doi": "10.1117/12.3045640",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045640/Leveraging-persistent-homology-for-liver-tumour-classification/10.1117/12.3045640.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047116",
-      "source": "library",
-      "kind": "conference",
-      "title": "Leveraging curriculum learning to address out-of-distribution data and inter-observer variability for lung nodule diagnostic interpretation",
-      "authors": [
-        "Nandhini Gulasingam",
-        "Alexandru Orhean",
-        "Roselyne Tchoua",
-        "Jacob Furst",
-        "Daniela Stan Raicu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "26",
-      "doi": "10.1117/12.3047116",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047116/Leveraging-curriculum-learning-to-address-out-of-distribution-data-and/10.1117/12.3047116.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046901",
-      "source": "library",
-      "kind": "conference",
-      "title": "Leveraging clinical indications and demographics to improve multilabel abnormality classification in 3D chest CT scans",
-      "authors": [
-        "Theo Di Piazza",
-        "Carole Lazarus",
-        "Olivier Nempont",
-        "Loic Boussel"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "23",
-      "doi": "10.1117/12.3046901",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046901/Leveraging-clinical-indications-and-demographics-to-improve-multilabel-abnormality-classification/10.1117/12.3046901.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048976",
-      "source": "library",
-      "kind": "conference",
-      "title": "Leveraging anatomical priors for automated pancreas segmentation on abdominal CT",
-      "authors": [
-        "Anisa V. Prasad",
-        "Tejas Sudharshan Mathai",
-        "Pritam Mukherjee",
-        "Jianfei Liu",
-        "Ronald M. Summers"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "51",
-      "doi": "10.1117/12.3048976",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048976/Leveraging-anatomical-priors-for-automated-pancreas-segmentation-on-abdominal-CT/10.1117/12.3048976.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047765",
-      "source": "library",
-      "kind": "conference",
-      "title": "Large-scale nonlinear Granger causality (lsNGC) analysis of functional MRI data for schizophrenia classification",
-      "authors": [
-        "Axel Wismüller",
-        "Ali Vosoughi",
-        "Akhil Kasturi"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "46",
-      "doi": "10.1117/12.3047765",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047765/Large-scale-nonlinear-Granger-causality-lsNGC-analysis-of-functional-MRI/10.1117/12.3047765.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047437",
-      "source": "library",
-      "kind": "conference",
-      "title": "Label-free AI bias mitigation",
-      "authors": [
-        "Mohammad Abu Baker S. Akhonda",
-        "Alexis Burgon",
-        "Kenny Cha",
-        "Nicholas Petrick",
-        "Ravi K. Samala"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "128",
-      "doi": "10.1117/12.3047437",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047437/Label-free-AI-bias-mitigation/10.1117/12.3047437.full"
-    },
-    {
-      "id": "doi:10.1117/12.3049085",
-      "source": "library",
-      "kind": "conference",
-      "title": "LLaVA-MultiMammo: adapting vision-language models for explainable and comprehensive multiview mammogram analysis in breast cancer assessment",
-      "authors": [
-        "Xuxin Chen",
-        "Jingchu Chen",
-        "Xiaoqian Chen",
-        "Judy Gichoya",
-        "Hari Trivedi",
-        "Xiaofeng Yang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "28",
-      "doi": "10.1117/12.3049085",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3049085/LLaVA-MultiMammo--adapting-vision-language-models-for-explainable-and/10.1117/12.3049085.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045839",
-      "source": "library",
-      "kind": "conference",
-      "title": "Knowledge-driven deep learning: automated ultrasound diagnosis of follicular thyroid carcinoma",
-      "authors": [
-        "Rui Wang",
-        "Zesen Zou",
-        "Peng Fu",
-        "Haoyuan Zhou",
-        "Yang Bai"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "4",
-      "doi": "10.1117/12.3045839",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045839/Knowledge-driven-deep-learning--automated-ultrasound-diagnosis-of-follicular/10.1117/12.3045839.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046813",
-      "source": "library",
-      "kind": "conference",
-      "title": "Is segmentation performance of deep-learning models affected by cancer type? A performance analysis on PET/CT",
-      "authors": [
-        "Mahan Pouromidi",
-        "Katherine Zukotynski",
-        "Thomas Doyle",
-        "Ashirbani Saha"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "130",
-      "doi": "10.1117/12.3046813",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046813/Is-segmentation-performance-of-deep-learning-models-affected-by-cancer/10.1117/12.3046813.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046915",
-      "source": "library",
-      "kind": "conference",
-      "title": "Investigation of multimodal deep-learning architectures for the classification of Alzheimer's disease and amyloid status",
-      "authors": [
-        "Ben Isselmann",
-        "Chiara Weber",
-        "Jakob Seeger",
-        "Alle Meije Wink",
-        "Henk-Jan Mutsaerts",
-        "Andreas Weinmann",
-        "Johannes Gregori"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "43",
-      "doi": "10.1117/12.3046915",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046915/Investigation-of-multimodal-deep-learning-architectures-for-the-classification-of/10.1117/12.3046915.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046717",
-      "source": "library",
-      "kind": "conference",
-      "title": "Investigation of domain specific pretraining of a Swin transformer to improve Alzheimer's disease classification on three different brain imaging modalities",
-      "authors": [
-        "Chiara Weber",
-        "Jakob Seeger",
-        "Ben Isselmann",
-        "Johannes Gregori",
-        "Andreas Weinmann"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "73",
-      "doi": "10.1117/12.3046717",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046717/Investigation-of-domain-specific-pretraining-of-a-Swin-transformer-to/10.1117/12.3046717.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046738",
-      "source": "library",
-      "kind": "conference",
-      "title": "Interpretable deep learning model for distinguishing tumor pseudoprogression from true progression using MRI imaging of glioblastoma patients",
-      "authors": [
-        "Zhe Wang",
-        "Rayyan Khan",
-        "Parandoush Abbasian",
-        "Lawrence Ryner",
-        "Pascal Lambert",
-        "Marshall Pitz",
-        "Ahmed Ashraf"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "72",
-      "doi": "10.1117/12.3046738",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046738/Interpretable-deep-learning-model-for-distinguishing-tumor-pseudoprogression-from-true/10.1117/12.3046738.full"
-    },
-    {
-      "id": "doi:10.1117/12.3040160",
-      "source": "library",
-      "kind": "conference",
-      "title": "Interactive image diagnosis using test-time backpropagation from the auxiliary task",
-      "authors": [
-        "Takuro Shimaya"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "35",
-      "doi": "10.1117/12.3040160",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3040160/Interactive-image-diagnosis-using-test-time-backpropagation-from-the-auxiliary/10.1117/12.3040160.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047425",
-      "source": "library",
-      "kind": "conference",
-      "title": "Improving orbital bone segmentation with diffusion models and consensus-based refinement in facial CT images",
-      "authors": [
-        "Jinseo An",
-        "Min Jin Lee",
-        "Kyu Won Shim",
-        "Helen Hong"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "9",
-      "doi": "10.1117/12.3047425",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047425/Improving-orbital-bone-segmentation-with-diffusion-models-and-consensus-based/10.1117/12.3047425.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047305",
-      "source": "library",
-      "kind": "conference",
-      "title": "Improving U-Net segmentation of cutaneous chronic graft-versus-host disease in clinical photographs with semi-supervised training",
-      "authors": [
-        "Andrew J. McNeil",
-        "Kelsey Parks",
-        "Michael Pogharian",
-        "Edward W. Cowen",
-        "Julia S. Lehman",
-        "Stephanie J. Lee",
-        "Aaron Zhao",
-        "Steven Z. Pavletic",
-        "Inga Saknīte",
-        "Joseph R. Coco",
-        "Daniel Fabbri",
-        "Eric R. Tkaczyk",
-        "Benoit M. Dawant"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "40",
-      "doi": "10.1117/12.3047305",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047305/Improving-U-Net-segmentation-of-cutaneous-chronic-graft-versus-host/10.1117/12.3047305.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047139",
-      "source": "library",
-      "kind": "conference",
-      "title": "Improved plaque detection and segmentation for atherosclerotic plaque burden assessment on non-contrast and contrast-enhanced abdominal CT scans: multi-institutional study",
-      "authors": [
-        "Jianfei Liu",
-        "Pritam Mukherjee",
-        "Perry J. Pickhardt",
-        "Ronald M. Summers"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "18",
-      "doi": "10.1117/12.3047139",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047139/Improved-plaque-detection-and-segmentation-for-atherosclerotic-plaque-burden-assessment/10.1117/12.3047139.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048942",
-      "source": "library",
-      "kind": "conference",
-      "title": "Importance of stratified sampling for use in the development of training and test sets: medical imaging AI applications",
-      "authors": [
-        "Fahd T. Hatoum",
-        "Robert Tomek",
-        "Heather M. Whitney",
-        "Maryellen L. Giger"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "36",
-      "doi": "10.1117/12.3048942",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048942/Importance-of-stratified-sampling-for-use-in-the-development-of/10.1117/12.3048942.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047454",
-      "source": "library",
-      "kind": "conference",
-      "title": "Impact of tint maps on radiomic texture features extracted from ultrasound images",
-      "authors": [
-        "Estefano Ramirez",
-        "Ingrid Reiser",
-        "Zheng Feng Lu",
-        "Heather M. Whitney"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "129",
-      "doi": "10.1117/12.3047454",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047454/Impact-of-tint-maps-on-radiomic-texture-features-extracted-from/10.1117/12.3047454.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045208",
-      "source": "library",
-      "kind": "conference",
-      "title": "Identifying key challenges in ovarian tumor classification: a comparative study using deep learning and radiomics",
-      "authors": [
-        "Eloy Schultz",
-        "Terese A. E. Hellström",
-        "Cris Claessens",
-        "Anna H. Koch",
-        "Joost Nederend",
-        "Ilse Niers-Stobbe",
-        "Annemarie Bruining",
-        "Jurgen M. J. Piek",
-        "Peter H. N. de With",
-        "Fons van der Sommen"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "69",
-      "doi": "10.1117/12.3045208",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045208/Identifying-key-challenges-in-ovarian-tumor-classification--a-comparative/10.1117/12.3045208.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046239",
-      "source": "library",
-      "kind": "conference",
-      "title": "Graph-based representation of retinal lesions for an interpretable diagnosis of diabetic retinopathy",
-      "authors": [
-        "Zacharie Legault",
-        "Clément Playout",
-        "Fantin Girard",
-        "Farida Cheriet"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "10",
-      "doi": "10.1117/12.3046239",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046239/Graph-based-representation-of-retinal-lesions-for-an-interpretable-diagnosis/10.1117/12.3046239.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045257",
-      "source": "library",
-      "kind": "conference",
-      "title": "Glioblastoma tumor segmentation using an ensemble of vision transformers",
-      "authors": [
-        "Huafeng Liu",
-        "Benjamin Dowdell",
-        "Todd Engelder",
-        "Zarah Pulmano",
-        "Nicolas Osa",
-        "Arko Barman"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "74",
-      "doi": "10.1117/12.3045257",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045257/Glioblastoma-tumor-segmentation-using-an-ensemble-of-vision-transformers/10.1117/12.3045257.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047505",
-      "source": "library",
-      "kind": "conference",
-      "title": "GhostTuDNet: accelerating tumor detection on CPUs with a compact and efficient model",
-      "authors": [
-        "Mingzhe Hu",
-        "Xiaofeng Yang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "87",
-      "doi": "10.1117/12.3047505",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047505/GhostTuDNet--accelerating-tumor-detection-on-CPUs-with-a-compact/10.1117/12.3047505.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047169",
-      "source": "library",
-      "kind": "conference",
-      "title": "Generative models for high-resolution synthetic image of gastric cancer for improved gastric cancer detection",
-      "authors": [
-        "Gi Pyo Lee",
-        "Young Jae Kim",
-        "Kwang Gi Kim"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "6",
-      "doi": "10.1117/12.3047169",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047169/Generative-models-for-high-resolution-synthetic-image-of-gastric-cancer/10.1117/12.3047169.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046869",
-      "source": "library",
-      "kind": "conference",
-      "title": "GS-TransUNet: integrated 2D Gaussian splatting and transformer UNet for accurate skin lesion analysis",
-      "authors": [
-        "Anand Kumar",
-        "Kavinder Roghit Kanthen",
-        "Josna John"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "122",
-      "doi": "10.1117/12.3046869",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046869/GS-TransUNet--integrated-2D-Gaussian-splatting-and-transformer-UNet/10.1117/12.3046869.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047451",
-      "source": "library",
-      "kind": "conference",
-      "title": "GRN+: a simplified generative reinforcement network for tissue layer analysis in 3D ultrasound images for chronic low-back pain",
-      "authors": [
-        "Zixue Zeng",
-        "Xiaoyan Zhao",
-        "Matthew Cartier",
-        "Xing Meng",
-        "Jiantao Pu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "39",
-      "doi": "10.1117/12.3047451",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047451/GRN--a-simplified-generative-reinforcement-network-for-tissue-layer/10.1117/12.3047451.full"
-    },
-    {
-      "id": "doi:10.1117/12.3043130",
-      "source": "library",
-      "kind": "conference",
-      "title": "Federated vs. centralized learning for medical images classification and segmentation",
-      "authors": [
-        "Irina Rakotoarisedy",
-        "Adam Fragkiadakis",
-        "Pascal Haigron",
-        "Antoine Simon"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "127",
-      "doi": "10.1117/12.3043130",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3043130/Federated-vs-centralized-learning-for-medical-images-classification-and-segmentation/10.1117/12.3043130.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047006",
-      "source": "library",
-      "kind": "conference",
-      "title": "Feature learning and transfer learning approaches for classification of human burn wounds using multispectral SWIR imaging",
-      "authors": [
-        "Mignon Frances Dumanjog",
-        "Sneha Korlakunta",
-        "Alaa Hazime",
-        "Ryan Huebinger",
-        "Kareem Abdelfattah",
-        "Samuel Mandell",
-        "Chiaka Akarichi",
-        "Audra Clark",
-        "Johanna Nunez",
-        "Sergey Mironov",
-        "Omer Berenfeld",
-        "Benjamin Levi",
-        "Amina Qutub"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "113",
-      "doi": "10.1117/12.3047006",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047006/Feature-learning-and-transfer-learning-approaches-for-classification-of-human/10.1117/12.3047006.full"
-    },
-    {
-      "id": "doi:10.1117/12.3049019",
-      "source": "library",
-      "kind": "conference",
-      "title": "Exploring transfer learning for deep learning polyp detection in colonoscopy images using YOLOv8",
-      "authors": [
-        "Fabian Vazquez",
-        "Jose A. Nunez",
-        "Xiaoyan Fu",
-        "Pengfei Gu",
-        "Bin Fu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "68",
-      "doi": "10.1117/12.3049019",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3049019/Exploring-transfer-learning-for-deep-learning-polyp-detection-in-colonoscopy/10.1117/12.3049019.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047068",
-      "source": "library",
-      "kind": "conference",
-      "title": "Explainable unsupervised TNM category differentiation in PET images with deep texture analysis",
-      "authors": [
-        "Robert John",
-        "Mabela Budlla",
-        "Ian Ackerley",
-        "Rhodri Smith",
-        "Andrew Robinson",
-        "Vineet Prakash",
-        "Manu Shastry",
-        "Peter Strouhal",
-        "Kevin Wells"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "15",
-      "doi": "10.1117/12.3047068",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047068/Explainable-unsupervised-TNM-category-differentiation-in-PET-images-with-deep/10.1117/12.3047068.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046361",
-      "source": "library",
-      "kind": "conference",
-      "title": "Explainable deep learning for rib fracture detection in chest x-rays",
-      "authors": [
-        "Charles Roberts",
-        "Conner Rutherford",
-        "Yiyang Wang",
-        "Kieran Penneau",
-        "Mohamad Mehdi",
-        "Derek Riley"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "105",
-      "doi": "10.1117/12.3046361",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046361/Explainable-deep-learning-for-rib-fracture-detection-in-chest-x/10.1117/12.3046361.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048956",
-      "source": "library",
-      "kind": "conference",
-      "title": "Exclude at your own peril: evaluating the omission of data in training AI breast cancer risk models",
-      "authors": [
-        "Adam Perrett",
-        "Stepan Romanov",
-        "Alistair Taylor-Sweet",
-        "Raja Ebsim",
-        "Gareth Evans",
-        "Elaine Harkness",
-        "Susan Astley"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "29",
-      "doi": "10.1117/12.3048956",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048956/Exclude-at-your-own-peril--evaluating-the-omission-of/10.1117/12.3048956.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047210",
-      "source": "library",
-      "kind": "conference",
-      "title": "Ensembled YOLO for multiorgan detection in chest x-rays",
-      "authors": [
-        "Sivaramakrishnan Rajaraman",
-        "Zhaohui Liang",
-        "Zhiyun Xue",
-        "Sameer K. Antani"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "24",
-      "doi": "10.1117/12.3047210",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047210/Ensembled-YOLO-for-multiorgan-detection-in-chest-x-rays/10.1117/12.3047210.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047009",
-      "source": "library",
-      "kind": "conference",
-      "title": "Ensemble artificial neural network lung nodule classification utilizing nodular and peri-nodular radiomics",
-      "authors": [
-        "Kevin Knoernschild",
-        "Kimberly Schroeder",
-        "Jake Kitzmann",
-        "Chandra Colby",
-        "Jessica C. Sieren"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "96",
-      "doi": "10.1117/12.3047009",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047009/Ensemble-artificial-neural-network-lung-nodule-classification-utilizing-nodular-and/10.1117/12.3047009.full"
-    },
-    {
-      "id": "doi:10.1117/12.3049078",
-      "source": "library",
-      "kind": "conference",
-      "title": "Enhancing lung nodule classification with variational autoencoder-based image augmentation",
-      "authors": [
-        "Charmi Patel",
-        "Yiyang Wang",
-        "Roselyne Tchoua",
-        "Alexandru Orhean",
-        "Jacob Furst",
-        "Daniela Raicu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "102",
-      "doi": "10.1117/12.3049078",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3049078/Enhancing-lung-nodule-classification-with-variational-autoencoder-based-image-augmentation/10.1117/12.3049078.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046404",
-      "source": "library",
-      "kind": "conference",
-      "title": "Enhanced semi-supervised lung CT segmentation with shape-aware CycleGAN synthesis of pathological data",
-      "authors": [
-        "Rezkellah Noureddine Khiati",
-        "Pierre-Yves Brillet",
-        "Aurélien Justet",
-        "Radu Ispas",
-        "Catalin Fetita"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "99",
-      "doi": "10.1117/12.3046404",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046404/Enhanced-semi-supervised-lung-CT-segmentation-with-shape-aware-CycleGAN/10.1117/12.3046404.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047387",
-      "source": "library",
-      "kind": "conference",
-      "title": "Enhanced identification of pheochromocytoma and paragangliomas' genetic clusters from CT",
-      "authors": [
-        "Owais Makroo",
-        "Bikash Santra",
-        "Pritam Mukherjee",
-        "Tejas Sudharshan Mathai",
-        "Abhishek Jha",
-        "Mayank Patel",
-        "Karel Pacak",
-        "Ronald M. Summers"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "48",
-      "doi": "10.1117/12.3047387",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047387/Enhanced-identification-of-pheochromocytoma-and-paragangliomas-genetic-clusters-from-CT/10.1117/12.3047387.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047472",
-      "source": "library",
-      "kind": "conference",
-      "title": "ETT-LDx: transformer-based landmark detection system for endotracheal tube placement verification in chest radiographs",
-      "authors": [
-        "Akhil Kasturi",
-        "Ali Vosoughi",
-        "Nathan Hadjiyski",
-        "Axel Wismüller"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "25",
-      "doi": "10.1117/12.3047472",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047472/ETT-LDx--transformer-based-landmark-detection-system-for-endotracheal/10.1117/12.3047472.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046359",
-      "source": "library",
-      "kind": "conference",
-      "title": "Dynamic U-Net: adaptively calibrate features for abdominal multiorgan segmentation",
-      "authors": [
-        "Jin Yang",
-        "Daniel S. Marcus",
-        "Aristeidis Sotiras"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "50",
-      "doi": "10.1117/12.3046359",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046359/Dynamic-U-Net--adaptively-calibrate-features-for-abdominal-multiorgan/10.1117/12.3046359.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046897",
-      "source": "library",
-      "kind": "conference",
-      "title": "Dual-perspective virtual unfolding U-Net (DPVU-Net) models for comprehensive superficial skeletal muscles segmentation in CT images",
-      "authors": [
-        "Kosuke Ashino",
-        "Naoki Kamiya",
-        "Xiangrong Zhou",
-        "Hiroki Kato",
-        "Takeshi Hara",
-        "Hiroshi Fujita"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "37",
-      "doi": "10.1117/12.3046897",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046897/Dual-perspective-virtual-unfolding-U-Net-DPVU-Net-models-for/10.1117/12.3046897.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047186",
-      "source": "library",
-      "kind": "conference",
-      "title": "Development of an AI-based smart imagery framing and truthing (SIFT) system to annotate pulmonary abnormalities with corresponding boundaries based on CT images",
-      "authors": [
-        "Lin Guo",
-        "Lingbo Deng",
-        "Stefan Jaeger",
-        "Bin Zheng",
-        "Qian Xiao",
-        "Teresa Wu",
-        "Fulin Cai",
-        "Fleming Y. M. Lure",
-        "Li Xia",
-        "Weijun Fang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "22",
-      "doi": "10.1117/12.3047186",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047186/Development-of-an-AI-based-smart-imagery-framing-and-truthing/10.1117/12.3047186.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047307",
-      "source": "library",
-      "kind": "conference",
-      "title": "Developing breast dense tissue segmentation algorithm in digital breast tomosynthesis",
-      "authors": [
-        "Md Belayat Hossain",
-        "Tamerlan Mustafaev",
-        "Robert M. Nishikawa",
-        "Juhun Lee"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "32",
-      "doi": "10.1117/12.3047307",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047307/Developing-breast-dense-tissue-segmentation-algorithm-in-digital-breast-tomosynthesis/10.1117/12.3047307.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047323",
-      "source": "library",
-      "kind": "conference",
-      "title": "Demographic characteristics prediction using deep learning analysis of kidney imaging",
-      "authors": [
-        "Ramon Correa-Medero",
-        "Haidar Abdul-Muhsin",
-        "Imon Banerjee"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "60",
-      "doi": "10.1117/12.3047323",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047323/Demographic-characteristics-prediction-using-deep-learning-analysis-of-kidney-imaging/10.1117/12.3047323.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046259",
-      "source": "library",
-      "kind": "conference",
-      "title": "Coronary artery centerline extraction using a robust lightweight CNN approach",
-      "authors": [
-        "Chih-Chieh Liu",
-        "Qiulin Tang",
-        "Liang Cai",
-        "Zhou Yu",
-        "Jian Zhou"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "19",
-      "doi": "10.1117/12.3046259",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046259/Coronary-artery-centerline-extraction-using-a-robust-lightweight-CNN-approach/10.1117/12.3046259.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046863",
-      "source": "library",
-      "kind": "conference",
-      "title": "Contrast-enhanced image-guided learning for nasopharyngeal carcinoma diagnosis using non-contrast MRI",
-      "authors": [
-        "Zhen Li",
-        "Yuxuan Shi",
-        "Xueli Liu",
-        "Li Wang",
-        "Jonghye Woo",
-        "Jinsong Ouyang",
-        "Georges El Fakhri",
-        "Hongmeng Yu",
-        "Xiaofeng Liu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "11",
-      "doi": "10.1117/12.3046863",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046863/Contrast-enhanced-image-guided-learning-for-nasopharyngeal-carcinoma-diagnosis-using/10.1117/12.3046863.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047129",
-      "source": "library",
-      "kind": "conference",
-      "title": "Context-aware focal modulation for detection of inflammatory bowel diseases from MRE images",
-      "authors": [
-        "Chaelin Lee",
-        "Hansang Lee",
-        "Nieun Seo",
-        "Joon Seok Lim",
-        "Helen Hong"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "58",
-      "doi": "10.1117/12.3047129",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047129/Context-aware-focal-modulation-for-detection-of-inflammatory-bowel-diseases/10.1117/12.3047129.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048964",
-      "source": "library",
-      "kind": "conference",
-      "title": "Conflict avoidance in mammography: filtering datasets for breast cancer risk prediction",
-      "authors": [
-        "Alistair Taylor-Sweet",
-        "Adam Perrett",
-        "Stepan Romanov",
-        "Raja Ebsim",
-        "Gareth Evans",
-        "Susan Astley"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "16",
-      "doi": "10.1117/12.3048964",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048964/Conflict-avoidance-in-mammography--filtering-datasets-for-breast-cancer/10.1117/12.3048964.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048953",
-      "source": "library",
-      "kind": "conference",
-      "title": "Confidence estimation of AI model output for bladder cancer treatment response assessment in CT urography",
-      "authors": [
-        "Di Sun",
-        "Basavasagar Patil",
-        "Lubomir Hadjiiski",
-        "Heang-Ping Chan",
-        "Richard Cohan",
-        "Elaine Caoili",
-        "Ajjai Alva",
-        "Jared Vicory",
-        "Chuan Zhou"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "8",
-      "doi": "10.1117/12.3048953",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048953/Confidence-estimation-of-AI-model-output-for-bladder-cancer-treatment/10.1117/12.3048953.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047511",
-      "source": "library",
-      "kind": "conference",
-      "title": "Comparative study on kidney tumor segmentation for partial nephrectomy planning using hybrid CNN-transformer networks",
-      "authors": [
-        "Goun Kim",
-        "Min Jin Lee",
-        "Helen Hong"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "7",
-      "doi": "10.1117/12.3047511",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047511/Comparative-study-on-kidney-tumor-segmentation-for-partial-nephrectomy-planning/10.1117/12.3047511.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047296",
-      "source": "library",
-      "kind": "conference",
-      "title": "Cluster dice: a simple and fast approach for instance-based semantic segmentation evaluation via many-to-many matching",
-      "authors": [
-        "Soumya Snigdha Kundu",
-        "Aaron Kujawa",
-        "Marina Ivory",
-        "Theodore Barfoot",
-        "Jonathan Shapey",
-        "Tom Vercauteren"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "38",
-      "doi": "10.1117/12.3047296",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047296/Cluster-dice--a-simple-and-fast-approach-for-instance/10.1117/12.3047296.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046775",
-      "source": "library",
-      "kind": "conference",
-      "title": "Classification of range of OCT-angiography capillary density using multichannel deep learning models in diabetic retinopathy, aging macular degeneration, and radiation retinopathy",
-      "authors": [
-        "Noriyoshi Takahashi",
-        "Jui-Kai Wang",
-        "Michelle R. Tamplin",
-        "Elaine M. Binkley",
-        "Mona K. Garvin",
-        "Isabella M. Grumbach",
-        "Randy H. Kardon"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "17",
-      "doi": "10.1117/12.3046775",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046775/Classification-of-range-of-OCT-angiography-capillary-density-using-multichannel/10.1117/12.3046775.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048914",
-      "source": "library",
-      "kind": "conference",
-      "title": "Classification of pure DCIS cases in breast ultrasound images by multiscale contrastive learning",
-      "authors": [
-        "Chisako Muramatsu",
-        "Mikinao Oiwa",
-        "Rieko Nishimura",
-        "Tomonori Kawasaki"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "85",
-      "doi": "10.1117/12.3048914",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048914/Classification-of-pure-DCIS-cases-in-breast-ultrasound-images-by/10.1117/12.3048914.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048925",
-      "source": "library",
-      "kind": "conference",
-      "title": "Characterizing inherent image ordinality to improve multiclass classification",
-      "authors": [
-        "Ian Loveless",
-        "Meiqi Liu",
-        "Kenneth Rosenman",
-        "Ling Wang",
-        "Adam Alessio"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "2",
-      "doi": "10.1117/12.3048925",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048925/Characterizing-inherent-image-ordinality-to-improve-multiclass-classification/10.1117/12.3048925.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048981",
-      "source": "library",
-      "kind": "conference",
-      "title": "Can artificial intelligence support less experienced radiologists in interpreting indeterminate mammographic screenings?",
-      "authors": [
-        "Vivian Bai",
-        "Zhengqiang Jiang",
-        "Warren Reed",
-        "Ziba Gandomkar"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "83",
-      "doi": "10.1117/12.3048981",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048981/Can-artificial-intelligence-support-less-experienced-radiologists-in-interpreting-indeterminate/10.1117/12.3048981.full"
-    },
-    {
-      "id": "doi:10.1117/12.3049059",
-      "source": "library",
-      "kind": "conference",
-      "title": "COVSeg-VLM: vision-language model for reliable segmenting COVID-19 infections in chest x-ray images",
-      "authors": [
-        "Vanessa Su",
-        "Xiaohan Yuan",
-        "Mojtaba Safari",
-        "Xiaofeng Yang"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "107",
-      "doi": "10.1117/12.3049059",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3049059/COVSeg-VLM--vision-language-model-for-reliable-segmenting-COVID/10.1117/12.3049059.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047203",
-      "source": "library",
-      "kind": "conference",
-      "title": "Breast masses classification using a radiomic analysis in contrast-enhanced spectral mammography",
-      "authors": [
-        "Juan J. Narváez",
-        "Pablo Salamea",
-        "Fabián Narváez"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "81",
-      "doi": "10.1117/12.3047203",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047203/Breast-masses-classification-using-a-radiomic-analysis-in-contrast-enhanced/10.1117/12.3047203.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047248",
-      "source": "library",
-      "kind": "conference",
-      "title": "Breast cancer risk prediction using background parenchymal enhancement, radiomics, and symmetry features on MRI",
-      "authors": [
-        "Kai Geißler",
-        "Tom Lucas Koller",
-        "Ani Ambroladze",
-        "Eva M. Fallenberg",
-        "Michael Ingrisch",
-        "Horst K. Hahn"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "84",
-      "doi": "10.1117/12.3047248",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047248/Breast-cancer-risk-prediction-using-background-parenchymal-enhancement-radiomics-and/10.1117/12.3047248.full"
-    },
-    {
-      "id": "doi:10.1117/12.3048938",
-      "source": "library",
-      "kind": "conference",
-      "title": "Benchmarking multiorgan segmentation tools for multiparametric T1-weighted abdominal MRI",
-      "authors": [
-        "Nicole Tran",
-        "Anisa V. Prasad",
-        "Yan Zhuang",
-        "Tejas Sudharshan Mathai",
-        "Boah Kim",
-        "Sydney V. Lewis",
-        "Pritam Mukherjee",
-        "Jianfei Liu",
-        "Ronald M. Summers"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "41",
-      "doi": "10.1117/12.3048938",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3048938/Benchmarking-multiorgan-segmentation-tools-for-multiparametric-T1-weighted-abdominal-MRI/10.1117/12.3048938.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047359",
-      "source": "library",
-      "kind": "conference",
-      "title": "BEHYPE: bias evaluation using hyperdimensional computing in AI-assisted decision support systems",
-      "authors": [
-        "Praitayini Kanakaraj",
-        "Alexis Burgon",
-        "Nicholas Petrick",
-        "Ravi K. Samala"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "89",
-      "doi": "10.1117/12.3047359",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047359/BEHYPE--bias-evaluation-using-hyperdimensional-computing-in-AI-assisted/10.1117/12.3047359.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047021",
-      "source": "library",
-      "kind": "conference",
-      "title": "Automated hepatocellular carcinoma detection and segmentation in abbreviated MRI using vision transformers",
-      "authors": [
-        "Vivek Yadav",
-        "Amine Geahchan",
-        "Valentin Fauveau",
-        "Kazuya Yasokawa",
-        "Bachir Taouli",
-        "Hayit Greenspan"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "66",
-      "doi": "10.1117/12.3047021",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047021/Automated-hepatocellular-carcinoma-detection-and-segmentation-in-abbreviated-MRI-using/10.1117/12.3047021.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045046",
-      "source": "library",
-      "kind": "conference",
-      "title": "Automated detection of central chest lymph nodes for guided bronchoscopy",
-      "authors": [
-        "Yuxuan He",
-        "William E. Higgins"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "95",
-      "doi": "10.1117/12.3045046",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045046/Automated-detection-of-central-chest-lymph-nodes-for-guided-bronchoscopy/10.1117/12.3045046.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047463",
-      "source": "library",
-      "kind": "conference",
-      "title": "Automated cardiac chamber segmentation using non-contrast CT images",
-      "authors": [
-        "Qiyu Zhang",
-        "Yumeng Zhang",
-        "Hamidreza Khodajou-Chokami",
-        "Dean P. Nguyen",
-        "Dale Black",
-        "Wenbo Li",
-        "Justin Truong",
-        "Sabee Molloi"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "94",
-      "doi": "10.1117/12.3047463",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047463/Automated-cardiac-chamber-segmentation-using-non-contrast-CT-images/10.1117/12.3047463.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047396",
-      "source": "library",
-      "kind": "conference",
-      "title": "Assessing tuberculosis detection and treatment outcome prediction in x-ray images: a cross-domain foundation model performance analysis",
-      "authors": [
-        "Dmitrii Cherezov",
-        "Tanmoy Dam",
-        "Anant Madabhushi"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "100",
-      "doi": "10.1117/12.3047396",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047396/Assessing-tuberculosis-detection-and-treatment-outcome-prediction-in-x-ray/10.1117/12.3047396.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046952",
-      "source": "library",
-      "kind": "conference",
-      "title": "Assessing the efficacy of classical and deep neuroimaging biomarkers in early Alzheimer's disease diagnosis",
-      "authors": [
-        "Milla E. Nielsen",
-        "Mads Nielsen",
-        "Mostafa Mehdipour Ghazi"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "76",
-      "doi": "10.1117/12.3046952",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046952/Assessing-the-efficacy-of-classical-and-deep-neuroimaging-biomarkers-in/10.1117/12.3046952.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046990",
-      "source": "library",
-      "kind": "conference",
-      "title": "Assessing change in mammographic density within individuals across screening rounds using an artificial intelligence software",
-      "authors": [
-        "Jakob Olinder",
-        "Daniel Förnvik",
-        "Kristin Johnson",
-        "Sophia Zackrisson"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "86",
-      "doi": "10.1117/12.3046990",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046990/Assessing-change-in-mammographic-density-within-individuals-across-screening-rounds/10.1117/12.3046990.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045625",
-      "source": "library",
-      "kind": "conference",
-      "title": "Adaptive region-oriented masked vision retentive network for predicting macrovascular invasion in hepatocellular carcinoma",
-      "authors": [
-        "Kengo Takahashi",
-        "Ryusei Inamori",
-        "Kei Ichiji",
-        "Zhang Zhang",
-        "Zeng Yuwen",
-        "Noriyasu Homma"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "65",
-      "doi": "10.1117/12.3045625",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045625/Adaptive-region-oriented-masked-vision-retentive-network-for-predicting-macrovascular/10.1117/12.3045625.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046521",
-      "source": "library",
-      "kind": "conference",
-      "title": "AI-assisted prostate cancer detection and localisation on biparametric MR by classifying radiologist-positives",
-      "authors": [
-        "Xiangcen Wu",
-        "Yipei Wang",
-        "Qianye Yang",
-        "Natasha Thorley",
-        "Shonit Punwani",
-        "Veeru Kasivisvanathan",
-        "Ester Bonmati",
-        "Yipeng Hu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "64",
-      "doi": "10.1117/12.3046521",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046521/AI-assisted-prostate-cancer-detection-and-localisation-on-biparametric-MR/10.1117/12.3046521.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047267",
-      "source": "library",
-      "kind": "conference",
-      "title": "AI prediction of obstructive coronary artery disease using calcium-omics from non-contrast CT calcium scoring scans",
-      "authors": [
-        "Ahmed Al-Rawi",
-        "Dhruv Kalra",
-        "Nicholas Bricker",
-        "Zakarias Shishehbor",
-        "Ammar Hoori",
-        "Michelle C. Williams",
-        "David E. Newby",
-        "David L. Wilson",
-        "Juhwan Lee"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "91",
-      "doi": "10.1117/12.3047267",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047267/AI-prediction-of-obstructive-coronary-artery-disease-using-calcium-omics/10.1117/12.3047267.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046822",
-      "source": "library",
-      "kind": "conference",
-      "title": "A video classification method for diagnosing ear diseases using otoscope imaging",
-      "authors": [
-        "Hao Lu",
-        "Seda Camalan",
-        "Charles Elmaraghy",
-        "Aaron C. Moberly",
-        "Metin N. Gurcan"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "117",
-      "doi": "10.1117/12.3046822",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046822/A-video-classification-method-for-diagnosing-ear-diseases-using-otoscope/10.1117/12.3046822.full"
-    },
-    {
-      "id": "doi:10.1117/12.3045252",
-      "source": "library",
-      "kind": "conference",
-      "title": "A surface-based deep-learning approach for cortical shape analysis",
-      "authors": [
-        "Yanghee Im",
-        "Yuji Zhao",
-        "Boris A. Gutman",
-        "Sophia I. Thomopoulos",
-        "Elizabeth Haddad",
-        "Alyssa H. Zhu",
-        "Neda Jahanshad",
-        "Paul M. Thompson",
-        "Christopher R. K. Ching"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "3",
-      "doi": "10.1117/12.3045252",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3045252/A-surface-based-deep-learning-approach-for-cortical-shape-analysis/10.1117/12.3045252.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046948",
-      "source": "library",
-      "kind": "conference",
-      "title": "A study on the performance of U-Net modifications in retroperitoneal tumor segmentation",
-      "authors": [
-        "Moein Heidari",
-        "Ehsan Khodapanah Aghdam",
-        "Alexander Manzella",
-        "Daniel Hsu",
-        "Rebecca Scalabrino",
-        "Wenjin Chen",
-        "David J. Foran",
-        "Ilker Hacihaliloglu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "59",
-      "doi": "10.1117/12.3046948",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046948/A-study-on-the-performance-of-U-Net-modifications-in/10.1117/12.3046948.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047122",
-      "source": "library",
-      "kind": "conference",
-      "title": "A one-shot/few-shot interactive segmentation method for CT image segmentation",
-      "authors": [
-        "Jian Dai",
-        "Jayaram K. Udupa",
-        "Drew A. Torigian",
-        "Yubing Tong",
-        "Tiange Liu"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "131",
-      "doi": "10.1117/12.3047122",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047122/A-one-shot-few-shot-interactive-segmentation-method-for-CT/10.1117/12.3047122.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047889",
-      "source": "library",
-      "kind": "conference",
-      "title": "A fully automated pancreatic subregion segmentation tool for CT",
-      "authors": [
-        "Yan Zhuang",
-        "Abhinav Suri",
-        "Tejas Sudharshan Mathai",
-        "Brandon Khoury",
-        "Ronald M. Summers"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "70",
-      "doi": "10.1117/12.3047889",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047889/A-fully-automated-pancreatic-subregion-segmentation-tool-for-CT/10.1117/12.3047889.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047029",
-      "source": "library",
-      "kind": "conference",
-      "title": "A diffusion model-based self-explainable generative classifier for retinal image analysis",
-      "authors": [
-        "Ahmad Omar Ahsan",
-        "Christopher Nielsen",
-        "Nils D. Forkert",
-        "Matthias Wilms"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "12",
-      "doi": "10.1117/12.3047029",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047029/A-diffusion-model-based-self-explainable-generative-classifier-for-retinal/10.1117/12.3047029.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047146",
-      "source": "library",
-      "kind": "conference",
-      "title": "A comprehensive processing framework crafted for pediatric brain MRI",
-      "authors": [
-        "Anik Das",
-        "Kaue Duarte",
-        "Catherine Lebel",
-        "Letícia Rittner",
-        "Mariana Bento"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "77",
-      "doi": "10.1117/12.3047146",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047146/A-comprehensive-processing-framework-crafted-for-pediatric-brain-MRI/10.1117/12.3047146.full"
-    },
-    {
-      "id": "doi:10.1117/12.3047028",
-      "source": "library",
-      "kind": "conference",
-      "title": "A comparison of Atlas- and DL-based brain segmentation in hybrid PET/MR for regional SUV quantification",
-      "authors": [
-        "Rong Yuan",
-        "Weiwei Ruan",
-        "Xun Sun",
-        "Shuyue Shi",
-        "Xiaoli Lan"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "78",
-      "doi": "10.1117/12.3047028",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3047028/A-comparison-of-Atlas--and-DL-based-brain-segmentation/10.1117/12.3047028.full"
-    },
-    {
-      "id": "doi:10.1117/12.3046636",
-      "source": "library",
-      "kind": "conference",
-      "title": "2.5D mapping of the esophagus as imaging quality and completeness assuring extension for endoscopic computer-aided detection systems",
-      "authors": [
-        "Esmee Esselaar",
-        "Tim J. M. Jaspers",
-        "Carolus H. J. Kusters",
-        "Tim G. W. Boers",
-        "Martijn R. Jong",
-        "Rixta A. H. Van Eijck van Heslinga",
-        "Albert J. de Groof",
-        "Jacques J. Bergman",
-        "Peter H. N. De With",
-        "Fons van der Sommen"
-      ],
-      "summary": "",
-      "venue": "ICCAD",
-      "venueName": "ICCAD",
-      "area": "EDA",
-      "year": 2025,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2025-04-04",
-      "pages": "118",
-      "doi": "10.1117/12.3046636",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13407/3046636/25D-mapping-of-the-esophagus-as-imaging-quality-and-completeness/10.1117/12.3046636.full"
+      "url": "https://ieeexplore.ieee.org/document/11106057/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/iclad65226.2025.00023"
     }
   ]
 }

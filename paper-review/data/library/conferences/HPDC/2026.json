@@ -2,7 +2,7 @@
   "meta": {
     "venue": "HPDC",
     "year": 2026,
-    "count": 310
+    "count": 206
   },
   "records": [
     {
@@ -25,7 +25,9 @@
       "doi": "10.1145/3806645.3807602",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807602"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807602",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807602"
     },
     {
       "id": "doi:10.1145/3806645.3818791",
@@ -48,7 +50,9 @@
       "doi": "10.1145/3806645.3818791",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818791"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818791",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818791"
     },
     {
       "id": "doi:10.1145/3806645.3807582",
@@ -72,7 +76,9 @@
       "doi": "10.1145/3806645.3807582",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807582"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807582",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807582"
     },
     {
       "id": "doi:10.1145/3806645.3807818",
@@ -97,7 +103,9 @@
       "doi": "10.1145/3806645.3807818",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807818"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807818",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807818"
     },
     {
       "id": "doi:10.1145/3806645.3816239",
@@ -123,7 +131,9 @@
       "doi": "10.1145/3806645.3816239",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816239"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816239",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816239"
     },
     {
       "id": "doi:10.1145/3806645.3818793",
@@ -145,7 +155,9 @@
       "doi": "10.1145/3806645.3818793",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818793"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818793",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818793"
     },
     {
       "id": "doi:10.1145/3806645.3820075",
@@ -171,7 +183,9 @@
       "doi": "10.1145/3806645.3820075",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820075"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820075",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820075"
     },
     {
       "id": "doi:10.1145/3806645.3816159",
@@ -195,7 +209,9 @@
       "doi": "10.1145/3806645.3816159",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816159"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816159",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816159"
     },
     {
       "id": "doi:10.1145/3806645.3807811",
@@ -226,7 +242,9 @@
       "doi": "10.1145/3806645.3807811",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807811"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807811",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807811"
     },
     {
       "id": "doi:10.1145/3806645.3807584",
@@ -258,7 +276,9 @@
       "doi": "10.1145/3806645.3807584",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807584"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807584",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807584"
     },
     {
       "id": "doi:10.1145/3806645.3816162",
@@ -282,7 +302,9 @@
       "doi": "10.1145/3806645.3816162",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816162"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816162",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816162"
     },
     {
       "id": "doi:10.1145/3806645.3816163",
@@ -306,7 +328,9 @@
       "doi": "10.1145/3806645.3816163",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816163"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816163",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816163"
     },
     {
       "id": "doi:10.1145/3806645.3818787",
@@ -330,7 +354,9 @@
       "doi": "10.1145/3806645.3818787",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818787"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818787",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818787"
     },
     {
       "id": "doi:10.1145/3806645.3807596",
@@ -363,7 +389,9 @@
       "doi": "10.1145/3806645.3807596",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807596"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807596",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807596"
     },
     {
       "id": "doi:10.1145/3806645.3816155",
@@ -392,7 +420,9 @@
       "doi": "10.1145/3806645.3816155",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816155"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816155",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816155"
     },
     {
       "id": "doi:10.1145/3806645.3816164",
@@ -416,7 +446,9 @@
       "doi": "10.1145/3806645.3816164",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816164"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816164",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816164"
     },
     {
       "id": "doi:10.1145/3806645.3807812",
@@ -451,7 +483,9 @@
       "doi": "10.1145/3806645.3807812",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807812"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807812",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807812"
     },
     {
       "id": "doi:10.1145/3806645.3807813",
@@ -483,7 +517,9 @@
       "doi": "10.1145/3806645.3807813",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807813"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807813",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807813"
     },
     {
       "id": "doi:10.1145/3806645.3820062",
@@ -506,7 +542,9 @@
       "doi": "10.1145/3806645.3820062",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820062"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820062",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820062"
     },
     {
       "id": "doi:10.1145/3806645.3807575",
@@ -528,7 +566,9 @@
       "doi": "10.1145/3806645.3807575",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807575"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807575",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807575"
     },
     {
       "id": "doi:10.1145/3806645.3807595",
@@ -552,7 +592,9 @@
       "doi": "10.1145/3806645.3807595",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807595"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807595",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807595"
     },
     {
       "id": "doi:10.1145/3806645.3816123",
@@ -576,7 +618,9 @@
       "doi": "10.1145/3806645.3816123",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816123"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816123",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816123"
     },
     {
       "id": "doi:10.1145/3806645.3820067",
@@ -600,7 +644,9 @@
       "doi": "10.1145/3806645.3820067",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820067"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820067",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820067"
     },
     {
       "id": "doi:10.1145/3806645.3820066",
@@ -625,7 +671,9 @@
       "doi": "10.1145/3806645.3820066",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820066"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820066",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820066"
     },
     {
       "id": "doi:10.1145/3806645.3807815",
@@ -653,7 +701,9 @@
       "doi": "10.1145/3806645.3807815",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807815"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807815",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807815"
     },
     {
       "id": "doi:10.1145/3806645.3816161",
@@ -681,7 +731,9 @@
       "doi": "10.1145/3806645.3816161",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816161"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816161",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816161"
     },
     {
       "id": "doi:10.1145/3806645.3816165",
@@ -707,7 +759,9 @@
       "doi": "10.1145/3806645.3816165",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816165"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816165",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816165"
     },
     {
       "id": "doi:10.1145/3806645.3807579",
@@ -737,7 +791,9 @@
       "doi": "10.1145/3806645.3807579",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807579"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807579",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807579"
     },
     {
       "id": "doi:10.1145/3806645.3807591",
@@ -763,7 +819,9 @@
       "doi": "10.1145/3806645.3807591",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807591"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807591",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807591"
     },
     {
       "id": "doi:10.1145/3806645.3807603",
@@ -788,7 +846,9 @@
       "doi": "10.1145/3806645.3807603",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807603"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807603",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807603"
     },
     {
       "id": "doi:10.1145/3806645.3818794",
@@ -814,7 +874,9 @@
       "doi": "10.1145/3806645.3818794",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818794"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818794",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818794"
     },
     {
       "id": "doi:10.1145/3806645.3816120",
@@ -841,7 +903,9 @@
       "doi": "10.1145/3806645.3816120",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816120"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816120",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816120"
     },
     {
       "id": "doi:10.1145/3806645.3807574",
@@ -873,7 +937,9 @@
       "doi": "10.1145/3806645.3807574",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807574"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807574",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807574"
     },
     {
       "id": "doi:10.1145/3806645.3807819",
@@ -900,7 +966,9 @@
       "doi": "10.1145/3806645.3807819",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807819"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807819",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807819"
     },
     {
       "id": "doi:10.1145/3806645.3807814",
@@ -927,7 +995,9 @@
       "doi": "10.1145/3806645.3807814",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807814"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807814",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807814"
     },
     {
       "id": "doi:10.1145/3806645.3820072",
@@ -957,7 +1027,9 @@
       "doi": "10.1145/3806645.3820072",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820072"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820072",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820072"
     },
     {
       "id": "doi:10.1145/3806645.3807577",
@@ -988,7 +1060,9 @@
       "doi": "10.1145/3806645.3807577",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807577"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807577",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807577"
     },
     {
       "id": "doi:10.1145/3806645.3820073",
@@ -1012,7 +1086,9 @@
       "doi": "10.1145/3806645.3820073",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820073"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820073",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820073"
     },
     {
       "id": "doi:10.1145/3806645.3818785",
@@ -1034,7 +1110,9 @@
       "doi": "10.1145/3806645.3818785",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818785"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818785",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818785"
     },
     {
       "id": "doi:10.1145/3806645.3820074",
@@ -1057,7 +1135,9 @@
       "doi": "10.1145/3806645.3820074",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820074"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820074",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820074"
     },
     {
       "id": "doi:10.1145/3806645.3816238",
@@ -1079,7 +1159,9 @@
       "doi": "10.1145/3806645.3816238",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816238"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816238",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816238"
     },
     {
       "id": "doi:10.1145/3806645.3818782",
@@ -1105,7 +1187,9 @@
       "doi": "10.1145/3806645.3818782",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818782"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818782",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818782"
     },
     {
       "id": "doi:10.1145/3806645.3807594",
@@ -1129,7 +1213,9 @@
       "doi": "10.1145/3806645.3807594",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807594"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807594",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807594"
     },
     {
       "id": "doi:10.1145/3806645.3816129",
@@ -1154,7 +1240,9 @@
       "doi": "10.1145/3806645.3816129",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816129"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816129",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816129"
     },
     {
       "id": "doi:10.1145/3806645.3807587",
@@ -1184,7 +1272,9 @@
       "doi": "10.1145/3806645.3807587",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807587"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807587",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807587"
     },
     {
       "id": "doi:10.1145/3806645.3816126",
@@ -1207,7 +1297,9 @@
       "doi": "10.1145/3806645.3816126",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816126"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816126",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816126"
     },
     {
       "id": "doi:10.1145/3806645.3807589",
@@ -1230,7 +1322,9 @@
       "doi": "10.1145/3806645.3807589",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807589"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807589",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807589"
     },
     {
       "id": "doi:10.1145/3806645.3807590",
@@ -1258,7 +1352,9 @@
       "doi": "10.1145/3806645.3807590",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807590"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807590",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807590"
     },
     {
       "id": "doi:10.1145/3806645.3818789",
@@ -1283,7 +1379,9 @@
       "doi": "10.1145/3806645.3818789",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818789"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818789",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818789"
     },
     {
       "id": "doi:10.1145/3806645.3816125",
@@ -1305,7 +1403,9 @@
       "doi": "10.1145/3806645.3816125",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816125"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816125",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816125"
     },
     {
       "id": "doi:10.1145/3806645.3820063",
@@ -1329,7 +1429,9 @@
       "doi": "10.1145/3806645.3820063",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820063"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820063",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820063"
     },
     {
       "id": "doi:10.1145/3806645.3816737",
@@ -1353,7 +1455,9 @@
       "doi": "10.1145/3806645.3816737",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816737"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816737",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816737"
     },
     {
       "id": "doi:10.1145/3806645.3820070",
@@ -1380,7 +1484,9 @@
       "doi": "10.1145/3806645.3820070",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820070"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820070",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820070"
     },
     {
       "id": "doi:10.1145/3806645.3818790",
@@ -1402,7 +1508,9 @@
       "doi": "10.1145/3806645.3818790",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818790"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818790",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818790"
     },
     {
       "id": "doi:10.1145/3806645.3807588",
@@ -1433,7 +1541,9 @@
       "doi": "10.1145/3806645.3807588",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807588"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807588",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807588"
     },
     {
       "id": "doi:10.1145/3806645.3807576",
@@ -1457,7 +1567,9 @@
       "doi": "10.1145/3806645.3807576",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807576"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807576",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807576"
     },
     {
       "id": "doi:10.1145/3806645.3807600",
@@ -1487,7 +1599,9 @@
       "doi": "10.1145/3806645.3807600",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807600"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807600",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807600"
     },
     {
       "id": "doi:10.1145/3806645.3820068",
@@ -1519,7 +1633,9 @@
       "doi": "10.1145/3806645.3820068",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820068"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820068",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820068"
     },
     {
       "id": "doi:10.1145/3806645.3818788",
@@ -1550,7 +1666,9 @@
       "doi": "10.1145/3806645.3818788",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818788"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818788",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818788"
     },
     {
       "id": "doi:10.1145/3806645.3816236",
@@ -1573,7 +1691,9 @@
       "doi": "10.1145/3806645.3816236",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816236"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816236",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816236"
     },
     {
       "id": "doi:10.1145/3806645.3807599",
@@ -1599,7 +1719,9 @@
       "doi": "10.1145/3806645.3807599",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807599"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807599",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807599"
     },
     {
       "id": "doi:10.1145/3806645.3816156",
@@ -1623,7 +1745,9 @@
       "doi": "10.1145/3806645.3816156",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816156"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816156",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816156"
     },
     {
       "id": "doi:10.1145/3806645.3816157",
@@ -1647,7 +1771,9 @@
       "doi": "10.1145/3806645.3816157",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816157"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816157",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816157"
     },
     {
       "id": "doi:10.1145/3806645.3818784",
@@ -1670,7 +1796,9 @@
       "doi": "10.1145/3806645.3818784",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818784"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818784",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818784"
     },
     {
       "id": "doi:10.1145/3806645.3807593",
@@ -1693,7 +1821,9 @@
       "doi": "10.1145/3806645.3807593",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807593"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807593",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807593"
     },
     {
       "id": "doi:10.1145/3806645.3807810",
@@ -1720,7 +1850,9 @@
       "doi": "10.1145/3806645.3807810",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807810"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807810",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807810"
     },
     {
       "id": "doi:10.1145/3806645.3807578",
@@ -1743,7 +1875,9 @@
       "doi": "10.1145/3806645.3807578",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807578"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807578",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807578"
     },
     {
       "id": "doi:10.1145/3806645.3816127",
@@ -1767,7 +1901,9 @@
       "doi": "10.1145/3806645.3816127",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816127"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816127",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816127"
     },
     {
       "id": "doi:10.1145/3806645.3807601",
@@ -1789,7 +1925,9 @@
       "doi": "10.1145/3806645.3807601",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807601"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807601",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807601"
     },
     {
       "id": "doi:10.1145/3806645.3807820",
@@ -1816,7 +1954,9 @@
       "doi": "10.1145/3806645.3807820",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807820"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807820",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807820"
     },
     {
       "id": "doi:10.1145/3806645.3820071",
@@ -1839,7 +1979,9 @@
       "doi": "10.1145/3806645.3820071",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820071"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820071",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820071"
     },
     {
       "id": "doi:10.1145/3806645.3807581",
@@ -1866,7 +2008,9 @@
       "doi": "10.1145/3806645.3807581",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807581"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807581",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807581"
     },
     {
       "id": "doi:10.1145/3806645.3820064",
@@ -1893,7 +2037,9 @@
       "doi": "10.1145/3806645.3820064",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820064"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820064",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820064"
     },
     {
       "id": "doi:10.1145/3806645.3818780",
@@ -1917,7 +2063,9 @@
       "doi": "10.1145/3806645.3818780",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818780"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818780",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818780"
     },
     {
       "id": "doi:10.1145/3806645.3818783",
@@ -1942,7 +2090,9 @@
       "doi": "10.1145/3806645.3818783",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818783"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818783",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818783"
     },
     {
       "id": "doi:10.1145/3806645.3807817",
@@ -1969,7 +2119,9 @@
       "doi": "10.1145/3806645.3807817",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807817"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807817",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807817"
     },
     {
       "id": "doi:10.1145/3806645.3816128",
@@ -1995,7 +2147,9 @@
       "doi": "10.1145/3806645.3816128",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816128"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816128",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816128"
     },
     {
       "id": "doi:10.1145/3806645.3818792",
@@ -2019,7 +2173,9 @@
       "doi": "10.1145/3806645.3818792",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818792"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818792",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818792"
     },
     {
       "id": "doi:10.1145/3806645.3820069",
@@ -2047,7 +2203,9 @@
       "doi": "10.1145/3806645.3820069",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3820069"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3820069",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3820069"
     },
     {
       "id": "doi:10.1145/3806645.3807592",
@@ -2071,7 +2229,9 @@
       "doi": "10.1145/3806645.3807592",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807592"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807592",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807592"
     },
     {
       "id": "doi:10.1145/3806645.3815106",
@@ -2102,7 +2262,9 @@
       "doi": "10.1145/3806645.3815106",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3815106"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3815106",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3815106"
     },
     {
       "id": "doi:10.1145/3806645.3816237",
@@ -2127,7 +2289,9 @@
       "doi": "10.1145/3806645.3816237",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816237"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816237",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816237"
     },
     {
       "id": "doi:10.1145/3806645.3807585",
@@ -2162,7 +2326,9 @@
       "doi": "10.1145/3806645.3807585",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807585"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807585",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807585"
     },
     {
       "id": "doi:10.1145/3806645.3816124",
@@ -2185,7 +2351,9 @@
       "doi": "10.1145/3806645.3816124",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816124"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816124",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816124"
     },
     {
       "id": "doi:10.1145/3806645.3818781",
@@ -2207,7 +2375,9 @@
       "doi": "10.1145/3806645.3818781",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3818781"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3818781",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3818781"
     },
     {
       "id": "doi:10.1145/3806645.3816122",
@@ -2231,7 +2401,9 @@
       "doi": "10.1145/3806645.3816122",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816122"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816122",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816122"
     },
     {
       "id": "doi:10.1145/3806645.3807580",
@@ -2258,7 +2430,9 @@
       "doi": "10.1145/3806645.3807580",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807580"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807580",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807580"
     },
     {
       "id": "doi:10.1145/3806645.3807597",
@@ -2281,7 +2455,9 @@
       "doi": "10.1145/3806645.3807597",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807597"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807597",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807597"
     },
     {
       "id": "doi:10.1145/3806645.3819569",
@@ -2304,7 +2480,9 @@
       "doi": "10.1145/3806645.3819569",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3819569"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3819569",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3819569"
     },
     {
       "id": "doi:10.1145/3806645.3816121",
@@ -2328,7 +2506,9 @@
       "doi": "10.1145/3806645.3816121",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3816121"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3816121",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3816121"
     },
     {
       "id": "doi:10.1145/3806645.3807586",
@@ -2356,7 +2536,9 @@
       "doi": "10.1145/3806645.3807586",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807586"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807586",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807586"
     },
     {
       "id": "doi:10.1145/3806645.3807583",
@@ -2393,7 +2575,9 @@
       "doi": "10.1145/3806645.3807583",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3806645.3807583"
+      "url": "https://dl.acm.org/doi/10.1145/3806645.3807583",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3806645.3807583"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00011",
@@ -2417,7 +2601,9 @@
       "doi": "10.1109/ispdc69862.2026.00011",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613047/"
+      "url": "https://ieeexplore.ieee.org/document/11613047/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00011"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00017",
@@ -2443,7 +2629,9 @@
       "doi": "10.1109/ispdc69862.2026.00017",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11612825/"
+      "url": "https://ieeexplore.ieee.org/document/11612825/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00017"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00014",
@@ -2467,7 +2655,9 @@
       "doi": "10.1109/ispdc69862.2026.00014",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613064/"
+      "url": "https://ieeexplore.ieee.org/document/11613064/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00014"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00012",
@@ -2491,7 +2681,9 @@
       "doi": "10.1109/ispdc69862.2026.00012",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11612820/"
+      "url": "https://ieeexplore.ieee.org/document/11612820/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00012"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00022",
@@ -2514,7 +2706,9 @@
       "doi": "10.1109/ispdc69862.2026.00022",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613050/"
+      "url": "https://ieeexplore.ieee.org/document/11613050/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00022"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00019",
@@ -2541,7 +2735,9 @@
       "doi": "10.1109/ispdc69862.2026.00019",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613035/"
+      "url": "https://ieeexplore.ieee.org/document/11613035/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00019"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00023",
@@ -2568,7 +2764,9 @@
       "doi": "10.1109/ispdc69862.2026.00023",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11612805/"
+      "url": "https://ieeexplore.ieee.org/document/11612805/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00023"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00018",
@@ -2592,7 +2790,9 @@
       "doi": "10.1109/ispdc69862.2026.00018",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613036/"
+      "url": "https://ieeexplore.ieee.org/document/11613036/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00018"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00013",
@@ -2621,7 +2821,9 @@
       "doi": "10.1109/ispdc69862.2026.00013",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613046/"
+      "url": "https://ieeexplore.ieee.org/document/11613046/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00013"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00015",
@@ -2645,7 +2847,9 @@
       "doi": "10.1109/ispdc69862.2026.00015",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613065/"
+      "url": "https://ieeexplore.ieee.org/document/11613065/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00015"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00020",
@@ -2669,7 +2873,9 @@
       "doi": "10.1109/ispdc69862.2026.00020",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613060/"
+      "url": "https://ieeexplore.ieee.org/document/11613060/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00020"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00024",
@@ -2694,7 +2900,9 @@
       "doi": "10.1109/ispdc69862.2026.00024",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11612806/"
+      "url": "https://ieeexplore.ieee.org/document/11612806/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00024"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00021",
@@ -2719,7 +2927,9 @@
       "doi": "10.1109/ispdc69862.2026.00021",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11612813/"
+      "url": "https://ieeexplore.ieee.org/document/11612813/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00021"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00010",
@@ -2745,7 +2955,9 @@
       "doi": "10.1109/ispdc69862.2026.00010",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11613056/"
+      "url": "https://ieeexplore.ieee.org/document/11613056/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00010"
     },
     {
       "id": "doi:10.1109/ispdc69862.2026.00016",
@@ -2767,7 +2979,624 @@
       "doi": "10.1109/ispdc69862.2026.00016",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11612811/"
+      "url": "https://ieeexplore.ieee.org/document/11612811/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/ispdc69862.2026.00016"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833924",
+      "source": "library",
+      "kind": "conference",
+      "title": "Ultra-Short-Term Wind Power Forecasting based on a spatio-temporal CNN-BiLSTM-Attention Model",
+      "authors": [
+        "Mengting Wu",
+        "Feng Jiang",
+        "Wei Hu",
+        "Wei Ding"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "101-105",
+      "doi": "10.1145/3833907.3833924",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833924",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833924"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833929",
+      "source": "library",
+      "kind": "conference",
+      "title": "Resource Constraint-Oriented Risk Management Model for Green Computer Computing Power",
+      "authors": [
+        "Yang Liu",
+        "Wenting Fu",
+        "Tong Yu"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "131-136",
+      "doi": "10.1145/3833907.3833929",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833929",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833929"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833930",
+      "source": "library",
+      "kind": "conference",
+      "title": "Reconstruction-Free No-Reference Image Quality Assessment via Compressed Sampling",
+      "authors": [
+        "Yuanhua Wu",
+        "Chen Hui",
+        "Fan Yan",
+        "Yuang Zhang",
+        "Kai Geng",
+        "Siqiao Li",
+        "Chenyue Song",
+        "Haiqi Zhu",
+        "Feng Jiang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "1-7",
+      "doi": "10.1145/3833907.3833930",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833930",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833930"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833922",
+      "source": "library",
+      "kind": "conference",
+      "title": "PMFormer: Physics-guided Multi-scale Transformer for Global Weather Forecasting",
+      "authors": [
+        "Kai Geng",
+        "Chen Hui",
+        "Xianzhu Liu",
+        "Junwei Wu",
+        "Chenyue Song",
+        "Haiqi Zhu",
+        "Yachun Mi",
+        "Tong Zhang",
+        "Feng Jiang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "85-93",
+      "doi": "10.1145/3833907.3833922",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833922",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833922"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833933",
+      "source": "library",
+      "kind": "conference",
+      "title": "Optimization of Threshold-Based Clipping Kernels on Vector Processors",
+      "authors": [
+        "Zhezhuo Zhao",
+        "Yonghua Hu",
+        "Wei Cao",
+        "Zenghua Cheng",
+        "Shangfeng Mo",
+        "Yimin Xia"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "125-130",
+      "doi": "10.1145/3833907.3833933",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833933",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833933"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833913",
+      "source": "library",
+      "kind": "conference",
+      "title": "One-Class Autoencoder Anomaly Detection on CICIDS2017: Thresholding, Failure Modes, and an Entity-Time Aggregation Patch",
+      "authors": [
+        "Chang Liu",
+        "Zixuan Guo",
+        "Di Liu",
+        "Sunfanyu Meng"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "33-39",
+      "doi": "10.1145/3833907.3833913",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833913",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833913"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833931",
+      "source": "library",
+      "kind": "conference",
+      "title": "Neuro-Symbolic Multi-Agent Vulnerability Detection via Code Property Graph Navigation and Semantic Debate",
+      "authors": [
+        "Dan Yan",
+        "Gezheng Li",
+        "Jinpeng Yang",
+        "Yili Chen",
+        "Dekai Zhang",
+        "Xin Li"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "27-32",
+      "doi": "10.1145/3833907.3833931",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833931",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833931"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833920",
+      "source": "library",
+      "kind": "conference",
+      "title": "Learning Fine-Grained Code Semantics for VulnerabilitySimilarity Detection with Fix-Aware Verification",
+      "authors": [
+        "Hao Sun",
+        "Xingting Yan",
+        "Junyu Dong",
+        "Qiqing Deng",
+        "Xin Li",
+        "DongMei Liu"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "75-79",
+      "doi": "10.1145/3833907.3833920",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833920",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833920"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833925",
+      "source": "library",
+      "kind": "conference",
+      "title": "Interplay Between Graph Algorithms and Microarchitecture on Modern Server CPUs",
+      "authors": [
+        "Jaime de Lacy Orellana-Pizarro",
+        "Lucia Pons",
+        "Julio Sahuquillo"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "106-112",
+      "doi": "10.1145/3833907.3833925",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833925",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833925"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833918",
+      "source": "library",
+      "kind": "conference",
+      "title": "Intelligent Prognostics and Health Management of Optical Links in Data Center Networks",
+      "authors": [
+        "Chao Li",
+        "Fuli Yuan",
+        "Jinkun Jiang",
+        "Xiang Chen",
+        "Wenzhi Wang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "63-67",
+      "doi": "10.1145/3833907.3833918",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833918",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833918"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833917",
+      "source": "library",
+      "kind": "conference",
+      "title": "Integrating OpenClaw Agents with Zero Trust Architecture for Secure Multi- Tenant HPC Environments",
+      "authors": [
+        "Wei-Yu Chen"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "56-62",
+      "doi": "10.1145/3833907.3833917",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833917",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833917"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833916",
+      "source": "library",
+      "kind": "conference",
+      "title": "HTS4VC:Head-Tail Student Model For Vulnerability Classification",
+      "authors": [
+        "Chenyuan Zhao",
+        "Chunyong Zhang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "52-55",
+      "doi": "10.1145/3833907.3833916",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833916",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833916"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833910",
+      "source": "library",
+      "kind": "conference",
+      "title": "Enhancing Classification Performance Through a Vision Transformer Model Approach for Alzheimer's Disease",
+      "authors": [
+        "Manop Phankokkruad",
+        "Sirirat Wacharawichanant"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "15-19",
+      "doi": "10.1145/3833907.3833910",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833910",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833910"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833911",
+      "source": "library",
+      "kind": "conference",
+      "title": "Design of a Carton-Picking Robot and Inspection System for a Cigarette Factory",
+      "authors": [
+        "Yu Zhai",
+        "Shuen Li",
+        "Xuanming Xiao",
+        "Xiaobo Lyu",
+        "Hong Xiang",
+        "Yang Liu"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "20-26",
+      "doi": "10.1145/3833907.3833911",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833911",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833911"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833909",
+      "source": "library",
+      "kind": "conference",
+      "title": "Cross-Sensor Remote Sensing Image Reconstruction via Spectral Prior and Frequency Decoupling",
+      "authors": [
+        "Tongxin Wei",
+        "Xiwen Li",
+        "Yang Peng",
+        "Yanchao Zhang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "8-14",
+      "doi": "10.1145/3833907.3833909",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833909",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833909"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833932",
+      "source": "library",
+      "kind": "conference",
+      "title": "ChainPen: Multi-Agent Autonomous Penetration Testing with Attack Graph Reasoning and Self-Healing Exploits",
+      "authors": [
+        "Haiqing Wang",
+        "Siqi Han",
+        "Yili Chen",
+        "Shangren Song",
+        "Fuqiang Yu"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "46-51",
+      "doi": "10.1145/3833907.3833932",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833932",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833932"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833927",
+      "source": "library",
+      "kind": "conference",
+      "title": "CANet: Global Weather Forecast Network with Climatology-Aware Prior Constraints",
+      "authors": [
+        "Fan Yan",
+        "Yuang Zhang",
+        "Qintong Wang",
+        "Chenyue Song",
+        "Tong Li",
+        "Kai Geng",
+        "Chen Hui",
+        "Feng Jiang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "119-124",
+      "doi": "10.1145/3833907.3833927",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833927",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833927"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833914",
+      "source": "library",
+      "kind": "conference",
+      "title": "Automated Expansion of Open-Source Software Vulnerability-Fix Pairs: A Multisource Collaborative Crawling Framework",
+      "authors": [
+        "Hao Sun",
+        "Pengfei Zhao",
+        "Chaopeng Dong",
+        "Siyuan Li",
+        "Xin Li",
+        "Jiachi Zhang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "40-45",
+      "doi": "10.1145/3833907.3833914",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833914",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833914"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833923",
+      "source": "library",
+      "kind": "conference",
+      "title": "AI-Enabled Social-Media-Based Typhoon Disaster Perception: A Case Study of Typhoon Lekima",
+      "authors": [
+        "Diefan Lin",
+        "Jingwen Zhang",
+        "Jiting Tang",
+        "Weiping Wang"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "94-100",
+      "doi": "10.1145/3833907.3833923",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833923",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833923"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833921",
+      "source": "library",
+      "kind": "conference",
+      "title": "A Two-Level Cache Scheduling Framework for Resource-Limited Video Analysis",
+      "authors": [
+        "Chaojin Lyu",
+        "Zhen Song",
+        "Ning Liu",
+        "Zitong Cheng",
+        "Fenghua Tong",
+        "Fuqiang Yu"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "80-84",
+      "doi": "10.1145/3833907.3833921",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833921",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833921"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833919",
+      "source": "library",
+      "kind": "conference",
+      "title": "A Scenario-Oriented Efficiency Evaluation Method for 5G Private Networks in Intelligent Manufacturing Workshops",
+      "authors": [
+        "Dan Yang",
+        "Wei Ni",
+        "Dongyao Wang",
+        "Guiming Zhu"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "68-74",
+      "doi": "10.1145/3833907.3833919",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833919",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833919"
+    },
+    {
+      "id": "doi:10.1145/3833907.3833926",
+      "source": "library",
+      "kind": "conference",
+      "title": "A Knowledge Graph-Based Personalized Recommendation System for Penetration Testing",
+      "authors": [
+        "Shangren Song",
+        "Zhengwen Li",
+        "Wenqi Jia",
+        "Boyang Gao",
+        "Wei Ding",
+        "Xin Li"
+      ],
+      "summary": "",
+      "venue": "HPDC",
+      "venueName": "HPDC",
+      "area": "Distributed Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-06-24",
+      "pages": "113-118",
+      "doi": "10.1145/3833907.3833926",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3833907.3833926",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3833907.3833926"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517262",
@@ -2793,7 +3622,9 @@
       "doi": "10.1109/dchpc69296.2026.11517262",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517262/"
+      "url": "https://ieeexplore.ieee.org/document/11517262/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517262"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517261",
@@ -2816,7 +3647,9 @@
       "doi": "10.1109/dchpc69296.2026.11517261",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517261/"
+      "url": "https://ieeexplore.ieee.org/document/11517261/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517261"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517238",
@@ -2840,7 +3673,9 @@
       "doi": "10.1109/dchpc69296.2026.11517238",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517238/"
+      "url": "https://ieeexplore.ieee.org/document/11517238/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517238"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517255",
@@ -2867,7 +3702,9 @@
       "doi": "10.1109/dchpc69296.2026.11517255",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517255/"
+      "url": "https://ieeexplore.ieee.org/document/11517255/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517255"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517237",
@@ -2899,7 +3736,9 @@
       "doi": "10.1109/dchpc69296.2026.11517237",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517237/"
+      "url": "https://ieeexplore.ieee.org/document/11517237/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517237"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517242",
@@ -2922,7 +3761,9 @@
       "doi": "10.1109/dchpc69296.2026.11517242",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517242/"
+      "url": "https://ieeexplore.ieee.org/document/11517242/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517242"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517244",
@@ -2944,7 +3785,9 @@
       "doi": "10.1109/dchpc69296.2026.11517244",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517244/"
+      "url": "https://ieeexplore.ieee.org/document/11517244/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517244"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517246",
@@ -2968,7 +3811,9 @@
       "doi": "10.1109/dchpc69296.2026.11517246",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517246/"
+      "url": "https://ieeexplore.ieee.org/document/11517246/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517246"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517248",
@@ -2990,7 +3835,9 @@
       "doi": "10.1109/dchpc69296.2026.11517248",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517248/"
+      "url": "https://ieeexplore.ieee.org/document/11517248/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517248"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517249",
@@ -3013,7 +3860,9 @@
       "doi": "10.1109/dchpc69296.2026.11517249",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517249/"
+      "url": "https://ieeexplore.ieee.org/document/11517249/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517249"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517247",
@@ -3036,7 +3885,9 @@
       "doi": "10.1109/dchpc69296.2026.11517247",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517247/"
+      "url": "https://ieeexplore.ieee.org/document/11517247/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517247"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517252",
@@ -3062,7 +3913,9 @@
       "doi": "10.1109/dchpc69296.2026.11517252",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517252/"
+      "url": "https://ieeexplore.ieee.org/document/11517252/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517252"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517258",
@@ -3085,7 +3938,9 @@
       "doi": "10.1109/dchpc69296.2026.11517258",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517258/"
+      "url": "https://ieeexplore.ieee.org/document/11517258/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517258"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517257",
@@ -3110,7 +3965,9 @@
       "doi": "10.1109/dchpc69296.2026.11517257",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517257/"
+      "url": "https://ieeexplore.ieee.org/document/11517257/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517257"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517250",
@@ -3133,7 +3990,9 @@
       "doi": "10.1109/dchpc69296.2026.11517250",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517250/"
+      "url": "https://ieeexplore.ieee.org/document/11517250/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517250"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517260",
@@ -3157,7 +4016,9 @@
       "doi": "10.1109/dchpc69296.2026.11517260",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517260/"
+      "url": "https://ieeexplore.ieee.org/document/11517260/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517260"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517259",
@@ -3184,7 +4045,9 @@
       "doi": "10.1109/dchpc69296.2026.11517259",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517259/"
+      "url": "https://ieeexplore.ieee.org/document/11517259/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517259"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517241",
@@ -3208,7 +4071,9 @@
       "doi": "10.1109/dchpc69296.2026.11517241",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517241/"
+      "url": "https://ieeexplore.ieee.org/document/11517241/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517241"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517240",
@@ -3232,7 +4097,9 @@
       "doi": "10.1109/dchpc69296.2026.11517240",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517240/"
+      "url": "https://ieeexplore.ieee.org/document/11517240/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517240"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517236",
@@ -3256,7 +4123,9 @@
       "doi": "10.1109/dchpc69296.2026.11517236",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517236/"
+      "url": "https://ieeexplore.ieee.org/document/11517236/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517236"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517245",
@@ -3279,7 +4148,9 @@
       "doi": "10.1109/dchpc69296.2026.11517245",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517245/"
+      "url": "https://ieeexplore.ieee.org/document/11517245/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517245"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517235",
@@ -3307,7 +4178,9 @@
       "doi": "10.1109/dchpc69296.2026.11517235",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517235/"
+      "url": "https://ieeexplore.ieee.org/document/11517235/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517235"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517254",
@@ -3330,7 +4203,9 @@
       "doi": "10.1109/dchpc69296.2026.11517254",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517254/"
+      "url": "https://ieeexplore.ieee.org/document/11517254/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517254"
     },
     {
       "id": "doi:10.1109/dchpc69296.2026.11517251",
@@ -3355,7 +4230,9 @@
       "doi": "10.1109/dchpc69296.2026.11517251",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11517251/"
+      "url": "https://ieeexplore.ieee.org/document/11517251/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/dchpc69296.2026.11517251"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00022",
@@ -3381,7 +4258,9 @@
       "doi": "10.1109/hpsc69479.2026.00022",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637471/"
+      "url": "https://ieeexplore.ieee.org/document/11637471/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00022"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00016",
@@ -3405,7 +4284,9 @@
       "doi": "10.1109/hpsc69479.2026.00016",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637481/"
+      "url": "https://ieeexplore.ieee.org/document/11637481/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00016"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00021",
@@ -3431,7 +4312,9 @@
       "doi": "10.1109/hpsc69479.2026.00021",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637478/"
+      "url": "https://ieeexplore.ieee.org/document/11637478/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00021"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00017",
@@ -3453,7 +4336,9 @@
       "doi": "10.1109/hpsc69479.2026.00017",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637468/"
+      "url": "https://ieeexplore.ieee.org/document/11637468/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00017"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00024",
@@ -3476,7 +4361,9 @@
       "doi": "10.1109/hpsc69479.2026.00024",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637477/"
+      "url": "https://ieeexplore.ieee.org/document/11637477/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00024"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00009",
@@ -3498,7 +4385,9 @@
       "doi": "10.1109/hpsc69479.2026.00009",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637454/"
+      "url": "https://ieeexplore.ieee.org/document/11637454/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00009"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00012",
@@ -3522,7 +4411,9 @@
       "doi": "10.1109/hpsc69479.2026.00012",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637460/"
+      "url": "https://ieeexplore.ieee.org/document/11637460/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00012"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00018",
@@ -3547,7 +4438,9 @@
       "doi": "10.1109/hpsc69479.2026.00018",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637448/"
+      "url": "https://ieeexplore.ieee.org/document/11637448/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00018"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00013",
@@ -3569,7 +4462,9 @@
       "doi": "10.1109/hpsc69479.2026.00013",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637475/"
+      "url": "https://ieeexplore.ieee.org/document/11637475/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00013"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00015",
@@ -3593,7 +4488,9 @@
       "doi": "10.1109/hpsc69479.2026.00015",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637479/"
+      "url": "https://ieeexplore.ieee.org/document/11637479/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00015"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00019",
@@ -3620,7 +4517,9 @@
       "doi": "10.1109/hpsc69479.2026.00019",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637480/"
+      "url": "https://ieeexplore.ieee.org/document/11637480/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00019"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00023",
@@ -3642,7 +4541,9 @@
       "doi": "10.1109/hpsc69479.2026.00023",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637430/"
+      "url": "https://ieeexplore.ieee.org/document/11637430/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00023"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00026",
@@ -3669,7 +4570,9 @@
       "doi": "10.1109/hpsc69479.2026.00026",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637483/"
+      "url": "https://ieeexplore.ieee.org/document/11637483/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00026"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00025",
@@ -3692,7 +4595,9 @@
       "doi": "10.1109/hpsc69479.2026.00025",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637470/"
+      "url": "https://ieeexplore.ieee.org/document/11637470/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00025"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00011",
@@ -3715,7 +4620,9 @@
       "doi": "10.1109/hpsc69479.2026.00011",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637453/"
+      "url": "https://ieeexplore.ieee.org/document/11637453/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00011"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00020",
@@ -3741,7 +4648,9 @@
       "doi": "10.1109/hpsc69479.2026.00020",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637465/"
+      "url": "https://ieeexplore.ieee.org/document/11637465/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00020"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00010",
@@ -3763,7 +4672,9 @@
       "doi": "10.1109/hpsc69479.2026.00010",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637455/"
+      "url": "https://ieeexplore.ieee.org/document/11637455/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00010"
     },
     {
       "id": "doi:10.1109/hpsc69479.2026.00014",
@@ -3786,3105 +4697,9 @@
       "doi": "10.1109/hpsc69479.2026.00014",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://ieeexplore.ieee.org/document/11637462/"
-    },
-    {
-      "id": "doi:10.1117/12.3107545",
-      "source": "library",
-      "kind": "conference",
-      "title": "YOLOv8-RE4D: an enhanced UAV detection model for complex backgrounds with improved small-target recognition",
-      "authors": [
-        "Hanwen Liang",
-        "Xiujie Qu",
-        "Yuhe Su"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "121",
-      "doi": "10.1117/12.3107545",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107545/YOLOv8-RE4D--an-enhanced-UAV-detection-model-for-complex/10.1117/12.3107545.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107362",
-      "source": "library",
-      "kind": "conference",
-      "title": "YOLOv5s-Oral: a detection model for alveolar bone and mandibular nerve canal at the location of missing teeth in CBCT images",
-      "authors": [
-        "Wenquan Wei",
-        "Wenqi Liu",
-        "Hongbing Mo",
-        "Yuanfeng Qin"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "45",
-      "doi": "10.1117/12.3107362",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107362/YOLOv5s-Oral--a-detection-model-for-alveolar-bone-and/10.1117/12.3107362.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107424",
-      "source": "library",
-      "kind": "conference",
-      "title": "WFS-YOLO: a novel approach for tomato leaf disease detection",
-      "authors": [
-        "Ying Cao",
-        "Linting Guan",
-        "Shenming Gu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "87",
-      "doi": "10.1117/12.3107424",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107424/WFS-YOLO--a-novel-approach-for-tomato-leaf-disease/10.1117/12.3107424.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107586",
-      "source": "library",
-      "kind": "conference",
-      "title": "Visual perception-based multi-component status recognition in cockpits",
-      "authors": [
-        "Bin Liu",
-        "Hong Li",
-        "Beiwen Xiong",
-        "Mengjiao Yin",
-        "Jiayong Zeng",
-        "Tongjiang Huang",
-        "Jinqiu Xu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "133",
-      "doi": "10.1117/12.3107586",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107586/Visual-perception-based-multi-component-status-recognition-in-cockpits/10.1117/12.3107586.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107430",
-      "source": "library",
-      "kind": "conference",
-      "title": "Vessel segmentation using parallel CNN and Mamba encoders",
-      "authors": [
-        "Wendong Chen",
-        "Yuchen Yang",
-        "Mingqing Qian",
-        "Lina Xu",
-        "Qing Ye",
-        "Jia Wu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "91",
-      "doi": "10.1117/12.3107430",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107430/Vessel-segmentation-using-parallel-CNN-and-Mamba-encoders/10.1117/12.3107430.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107801",
-      "source": "library",
-      "kind": "conference",
-      "title": "Variable selection control chart based on classification algorithm (LQSVS control chart)",
-      "authors": [
-        "Ya ping Xu",
-        "Xuemin Zi"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "146",
-      "doi": "10.1117/12.3107801",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107801/Variable-selection-control-chart-based-on-classification-algorithm-LQSVS-control/10.1117/12.3107801.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107375",
-      "source": "library",
-      "kind": "conference",
-      "title": "Uncertainty feature perception of power load based on chaos adaptive quantum firefly algorithm",
-      "authors": [
-        "Keming Wu",
-        "Zelong Chen",
-        "Shuai Cao",
-        "Guangzhi Yao",
-        "Xinyao Qu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "56",
-      "doi": "10.1117/12.3107375",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107375/Uncertainty-feature-perception-of-power-load-based-on-chaos-adaptive/10.1117/12.3107375.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107440",
-      "source": "library",
-      "kind": "conference",
-      "title": "UAV path planning based on an improved Tianji’s horse racing optimization algorithm",
-      "authors": [
-        "Jun Yuan",
-        "Ka Sun"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "94",
-      "doi": "10.1117/12.3107440",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107440/UAV-path-planning-based-on-an-improved-Tianjis-horse-racing/10.1117/12.3107440.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107333",
-      "source": "library",
-      "kind": "conference",
-      "title": "Two-stage tridiagonalization algorithm based on domestic heterogeneous platforms",
-      "authors": [
-        "Hufeng Xiao",
-        "Qingwei Wang",
-        "Lei Zhang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "24",
-      "doi": "10.1117/12.3107333",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107333/Two-stage-tridiagonalization-algorithm-based-on-domestic-heterogeneous-platforms/10.1117/12.3107333.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107366",
-      "source": "library",
-      "kind": "conference",
-      "title": "Trans-DCUNet: a hybrid transformer-CNN network for COVID-19 lesion segmentation",
-      "authors": [
-        "Weixiang Yuan",
-        "Xiaoxue Xing",
-        "Cong Zhang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "49",
-      "doi": "10.1117/12.3107366",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107366/Trans-DCUNet--a-hybrid-transformer-CNN-network-for-COVID/10.1117/12.3107366.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107329",
-      "source": "library",
-      "kind": "conference",
-      "title": "Texture-guided diffusion model for low-light image enhancement",
-      "authors": [
-        "Qi Jiang",
-        "Chao Wang",
-        "Chuansheng Yang",
-        "Mingrui Shao",
-        "Lin Mei"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "21",
-      "doi": "10.1117/12.3107329",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107329/Texture-guided-diffusion-model-for-low-light-image-enhancement/10.1117/12.3107329.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107531",
-      "source": "library",
-      "kind": "conference",
-      "title": "Text classification method based on label embedding and the multi-head attention mechanism",
-      "authors": [
-        "Shuting Luo",
-        "Xuefeng Fu",
-        "Ye Wu",
-        "Fujun Ma"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "117",
-      "doi": "10.1117/12.3107531",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107531/Text-classification-method-based-on-label-embedding-and-the-multi/10.1117/12.3107531.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107767",
-      "source": "library",
-      "kind": "conference",
-      "title": "TDL: transformer designer learning for time series forecasting",
-      "authors": [
-        "Haoru Sui"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "142",
-      "doi": "10.1117/12.3107767",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107767/TDL-transformer-designer-learning-for-time-series-forecasting/10.1117/12.3107767.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107379",
-      "source": "library",
-      "kind": "conference",
-      "title": "Sustainable development model based on NSGA-II",
-      "authors": [
-        "Jingkun Huang",
-        "Zhuangzhuang Wang",
-        "Yufan Zhang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "59",
-      "doi": "10.1117/12.3107379",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107379/Sustainable-development-model-based-on-NSGA-II/10.1117/12.3107379.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107420",
-      "source": "library",
-      "kind": "conference",
-      "title": "Study on the correlation between wind-induced vibration of transmission lines and span distribution and micro-meteorological data",
-      "authors": [
-        "Wen Zhang",
-        "Huiping Li",
-        "Yan Hu",
-        "Cheng Zhong",
-        "Guangtai Pan",
-        "Weixin Ao"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "84",
-      "doi": "10.1117/12.3107420",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107420/Study-on-the-correlation-between-wind-induced-vibration-of-transmission/10.1117/12.3107420.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107564",
-      "source": "library",
-      "kind": "conference",
-      "title": "Stroke rehabilitation motion analysis system based on medical big data integration",
-      "authors": [
-        "Zipeng Zou",
-        "Yanling Zhu",
-        "Yang Yang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "127",
-      "doi": "10.1117/12.3107564",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107564/Stroke-rehabilitation-motion-analysis-system-based-on-medical-big-data/10.1117/12.3107564.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107371",
-      "source": "library",
-      "kind": "conference",
-      "title": "Strapdown inertial navigation mechanization based on quasi-inertial frame suitable for global precision airdrop",
-      "authors": [
-        "Xiao Cui",
-        "Fei Shen",
-        "Xiaojie Zhao",
-        "Xiaolei Yu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "54",
-      "doi": "10.1117/12.3107371",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107371/Strapdown-inertial-navigation-mechanization-based-on-quasi-inertial-frame-suitable/10.1117/12.3107371.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107514",
-      "source": "library",
-      "kind": "conference",
-      "title": "Skin lesion classification using medical data augmentation based on YOLOv11x",
-      "authors": [
-        "Qunqi Zhang",
-        "Xuefei Xu",
-        "Xinlin Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "112",
-      "doi": "10.1117/12.3107514",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107514/Skin-lesion-classification-using-medical-data-augmentation-based-on-YOLOv11x/10.1117/12.3107514.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107406",
-      "source": "library",
-      "kind": "conference",
-      "title": "Self-rotating underwater 3D imaging system based on line-structured light",
-      "authors": [
-        "Yazhou Wu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "76",
-      "doi": "10.1117/12.3107406",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107406/Self-rotating-underwater-3D-imaging-system-based-on-line-structured/10.1117/12.3107406.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107418",
-      "source": "library",
-      "kind": "conference",
-      "title": "Self-adaptive binary quantization for image search with noisy labels",
-      "authors": [
-        "You Li",
-        "Ruozhen Ma"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "83",
-      "doi": "10.1117/12.3107418",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107418/Self-adaptive-binary-quantization-for-image-search-with-noisy-labels/10.1117/12.3107418.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107391",
-      "source": "library",
-      "kind": "conference",
-      "title": "Safety layout optimization of aging-friendly bedroom based on DDPG",
-      "authors": [
-        "Jingdong Liu",
-        "Jinliang Liu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "65",
-      "doi": "10.1117/12.3107391",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107391/Safety-layout-optimization-of-aging-friendly-bedroom-based-on-DDPG/10.1117/12.3107391.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107909",
-      "source": "library",
-      "kind": "conference",
-      "title": "SDFNet: a structure-aware dual-phase fusion network for building change detection in remote sensing images",
-      "authors": [
-        "Changcheng Xiang",
-        "Duofen Yin",
-        "Huaming Gong",
-        "Xu Jian",
-        "Qiang Chen"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "156",
-      "doi": "10.1117/12.3107909",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107909/SDFNet--a-structure-aware-dual-phase-fusion-network-for/10.1117/12.3107909.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107393",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research progress in star identification algorithms",
-      "authors": [
-        "Yixiang Guo"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "67",
-      "doi": "10.1117/12.3107393",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107393/Research-progress-in-star-identification-algorithms/10.1117/12.3107393.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107384",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on tourism route planning method based on improved PrioritSpan algorithm",
-      "authors": [
-        "Huali Yang",
-        "Hao Peng"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "60",
-      "doi": "10.1117/12.3107384",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107384/Research-on-tourism-route-planning-method-based-on-improved-PrioritSpan/10.1117/12.3107384.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107769",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on the security protection mechanism of transformer-based power data mining facing sequence sensitivity",
-      "authors": [
-        "Yue Chen",
-        "Ye Liu",
-        "Taipeng Zhu",
-        "Fangfang Zhou"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "144",
-      "doi": "10.1117/12.3107769",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107769/Research-on-the-security-protection-mechanism-of-transformer-based-power/10.1117/12.3107769.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107363",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on the design of red culture carriages based on KJ-FAHP",
-      "authors": [
-        "Jingying Li",
-        "Ji Li",
-        "Mingze Sun"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "46",
-      "doi": "10.1117/12.3107363",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107363/Research-on-the-design-of-red-culture-carriages-based-on/10.1117/12.3107363.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107376",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on the construction of a deep learning-based single-channel speech enhancement algorithm",
-      "authors": [
-        "Liang Wang",
-        "Anli Qian"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "57",
-      "doi": "10.1117/12.3107376",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107376/Research-on-the-construction-of-a-deep-learning-based-single/10.1117/12.3107376.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107434",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on sports competitiveness based on LSTM and random forest algorithms",
-      "authors": [
-        "Ning Ding"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "93",
-      "doi": "10.1117/12.3107434",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107434/Research-on-sports-competitiveness-based-on-LSTM-and-random-forest/10.1117/12.3107434.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107517",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on soft measurement models for multivariate coupled processes based on graph neural networks",
-      "authors": [
-        "Runhong Qi",
-        "Chengyu Wang",
-        "Zhiyong Guan"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "113",
-      "doi": "10.1117/12.3107517",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107517/Research-on-soft-measurement-models-for-multivariate-coupled-processes-based/10.1117/12.3107517.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107313",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on seismic waveform recognition task based on deep learning",
-      "authors": [
-        "Yichao Wang",
-        "Hangyu Zhao",
-        "Xiaomei Ma",
-        "Sixiu Dong",
-        "Jingyao Zhang",
-        "Lin Zhu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "7",
-      "doi": "10.1117/12.3107313",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107313/Research-on-seismic-waveform-recognition-task-based-on-deep-learning/10.1117/12.3107313.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107475",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on recognition of pregnancy PPG signal based on random forest",
-      "authors": [
-        "Peng Wang",
-        "Qingmei Chen",
-        "Yangming He"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "102",
-      "doi": "10.1117/12.3107475",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107475/Research-on-recognition-of-pregnancy-PPG-signal-based-on-random/10.1117/12.3107475.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107310",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on real-time visual object tracking algorithms for autonomous driving based on lightweight neural networks",
-      "authors": [
-        "Xiaoyue Hu",
-        "Yongjie Zhang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "4",
-      "doi": "10.1117/12.3107310",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107310/Research-on-real-time-visual-object-tracking-algorithms-for-autonomous/10.1117/12.3107310.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107346",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on operation state identification and anomaly detection methods based on sensor data from simulated power systems",
-      "authors": [
-        "Jinhui Luo",
-        "Yi Gu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "36",
-      "doi": "10.1117/12.3107346",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107346/Research-on-operation-state-identification-and-anomaly-detection-methods-based/10.1117/12.3107346.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107337",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on negative sampling problems in uncertain knowledge graph embeddings",
-      "authors": [
-        "Xiangjun Cheng",
-        "Hongmei Zhang",
-        "Quan Liu",
-        "Ao Lei",
-        "Sining Xu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "28",
-      "doi": "10.1117/12.3107337",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107337/Research-on-negative-sampling-problems-in-uncertain-knowledge-graph-embeddings/10.1117/12.3107337.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107807",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on large model reasoning optimization integrating result rewards and thought chain prompts",
-      "authors": [
-        "ChengXian Li",
-        "Ning Ma"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "149",
-      "doi": "10.1117/12.3107807",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107807/Research-on-large-model-reasoning-optimization-integrating-result-rewards-and/10.1117/12.3107807.full"
-    },
-    {
-      "id": "doi:10.1117/12.3108083",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on image feature extraction methods for transmission line monitoring cameras based on compute-in-memory architecture",
-      "authors": [
-        "Pan Li",
-        "Zhe Zheng",
-        "Wenpeng Cui",
-        "Yu Liu",
-        "Yingying Chi",
-        "Ming Li",
-        "Fan Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "160",
-      "doi": "10.1117/12.3108083",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3108083/Research-on-image-feature-extraction-methods-for-transmission-line-monitoring/10.1117/12.3108083.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107388",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on a self-adjustment method for train energy-saving schedules in different power supply areas based on an improved particle swarm algorithm",
-      "authors": [
-        "Gaoke Li",
-        "Yongming Han",
-        "Jing Xu",
-        "Ge Chen",
-        "Bin Xiong",
-        "Runyu Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "63",
-      "doi": "10.1117/12.3107388",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107388/Research-on-a-self-adjustment-method-for-train-energy-saving/10.1117/12.3107388.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107369",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on XSS malicious code detection method based on LSTM-LLM cascade architecture",
-      "authors": [
-        "Cheng Wei",
-        "Youfu Jiang",
-        "Qi Wang",
-        "Fang Hu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "52",
-      "doi": "10.1117/12.3107369",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107369/Research-on-XSS-malicious-code-detection-method-based-on-LSTM/10.1117/12.3107369.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107394",
-      "source": "library",
-      "kind": "conference",
-      "title": "Research on LoRA fine-tuning of large models for Chinese–Tibetan translation using back-translation data augmentation",
-      "authors": [
-        "ChuanJie Wen",
-        "Ning Ma"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "68",
-      "doi": "10.1117/12.3107394",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107394/Research-on-LoRA-fine-tuning-of-large-models-for-ChineseTibetan/10.1117/12.3107394.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107368",
-      "source": "library",
-      "kind": "conference",
-      "title": "Real-time rendering and interaction of 3D Gaussian splatting scenes in Unreal Engine for mixed reality",
-      "authors": [
-        "Chengxiao Fan",
-        "Yongning Li",
-        "Ruijie Fan",
-        "Li Ma",
-        "Conghui Hu",
-        "Zhuoyang Sun"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "51",
-      "doi": "10.1117/12.3107368",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107368/Real-time-rendering-and-interaction-of-3D-Gaussian-splatting-scenes/10.1117/12.3107368.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107367",
-      "source": "library",
-      "kind": "conference",
-      "title": "Real-time fine-grained UAV-bird distinction enabled by lossless spatial modeling",
-      "authors": [
-        "Yuxiang Fang",
-        "Jiarong Zhou",
-        "Jianpeng Wang",
-        "Nengchun Cheng"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "50",
-      "doi": "10.1117/12.3107367",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107367/Real-time-fine-grained-UAV-bird-distinction-enabled-by-lossless/10.1117/12.3107367.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107361",
-      "source": "library",
-      "kind": "conference",
-      "title": "RA-TranBa: a Rainline-assisted image deraining network integrating Transformer and Mamba",
-      "authors": [
-        "Qi Li",
-        "Chao Wang",
-        "Chuansheng Yang",
-        "Mingrui Shao",
-        "Lin Mei"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "44",
-      "doi": "10.1117/12.3107361",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107361/RA-TranBa--a-Rainline-assisted-image-deraining-network-integrating/10.1117/12.3107361.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107445",
-      "source": "library",
-      "kind": "conference",
-      "title": "Quantum-enhanced pulse-Doppler radar: a joint quantum-classical processing framework for target detection in adverse environments",
-      "authors": [
-        "Chonghui Wang",
-        "Linglei Kong",
-        "Wei Xiang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "95",
-      "doi": "10.1117/12.3107445",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107445/Quantum-enhanced-pulse-Doppler-radar--a-joint-quantum-classical/10.1117/12.3107445.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107803",
-      "source": "library",
-      "kind": "conference",
-      "title": "Predictive modeling for lung cancer using machine learning techniques combined with feature processing",
-      "authors": [
-        "Yu Lei"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "148",
-      "doi": "10.1117/12.3107803",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107803/Predictive-modeling-for-lung-cancer-using-machine-learning-techniques-combined/10.1117/12.3107803.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107857",
-      "source": "library",
-      "kind": "conference",
-      "title": "Prediction of effluent COD of a sewage treatment plant in Tibet based on PCA-SSA-LSTM",
-      "authors": [
-        "Na Wang",
-        "Jiacheng Li",
-        "Shuai Han"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "153",
-      "doi": "10.1117/12.3107857",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107857/Prediction-of-effluent-COD-of-a-sewage-treatment-plant-in/10.1117/12.3107857.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107550",
-      "source": "library",
-      "kind": "conference",
-      "title": "Pre-stroke prediction and post-stroke rehabilitation: MediaPipe-based applications and future prospects",
-      "authors": [
-        "Kuiyuan Li",
-        "Guolong Zhang",
-        "Kang Zhang",
-        "Lin Peng",
-        "Lina Xu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "123",
-      "doi": "10.1117/12.3107550",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107550/Pre-stroke-prediction-and-post-stroke-rehabilitation--MediaPipe-based/10.1117/12.3107550.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107417",
-      "source": "library",
-      "kind": "conference",
-      "title": "Performance–cost coupling optimization of Q345R and strength-calculation model improvement for a vertical compressed-air receiver",
-      "authors": [
-        "Yu Tang",
-        "Xin Bai",
-        "Shiyu Yang",
-        "Lanhao Guo"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "82",
-      "doi": "10.1117/12.3107417",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107417/Performancecost-coupling-optimization-of-Q345R-and-strength-calculation-model-improvement/10.1117/12.3107417.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107326",
-      "source": "library",
-      "kind": "conference",
-      "title": "Performance analysis of AI-empowered library reading promotion framework",
-      "authors": [
-        "Siyu Xia"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "18",
-      "doi": "10.1117/12.3107326",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107326/Performance-analysis-of-AI-empowered-library-reading-promotion-framework/10.1117/12.3107326.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107512",
-      "source": "library",
-      "kind": "conference",
-      "title": "Patient flow prediction and guidance in regional medical centers based on artificial immune systems",
-      "authors": [
-        "Yanxia Wang",
-        "Dongjiao Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "111",
-      "doi": "10.1117/12.3107512",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107512/Patient-flow-prediction-and-guidance-in-regional-medical-centers-based/10.1117/12.3107512.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107390",
-      "source": "library",
-      "kind": "conference",
-      "title": "Optimization algorithms for hybrid clock synchronization networks under time and frequency measurement",
-      "authors": [
-        "Shengnan Liu",
-        "Jieqiong Han",
-        "Cunyu Long",
-        "Yu Zhang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "64",
-      "doi": "10.1117/12.3107390",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107390/Optimization-algorithms-for-hybrid-clock-synchronization-networks-under-time-and/10.1117/12.3107390.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107341",
-      "source": "library",
-      "kind": "conference",
-      "title": "Online external calibration for lidar-camera systems with gradient-field-guided PSO",
-      "authors": [
-        "Zhongchen Li",
-        "Hancheng Yu",
-        "Jiaxiang Ren",
-        "Xiangqin Meng"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "31",
-      "doi": "10.1117/12.3107341",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107341/Online-external-calibration-for-lidar-camera-systems-with-gradient-field/10.1117/12.3107341.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107343",
-      "source": "library",
-      "kind": "conference",
-      "title": "ORS-YOLOv9: anti-occlusion instance segmentation algorithm in ship navigation scene",
-      "authors": [
-        "Yiping Huang",
-        "Zhenbo Bi"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "33",
-      "doi": "10.1117/12.3107343",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107343/ORS-YOLOv9--anti-occlusion-instance-segmentation-algorithm-in-ship/10.1117/12.3107343.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107553",
-      "source": "library",
-      "kind": "conference",
-      "title": "NFT-driven dynamic rights management ecosystem: a framework for programmable ticketing and polymorphic asset interoperability based on smart contracts",
-      "authors": [
-        "Jiaying Hua",
-        "Zheng Li",
-        "Yuxin Zhang",
-        "Xinen Chu",
-        "Beining Zhang",
-        "Jiankang Zhang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "124",
-      "doi": "10.1117/12.3107553",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107553/NFT-driven-dynamic-rights-management-ecosystem--a-framework-for/10.1117/12.3107553.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107312",
-      "source": "library",
-      "kind": "conference",
-      "title": "Multi-strategy collaborative optimization for high-concurrency data storage of traditional Chinese medicine equipment",
-      "authors": [
-        "Cong Huang",
-        "Keyun Xiong"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "6",
-      "doi": "10.1117/12.3107312",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107312/Multi-strategy-collaborative-optimization-for-high-concurrency-data-storage-of/10.1117/12.3107312.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107495",
-      "source": "library",
-      "kind": "conference",
-      "title": "Multi-protocol industrial data semantic mapping and multi-channel polling scheduling method for 5G",
-      "authors": [
-        "WenLong Zhang",
-        "Xue Li",
-        "JianNan Zhang",
-        "DongDong Suo",
-        "HongLiang Wei",
-        "FuNan Gao",
-        "ShengZhu Li",
-        "Cen Zhang",
-        "YaXin Hu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "109",
-      "doi": "10.1117/12.3107495",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107495/Multi-protocol-industrial-data-semantic-mapping-and-multi-channel-polling/10.1117/12.3107495.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107336",
-      "source": "library",
-      "kind": "conference",
-      "title": "Masked BEV transformation with cross-view consistency for UAV 3D object detection",
-      "authors": [
-        "Mingkui Feng",
-        "Hancheng Yu",
-        "Yupu Zhang",
-        "Zhongchen Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "27",
-      "doi": "10.1117/12.3107336",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107336/Masked-BEV-transformation-with-cross-view-consistency-for-UAV-3D/10.1117/12.3107336.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107659",
-      "source": "library",
-      "kind": "conference",
-      "title": "Mamba-based multi-source corrupted image high-quality reconstruction",
-      "authors": [
-        "Xin Liang",
-        "Yaxuan Wang",
-        "Yuxiu Wu",
-        "Yan Liu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "140",
-      "doi": "10.1117/12.3107659",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107659/Mamba-based-multi-source-corrupted-image-high-quality-reconstruction/10.1117/12.3107659.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107400",
-      "source": "library",
-      "kind": "conference",
-      "title": "MTctrack: Object tracking based on Mamba-transformer collaborative perception",
-      "authors": [
-        "Shuhong Luo",
-        "Lei Sun",
-        "Sunfei Bao",
-        "Jun Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "71",
-      "doi": "10.1117/12.3107400",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107400/MTctrack-Object-tracking-based-on-Mamba-transformer-collaborative-perception/10.1117/12.3107400.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107349",
-      "source": "library",
-      "kind": "conference",
-      "title": "MTF mamba: Coronary topological precision arborist for multiscale vascular cartography",
-      "authors": [
-        "Kehui Dou",
-        "Ling Zhong",
-        "Mengying Dou"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "38",
-      "doi": "10.1117/12.3107349",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107349/MTF-mamba--Coronary-topological-precision-arborist-for-multiscale-vascular/10.1117/12.3107349.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107611",
-      "source": "library",
-      "kind": "conference",
-      "title": "MSCA-Net: a multi-scale convolution and shuffle attention network for diabetic retinopathy classification",
-      "authors": [
-        "Baiyang Yang",
-        "Bolin Wu",
-        "Guo Song"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "135",
-      "doi": "10.1117/12.3107611",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107611/MSCA-Net--a-multi-scale-convolution-and-shuffle-attention/10.1117/12.3107611.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107342",
-      "source": "library",
-      "kind": "conference",
-      "title": "LightDefect-Net: a lightweight defect detection algorithm based on multi-scale feature fusion",
-      "authors": [
-        "Zheng Ying"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "32",
-      "doi": "10.1117/12.3107342",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107342/LightDefect-Net--a-lightweight-defect-detection-algorithm-based-on/10.1117/12.3107342.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107325",
-      "source": "library",
-      "kind": "conference",
-      "title": "LMPPNet: a lightweight multi-scale physical prior network for single image dehazing",
-      "authors": [
-        "Mingrui Shao",
-        "Chao Wang",
-        "Chuansheng Yang",
-        "Lei Tang",
-        "Lin Mei"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "17",
-      "doi": "10.1117/12.3107325",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107325/LMPPNet--a-lightweight-multi-scale-physical-prior-network-for/10.1117/12.3107325.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107414",
-      "source": "library",
-      "kind": "conference",
-      "title": "Knowledge-enhancement-driven: a performance comparison study of GraphRAG and Agentic RAG",
-      "authors": [
-        "Qi Meng",
-        "Zhenglong Wu",
-        "Zhongshi Zhao"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "80",
-      "doi": "10.1117/12.3107414",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107414/Knowledge-enhancement-driven--a-performance-comparison-study-of-GraphRAG/10.1117/12.3107414.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107818",
-      "source": "library",
-      "kind": "conference",
-      "title": "Key feature mining of power grid operational risk based on random matrix theory",
-      "authors": [
-        "Jiaying Tang",
-        "Yikang Bu",
-        "Xing He",
-        "Fujia Han",
-        "Ji Qiao",
-        "Zhen Zhang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "150",
-      "doi": "10.1117/12.3107818",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107818/Key-feature-mining-of-power-grid-operational-risk-based-on/10.1117/12.3107818.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107331",
-      "source": "library",
-      "kind": "conference",
-      "title": "Intelligent prediction technology of pseudorange error in GNSS-denied environment based on LSTM neural network",
-      "authors": [
-        "Peijie Yang",
-        "Zhenyu Jiang",
-        "Xiangyu Dong"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "23",
-      "doi": "10.1117/12.3107331",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107331/Intelligent-prediction-technology-of-pseudorange-error-in-GNSS-denied-environment/10.1117/12.3107331.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107773",
-      "source": "library",
-      "kind": "conference",
-      "title": "Intelligent matching system for classical and empirical prescription medication knowledge",
-      "authors": [
-        "Xin Cheng",
-        "Xian Zhou",
-        "Wangping Xiong",
-        "Shuilong Zou",
-        "Yingjun Yang",
-        "Shaobo Chen",
-        "Hongda Huang",
-        "Zexian Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "145",
-      "doi": "10.1117/12.3107773",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107773/Intelligent-matching-system-for-classical-and-empirical-prescription-medication-knowledge/10.1117/12.3107773.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107609",
-      "source": "library",
-      "kind": "conference",
-      "title": "Input-output sensitivity analysis model construction and multi-objective weight adjustment",
-      "authors": [
-        "Chenhong Zheng",
-        "Zhuodan Zheng",
-        "Hongyang Lin",
-        "Mengzhe Liu",
-        "Qifan Wu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "134",
-      "doi": "10.1117/12.3107609",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107609/Input-output-sensitivity-analysis-model-construction-and-multi-objective-weight/10.1117/12.3107609.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107570",
-      "source": "library",
-      "kind": "conference",
-      "title": "Individual identification of communication radiation sources in user information carrying scenarios",
-      "authors": [
-        "Mengfan Wei"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "129",
-      "doi": "10.1117/12.3107570",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107570/Individual-identification-of-communication-radiation-sources-in-user-information-carrying/10.1117/12.3107570.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107491",
-      "source": "library",
-      "kind": "conference",
-      "title": "Image recognition function based on YOLOv5 model under the digital edge platform",
-      "authors": [
-        "Xiaolong Wang",
-        "Shuo Wang",
-        "Yuxuan Xia",
-        "Yunjiang Cai",
-        "Wei Zhao",
-        "Yi Wang",
-        "Desheng Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "105",
-      "doi": "10.1117/12.3107491",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107491/Image-recognition-function-based-on-YOLOv5-model-under-the-digital/10.1117/12.3107491.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107386",
-      "source": "library",
-      "kind": "conference",
-      "title": "Image classification algorithm and implementation based on convolutional neural network",
-      "authors": [
-        "Yuxin Zhang",
-        "Guokai Wang",
-        "Bailu Zhao"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "62",
-      "doi": "10.1117/12.3107386",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107386/Image-classification-algorithm-and-implementation-based-on-convolutional-neural-network/10.1117/12.3107386.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107480",
-      "source": "library",
-      "kind": "conference",
-      "title": "High-precision trajectory matching parameter calculation based on improved PSO and error source modeling",
-      "authors": [
-        "Baolu Yang",
-        "Liangming Wang",
-        "Jian Fu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "103",
-      "doi": "10.1117/12.3107480",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107480/High-precision-trajectory-matching-parameter-calculation-based-on-improved-PSO/10.1117/12.3107480.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107428",
-      "source": "library",
-      "kind": "conference",
-      "title": "HVI-FFNet: low-light enhancement via HVI color space and wavelet-adapted frequency domain fusion",
-      "authors": [
-        "Lei Tang",
-        "Chao Wang",
-        "Chuansheng Yang",
-        "Lin Mei",
-        "Mingrui Shao"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "90",
-      "doi": "10.1117/12.3107428",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107428/HVI-FFNet--low-light-enhancement-via-HVI-color-space/10.1117/12.3107428.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107569",
-      "source": "library",
-      "kind": "conference",
-      "title": "HERNN: a high-frequency enhanced RNN with large receptive field for video deblurring",
-      "authors": [
-        "Sangnan Yu",
-        "Chao Wang",
-        "Chuansheng Yang",
-        "Mingrui Shao",
-        "Lin Mei"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "128",
-      "doi": "10.1117/12.3107569",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107569/HERNN--a-high-frequency-enhanced-RNN-with-large-receptive/10.1117/12.3107569.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107335",
-      "source": "library",
-      "kind": "conference",
-      "title": "Forecasting and early warning of cyanobacterial bloom in Lake Taihu based on machine learning and knowledge graph",
-      "authors": [
-        "Juan Wu",
-        "Mei Cai",
-        "Tao Xue",
-        "Aoran Qian"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "26",
-      "doi": "10.1117/12.3107335",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107335/Forecasting-and-early-warning-of-cyanobacterial-bloom-in-Lake-Taihu/10.1117/12.3107335.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107863",
-      "source": "library",
-      "kind": "conference",
-      "title": "Flexspline wear prediction and remaining life assessment for harmonic drive based on machine learning",
-      "authors": [
-        "Xiao Lian",
-        "Jianhui Liu",
-        "Youtang Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "154",
-      "doi": "10.1117/12.3107863",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107863/Flexspline-wear-prediction-and-remaining-life-assessment-for-harmonic-drive/10.1117/12.3107863.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107426",
-      "source": "library",
-      "kind": "conference",
-      "title": "Evolutionary model of swarm intelligence for complex systems based on synergistic design of genetic algorithms and artificial life",
-      "authors": [
-        "Chengqi Zhu",
-        "Gaofeng Xu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "89",
-      "doi": "10.1117/12.3107426",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107426/Evolutionary-model-of-swarm-intelligence-for-complex-systems-based-on/10.1117/12.3107426.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107768",
-      "source": "library",
-      "kind": "conference",
-      "title": "DyLB-IVF: an efficient parallel sparse vector retrieval system with cache-aware and work-stealing optimizations",
-      "authors": [
-        "Zifan Chen",
-        "Shihao Zhao"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "143",
-      "doi": "10.1117/12.3107768",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107768/DyLB-IVF--an-efficient-parallel-sparse-vector-retrieval-system/10.1117/12.3107768.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107323",
-      "source": "library",
-      "kind": "conference",
-      "title": "Distributed data consistency in intelligent multi-AGV operating systems",
-      "authors": [
-        "Zebang Zhong",
-        "Shengjian Chen"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "16",
-      "doi": "10.1117/12.3107323",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107323/Distributed-data-consistency-in-intelligent-multi-AGV-operating-systems/10.1117/12.3107323.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107327",
-      "source": "library",
-      "kind": "conference",
-      "title": "Direction-weighted LiDAR-Inertial Odometry",
-      "authors": [
-        "Yupu Zhang",
-        "Hancheng Yu",
-        "Jiaxiang Ren",
-        "Xiangqin Meng"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "19",
-      "doi": "10.1117/12.3107327",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107327/Direction-weighted-LiDAR-Inertial-Odometry/10.1117/12.3107327.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107452",
-      "source": "library",
-      "kind": "conference",
-      "title": "Diff-TGEG: a novel diffusion model for text-guided electrocardiogram generation",
-      "authors": [
-        "Rongjia Wang",
-        "Yihai Fang",
-        "Jianhong Dou",
-        "Xunde Dong"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "98",
-      "doi": "10.1117/12.3107452",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107452/Diff-TGEG--a-novel-diffusion-model-for-text-guided/10.1117/12.3107452.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107374",
-      "source": "library",
-      "kind": "conference",
-      "title": "Design practice of software and hardware architecture for large model training and inference based on high-performance computing clusters",
-      "authors": [
-        "Jiayu Teng",
-        "Wei Zhang",
-        "Wenqing Yang",
-        "Zhen Sun",
-        "Wensong Liu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "55",
-      "doi": "10.1117/12.3107374",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107374/Design-practice-of-software-and-hardware-architecture-for-large-model/10.1117/12.3107374.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107404",
-      "source": "library",
-      "kind": "conference",
-      "title": "Design of an automatic cocktail mixing workstation based on ABB robots",
-      "authors": [
-        "Wenjun Tan",
-        "Dengshuai Li",
-        "Qianjun Ma",
-        "Gang Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "75",
-      "doi": "10.1117/12.3107404",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107404/Design-of-an-automatic-cocktail-mixing-workstation-based-on-ABB/10.1117/12.3107404.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107330",
-      "source": "library",
-      "kind": "conference",
-      "title": "Design and verification of dynamic deep learning optimization algorithm for non-stationary data",
-      "authors": [
-        "Yi Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "22",
-      "doi": "10.1117/12.3107330",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107330/Design-and-verification-of-dynamic-deep-learning-optimization-algorithm-for/10.1117/12.3107330.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107543",
-      "source": "library",
-      "kind": "conference",
-      "title": "Data-driven reliability modeling for products with multiple performance degradation characteristics based on the ReliefF algorithm",
-      "authors": [
-        "Xiaotian Cai"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "120",
-      "doi": "10.1117/12.3107543",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107543/Data-driven-reliability-modeling-for-products-with-multiple-performance-degradation/10.1117/12.3107543.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107357",
-      "source": "library",
-      "kind": "conference",
-      "title": "DM-Net: building extraction from remote sensing images",
-      "authors": [
-        "Zhihong Liu",
-        "Ka Sun",
-        "Junjie Wan"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "42",
-      "doi": "10.1117/12.3107357",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107357/DM-Net-building-extraction-from-remote-sensing-images/10.1117/12.3107357.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107318",
-      "source": "library",
-      "kind": "conference",
-      "title": "DIBWG: a diversity-interdependency-aware framework for batch workload generation",
-      "authors": [
-        "Runtian Chen",
-        "Yi Liang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "11",
-      "doi": "10.1117/12.3107318",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107318/DIBWG--a-diversity-interdependency-aware-framework-for-batch-workload/10.1117/12.3107318.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107398",
-      "source": "library",
-      "kind": "conference",
-      "title": "DBTrack: dual-branch attention for visual object tracking",
-      "authors": [
-        "Lei Sun",
-        "Shuhong Luo",
-        "Haiyang Huang",
-        "Jun Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "70",
-      "doi": "10.1117/12.3107398",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107398/DBTrack-dual-branch-attention-for-visual-object-tracking/10.1117/12.3107398.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107370",
-      "source": "library",
-      "kind": "conference",
-      "title": "Correlation analysis of face color and human disease diagnosis based on TCM",
-      "authors": [
-        "Helin Zhang",
-        "Zhixiong Ye",
-        "Huashan Ye"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "53",
-      "doi": "10.1117/12.3107370",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107370/Correlation-analysis-of-face-color-and-human-disease-diagnosis-based/10.1117/12.3107370.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107519",
-      "source": "library",
-      "kind": "conference",
-      "title": "Construction of knowledge reasoning system based on knowledge graph for air traffic control",
-      "authors": [
-        "Qitong Jiang",
-        "Minghua Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "114",
-      "doi": "10.1117/12.3107519",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107519/Construction-of-knowledge-reasoning-system-based-on-knowledge-graph-for/10.1117/12.3107519.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107502",
-      "source": "library",
-      "kind": "conference",
-      "title": "Construction of a statistical supervision system for production technological transformation projects based on fuzzy hierarchy analysis",
-      "authors": [
-        "Qi Zheng",
-        "Feng Sun",
-        "Lei Ma",
-        "Jian Zou",
-        "YueRen Zhu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "110",
-      "doi": "10.1117/12.3107502",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107502/Construction-of-a-statistical-supervision-system-for-production-technological-transformation/10.1117/12.3107502.full"
-    },
-    {
-      "id": "doi:10.1117/12.3108061",
-      "source": "library",
-      "kind": "conference",
-      "title": "Clock self-calibration circuit based on microcontroller hardware control at cumulative flow clock compensation method",
-      "authors": [
-        "Chenyu Wang",
-        "Lu Yu",
-        "Lin Zou"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "159",
-      "doi": "10.1117/12.3108061",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3108061/Clock-self-calibration-circuit-based-on-microcontroller-hardware-control-at/10.1117/12.3108061.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107577",
-      "source": "library",
-      "kind": "conference",
-      "title": "Channel selection method based on brain functional network analysis",
-      "authors": [
-        "Xiaoyu Zhang",
-        "Meiya Kong",
-        "Xiuli Du",
-        "Hanxing Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "131",
-      "doi": "10.1117/12.3107577",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107577/Channel-selection-method-based-on-brain-functional-network-analysis/10.1117/12.3107577.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107423",
-      "source": "library",
-      "kind": "conference",
-      "title": "Brain tumor segmentation using a UNet model based on dual input fusion and multi-module optimization",
-      "authors": [
-        "Bingcheng Zheng",
-        "Zheyuan Xiong",
-        "Zhiwei Shen"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "86",
-      "doi": "10.1117/12.3107423",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107423/Brain-tumor-segmentation-using-a-UNet-model-based-on-dual/10.1117/12.3107423.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107322",
-      "source": "library",
-      "kind": "conference",
-      "title": "Application of non-dominated sorting enzyme action optimization algorithm in multi-stage rotor stacking optimization of aero-engines",
-      "authors": [
-        "Zikai Li",
-        "Yong Liu",
-        "Ziju Fang",
-        "Bofeng Sun",
-        "Jiashuo Zhang",
-        "Bowen Li"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "15",
-      "doi": "10.1117/12.3107322",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107322/Application-of-non-dominated-sorting-enzyme-action-optimization-algorithm-in/10.1117/12.3107322.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107539",
-      "source": "library",
-      "kind": "conference",
-      "title": "Application of low-altitude sensing technology in low-altitude intelligent networking: a bibliometric study from 2015 to 2025",
-      "authors": [
-        "Ruiquan Yao",
-        "Xinfeng Zhang",
-        "Han Yue",
-        "Derui Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "119",
-      "doi": "10.1117/12.3107539",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107539/Application-of-low-altitude-sensing-technology-in-low-altitude-intelligent/10.1117/12.3107539.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107802",
-      "source": "library",
-      "kind": "conference",
-      "title": "Application of image processing techniques in early screening of cognitive decline in older adults: from laboratory research to community practice",
-      "authors": [
-        "Yating Huang",
-        "Fuqiang Yuan"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "147",
-      "doi": "10.1117/12.3107802",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107802/Application-of-image-processing-techniques-in-early-screening-of-cognitive/10.1117/12.3107802.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107316",
-      "source": "library",
-      "kind": "conference",
-      "title": "Application of collaborative optimization based on hybrid attention module and edge-weighted loss function in brain tumor segmentation",
-      "authors": [
-        "Zhiwei Shen",
-        "Zheyuan Xiong",
-        "Bingcheng Zheng"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "10",
-      "doi": "10.1117/12.3107316",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107316/Application-of-collaborative-optimization-based-on-hybrid-attention-module-and/10.1117/12.3107316.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107614",
-      "source": "library",
-      "kind": "conference",
-      "title": "Application of back-propagation neural networks improved by particle swarm optimization algorithm in ionospheric modeling",
-      "authors": [
-        "Cao Lu",
-        "Yuan Chen",
-        "Linchao Huang",
-        "Yang Fang",
-        "Liya Ji",
-        "Wenpu Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "136",
-      "doi": "10.1117/12.3107614",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107614/Application-of-back-propagation-neural-networks-improved-by-particle-swarm/10.1117/12.3107614.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107345",
-      "source": "library",
-      "kind": "conference",
-      "title": "Application of ICM method in topology optimization of gradient lattice structures",
-      "authors": [
-        "Nan Wei",
-        "Xiukun Hu",
-        "Jicheng Li",
-        "Tao Song",
-        "Xiao Cui"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "35",
-      "doi": "10.1117/12.3107345",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107345/Application-of-ICM-method-in-topology-optimization-of-gradient-lattice/10.1117/12.3107345.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107580",
-      "source": "library",
-      "kind": "conference",
-      "title": "Anomaly detection method for acoustic emission data based on ResNet",
-      "authors": [
-        "Di Zhang",
-        "Qiutong Li",
-        "Chuan Zhao",
-        "Xuan He"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "132",
-      "doi": "10.1117/12.3107580",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107580/Anomaly-detection-method-for-acoustic-emission-data-based-on-ResNet/10.1117/12.3107580.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107360",
-      "source": "library",
-      "kind": "conference",
-      "title": "Analysis and optimization of high-speed railway track geometry deviations based on 3σ criterion and moving average filtering",
-      "authors": [
-        "Jiajia Fu",
-        "Jianpu Xi",
-        "Yijie Wang",
-        "Shicong Liu",
-        "Guanghui Zeng",
-        "Yuefeng Ma"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "43",
-      "doi": "10.1117/12.3107360",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107360/Analysis-and-optimization-of-high-speed-railway-track-geometry-deviations/10.1117/12.3107360.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107408",
-      "source": "library",
-      "kind": "conference",
-      "title": "An improved object detection model based on YOLOv5 for smart classroom",
-      "authors": [
-        "Taizhong Zhang",
-        "Lei Ma",
-        "Hui Du",
-        "Yunhai Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "77",
-      "doi": "10.1117/12.3107408",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107408/An-improved-object-detection-model-based-on-YOLOv5-for-smart/10.1117/12.3107408.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107492",
-      "source": "library",
-      "kind": "conference",
-      "title": "An implicit de-biasing framework for personalized retrieval-augmented language models",
-      "authors": [
-        "Anbang Zhao",
-        "Sichun Luo",
-        "Jingjie Lv",
-        "Haitao Wu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "106",
-      "doi": "10.1117/12.3107492",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107492/An-implicit-de-biasing-framework-for-personalized-retrieval-augmented-language/10.1117/12.3107492.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107548",
-      "source": "library",
-      "kind": "conference",
-      "title": "An explainable AI approach for human–machine collaborative decision-making in high‑risk construction tasks",
-      "authors": [
-        "Linggang Zhou",
-        "Hui Shen",
-        "LinXuan Li",
-        "LinZheng Jin",
-        "KeYang Xu",
-        "ZeCheng Zheng"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "122",
-      "doi": "10.1117/12.3107548",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107548/An-explainable-AI-approach-for-humanmachine-collaborative-decision-making-in/10.1117/12.3107548.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107412",
-      "source": "library",
-      "kind": "conference",
-      "title": "An efficient digital twin model update method based on structure-aware point cloud sampling",
-      "authors": [
-        "Shiji Xu",
-        "Yongnan Liu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "79",
-      "doi": "10.1117/12.3107412",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107412/An-efficient-digital-twin-model-update-method-based-on-structure/10.1117/12.3107412.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107334",
-      "source": "library",
-      "kind": "conference",
-      "title": "An efficient YOLOv11-based approach for marine waste detection",
-      "authors": [
-        "Minchong Shen",
-        "Youfu Jiang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "25",
-      "doi": "10.1117/12.3107334",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107334/An-efficient-YOLOv11-based-approach-for-marine-waste-detection/10.1117/12.3107334.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107356",
-      "source": "library",
-      "kind": "conference",
-      "title": "Algorithmic evaluation of music type and preference matching on post‑stress affect: a mixed‑design with a high‑performance workflow",
-      "authors": [
-        "Wei Pan",
-        "Fuqiang Yuan"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "41",
-      "doi": "10.1117/12.3107356",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107356/Algorithmic-evaluation-of-music-type-and-preference-matching-on-poststress/10.1117/12.3107356.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107635",
-      "source": "library",
-      "kind": "conference",
-      "title": "Aerodynamic characteristics of trees with different rows based on computational fluid dynamics (CFD) simulations",
-      "authors": [
-        "Haiyang Wang",
-        "Zhongcan Chen",
-        "Jingxue Wang",
-        "Danyu Li",
-        "Gang Qiu",
-        "Wenqi Fan"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "139",
-      "doi": "10.1117/12.3107635",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107635/Aerodynamic-characteristics-of-trees-with-different-rows-based-on-computational/10.1117/12.3107635.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107347",
-      "source": "library",
-      "kind": "conference",
-      "title": "Acceleration of interface responses via a custom internal communication protocol",
-      "authors": [
-        "Guangyao Xiong",
-        "Haoyang Sheng",
-        "Zhijuan Liao",
-        "Keyun Xiong"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "37",
-      "doi": "10.1117/12.3107347",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107347/Acceleration-of-interface-responses-via-a-custom-internal-communication-protocol/10.1117/12.3107347.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107396",
-      "source": "library",
-      "kind": "conference",
-      "title": "ASAT: robust object tracking with adjustable stacked attention",
-      "authors": [
-        "Zhuo An",
-        "Shenmiao Jin",
-        "Lei Sun",
-        "Jun Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "69",
-      "doi": "10.1117/12.3107396",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107396/ASAT-robust-object-tracking-with-adjustable-stacked-attention/10.1117/12.3107396.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107533",
-      "source": "library",
-      "kind": "conference",
-      "title": "AGV path planning based on improved A* algorithm",
-      "authors": [
-        "Siyou Zhang",
-        "Xiaoyan Zhang",
-        "Lu Zhu",
-        "Yucheng Yi"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "118",
-      "doi": "10.1117/12.3107533",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107533/AGV-path-planning-based-on-improved-A-algorithm/10.1117/12.3107533.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107449",
-      "source": "library",
-      "kind": "conference",
-      "title": "A variable-density clustering algorithm based on symmetric nearest neighbor relationship",
-      "authors": [
-        "Baohong Liu",
-        "Yang Su",
-        "Wenfeng Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "96",
-      "doi": "10.1117/12.3107449",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107449/A-variable-density-clustering-algorithm-based-on-symmetric-nearest-neighbor/10.1117/12.3107449.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107521",
-      "source": "library",
-      "kind": "conference",
-      "title": "A sybil attack detection scheme based on trust evaluation in wireless sensor networks",
-      "authors": [
-        "Weiqin Tan"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "115",
-      "doi": "10.1117/12.3107521",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107521/A-sybil-attack-detection-scheme-based-on-trust-evaluation-in/10.1117/12.3107521.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107338",
-      "source": "library",
-      "kind": "conference",
-      "title": "A small-sample adaptive ensemble learning framework with PSO-optimized hyperparameters for buried pipeline corrosion rate prediction",
-      "authors": [
-        "Yuxi Wu",
-        "Xingyu Wang",
-        "Youquan Zhang",
-        "Ping Jia",
-        "Yikai Yang",
-        "Yanbao Guo"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "29",
-      "doi": "10.1117/12.3107338",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107338/A-small-sample-adaptive-ensemble-learning-framework-with-PSO-optimized/10.1117/12.3107338.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107819",
-      "source": "library",
-      "kind": "conference",
-      "title": "A robust RFID protocol in security for access control systems",
-      "authors": [
-        "Wei Kee Chin",
-        "Hee Kooi Khoo"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "151",
-      "doi": "10.1117/12.3107819",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107819/A-robust-RFID-protocol-in-security-for-access-control-systems/10.1117/12.3107819.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107319",
-      "source": "library",
-      "kind": "conference",
-      "title": "A review of PSO-GA hybrid optimization algorithm in aero-engine quality assessment",
-      "authors": [
-        "Sining Xu",
-        "Yuhui Wang",
-        "Xiangjun Cheng",
-        "Qianjun Yang",
-        "Borui Xie",
-        "Zhifeng Shan"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "12",
-      "doi": "10.1117/12.3107319",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107319/A-review-of-PSO-GA-hybrid-optimization-algorithm-in-aero/10.1117/12.3107319.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107910",
-      "source": "library",
-      "kind": "conference",
-      "title": "A multimodal generative AI-driven real-time translation system for audiovisual content: a study on its technical architecture and dissemination effects",
-      "authors": [
-        "Rui Du"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "157",
-      "doi": "10.1117/12.3107910",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107910/A-multimodal-generative-AI-driven-real-time-translation-system-for/10.1117/12.3107910.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107626",
-      "source": "library",
-      "kind": "conference",
-      "title": "A multimodal fusion-based model for noninvasive blood oxygen saturation prediction",
-      "authors": [
-        "Yalu Qiao",
-        "Qiriga Han",
-        "Xiaoyu Hu",
-        "Jiangnan Liu",
-        "Mingfeng Wang",
-        "Ying Yu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "138",
-      "doi": "10.1117/12.3107626",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107626/A-multimodal-fusion-based-model-for-noninvasive-blood-oxygen-saturation/10.1117/12.3107626.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107576",
-      "source": "library",
-      "kind": "conference",
-      "title": "A multi-strategy enhanced whale optimisation algorithm for three-dimensional unmanned aerial vehicle path planning",
-      "authors": [
-        "Jianlei Xu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "130",
-      "doi": "10.1117/12.3107576",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107576/A-multi-strategy-enhanced-whale-optimisation-algorithm-for-three-dimensional/10.1117/12.3107576.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107494",
-      "source": "library",
-      "kind": "conference",
-      "title": "A method for post-fall micro-expression perception and rehabilitation prescription recommendation based on lightweight multimodal deep learning and traditional Chinese medicine knowledge graph",
-      "authors": [
-        "Songying Wu",
-        "Leyan Yu",
-        "Yihui Lai",
-        "Gui Xiao",
-        "Xiaojin Gan",
-        "Xiaofen Liu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "108",
-      "doi": "10.1117/12.3107494",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107494/A-method-for-post-fall-micro-expression-perception-and-rehabilitation/10.1117/12.3107494.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107320",
-      "source": "library",
-      "kind": "conference",
-      "title": "A keyframe attention-enhanced DenseNet121 for action recognition",
-      "authors": [
-        "Keyun Xiong",
-        "Wenzhen Wang"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "13",
-      "doi": "10.1117/12.3107320",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107320/A-keyframe-attention-enhanced-DenseNet121-for-action-recognition/10.1117/12.3107320.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107433",
-      "source": "library",
-      "kind": "conference",
-      "title": "A hybrid convolutional network for defocus detection in large-scale optical imaging spectrographs",
-      "authors": [
-        "Pengtao Wang",
-        "Yatao Bai",
-        "Zhou Wu",
-        "Luxin Zhang",
-        "Yunxia Xu",
-        "Qishuai Lu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "92",
-      "doi": "10.1117/12.3107433",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107433/A-hybrid-convolutional-network-for-defocus-detection-in-large-scale/10.1117/12.3107433.full"
-    },
-    {
-      "id": "doi:10.1117/12.3108037",
-      "source": "library",
-      "kind": "conference",
-      "title": "A comprehensive review of current issues and solutions in blockchain sharding",
-      "authors": [
-        "Yinxiang Lei",
-        "Yanchen Zhu",
-        "Yutao Liu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "158",
-      "doi": "10.1117/12.3108037",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3108037/A-comprehensive-review-of-current-issues-and-solutions-in-blockchain/10.1117/12.3108037.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107622",
-      "source": "library",
-      "kind": "conference",
-      "title": "A comparative study on the performance of decision tree and random forest in predicting management objectives",
-      "authors": [
-        "Chenhong Zheng",
-        "Zhuodan Zheng",
-        "Shiyuan Lin",
-        "Mengzhe Liu",
-        "Qifan Wu"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "137",
-      "doi": "10.1117/12.3107622",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107622/A-comparative-study-on-the-performance-of-decision-tree-and/10.1117/12.3107622.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107421",
-      "source": "library",
-      "kind": "conference",
-      "title": "A bionic vision model for pattern classification",
-      "authors": [
-        "Li Hao"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "85",
-      "doi": "10.1117/12.3107421",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107421/A-bionic-vision-model-for-pattern-classification/10.1117/12.3107421.full"
-    },
-    {
-      "id": "doi:10.1117/12.3107402",
-      "source": "library",
-      "kind": "conference",
-      "title": "A CDMD-YOLOv11-based approach for tomato ripeness detection in greenhouse environments",
-      "authors": [
-        "Jinguo Xu",
-        "Bangjun Lei"
-      ],
-      "summary": "",
-      "venue": "HPDC",
-      "venueName": "HPDC",
-      "area": "Distributed Systems",
-      "year": 2026,
-      "month": "",
-      "track": "未标注 Track",
-      "published": "2026-03-19",
-      "pages": "73",
-      "doi": "10.1117/12.3107402",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14142/3107402/A-CDMD-YOLOv11-based-approach-for-tomato-ripeness-detection-in/10.1117/12.3107402.full"
+      "url": "https://ieeexplore.ieee.org/document/11637462/",
+      "publisher": "IEEE",
+      "publisherUrl": "https://doi.org/10.1109/hpsc69479.2026.00014"
     },
     {
       "id": "doi:10.1145/3773656.3773691",
@@ -6908,7 +4723,9 @@
       "doi": "10.1145/3773656.3773691",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773691"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773691",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773691"
     },
     {
       "id": "doi:10.1145/3773656.3773663",
@@ -6935,7 +4752,9 @@
       "doi": "10.1145/3773656.3773663",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773663"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773663",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773663"
     },
     {
       "id": "doi:10.1145/3773656.3773669",
@@ -6970,7 +4789,9 @@
       "doi": "10.1145/3773656.3773669",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773669"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773669",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773669"
     },
     {
       "id": "doi:10.1145/3773656.3773678",
@@ -7000,7 +4821,9 @@
       "doi": "10.1145/3773656.3773678",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773678"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773678",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773678"
     },
     {
       "id": "doi:10.1145/3773656.3773690",
@@ -7026,7 +4849,9 @@
       "doi": "10.1145/3773656.3773690",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773690"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773690",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773690"
     },
     {
       "id": "doi:10.1145/3773656.3773668",
@@ -7051,7 +4876,9 @@
       "doi": "10.1145/3773656.3773668",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773668"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773668",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773668"
     },
     {
       "id": "doi:10.1145/3773656.3773687",
@@ -7077,7 +4904,9 @@
       "doi": "10.1145/3773656.3773687",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773687"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773687",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773687"
     },
     {
       "id": "doi:10.1145/3773656.3773692",
@@ -7103,7 +4932,9 @@
       "doi": "10.1145/3773656.3773692",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773692"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773692",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773692"
     },
     {
       "id": "doi:10.1145/3773656.3773672",
@@ -7129,7 +4960,9 @@
       "doi": "10.1145/3773656.3773672",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773672"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773672",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773672"
     },
     {
       "id": "doi:10.1145/3773656.3773665",
@@ -7157,7 +4990,9 @@
       "doi": "10.1145/3773656.3773665",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773665"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773665",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773665"
     },
     {
       "id": "doi:10.1145/3773656.3773676",
@@ -7183,7 +5018,9 @@
       "doi": "10.1145/3773656.3773676",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773676"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773676",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773676"
     },
     {
       "id": "doi:10.1145/3773656.3773671",
@@ -7209,7 +5046,9 @@
       "doi": "10.1145/3773656.3773671",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773671"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773671",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773671"
     },
     {
       "id": "doi:10.1145/3773656.3773667",
@@ -7235,7 +5074,9 @@
       "doi": "10.1145/3773656.3773667",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773667"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773667",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773667"
     },
     {
       "id": "doi:10.1145/3773656.3773675",
@@ -7261,7 +5102,9 @@
       "doi": "10.1145/3773656.3773675",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773675"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773675",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773675"
     },
     {
       "id": "doi:10.1145/3773656.3773660",
@@ -7285,7 +5128,9 @@
       "doi": "10.1145/3773656.3773660",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773660"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773660",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773660"
     },
     {
       "id": "doi:10.1145/3773656.3773661",
@@ -7311,7 +5156,9 @@
       "doi": "10.1145/3773656.3773661",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773661"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773661",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773661"
     },
     {
       "id": "doi:10.1145/3773656.3773681",
@@ -7334,7 +5181,9 @@
       "doi": "10.1145/3773656.3773681",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773681"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773681",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773681"
     },
     {
       "id": "doi:10.1145/3773656.3773658",
@@ -7364,7 +5213,9 @@
       "doi": "10.1145/3773656.3773658",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773658"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773658",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773658"
     },
     {
       "id": "doi:10.1145/3773656.3773673",
@@ -7387,7 +5238,9 @@
       "doi": "10.1145/3773656.3773673",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773673"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773673",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773673"
     },
     {
       "id": "doi:10.1145/3773656.3773664",
@@ -7410,7 +5263,9 @@
       "doi": "10.1145/3773656.3773664",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773664"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773664",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773664"
     },
     {
       "id": "doi:10.1145/3773656.3773670",
@@ -7442,7 +5297,9 @@
       "doi": "10.1145/3773656.3773670",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773670"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773670",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773670"
     },
     {
       "id": "doi:10.1145/3773656.3773680",
@@ -7470,7 +5327,9 @@
       "doi": "10.1145/3773656.3773680",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773680"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773680",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773680"
     },
     {
       "id": "doi:10.1145/3773656.3773689",
@@ -7496,7 +5355,9 @@
       "doi": "10.1145/3773656.3773689",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773689"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773689",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773689"
     },
     {
       "id": "doi:10.1145/3773656.3773682",
@@ -7519,7 +5380,9 @@
       "doi": "10.1145/3773656.3773682",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773682"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773682",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773682"
     },
     {
       "id": "doi:10.1145/3773656.3773662",
@@ -7550,7 +5413,9 @@
       "doi": "10.1145/3773656.3773662",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773662"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773662",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773662"
     },
     {
       "id": "doi:10.1145/3773656.3773679",
@@ -7573,7 +5438,9 @@
       "doi": "10.1145/3773656.3773679",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773679"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773679",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773679"
     },
     {
       "id": "doi:10.1145/3773656.3773674",
@@ -7596,7 +5463,9 @@
       "doi": "10.1145/3773656.3773674",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773674"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773674",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773674"
     },
     {
       "id": "doi:10.1145/3773656.3773688",
@@ -7620,7 +5489,9 @@
       "doi": "10.1145/3773656.3773688",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773688"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773688",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773688"
     },
     {
       "id": "doi:10.1145/3773656.3773677",
@@ -7643,7 +5514,9 @@
       "doi": "10.1145/3773656.3773677",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773677"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773677",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773677"
     },
     {
       "id": "doi:10.1145/3773656.3773693",
@@ -7669,7 +5542,9 @@
       "doi": "10.1145/3773656.3773693",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773693"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773693",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773693"
     },
     {
       "id": "doi:10.1145/3773656.3773684",
@@ -7702,7 +5577,9 @@
       "doi": "10.1145/3773656.3773684",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773684"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773684",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773684"
     },
     {
       "id": "doi:10.1145/3773656.3773659",
@@ -7731,7 +5608,9 @@
       "doi": "10.1145/3773656.3773659",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773659"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773659",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773659"
     },
     {
       "id": "doi:10.1145/3773656.3773683",
@@ -7760,7 +5639,9 @@
       "doi": "10.1145/3773656.3773683",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773683"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773683",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773683"
     },
     {
       "id": "doi:10.1145/3773656.3773685",
@@ -7785,7 +5666,9 @@
       "doi": "10.1145/3773656.3773685",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773685"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773685",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773685"
     },
     {
       "id": "doi:10.1145/3773656.3773686",
@@ -7809,7 +5692,9 @@
       "doi": "10.1145/3773656.3773686",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3773656.3773686"
+      "url": "https://dl.acm.org/doi/10.1145/3773656.3773686",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3773656.3773686"
     }
   ]
 }

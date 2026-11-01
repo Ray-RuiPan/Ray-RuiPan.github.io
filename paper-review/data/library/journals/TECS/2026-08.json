@@ -2,38 +2,9 @@
   "meta": {
     "journal": "TECS",
     "month": "2026-08",
-    "count": 6
+    "count": 3
   },
   "records": [
-    {
-      "id": "doi:10.1145/3842746",
-      "source": "library",
-      "kind": "journal",
-      "title": "Adaptive DVFS and Display Brightness Scaling for Maximising User Experience on Mobile Devices",
-      "authors": [
-        "Samuel Isuwa",
-        "Somdip Dey",
-        "Amit Kumar Singh",
-        "Bashir Al-Hashimi",
-        "Geoff Merrett"
-      ],
-      "summary": "",
-      "venue": "TECS",
-      "venueName": "TECS",
-      "journalName": "ACM Transactions on Embedded Computing Systems",
-      "area": "Embedded Systems",
-      "year": 2026,
-      "month": "2026-08",
-      "track": "未标注 Track",
-      "published": "2026-08-27",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "doi": "10.1145/3842746",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3842746"
-    },
     {
       "id": "doi:10.1145/3842738",
       "source": "library",
@@ -48,7 +19,7 @@
         "Zichen Xu",
         "Xiangjun Li"
       ],
-      "summary": "",
+      "summary": "Visible light backscatter communication (VLBC) is an emerging Internet-of-Things (IoT) solution that leverages distributed light-emitting diode (LED) to provide high spectral efficiency and low-power communication services. However, practical scenarios often suffer from interference caused by external light sources, leading to severe link blockages. To address this challenge, we propose a novel hybrid-color VLBC system enabled by embedded reconfigurable intelligent surfaces (RIS), a promising sixth-generation (6G) candidate technology, to enhance channel quality and improve wireless communication performance. The proposed system employs a controllable RIS consisting of a liquid crystal modulation switch and an information-carrying tag to control the optical link radiated by the red-green-blue-yellow (RGBY) LED. By implementing embedded optimization algorithms, mixed light illumination parameters and relative spectral power distribution are adjusted to achieve superior color rendering and enhanced overall system anti-interference capabilities. Furthermore, we conducted an overhead analysis to evaluate the computational complexity introduced by reflective losses and hybrid-color optimization. Experimental results demonstrate that hybrid-color optimization achieves severalfold performance improvements, while the RIS-enabled system requires additional signal compensation. By implementing embedded algorithms, the proposed system maintains computational efficiency and rapid signal stabilization while achieving a practical balance between improved spectral efficiency and acceptable processing latency, making it suitable for latency-bounded, low-rate IoT communication scenarios.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -63,62 +34,9 @@
       "doi": "10.1145/3842738",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3842738"
-    },
-    {
-      "id": "doi:10.1145/3840394",
-      "source": "library",
-      "kind": "journal",
-      "title": "Job-Level Dynamic Cache Allocation for Real-Time Systems under Shared LLC Interference",
-      "authors": [
-        "Michaël Lauer",
-        "Alexis Générès",
-        "Jean-Charles Fabre"
-      ],
-      "summary": "",
-      "venue": "TECS",
-      "venueName": "TECS",
-      "journalName": "ACM Transactions on Embedded Computing Systems",
-      "area": "Embedded Systems",
-      "year": 2026,
-      "month": "2026-08",
-      "track": "未标注 Track",
-      "published": "2026-08-21",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "doi": "10.1145/3840394",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3840394"
-    },
-    {
-      "id": "doi:10.1145/3841170",
-      "source": "library",
-      "kind": "journal",
-      "title": "MEDEA: A Design-Time Multi-Objective Manager for Energy-Efficient DNN Inference on Heterogeneous Ultra-Low Power Platforms",
-      "authors": [
-        "Hossein Taji",
-        "Jose Miranda",
-        "Miguel Peon Quiros",
-        "David Atienza"
-      ],
-      "summary": "",
-      "venue": "TECS",
-      "venueName": "TECS",
-      "journalName": "ACM Transactions on Embedded Computing Systems",
-      "area": "Embedded Systems",
-      "year": 2026,
-      "month": "2026-08",
-      "track": "未标注 Track",
-      "published": "2026-08-15",
-      "volume": "",
-      "issue": "",
-      "pages": "",
-      "doi": "10.1145/3841170",
-      "dblpKey": "",
-      "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3841170"
+      "url": "https://doi.org/10.1145/3842738",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3842738"
     },
     {
       "id": "doi:10.1145/3820764",
@@ -131,7 +49,7 @@
         "Weichen Liu",
         "Wanli Chang"
       ],
-      "summary": "",
+      "summary": "Modern clustered (power-island) multicore processors increasingly expose retention as a low-overhead low-power state, yet exploiting it in real-time systems critically depends on whether the scheduler can create sufficiently long cluster-level all-cores-idle windows that exceed a break-even length. This feasibility bottleneck is particularly acute for always-on arbitrary-deadline Directed Acyclic Graph (DAG) workloads, where precedence-induced execution fluctuations fragment idle times and the relative deadline may exceed the period. This paper proposes a retention-oriented scheduling framework for such workloads, consisting of two algorithms with a clear progression. PRES performs design-time planning and constructs a postponable division for each DAG, reshaping execution to aggregate slack into contiguous cluster-level idle windows; a lightweight event-driven runtime then enforces the plan and triggers retention without increasing online scheduling complexity. Building on PRES, PREHS further improves core utilization via multi-DAG merging and intra-cluster spatial sharing, consolidating workload onto fewer active clusters to reduce static/leakage energy while preserving deadline guarantees. We conduct extensive experiments across diverse cluster configurations and DAG structural characteristics, and further include a case study based on an application-derived DAG from a real-world communication/signal-processing pipeline. The results show that, compared with a representative work-conserving baseline with automatic retention/PG, PREHS reduces static energy consumption by up to 65.62%; moreover, under the same resource constraints, PREHS improves task acceptance ratio over PRES by up to 43 percentage points, with the largest gains observed in resource-tight configurations.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -146,7 +64,9 @@
       "doi": "10.1145/3820764",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3820764"
+      "url": "https://doi.org/10.1145/3820764",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3820764"
     },
     {
       "id": "doi:10.1145/3837759",
@@ -160,7 +80,7 @@
         "Zhaoyang Huang",
         "Huailiang Tan"
       ],
-      "summary": "",
+      "summary": "Autonomous vehicles at L2 and above are increasingly relying on stereo vision systems, where haze removal is critical to detect obstacles hidden in fog. Existing image haze removal techniques have low processing speed and high resource consumption, restricting their application scope in practice. In this work, we propose a hardware-software co-design solution for haze removal. It fully decouples the calculation of the two main parameters, i.e., atmospheric light and transmission, in the dehazing process. By eliminating the data dependency, parallelism in hardware acceleration is enhanced. Furthermore, in replacement of the conventional global homogeneous atmospheric light computation, we report a chunk-based heterogeneous method to reduce cache overhead. Our approach is implemented on both GPU and FPGA, compared against six state-of-the-art (SOTA) works for image haze removal. Evaluation using test sets of real-world foggy driving scenarios shows that our object detection accuracy is over 88%, 9.5%-47.4% better than the SOTA works with neural networks (NN) on GPU, 42.2% better than the non-NN SOTA on GPU, and 25.9%-52.2% better than the SOTA works on FPGA. The processing speed varies with image resolution and our improvement is generally even more at higher resolution. In FPGA implementation, our approach is 29.7% faster than the fastest SOTA at the lowest resolution of 360p. We have the lowest overall resource consumption, where the bottleneck BRAM usage is reduced by over 70%. In GPU implementation, our approach is 2-3 orders of magnitude faster than the NN-based SOTA works, and saves two orders of magnitude in memory, from about 10GB to hundreds of MB. The non-NN SOTA on GPU also consumes hundreds of MB in memory, and we are 31.4% to 66.5% faster than it, at different resolutions. Our power consumption is 5.7W and 53W, the lowest in the FPGA and GPU category, respectively. To compare between ourselves in timing, both take several milliseconds. The GPU solution is slightly faster and more scalable, yet with fluctuation of -5.3% to +22.2%. The FPGA solution has circuit-level timing determinism at nanosecond, hence suitable for hard real-time applications.",
       "venue": "TECS",
       "venueName": "TECS",
       "journalName": "ACM Transactions on Embedded Computing Systems",
@@ -175,7 +95,9 @@
       "doi": "10.1145/3837759",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://doi.org/10.1145/3837759"
+      "url": "https://doi.org/10.1145/3837759",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837759"
     }
   ]
 }

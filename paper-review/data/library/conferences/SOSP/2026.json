@@ -2,7 +2,7 @@
   "meta": {
     "venue": "SOSP",
     "year": 2026,
-    "count": 111
+    "count": 123
   },
   "records": [
     {
@@ -26,7 +26,9 @@
       "doi": "10.1145/3837779.3838168",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838168"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838168",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838168"
     },
     {
       "id": "doi:10.1145/3831664.3837790",
@@ -51,7 +53,9 @@
       "doi": "10.1145/3831664.3837790",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837790"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837790",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837790"
     },
     {
       "id": "doi:10.1145/3830418.3843895",
@@ -86,7 +90,9 @@
       "doi": "10.1145/3830418.3843895",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843895"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843895",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843895"
     },
     {
       "id": "doi:10.1145/3830418.3843888",
@@ -113,7 +119,9 @@
       "doi": "10.1145/3830418.3843888",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843888"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843888",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843888"
     },
     {
       "id": "doi:10.1145/3837779.3838159",
@@ -140,7 +148,9 @@
       "doi": "10.1145/3837779.3838159",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838159"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838159",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838159"
     },
     {
       "id": "doi:10.1145/3830418.3843868",
@@ -169,7 +179,9 @@
       "doi": "10.1145/3830418.3843868",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843868"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843868",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843868"
     },
     {
       "id": "doi:10.1145/3830418.3843884",
@@ -201,7 +213,9 @@
       "doi": "10.1145/3830418.3843884",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843884"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843884",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843884"
     },
     {
       "id": "doi:10.1145/3830418.3843887",
@@ -227,7 +241,9 @@
       "doi": "10.1145/3830418.3843887",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843887"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843887",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843887"
     },
     {
       "id": "doi:10.1145/3830418.3843873",
@@ -252,7 +268,9 @@
       "doi": "10.1145/3830418.3843873",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843873"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843873",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843873"
     },
     {
       "id": "doi:10.1145/3830418.3843899",
@@ -281,7 +299,9 @@
       "doi": "10.1145/3830418.3843899",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843899"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843899",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843899"
     },
     {
       "id": "doi:10.1145/3830418.3843907",
@@ -306,7 +326,34 @@
       "doi": "10.1145/3830418.3843907",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843907"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843907",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843907"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844689",
+      "source": "library",
+      "kind": "conference",
+      "title": "Using Epistemic Observability in Agentic Systems for Combating Hallucinations",
+      "authors": [
+        "Tony Mason",
+        "Vaastav Anand"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "64-69",
+      "doi": "10.1145/3843967.3844689",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844689",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844689"
     },
     {
       "id": "doi:10.1145/3837779.3838165",
@@ -331,7 +378,36 @@
       "doi": "10.1145/3837779.3838165",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838165"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838165",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838165"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844685",
+      "source": "library",
+      "kind": "conference",
+      "title": "Understanding the Use and Impact of AI-Coding Assistants and Agents in System Development",
+      "authors": [
+        "Weidong Zhu",
+        "Arjun Arunasalam",
+        "Chen Chen",
+        "Raju Rangaswami"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "44-48",
+      "doi": "10.1145/3843967.3844685",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844685",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844685"
     },
     {
       "id": "doi:10.1145/3830418.3843885",
@@ -356,7 +432,9 @@
       "doi": "10.1145/3830418.3843885",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843885"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843885",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843885"
     },
     {
       "id": "doi:10.1145/3830418.3843881",
@@ -384,7 +462,9 @@
       "doi": "10.1145/3830418.3843881",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843881"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843881",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843881"
     },
     {
       "id": "doi:10.1145/3837779.3838157",
@@ -407,7 +487,9 @@
       "doi": "10.1145/3837779.3838157",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838157"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838157",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838157"
     },
     {
       "id": "doi:10.1145/3831664.3837785",
@@ -431,7 +513,9 @@
       "doi": "10.1145/3831664.3837785",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837785"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837785",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837785"
     },
     {
       "id": "doi:10.1145/3830418.3843905",
@@ -457,7 +541,9 @@
       "doi": "10.1145/3830418.3843905",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843905"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843905",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843905"
     },
     {
       "id": "doi:10.1145/3831664.3837780",
@@ -481,7 +567,9 @@
       "doi": "10.1145/3831664.3837780",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837780"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837780",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837780"
     },
     {
       "id": "doi:10.1145/3830418.3843898",
@@ -505,7 +593,9 @@
       "doi": "10.1145/3830418.3843898",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843898"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843898",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843898"
     },
     {
       "id": "doi:10.1145/3830418.3843859",
@@ -540,7 +630,9 @@
       "doi": "10.1145/3830418.3843859",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843859"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843859",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843859"
     },
     {
       "id": "doi:10.1145/3830418.3843872",
@@ -567,7 +659,9 @@
       "doi": "10.1145/3830418.3843872",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843872"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843872",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843872"
     },
     {
       "id": "doi:10.1145/3830418.3843855",
@@ -592,7 +686,9 @@
       "doi": "10.1145/3830418.3843855",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843855"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843855",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843855"
     },
     {
       "id": "doi:10.1145/3830418.3843857",
@@ -619,7 +715,9 @@
       "doi": "10.1145/3830418.3843857",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843857"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843857",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843857"
     },
     {
       "id": "doi:10.1145/3831664.3837791",
@@ -646,7 +744,9 @@
       "doi": "10.1145/3831664.3837791",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837791"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837791",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837791"
     },
     {
       "id": "doi:10.1145/3830418.3843891",
@@ -671,7 +771,35 @@
       "doi": "10.1145/3830418.3843891",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843891"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843891",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843891"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844680",
+      "source": "library",
+      "kind": "conference",
+      "title": "Survival of the Luckiest: The Impacts of Noisy Evaluation in Agentic Evolution for Systems",
+      "authors": [
+        "Johannes Freischuetz",
+        "Venkatesh Emani",
+        "Shivaram Venkataraman"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "14-20",
+      "doi": "10.1145/3843967.3844680",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844680",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844680"
     },
     {
       "id": "doi:10.1145/3830418.3843869",
@@ -699,7 +827,9 @@
       "doi": "10.1145/3830418.3843869",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843869"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843869",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843869"
     },
     {
       "id": "doi:10.1145/3830418.3843900",
@@ -725,7 +855,9 @@
       "doi": "10.1145/3830418.3843900",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843900"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843900",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843900"
     },
     {
       "id": "doi:10.1145/3830418.3843894",
@@ -753,7 +885,9 @@
       "doi": "10.1145/3830418.3843894",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843894"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843894",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843894"
     },
     {
       "id": "doi:10.1145/3831664.3837781",
@@ -778,7 +912,9 @@
       "doi": "10.1145/3831664.3837781",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837781"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837781",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837781"
     },
     {
       "id": "doi:10.1145/3830418.3843883",
@@ -810,7 +946,9 @@
       "doi": "10.1145/3830418.3843883",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843883"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843883",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843883"
     },
     {
       "id": "doi:10.1145/3830418.3843882",
@@ -837,7 +975,9 @@
       "doi": "10.1145/3830418.3843882",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843882"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843882",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843882"
     },
     {
       "id": "doi:10.1145/3830418.3843874",
@@ -862,7 +1002,9 @@
       "doi": "10.1145/3830418.3843874",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843874"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843874",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843874"
     },
     {
       "id": "doi:10.1145/3830418.3843865",
@@ -888,7 +1030,60 @@
       "doi": "10.1145/3830418.3843865",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843865"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843865",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843865"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844683",
+      "source": "library",
+      "kind": "conference",
+      "title": "Short: The Monolingual Assumption: What Web Agents Pay to Work Beyond English",
+      "authors": [
+        "Hannah B. Pasandi",
+        "Haniyeh B. Pasandi"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "33-38",
+      "doi": "10.1145/3843967.3844683",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844683",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844683"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844679",
+      "source": "library",
+      "kind": "conference",
+      "title": "Short: Plan as the Unit of Accounting in Agentic AI",
+      "authors": [
+        "Hannaneh B. Pasandi",
+        "Negar Arabzadeh",
+        "Melissa Pan"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "8-13",
+      "doi": "10.1145/3843967.3844679",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844679",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844679"
     },
     {
       "id": "doi:10.1145/3831664.3837788",
@@ -914,7 +1109,9 @@
       "doi": "10.1145/3831664.3837788",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837788"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837788",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837788"
     },
     {
       "id": "doi:10.1145/3830418.3843889",
@@ -938,7 +1135,9 @@
       "doi": "10.1145/3830418.3843889",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843889"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843889",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843889"
     },
     {
       "id": "doi:10.1145/3830418.3843860",
@@ -962,7 +1161,9 @@
       "doi": "10.1145/3830418.3843860",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843860"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843860",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843860"
     },
     {
       "id": "doi:10.1145/3830418.3843911",
@@ -989,7 +1190,9 @@
       "doi": "10.1145/3830418.3843911",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843911"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843911",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843911"
     },
     {
       "id": "doi:10.1145/3831664.3837783",
@@ -1016,7 +1219,9 @@
       "doi": "10.1145/3831664.3837783",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837783"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837783",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837783"
     },
     {
       "id": "doi:10.1145/3830418.3843878",
@@ -1049,7 +1254,9 @@
       "doi": "10.1145/3830418.3843878",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843878"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843878",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843878"
     },
     {
       "id": "doi:10.1145/3831664.3837786",
@@ -1073,7 +1280,9 @@
       "doi": "10.1145/3831664.3837786",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837786"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837786",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837786"
     },
     {
       "id": "doi:10.1145/3837779.3838160",
@@ -1097,7 +1306,9 @@
       "doi": "10.1145/3837779.3838160",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838160"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838160",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838160"
     },
     {
       "id": "doi:10.1145/3830418.3843854",
@@ -1125,7 +1336,9 @@
       "doi": "10.1145/3830418.3843854",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843854"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843854",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843854"
     },
     {
       "id": "doi:10.1145/3837779.3838158",
@@ -1148,7 +1361,9 @@
       "doi": "10.1145/3837779.3838158",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838158"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838158",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838158"
     },
     {
       "id": "doi:10.1145/3830418.3843890",
@@ -1176,7 +1391,34 @@
       "doi": "10.1145/3830418.3843890",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843890"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843890",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843890"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844688",
+      "source": "library",
+      "kind": "conference",
+      "title": "Position Paper: Crash-Safe Effects for Agents in Operational Systems",
+      "authors": [
+        "Hannah B. Pasandi",
+        "Mohammad Sepahi"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "58-63",
+      "doi": "10.1145/3843967.3844688",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844688",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844688"
     },
     {
       "id": "doi:10.1145/3830418.3843903",
@@ -1204,7 +1446,9 @@
       "doi": "10.1145/3830418.3843903",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843903"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843903",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843903"
     },
     {
       "id": "doi:10.1145/3837779.3838169",
@@ -1227,7 +1471,9 @@
       "doi": "10.1145/3837779.3838169",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838169"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838169",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838169"
     },
     {
       "id": "doi:10.1145/3831664.3837789",
@@ -1252,7 +1498,9 @@
       "doi": "10.1145/3831664.3837789",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837789"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837789",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837789"
     },
     {
       "id": "doi:10.1145/3830418.3843912",
@@ -1278,7 +1526,9 @@
       "doi": "10.1145/3830418.3843912",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843912"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843912",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843912"
     },
     {
       "id": "doi:10.1145/3837779.3838164",
@@ -1301,7 +1551,9 @@
       "doi": "10.1145/3837779.3838164",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838164"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838164",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838164"
     },
     {
       "id": "doi:10.1145/3837779.3838156",
@@ -1323,7 +1575,9 @@
       "doi": "10.1145/3837779.3838156",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838156"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838156",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838156"
     },
     {
       "id": "doi:10.1145/3830418.3843856",
@@ -1354,7 +1608,9 @@
       "doi": "10.1145/3830418.3843856",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843856"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843856",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843856"
     },
     {
       "id": "doi:10.1145/3831664.3837784",
@@ -1381,7 +1637,9 @@
       "doi": "10.1145/3831664.3837784",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837784"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837784",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837784"
     },
     {
       "id": "doi:10.1145/3830418.3843866",
@@ -1412,7 +1670,9 @@
       "doi": "10.1145/3830418.3843866",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843866"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843866",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843866"
     },
     {
       "id": "doi:10.1145/3830418.3843908",
@@ -1438,7 +1698,9 @@
       "doi": "10.1145/3830418.3843908",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843908"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843908",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843908"
     },
     {
       "id": "doi:10.1145/3830418.3843879",
@@ -1463,7 +1725,9 @@
       "doi": "10.1145/3830418.3843879",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843879"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843879",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843879"
     },
     {
       "id": "doi:10.1145/3830418.3843893",
@@ -1486,7 +1750,35 @@
       "doi": "10.1145/3830418.3843893",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843893"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843893",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843893"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844681",
+      "source": "library",
+      "kind": "conference",
+      "title": "Learning on the GPUs the World Owns: A Fleet Contract for Learned Systems on Commodity Hardware",
+      "authors": [
+        "Hannaneh B. Pasandi",
+        "Mohammad Hosseini",
+        "Sina Darabi"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "21-26",
+      "doi": "10.1145/3843967.3844681",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844681",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844681"
     },
     {
       "id": "doi:10.1145/3830418.3843871",
@@ -1513,7 +1805,9 @@
       "doi": "10.1145/3830418.3843871",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843871"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843871",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843871"
     },
     {
       "id": "doi:10.1145/3830418.3843901",
@@ -1538,7 +1832,9 @@
       "doi": "10.1145/3830418.3843901",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843901"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843901",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843901"
     },
     {
       "id": "doi:10.1145/3837779.3838166",
@@ -1563,7 +1859,9 @@
       "doi": "10.1145/3837779.3838166",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838166"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838166",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838166"
     },
     {
       "id": "doi:10.1145/3830418.3843867",
@@ -1601,7 +1899,9 @@
       "doi": "10.1145/3830418.3843867",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843867"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843867",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843867"
     },
     {
       "id": "doi:10.1145/3830418.3843896",
@@ -1628,7 +1928,9 @@
       "doi": "10.1145/3830418.3843896",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843896"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843896",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843896"
     },
     {
       "id": "doi:10.1145/3830418.3843876",
@@ -1655,7 +1957,9 @@
       "doi": "10.1145/3830418.3843876",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843876"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843876",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843876"
     },
     {
       "id": "doi:10.1145/3837779.3838170",
@@ -1678,7 +1982,9 @@
       "doi": "10.1145/3837779.3838170",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838170"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838170",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838170"
     },
     {
       "id": "doi:10.1145/3831664.3837787",
@@ -1704,7 +2010,9 @@
       "doi": "10.1145/3831664.3837787",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837787"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837787",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837787"
     },
     {
       "id": "doi:10.1145/3830418.3843870",
@@ -1729,7 +2037,9 @@
       "doi": "10.1145/3830418.3843870",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843870"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843870",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843870"
     },
     {
       "id": "doi:10.1145/3837779.3838161",
@@ -1753,7 +2063,9 @@
       "doi": "10.1145/3837779.3838161",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838161"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838161",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838161"
     },
     {
       "id": "doi:10.1145/3837779.3838167",
@@ -1778,7 +2090,9 @@
       "doi": "10.1145/3837779.3838167",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838167"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838167",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838167"
     },
     {
       "id": "doi:10.1145/3830418.3843904",
@@ -1806,7 +2120,35 @@
       "doi": "10.1145/3830418.3843904",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843904"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843904",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843904"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844678",
+      "source": "library",
+      "kind": "conference",
+      "title": "Don't Trust the Code, Check Its Effects: Runtime Refinement for Regenerated Systems Code Under an Adversarial Generator",
+      "authors": [
+        "Jinhao Hu",
+        "Ashvin Goel",
+        "Laurent Bindschaedler"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "1-7",
+      "doi": "10.1145/3843967.3844678",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844678",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844678"
     },
     {
       "id": "doi:10.1145/3830418.3843858",
@@ -1833,7 +2175,9 @@
       "doi": "10.1145/3830418.3843858",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843858"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843858",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843858"
     },
     {
       "id": "doi:10.1145/3830418.3843886",
@@ -1859,7 +2203,33 @@
       "doi": "10.1145/3830418.3843886",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843886"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843886",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843886"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844684",
+      "source": "library",
+      "kind": "conference",
+      "title": "Defining AI-Native Systems: Autonomy as the Authority to Revise (Position Paper)",
+      "authors": [
+        "Cheng Tan"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "39-43",
+      "doi": "10.1145/3843967.3844684",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844684",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844684"
     },
     {
       "id": "doi:10.1145/3830418.3843862",
@@ -1885,7 +2255,9 @@
       "doi": "10.1145/3830418.3843862",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843862"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843862",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843862"
     },
     {
       "id": "doi:10.1145/3830418.3843853",
@@ -1909,7 +2281,9 @@
       "doi": "10.1145/3830418.3843853",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843853"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843853",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843853"
     },
     {
       "id": "doi:10.1145/3830418.3843880",
@@ -1943,7 +2317,9 @@
       "doi": "10.1145/3830418.3843880",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843880"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843880",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843880"
     },
     {
       "id": "doi:10.1145/3837779.3838163",
@@ -1969,7 +2345,9 @@
       "doi": "10.1145/3837779.3838163",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838163"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838163",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838163"
     },
     {
       "id": "doi:10.1145/3830418.3843863",
@@ -2002,7 +2380,9 @@
       "doi": "10.1145/3830418.3843863",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843863"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843863",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843863"
     },
     {
       "id": "doi:10.1145/3830418.3843910",
@@ -2025,7 +2405,9 @@
       "doi": "10.1145/3830418.3843910",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843910"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843910",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843910"
     },
     {
       "id": "doi:10.1145/3837779.3838162",
@@ -2054,7 +2436,9 @@
       "doi": "10.1145/3837779.3838162",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3837779.3838162"
+      "url": "https://dl.acm.org/doi/10.1145/3837779.3838162",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3837779.3838162"
     },
     {
       "id": "doi:10.1145/3830418.3843864",
@@ -2080,7 +2464,9 @@
       "doi": "10.1145/3830418.3843864",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843864"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843864",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843864"
     },
     {
       "id": "doi:10.1145/3830418.3843909",
@@ -2108,7 +2494,9 @@
       "doi": "10.1145/3830418.3843909",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843909"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843909",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843909"
     },
     {
       "id": "doi:10.1145/3830418.3843906",
@@ -2135,7 +2523,9 @@
       "doi": "10.1145/3830418.3843906",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843906"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843906",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843906"
     },
     {
       "id": "doi:10.1145/3830418.3843897",
@@ -2165,7 +2555,9 @@
       "doi": "10.1145/3830418.3843897",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843897"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843897",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843897"
     },
     {
       "id": "doi:10.1145/3830418.3843913",
@@ -2190,7 +2582,9 @@
       "doi": "10.1145/3830418.3843913",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843913"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843913",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843913"
     },
     {
       "id": "doi:10.1145/3830418.3843877",
@@ -2223,7 +2617,40 @@
       "doi": "10.1145/3830418.3843877",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843877"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843877",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843877"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844682",
+      "source": "library",
+      "kind": "conference",
+      "title": "Argo: Efficient Importance Labeling for Enterprise Email Systems",
+      "authors": [
+        "Siddhant Ray",
+        "Ganesh Ananthanarayanan",
+        "Kevin Chian",
+        "Yan Guo",
+        "Cristina St Hill",
+        "Jack W. Stokes",
+        "Victor Wang",
+        "Junchen Jiang"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "27-32",
+      "doi": "10.1145/3843967.3844682",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844682",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844682"
     },
     {
       "id": "doi:10.1145/3831664.3837782",
@@ -2249,7 +2676,9 @@
       "doi": "10.1145/3831664.3837782",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3831664.3837782"
+      "url": "https://dl.acm.org/doi/10.1145/3831664.3837782",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3831664.3837782"
     },
     {
       "id": "doi:10.1145/3830418.3843861",
@@ -2279,7 +2708,9 @@
       "doi": "10.1145/3830418.3843861",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843861"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843861",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843861"
     },
     {
       "id": "doi:10.1145/3830418.3843875",
@@ -2305,7 +2736,64 @@
       "doi": "10.1145/3830418.3843875",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843875"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843875",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843875"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844686",
+      "source": "library",
+      "kind": "conference",
+      "title": "Agents Break the Scheduler: Why ML-Based Resource Managers Fail for Agentic Workloads",
+      "authors": [
+        "Sheetal Sriram"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "49-52",
+      "doi": "10.1145/3843967.3844686",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844686",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844686"
+    },
+    {
+      "id": "doi:10.1145/3843967.3844687",
+      "source": "library",
+      "kind": "conference",
+      "title": "AgentLoupe: Kernel-Resident Semantic Causal Labels for AI Agent Observability",
+      "authors": [
+        "Yifei Bao",
+        "Ting Liu",
+        "Yuxin Ren",
+        "Ruizhe Huang",
+        "Likang Luo",
+        "Ziteng Xu",
+        "Yu Wang",
+        "Peng Jiang"
+      ],
+      "summary": "",
+      "venue": "SOSP",
+      "venueName": "SOSP",
+      "area": "Systems",
+      "year": 2026,
+      "month": "",
+      "track": "未标注 Track",
+      "published": "2026-09-29",
+      "pages": "53-57",
+      "doi": "10.1145/3843967.3844687",
+      "dblpKey": "",
+      "dblpUrl": "",
+      "url": "https://dl.acm.org/doi/10.1145/3843967.3844687",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3843967.3844687"
     },
     {
       "id": "doi:10.1145/3830418.3843902",
@@ -2336,7 +2824,9 @@
       "doi": "10.1145/3830418.3843902",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843902"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843902",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843902"
     },
     {
       "id": "doi:10.1145/3830418.3843892",
@@ -2363,7 +2853,9 @@
       "doi": "10.1145/3830418.3843892",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843892"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843892",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843892"
     },
     {
       "id": "doi:10.1145/3830418.3843852",
@@ -2398,7 +2890,9 @@
       "doi": "10.1145/3830418.3843852",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3830418.3843852"
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843852",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3830418.3843852"
     },
     {
       "id": "doi:10.1145/3798065.3798070",
@@ -2428,7 +2922,9 @@
       "doi": "10.1145/3798065.3798070",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798070"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798070",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798070"
     },
     {
       "id": "doi:10.1145/3798065.3798075",
@@ -2453,7 +2949,9 @@
       "doi": "10.1145/3798065.3798075",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798075"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798075",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798075"
     },
     {
       "id": "doi:10.1145/3798065.3798080",
@@ -2480,7 +2978,9 @@
       "doi": "10.1145/3798065.3798080",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798080"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798080",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798080"
     },
     {
       "id": "doi:10.1145/3798065.3798078",
@@ -2507,7 +3007,9 @@
       "doi": "10.1145/3798065.3798078",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798078"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798078",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798078"
     },
     {
       "id": "doi:10.1145/3798065.3798085",
@@ -2530,7 +3032,9 @@
       "doi": "10.1145/3798065.3798085",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798085"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798085",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798085"
     },
     {
       "id": "doi:10.1145/3798065.3798081",
@@ -2556,7 +3060,9 @@
       "doi": "10.1145/3798065.3798081",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798081"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798081",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798081"
     },
     {
       "id": "doi:10.1145/3798065.3798073",
@@ -2586,7 +3092,9 @@
       "doi": "10.1145/3798065.3798073",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798073"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798073",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798073"
     },
     {
       "id": "doi:10.1145/3798065.3798088",
@@ -2611,7 +3119,9 @@
       "doi": "10.1145/3798065.3798088",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798088"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798088",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798088"
     },
     {
       "id": "doi:10.1145/3798065.3798074",
@@ -2639,7 +3149,9 @@
       "doi": "10.1145/3798065.3798074",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798074"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798074",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798074"
     },
     {
       "id": "doi:10.1145/3798065.3798086",
@@ -2666,7 +3178,9 @@
       "doi": "10.1145/3798065.3798086",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798086"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798086",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798086"
     },
     {
       "id": "doi:10.1145/3798065.3798069",
@@ -2690,7 +3204,9 @@
       "doi": "10.1145/3798065.3798069",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798069"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798069",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798069"
     },
     {
       "id": "doi:10.1145/3798065.3798067",
@@ -2714,7 +3230,9 @@
       "doi": "10.1145/3798065.3798067",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798067"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798067",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798067"
     },
     {
       "id": "doi:10.1145/3798065.3798087",
@@ -2739,7 +3257,9 @@
       "doi": "10.1145/3798065.3798087",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798087"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798087",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798087"
     },
     {
       "id": "doi:10.1145/3798065.3798068",
@@ -2767,7 +3287,9 @@
       "doi": "10.1145/3798065.3798068",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798068"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798068",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798068"
     },
     {
       "id": "doi:10.1145/3798065.3798083",
@@ -2794,7 +3316,9 @@
       "doi": "10.1145/3798065.3798083",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798083"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798083",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798083"
     },
     {
       "id": "doi:10.1145/3798065.3798076",
@@ -2819,7 +3343,9 @@
       "doi": "10.1145/3798065.3798076",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798076"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798076",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798076"
     },
     {
       "id": "doi:10.1145/3798065.3798071",
@@ -2845,7 +3371,9 @@
       "doi": "10.1145/3798065.3798071",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798071"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798071",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798071"
     },
     {
       "id": "doi:10.1145/3798065.3798072",
@@ -2872,7 +3400,9 @@
       "doi": "10.1145/3798065.3798072",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798072"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798072",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798072"
     },
     {
       "id": "doi:10.1145/3798065.3798077",
@@ -2899,7 +3429,9 @@
       "doi": "10.1145/3798065.3798077",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798077"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798077",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798077"
     },
     {
       "id": "doi:10.1145/3798065.3798082",
@@ -2922,7 +3454,9 @@
       "doi": "10.1145/3798065.3798082",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798082"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798082",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798082"
     },
     {
       "id": "doi:10.1145/3798065.3798079",
@@ -2947,7 +3481,9 @@
       "doi": "10.1145/3798065.3798079",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798079"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798079",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798079"
     },
     {
       "id": "doi:10.1145/3798065.3798084",
@@ -2974,7 +3510,9 @@
       "doi": "10.1145/3798065.3798084",
       "dblpKey": "",
       "dblpUrl": "",
-      "url": "https://dl.acm.org/doi/10.1145/3798065.3798084"
+      "url": "https://dl.acm.org/doi/10.1145/3798065.3798084",
+      "publisher": "ACM",
+      "publisherUrl": "https://dl.acm.org/doi/10.1145/3798065.3798084"
     }
   ]
 }
