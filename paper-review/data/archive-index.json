@@ -1,6 +1,12 @@
 {
   "snapshots": [
     {
+      "date": "2026-11-09",
+      "path": "data/archive/2026-11-09.json",
+      "count": 81,
+      "generatedAt": "2026-11-09T09:27:10.237120Z"
+    },
+    {
       "date": "2026-11-06",
       "path": "data/archive/2026-11-06.json",
       "count": 69,
