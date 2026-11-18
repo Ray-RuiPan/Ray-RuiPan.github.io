@@ -1,0 +1,1449 @@
+{
+  "meta": {
+    "generatedAt": "2026-11-18T09:55:25.921928Z",
+    "displayTimeZone": "Asia/Shanghai",
+    "feedUpdated": "2026-11-18T09:55:25.821693+00:00",
+    "sourceUrl": "https://rss.arxiv.org/atom/cs.AR+cs.DC+cs.NI+cs.PL+cs.OS",
+    "categories": [
+      "cs.AR",
+      "cs.DC",
+      "cs.NI",
+      "cs.PL",
+      "cs.OS"
+    ],
+    "count": 67,
+    "displayDate": "2026-11-18"
+  },
+  "papers": [
+    {
+      "id": "2611.21663",
+      "versionedId": "2611.21663v1",
+      "title": "Multicore Quantum Architecture for Scalable and Energy-Aware Green IoT Computing",
+      "authors": [
+        "Seham Al Abdul Wahid",
+        "Farah Mohammadi",
+        "Yazan Otoum",
+        "Arghavan Asad"
+      ],
+      "summary": "The rapid growth of the Internet of Things (IoT) is increasing the computational demand placed on edge and backend processing infrastructures, motivating scalable architectures that can reduce execution and communication overhead. This paper presents a communication-aware comparison of homogeneous multicore classical and quantum architectures for Green IoT using the Qcomm simulator. In addition, a mesh-based, homogeneous, quantum-classical multicore architecture is proposed to enable scalable, efficient execution of distributed quantum workloads. We evaluate a 4x4 mesh of 16 processing cores under regular, classical-bottleneck, and quantum-bottleneck conditions, and study the effects of traffic pattern and Light-to-Matter (LTM) port provisioning on performance. Results show that butterfly traffic yields the largest gains over uniform traffic in both execution time and qubit coherence, while performance benefits from additional LTM ports saturate beyond four ports. At the algorithm level, homogeneous Multi Quantum Processing Units (QPUs) achieve 10x, 9x, and 7x energy efficiency improvements in comparison to Multi-CPUs for Quantum Approximate Optimization Algorithm (QAOA), Variational Quantum Eigensolver (VQE), and Quantum Neural Network (QNN), respectively. The paper's findings show that communication-aware multicore quantum architectures are promising for latency-sensitive IoT processing. Furthermore, the results validate the proposed architecture and provide a foundation for future scheduling and resource management techniques to improve scalability and efficiency in multi-QPU systems.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.821804+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21663",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21663"
+    },
+    {
+      "id": "2611.21666",
+      "versionedId": "2611.21666v1",
+      "title": "Testyard Benchmarks: a Dynamic RISC-V-based Benchmark Framework including DfT insertion, Structural and Functional Test Flows",
+      "authors": [
+        "Francesco Angione",
+        "Nicola di Gruttola Giardino",
+        "Gabriele Filipponi",
+        "Giusy Iaria",
+        "Irith Pomeranz",
+        "Paolo Bernardi"
+      ],
+      "summary": "The main challenge of modern computing manufacturing is to produce silicon products capable of operating under the worst possible conditions, both in data centers and under stringent functional safety constraints. These requirements impose exceptionally high quality standards on silicon vendors, while testing costs keep escalating as transistors continue to shrink. Evaluating new testing strategies, however, presents a dual challenge for researchers. Standard academic benchmarks, such as the ITC-99 suite, remain valuable for fast test prototyping, but they lack the structural complexity of modern VLSI devices. Assessing the true computational effort of academic methodologies on industrial scale designs is equally difficult without accessible and scalable models. A further obstacle is the absence of a unified framework able to abstract the commands imposed by each EDA tool and the configurations tied to each technology library, forcing researchers to spend time adapting and debugging fragile scripts. This work addresses both needs by proposing the Testyard framework, built on top of the Chipyard framework, to derive a set of open-source, industrial scale benchmarks. It also extends the Hammer VLSI flow abstraction framework with hardware testing capabilities. Three new functionalities are introduced into Hammer: Design-for-Testability (DfT) insertion, ATPG, and functional tests fault simulation. Each functionality is driven by high-level descriptions, while the framework translates these inputs into the commands required by each EDA tool. The extended framework is applied to 13 representative SoC configurations from the Chipyard ecosystem, reporting the first comprehensive structural and functional test results across three technology libraries and multiple fault models, including stuck-at, transition delay, and small delay faults.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.821941+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21666",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21666"
+    },
+    {
+      "id": "2611.21677",
+      "versionedId": "2611.21677v1",
+      "title": "Chimera: A Configurable LLM Decode Accelerator Architecture with Compute-Memory-Floorplan Co-Design for HBM-Equipped Multi-Die FPGAs",
+      "authors": [
+        "Zhiheng Chen",
+        "Yifan Zhang",
+        "Yu-An Chou",
+        "Ye Qiao",
+        "Sitao Huang"
+      ],
+      "summary": "GPUs are widely used for LLM inference, but single-request decoding is memory-bound, leaving their compute underutilized while they draw substantial power. HBM-equipped FPGAs are well suited to LLM decoding: their customizable datapaths use memory bandwidth more energy-efficiently than GPUs. However, high memory bandwidth alone does not ensure high decode performance: exploiting it requires parallel compute and memory interfaces, whose resource costs and placement on the chip can limit the throughput. We present Chimera, a configurable LLM decode accelerator architecture that co-designs compute, memory access, and floorplan. Specifically, HBM Proxy Ports extend HBM access to compute lanes on every super logic region (SLR) die, and tiered expert storage holds mixture-of-experts weights beyond the HBM capacity. In addition, a unified configuration analysis estimates per-token latency and per-SLR resource use and guides the design of each configuration within resource budgets. On an AMD Alveo U280, we build ten designs for eight dense, mixture-of-experts, hybrid linear/standard-attention, and ternary LLMs, up to an 80B-parameter mixture-of-experts LLM on four memory tiers. Chimera's designs achieve a geometric mean of 1.6$\\times$ the token throughput of prior state-of-the-art FPGA implementations and 3.0$\\times$ and 1.5$\\times$ the energy efficiency of the RTX 3090 and A100 GPUs, setting a new benchmark for LLM decoding on HBM-equipped FPGAs.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.821985+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21677",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21677"
+    },
+    {
+      "id": "2611.21678",
+      "versionedId": "2611.21678v1",
+      "title": "RTLReviewBench: LLM Hardware Reviewers Rarely Miss Bugs but Routinely Reject Correct RTL",
+      "authors": [
+        "Yasir Mahmud"
+      ],
+      "summary": "Hardware teams increasingly ask large language models (LLMs) to review register-transfer level (RTL) code, yet it is unclear whether a model can tell a correct module from a buggy one without simulating it. We introduce RTLReviewBench, a benchmark of 114 matched pairs of buggy and correct Verilog modules. Each pair shares one specification, most buggy modules are real failures of LLM code generators, and every label is confirmed by simulation. Evaluating 12 commercial and open-weight models, we find a consistent asymmetry: reviewers rarely accept buggy code but often reject correct code, producing more than five false rejections for every missed bug. Synthetic mutants hide part of the problem: on the same designs, models miss far fewer injected bugs than real ones. Asking a model to reason before it commits to a verdict sharply reduces false rejections for weaker reviewers, and a controlled ablation shows that where the reasoning appears in the output matters more than the instruction to reason, whereas sampling and majority voting do not help. A blinded audit further shows that some correct \"buggy\" verdicts rest on false technical claims. We release the benchmark, a harder split for future models, all model responses, and the evaluation code at https://github.com/yasirmahmud/RTLReviewBench",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822023+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21678",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21678"
+    },
+    {
+      "id": "2611.21679",
+      "versionedId": "2611.21679v1",
+      "title": "FCP: Formal Context Protocol for Verifying LLM-Generated Artifacts",
+      "authors": [
+        "Shashank"
+      ],
+      "summary": "When a language model writes both an artifact and the tests meant to check it, a passing test is weak evidence: one misreading of the request yields a faulty artifact and a check that accepts it. We present the Formal Context Protocol (FCP), which checks AI-generated artifacts against the request itself. FCP separates conformance (does the artifact satisfy a formal reading of a requirement?), which model checkers and SMT solvers decide, from fidelity (does the reading mean what the prose means?), which has no decision procedure but is refutable by a concrete witness. Eight ways a proof can falsely certify a requirement each become a mechanical check that returns a witness, and what no machine can settle becomes concrete questions for the request's author. Adapters place hardware, text, agents and code on the same engines. On four hardware designs, trusting AI-written assertions certified 23% of violated requirements, and FCP certified none. On ten code tasks, code from three language models passed its own tests and violated the request every time. Trusting the tests certified all 33 violations, and FCP certified three. Agreement among models, readings or tests did not imply correctness.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822062+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21679",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21679"
+    },
+    {
+      "id": "2611.21824",
+      "versionedId": "2611.21824v1",
+      "title": "ASCEND: Automated Shockproof Cost-Efficient Network Design",
+      "authors": [
+        "Taha ValizadehAslani",
+        "Vaibhav Phatarpekar",
+        "Cameron Brackmann",
+        "Bala Ramachandran"
+      ],
+      "summary": "Designing resilient and cost-effective IP network topologies over an existing physical infrastructure is a challenging combinatorial optimization problem, particularly at large scale and under extensive failure modeling assumptions. Traditional deterministic approaches struggle to jointly address resiliency against shock (large customer-impact outages) and implementation cost objectives when the number of candidate circuits grows quadratically with the number of sites to be interconnected. In this paper, we propose Automated Shockproof Cost-Efficient Network Design (ASCEND), a systematic design pipeline for IP core network optimization based on a two-level optimization framework. At the outer level, ASCEND uses Multi-Objective Particle Swarm Optimization (MOPSO) to select core sites and core circuits. Given a core design, the inner-level integral Multi-Commodity Flow (MCF) formulation selects edge circuits and maps both core and edge circuits onto optical (fiber/transport) paths while prioritizing resource disjointness and latency. Network designs are evaluated using two competing objectives: a performance cost capturing resiliency under probabilistic failure scenarios and an implementation cost. The performance cost incorporates an exponentially weighted vulnerability metric that explicitly penalizes infeasible configurations. Experimental results on multiple real-world networks demonstrate that ASCEND consistently identifies designs that outperform a manually engineered baseline in both resiliency and implementation cost.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822102+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21824",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21824"
+    },
+    {
+      "id": "2611.21826",
+      "versionedId": "2611.21826v1",
+      "title": "Logical Relations on Display",
+      "authors": [
+        "Steven Schaefer",
+        "Johnson He",
+        "Max S. New"
+      ],
+      "summary": "The metatheory of programming languages suffers from a lack of reuse. Researchers develop individual calculi and prove standard properties, but very few results are truly reused across papers. The problem is worse in proof assistants, where developments routinely duplicate code from prior work or rebuild it from scratch. Category theory provides the most promising path toward reusable programming language semantics. Universal properties capture the type connectives---products, functions, sums---together with their $\\beta$/$\\eta$ laws. Free categorical structures identify syntactic calculi. \\emph{Displayed} categories provide a uniform language for specifying logical relations, and general theorems about fibrations allow their structure to be assembled compositionally. In this work we develop a library of formalized category theory in the Cubical Agda proof assistant directly applicable to programming language metatheory. We develop theories of universal properties and free categorical structures, apply them to define denotational semantics and logical relations for simply typed calculi, and identify encodings of the categorical constructions that make typechecking them tractable. From the same categorical components, we construct several familiar results via a logical relations construction---canonicity,parametricity,conservativity---and provide a proof of coherence for monoidal categories.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822139+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21826",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21826"
+    },
+    {
+      "id": "2611.21904",
+      "versionedId": "2611.21904v1",
+      "title": "Simulating Quantum Computation Using Probabilistic Programming",
+      "authors": [
+        "Yafei Yang",
+        "Chung-chieh Shan"
+      ],
+      "summary": "Developing quantum programs requires not only running them on quantum hardware but also simulating them on classical hardware. Because the meaning of a quantum program can be defined in terms of state vectors, it can be viewed as a form of weighted nondeterminism and simulated using any implementation of probabilistic programming that supports complex or at least negative weights. In this study, we compile a high-level quantum programming language to one such implementation of probabilistic programming, a solver for factor graph grammars. We also extend the solver with an optimization that commutes the tensor operations $\\mathsf{einsum}$ and $\\mathsf{expand}$. We prove that the compiler and the optimization preserve the denotational semantics of the source language. We perform benchmarks that show our straightforward implementation, by repurposing existing infrastructure for probabilistic programming, attains simulation performance in the ballpark of several other quantum simulators.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822174+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21904",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21904"
+    },
+    {
+      "id": "2611.21932",
+      "versionedId": "2611.21932v1",
+      "title": "V2V Communications Using Blockchain-Enabled 6G Technology and Federated Learning",
+      "authors": [
+        "Tahir H. Ahmed",
+        "Jun Jiat Tiang",
+        "Azwan Mahmud",
+        "Dinh-Thuan Do",
+        "Truong Tran",
+        "Shahid Mumtaz"
+      ],
+      "summary": "This study proposes an interesting approach for vehicle-to-vehicle (V2V) communication, which integrates blockchain technology, federated learning (FL), and allocation optimization of latency and resources. The research evaluates the proposed system using various performance metrics such as packet delivery ratio (PDR), model accuracy, and latency and demonstrates its superiority over existing techniques. Furthermore, the system provides enhanced security through consensus optimization and k-anonymity for data privacy. Overall, the proposed system is a promising solution for efficient and secure V2V communication in the era of connected and autonomous vehicles. Moreover, the proposed approach achieves higher reliability, lower latency, and better resource utilization compared to traditional 5G.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822209+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21932",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21932"
+    },
+    {
+      "id": "2611.21954",
+      "versionedId": "2611.21954v1",
+      "title": "ThermLeT: Transformer-based Temperature Prediction for 2.5D Chiplet Architecture",
+      "authors": [
+        "Varun Darshana Parekh",
+        "Anusha Devulapally",
+        "Sivani Devarapalli",
+        "Cassius Henderson",
+        "Shimeng Yu",
+        "Vijaykrishnan Narayanan"
+      ],
+      "summary": "The drive toward heterogeneous 2.5D chiplet packages promises unmatched performance and customization, yet the resulting density amplifies thermal challenges. To facilitate rapid design space exploration, we present ThermLeT, a multimodal transformer-based, scale invariant surrogate that integrates power density maps, spatial coordinate embeddings, material properties and heat transfer rate to predict steady state temperature in 13 ms, about four orders of magnitude faster than conventional finite element solvers such as ANSYS. To train the transformer model, we also create a dataset of 6,221 chiplet layouts perturbed from three representative architectures. On a 150 sample test set, ThermLeT achieves an RMSE of 3.16{\\deg}C and an MAE of 2.24{\\deg}C, improving accuracy by 35% over ThermEDGe and by 71% over HotSpot, while running approximately 6x and 11x lower inference latencies respectively. Ablation studies confirm robust generalization to unseen floorplans. Code and dataset available at https://github.com/MicroSystemsDesignLab/ThermLeT",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822244+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21954",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21954"
+    },
+    {
+      "id": "2611.22059",
+      "versionedId": "2611.22059v1",
+      "title": "Accelerating 3D Gaussian Splatting Training through Selective Freezing and Computation Caching",
+      "authors": [
+        "He Zhu",
+        "Zhiheng Dai",
+        "Zihan Liu",
+        "Ruyang Li",
+        "Hui Wei",
+        "Yaqian Zhao",
+        "Han Zhao",
+        "Xiaofeng Hou",
+        "Chen Chen",
+        "Jingwen Leng",
+        "Yu Feng",
+        "Minyi Guo"
+      ],
+      "summary": "3D Gaussian Splatting (3DGS) becomes a key primitive for immersive 3D experiences. However, its applicability is limited by its long training overhead. Although prior work has shown that gradient accumulation is the dominant bottleneck in training, existing works either have limited speedup or degrade reconstruction quality. To address this issue, we present ElsaGS, an algorithm-hardware co-designed framework that accelerates 3DGS training with negligible accuracy degradation. Our key observation is that most Gaussians converge early, while later iterations only refine a small subset of Gaussians. Thus, we propose a technique, progressive Gaussian freezing, which dynamically freezes well-converged Gaussians and caches their cumulative contributions, thereby reducing computations in both forward rasterization and backward gradient accumulation. To make caching efficient, we further propose an architecture, ElsaGS core, which integrates a pixel-parallel rasterization array with a set-associative frozen Gaussian cache, FGcache. Across three 3DGS datasets, ElsaGS freezes up to 90% of Gaussians with negligible quality loss and achieves up to 20.6x end-to-end speedup and 99.4% energy reduction over GPUs.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822306+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22059",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22059"
+    },
+    {
+      "id": "2611.22086",
+      "versionedId": "2611.22086v1",
+      "title": "HyCoInfer: Cloud-Edge Collaborative Inference for Large Language Models on Heterogeneous GPU-FPGA Architectures",
+      "authors": [
+        "Zewen Huang",
+        "Xiangwen Zhuge",
+        "Yingkun Hu",
+        "Zheng Yang",
+        "Qiang Ma"
+      ],
+      "summary": "Large language model (LLM) serving relies predominantly on cloud GPUs, yet autoregressive decoding is memory-bound and often leaves their arithmetic units underutilized. Edge FPGAs offer attractive decoding efficiency, but are ill suited to sustaining a high-concurrency serving workload alone. This paper presents HyCoInfer, a heterogeneous cloud-edge serving system that assigns prefill to cloud GPUs and distributes decoding across cloud GPUs and edge FPGAs. The design addresses three barriers to practical offloading: capacity balancing across heterogeneous accelerators, the large KV cache crossing a constrained wide-area link, and the latency added by heterogeneous execution. HyCoInfer incorporates FPGA decode capacity into GPU prefill/decode role partitioning and places requests according to queue load, prompt length, and network state. It further combines layer-wise pipelined transfer, decoder-side precomputation, and bandwidth-adaptive KV cache compression based on residual vector quantization. We implement HyCoInfer using two NVIDIA V100 GPUs and an AMD Xilinx Alveo U280 and evaluate it over 100-1000 Mbps links. At 500 Mbps, HyCoInfer delivers up to 4.11 times the request goodput of cloud-only vLLM and reduces mean end-to-end latency by up to 61.1%. Across different network conditions and workloads, the system improves overall serving capacity, with the largest gains on communication-intensive tasks, and reduces per-request energy.",
+      "categories": [
+        "cs.OS"
+      ],
+      "primaryCategory": "cs.OS",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822345+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22086",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22086"
+    },
+    {
+      "id": "2611.22160",
+      "versionedId": "2611.22160v1",
+      "title": "Collecting Infrastructure-Level Measures for Energy Analysis in Modern Computing Infrastructures",
+      "authors": [
+        "Isac Pasianotto",
+        "Stefano Cozzini",
+        "Niccolo Tosato"
+      ],
+      "summary": "Modern HPC facilities are complex environments in which all components are tightly coupled; consequently, precisely modeling and accounting for energy consumption requires approaches that go beyond instrumenting individual compute nodes. Aiming for a cluster-wide vision, we designed a scalable data collection pipeline that aggregates fine-grained measurements from multiple subsystems-spanning component loads, software and hardware counters, sensors and energy-ensuring consistent sampling frequencies and synchronized data acquisition across the infrastructure. We present a dataset of comprehensive metrics collected at 1 Hz over one month from a production research data center supporting heterogeneous workloads, including HPC, Kubernetes services, and distributed storage. To illustrate what this approach makes possible in practice, we analyze two case studies-distributed I/O and large-language-model inference-showing how cluster-wide measurement reveals system-level dynamics missed by localized instrumentation. The proposed dataset and collection methodology provide a foundation for future work on predictive modeling, energy-aware resource management, and more efficient computing infrastructures.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822381+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22160",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22160"
+    },
+    {
+      "id": "2611.22183",
+      "versionedId": "2611.22183v1",
+      "title": "A Compilation Model for Divergent Parallel Workloads",
+      "authors": [
+        "Alexander J Root",
+        "Christophe Gyurgyik",
+        "Devanshu Ladsaria",
+        "Rohan Sawhney",
+        "Jonathan Ragan-Kelley",
+        "Andrew Adams",
+        "Matt Pharr",
+        "Kayvon Fatahalian",
+        "Fredrik Kjolstad"
+      ],
+      "summary": "Efficient execution on modern parallel machines requires more than abundant parallelism; it demands instruction coherence, memory coherence, and load balance to maximize SIMD utilization and memory bandwidth. Efficiently mapping \\textit{divergent} parallel workloads to modern machines, where control flow, memory accesses, and unbounded iteration depend on per-thread runtime values, often requires global program restructuring that trades off increased coherence with reduced locality, parallelism, or extra work. We observe that the key optimizations used to accelerate divergent parallel programs can be expressed as compositions of well-known program transformations from the functional programming and loop optimization communities. We operationalize this insight through \\textit{parallel dispatch graphs}: a compilation model that represents divergent programs by representing control flow, data flow between logical stages, and parallel loops within a single abstraction. To facilitate rapid exploration of points in the optimization space, we provide a scheduling language that includes composable transformations of data-dependent control flow and data flow, together with standard loop transformations and hardware bindings. This separation of concerns allows the core algorithm to remain portable, while the execution schedule can be specialized to the specifics of target hardware and input data values. We evaluate our system using popular applications from the domain of spatial computing, and show that the optimization strategies of hand-optimized parallel tree traversals, path tracers, and Monte Carlo PDE solvers can be reproduced as schedules in our system. Our generated code matches or outperforms the hand-optimized implementations (geomeans $1.02$--$2.95\\times$ faster). Additionally, we demonstrate empirically that the best schedule varies across programs, machines, and inputs.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822413+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22183",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22183"
+    },
+    {
+      "id": "2611.22206",
+      "versionedId": "2611.22206v1",
+      "title": "TAILROLL: Tail-Aware Rollout Acceleration for RL-Based LLM Post-Training",
+      "authors": [
+        "Niloofar Gholipour",
+        "Marcos Assuncao",
+        "Timothy Yu",
+        "Gursimran Singh",
+        "Rajkumar Buyya",
+        "Julien Gascon-Samson",
+        "Zhenan Fan",
+        "Yong Zhang"
+      ],
+      "summary": "RL post-training of large language models (LLMs) is bottlenecked by rollout: heavy-tailed responses leave engines idle as each step waits for the longest response. Asynchronous training masks, but does not eliminate, idle time. We distinguish imbalance waste (uneven placement and decode contention) from straggler waste (waiting for the longest response). Tail length, not average load, often sets the step bound. We propose TAILROLL, an online scheduler integrated into an open-source RL framework. It combines stateless in-flight migration and sufficiency-gated termination. Migration moves decoding requests between engines at chunk boundaries and resumes them with one re-prefill under a freeness-based, cost-aware tail-balancing policy. Termination stops a response when its GRPO group has enough completed samples for advantage estimation, masking its partial output from the training loss. Across ten configurations, TAILROLL reduces rollout bubble ratio by 21% to 74% and cross-engine KV-cache imbalance by 44% to 79%. In end-to-end RL training, it cuts rollout time by 24% to 34%, full step time by 21% to 22% on long-CoT RL, and p95 request latency by 28% to 37%, while raising generation throughput by up to 33% with comparable or higher final reward.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822443+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22206",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22206"
+    },
+    {
+      "id": "2611.22280",
+      "versionedId": "2611.22280v1",
+      "title": "XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools",
+      "authors": [
+        "Yijun Sun",
+        "Xudong Liao",
+        "Zhuobin Huang",
+        "Kai Chen",
+        "Nikita Lazarev",
+        "Zhizhen Zhong"
+      ],
+      "summary": "Sparse attention has been increasingly adopted by production LLMs for long-context inference, yet serving systems must still retain the full KV history, making GPU HBM capacity a key limit on serving concurrency. Existing systems offload the KV cache to host memory, but suffer from the limited bandwidth of PCIe and the limited capacity of host memory. Emerging scale-up memory pools (e.g., X-Mem) relieve both limits and open new opportunities for sparse-attention offloading. In this paper, we first conduct an in-depth analysis and reveal that, even with scale-up memory pools, decode throughput remains bounded by HBM capacity, as hot KV buffers and the fully resident indexer key (K-index) cache occupy substantial HBM. Moreover, the two caches exhibit distinct access patterns. Based on these insights, we present XM-Sparse, the first sparse-attention offloading system over scale-up memory expansion. The core idea of XM-Sparse is to offload both caches aggressively while matching each with an I/O mechanism tailored to its access pattern. Specifically, for dynamically selected KV entries, XM-Sparse fuses TMA-based retrieval with attention in a tile-level pipeline to hide on-demand retrieval latency. For predictable K-index accesses, it prefetches pages via SM-efficient GPU-initiated DMA and coordinates prefetching with latency-critical operations to avoid interfering with decoding. We have implemented XM-Sparse atop SGLang, and our experiments on DeepSeek-V3.2 and GLM-5.3 with an emulated scale-up memory pool show that XM-Sparse delivers up to 4.98$\\times$ and 4.52$\\times$ higher decode throughput than PCIe-based ECHO and HiSparse, respectively, and up to 1.34$\\times$ over a naive integration on the same platform, across 16K-1M contexts.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822475+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22280",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22280"
+    },
+    {
+      "id": "2611.22328",
+      "versionedId": "2611.22328v1",
+      "title": "PVTSizing 2.0: A Fast and Reliable Analog Circuit Sizing Operator for Agentic EDA Workflows",
+      "authors": [
+        "Zichen Kong",
+        "Minghuan Song",
+        "Xiyuan Tang",
+        "Ziming Wei",
+        "Yi Zhong",
+        "Yuan Wang"
+      ],
+      "summary": "Analog circuit design automation requires both coordinated tool execution and efficient numerical search. Large language models (LLMs) offer new ways to organize tool execution, but finding one sizing that satisfies specifications across process, voltage, and temperature (PVT) corners remains costly. PVTSizing 2.0 addresses these needs through a human-agent workflow built around an independently usable numerical optimizer. An agent carries the designer's approved task through execution and result review. The optimizer reduces unnecessary training through loss-guided updates and uses critic-guided local refinement to explore additional candidates while accounting for cross-corner conflicts. An optional LLM adviser supplies parameter relationships to focus numerical search on circuit-informed directions, while the optimizer selects adjustment amplitudes and verifies their effects through simulation. Across four circuit benchmarks, the standalone optimizer completes all 40 runs and achieves a 7.3x speedup in overall mean runtime over the original PVTSizing, with a comparable mean sample count. In a separate study, the best tested knowledge-injection configuration further reduces mean runtime by 39.9% and simulation samples by 35.4% relative to the standalone optimizer.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822508+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22328",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22328"
+    },
+    {
+      "id": "2611.22373",
+      "versionedId": "2611.22373v1",
+      "title": "HiGAI-Net: Hierarchical Encrypted Traffic Classification for Generative AI Services",
+      "authors": [
+        "Madhan Raj Kanagarathinam",
+        "Jaheon Gu",
+        "Krishna M. Sivalingam",
+        "Kapal Dev"
+      ],
+      "summary": "The Radio Access Network (RAN) today does not have a reliable way to identify GenAI traffic (ChatGPT, Microsoft Copilot, or Google Gemini traffic) at the bearer level. TLS~1.3 moves SNI into the encrypted handshake record, and Encrypted ClientHello (ECH) removes it entirely from passive inspection; Gemini has partly shifted to QUIC where SNI visibility also depends on whether ECH is deployed. Without per-flow application identity, differentiated QoS for GenAI services is not possible. HiGAI-Net tackles this using only packet-header metadata, stacking three independently trained classifiers: a binary AI/Non-AI gate (98.5 % weighted F1), a per-service resolver across ChatGPT, Copilot, and Gemini (86.4 %), and a text-vs-voice/video mode classifier (61.0 %). The core innovation is a suite of sliding-window temporal features that track how DL/UL byte-ratios evolve within a session -- the per-quarter and per-half ratio trends, a trend differential $\\Delta R$, and a streaming regularity index. Tested on 44,492 labeled flows, gradient-boosted tree models consistently outperformed all deep-learning variants; a per-flow label cache brings amortised inference below 1~$\\mu$s per packet.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822543+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22373",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22373"
+    },
+    {
+      "id": "2611.22402",
+      "versionedId": "2611.22402v1",
+      "title": "Mixed-Size Placement Initialization via Stiefel-Manifold Sequential Subspace Optimization",
+      "authors": [
+        "Pengwen Chen",
+        "Chung-Kuan Cheng",
+        "Shao-Yun Fang",
+        "Chester Holtz",
+        "Sheng-Tan Huang",
+        "Susmita Sur-Kolay",
+        "Yucheng Wang",
+        "Ying Yuan"
+      ],
+      "summary": "Mixed-size global placement simultaneously optimizes the locations of large macros and millions of standard cells in modern very-large-scale integration (VLSI) physical design. State-of-the-art analytical placers achieve strong scalability, but their nonlinear objectives and density handling make them sensitive to the initial placement. This paper presents a geometry-driven framework that formulates placement initialization as a Quadratically Constrained Quadratic Program (QCQP) with first-order centroid and second-order spreading constraints. Explicit mixed-size spreading targets are derived from the die geometry and object sizes, to obtain stable constraint values even under extreme size variation. A utilization-aware rescaling of the constraint matrix prevents pathological spreading when fixed objects occupy significant die area. The QCQP is then transformed into a Stiefel-manifold optimization through metric equalization and centering projection, making the underlying geometric structure explicit. The resulting Stiefel-constrained quadratic objective admits efficient large-scale optimization via a Riemannian sequential subspace method (SSM). An angle-sorted cycle sparsification for multi-pin nets periodically keeps the Laplacian approximation sparse yet geometry-consistent. As a drop-in initializer for existing analytical placers, our method yields improvements in weighted half-perimeter wirelength (wHPWL): 13.8% average under RePlAce on the four TILOS benchmarks supported by its flow, 3.5% under DREAMPlace on all 20 benchmarks, and 4.8% under AutoDMP on 19 benchmarks with converged baselines. Post-route evaluation shows that these pre-route improvements carry through to routed designs: routed wirelength decreases by 1.1 to 2.3% on all three benchmarks. Standard-cell area and power also decrease on all three. Design-rule-check (DRC) violations decrease on two of the three.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822584+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22402",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22402"
+    },
+    {
+      "id": "2611.22411",
+      "versionedId": "2611.22411v1",
+      "title": "KD-DSE: A Knowledge-Driven LLM Framework for Fast Microarchitecture Design Space Exploration",
+      "authors": [
+        "Siqing Fu",
+        "Xin Liu",
+        "Yuhan Tang",
+        "Hanqing Li",
+        "Feng Guo"
+      ],
+      "summary": "Domain-specific architectures have made design space exploration (DSE) a bottleneck of processor design, yet each candidate costs a full simulation, so exhaustive search is out of reach. Surrogate models need thousands of simulations before they predict reliably, and LLM agents that search directly hallucinate, lack cold-start architectural knowledge, and follow a fixed per-round policy. We present KD-DSE, a knowledge- driven LLM framework for fast microarchitecture DSE. KD- DSE couples a five-state constrained agent with real gem5- McPAT evaluation, retrieves architect-curated guidance from an Architecture Knowledge Base conditioned on the current search state and bottleneck diagnosis, and allocates its budget with a diagnosis-guided two-phase exploration strategy. On a 29- parameter out-of-order core with a budget of 18 simulations, KD-DSE achieves about 4.8% higher hypervolume and about 21.7% lower ADRS than the state-of-the-art MicroEvo, and the ablation attributes the gain chiefly to the Knowledge Base. These results indicate that constraining LLM reasoning and grounding it in architectural knowledge can drive fast and effective microarchitecture DSE. The code will be open-sourced upon acceptance.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822619+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22411",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22411"
+    },
+    {
+      "id": "2611.22476",
+      "versionedId": "2611.22476v1",
+      "title": "CheckCo: Checkpoint-Coordinated Load Balancingfor Skewed Event Streams at Scale",
+      "authors": [
+        "Muhammad Anis Uddin Nasir",
+        "Reza Sadraei"
+      ],
+      "summary": "Event streams are rarely uniform: a few dominant keys can generate orders of magnitude more events than the rest, overloading the workers that receive them and capping throughput. We present CheckCo, a checkpoint-coordinated load-balancing algorithm built on a dynamic oracle that estimates per-key frequencies from the live stream, with no prior statistics. Workers count events per key locally; at each checkpoint barrier, the counts are merged into a partitioning function that divides each key into a number of splits roughly proportional to its estimated frequency and packs the splits onto workers, and this function routes the next checkpoint window. We derive approximation bounds on the resulting load imbalance from classical scheduling results and bound its total key fan-out. On a production pipeline processing over 100 billion events per day, the most loaded worker receives only 9.8% more events than the average over a day (imbalance ratio 1.10), against 8.03 for key-based routing in simulation; in simulation, CheckCo also needs less than half the fan-out of earlier partitioners that reach comparable balance. Shifts in the key distribution are reflected in routing from the next checkpoint on, and the load stays balanced through job restarts.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822652+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22476",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22476"
+    },
+    {
+      "id": "2611.22483",
+      "versionedId": "2611.22483v1",
+      "title": "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning",
+      "authors": [
+        "Wenbo Zhu",
+        "Paul Yi-Chia Chen",
+        "Yuanhan Li",
+        "Zishen Wan",
+        "Christopher Torng"
+      ],
+      "summary": "JEPA-style latent world models let embodied agents plan toward new goals with model predictive control, but they are still too slow for real-life embodied control: sampling-based MPC repeats predictor inference tens of thousands of times per plan, and even on high-end GPUs one planning step can take tens of seconds. We observe substantial latent locality in this repeated-inference workload: the predictor maps close actions to close latents, and inside a quantized predictor this closeness takes a form that hardware can exploit, differential bit-level sparsity. Unlike an input stream, whose temporal similarity is given, a planner itself decides which candidates it evaluates together, so the planner can choose its own references and, with reference forest sampling, manufacture more sparsity: it couples the sampled action sequences of each group to a shared root, with competitive planning quality. We build the accelerator on the insights of the rich line of bit-level sparsity accelerators and design it and the planner tightly coupled as a single co-design: the planner increases sparsity and exposes structure for hardware scheduling, and the bit-exact hardware effectively uses the sparsity that the planner creates. On three JEPA world models, our co-design is 1.28-1.80x faster than a dense accelerator and uses 38-52% less energy, and it is 1.22-1.58x faster than prior bit-sparse design and uses 16-36% less energy, with the same area. To our knowledge, our planner is the first planner that manufactures differential bit-level sparsity across its candidates and exposes its structure for hardware scheduling, and our co-design is the first algorithm-hardware co-design for JEPA-style world-model planning.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822681+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22483",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22483"
+    },
+    {
+      "id": "2611.22572",
+      "versionedId": "2611.22572v1",
+      "title": "Datatypes In, Zippers Out!",
+      "authors": [
+        "Smayan Agarwal",
+        "Aalok Thakkar"
+      ],
+      "summary": "A zipper represents a focused position in an algebraic data structure together with the context needed to reconstruct the whole. Datatype derivatives determine one-hole context types, but do not by themselves choose a zipper's concrete representation or specify navigation costs and demands. We present Kamot, a tool that converts regular algebraic datatype declarations in a restricted Haskell fragment into zipper implementations with operational contracts. Navigation, replacement, and reconstruction are proved correct against a reference traversal. Kamot supports mutual recursion and regular containers inside containers. A compositional analysis derives sound bounds on transitions and constructor demands for certified traversal directions. These bounds are affine in trail depth (the number of saved frames) and guarantee termination of each move on productive, potentially infinite inputs. For inhabited families the analysis is complete: when no move certificate is emitted, no bound depending only on trail depth exists, and some productive input makes a move diverge. We prove that the generated code preserves results and the reference order of constructor matches, including finite prefixes of divergent searches. Lean 4 verifies simulation, bounds, and completeness for finite values of single self-recursive datatypes, in both directions. On 19 datatype models and 81 generated families, every generated module passes Haskell type checking, and independent checkers validate certificates, traces, and bounds. In a prefetching workload, starting only searches whose bounds fit a budget answers every local query and avoids discarded source evaluations on long returns, but conservative bounds can lose answers that fuelled search delivers.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822719+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22572",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22572"
+    },
+    {
+      "id": "2611.22575",
+      "versionedId": "2611.22575v1",
+      "title": "Do LLMs Understand Network Traces? A Comparative Study of Reasoning over Raw and Filtered Traffic Data",
+      "authors": [
+        "Irene Gosálvez-White",
+        "Roberto Magán-Carrión",
+        "Carlota de la Vega-Soriano",
+        "Pedro García-Teodoro"
+      ],
+      "summary": "The effective delivery and monitoring of ICT services rely heavily on network traffic analysis. However, interpreting complex packet captures remains a challenging task that requires substantial technical expertise. Large language models (LLMs) offer promising opportunities to automate network traffic in- vestigation, yet their reliability in packet-level field extraction and flow-level sequence reconstruction remains an open research question. This study proposes a reproducible, question-answering- based evaluation methodology to assess the capabilities of LLMs in network trace analysis. Using real-world benign traffic from the CICIDS2017 dataset, we evaluate multiple models against a human-generated ground truth, comparing their performance on raw textual traffic dumps and protocol-filtered representations. Model responses are assessed through an automated LLM- as-a-judge pipeline, validated against human evaluations. The results demonstrate that protocol filtering significantly reduces prompt overhead while improving answer accuracy by reducing incorrect responses. These findings highlight the importance of protocol-aware traffic filtering as an effective optimization for improving the efficiency and reliability of LLM-assisted network management.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822753+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22575",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22575"
+    },
+    {
+      "id": "2611.22613",
+      "versionedId": "2611.22613v1",
+      "title": "Python Code Generation for Isabelle/HOL",
+      "authors": [
+        "Nikolaus Huber",
+        "Roly Perera",
+        "Dominic Orchard"
+      ],
+      "summary": "The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend for Isabelle's code generator. This generator enables verified algorithms to be used in Python applications, or to serve as verified references against which established Python libraries can be differentially tested, without leaving the Python ecosystem. We validate the backend on regression suites covering large parts of the HOL library and by testing six verified data structures and algorithms against established Python libraries. The generated code is slower than hand-written libraries, but well suited as a verified reference.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822786+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22613",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22613"
+    },
+    {
+      "id": "2611.22631",
+      "versionedId": "2611.22631v1",
+      "title": "Byzantine Resilience of Robot Gathering under Round-Robin Scheduling",
+      "authors": [
+        "Fabian Frei",
+        "Yuichi Sudo",
+        "Koichi Wada"
+      ],
+      "summary": "We study deterministic gathering of $n$ anonymous, oblivious mobile robots in the plane under round-robin scheduling with rigid movement, in the presence of $f$ Byzantine robots. Robots observe all robot positions with their multiplicities, while their local coordinate systems may change adversarially between activations. The goal is for all correct robots to gather at a single point in finite time and remain there forever. We analyze ToMax, a simple algorithm that moves to a point of maximum multiplicity and stays still if and only if its current position is the unique maximum. We prove that ToMax achieves gathering whenever $f\\le\\lfloor\\sqrt{n}/2\\rfloor$, establishing an $\\Omega(\\sqrt{n})$ lower bound on the achievable Byzantine resilience.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822818+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22631",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22631"
+    },
+    {
+      "id": "2611.22663",
+      "versionedId": "2611.22663v1",
+      "title": "A Unifying Metatheorem on Weak-Memory Robustness",
+      "authors": [
+        "Giovanna Kobus Conrado",
+        "Stephan Spengler",
+        "Mohamed Faouzi Atig",
+        "Andreas Pavlogiannis"
+      ],
+      "summary": "Memory models specify the behaviors that concurrent programs may exhibit under compiler and hardware optimizations, which often deviate from Sequential Consistency (SC). Robustness is the property of a program P not exhibiting any weak behaviors when executing under a weak memory model MM, compared to SC. As such, the algorithmic problem of deciding whether $P$ is robust against MM has been studied extensively, and has been repeatedly shown to be in PSPACE for many memory models, such as TSO, PSO, and Release/Acquire. However, each model has required its own, dedicated proof, raising the natural question of whether robustness admits a unifying treatment across memory models. In this work, we answer this question affirmatively for a broad class of memory models definable in Kleene Algebra with Tests (KAT). We prove that robustness against any prefix-closed, KAT-definable memory model is in PSPACE. This metatheorem recovers nearly all prior PSPACE robustness results, and establishes PSPACE membership for several new models, including the full RC11 and the OCaml memory model. We have further formalized the correctness of our approach in Lean. On the other hand, we prove that robustness against the KAT-definable Relaxed model is undecidable, and thus prefix-closedness cannot be dropped, in general. Finally, we implement our algorithm in a prototype tool RoboKAT, and demonstrate its flexibility by checking robustness against nine memory models, several of which are not handled by prior work.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822852+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22663",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22663"
+    },
+    {
+      "id": "2611.22674",
+      "versionedId": "2611.22674v1",
+      "title": "Gateway-Free Kafka Streaming from FPGA-Based Detectors: A Bare-Metal Pipelined Producer on Zynq-7000",
+      "authors": [
+        "Fernanda Zapata Bascuñán",
+        "Matías Hampel"
+      ],
+      "summary": "We present a bare-metal Apache Kafka producer implemented on a Zynq-7000 System-on-Chip (SoC) for event-driven data acquisition. Events are generated in Programmable Logic (PL), transferred to the Processing System (PS) through AXI4-Stream and AXI DMA, and published to a standard Kafka broker without an intermediate gateway computer. The PS constructs ProduceRequest messages and transmits them through the lwIP raw TCP/IP API. A configurable pipeline limits the number of outstanding Kafka requests. Pipeline depths of D = 1, 2, 4, and 8 were evaluated with two independent DMA sources. For each depth, 20 independent runs of 5,000 events were acquired, for 400,000 event records in total. Each event carries a 32-bit frame counter and a 32-bit PL timestamp. PS-side instrumentation records DMA start and completion, publication, successful local tcp_write() acceptance, and reception of the corresponding Kafka acknowledgement. Measurement records are exported to a separate Kafka topic after the timed event stream has completed. Each of the 80 runs contained 5,000 records with frame values from 0 to 4,999, with no sequence discontinuities in the exported metric records and no recorded Kafka errors. Mean operational throughput was approximately 5.3 kevents/s at D = 1, 9.4-9.6 kevents/s at D = 2, 16.2 kevents/s at D = 4, and 16.8-17.5 kevents/s at D = 8. The median publish-to-acknowledgement interval was 1.62-1.64 ms at D = 1, 0.98 ms at D = 2, 0.66 ms at D = 4, and 0.83-0.86 ms at D = 8. At D = 4, the corresponding P95 values were 0.81-0.83 ms.",
+      "categories": [
+        "cs.NI",
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822885+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22674",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22674"
+    },
+    {
+      "id": "2611.22744",
+      "versionedId": "2611.22744v1",
+      "title": "On Traffic Characterization in Time-Sensitive Networking and Deterministic Networking",
+      "authors": [
+        "Yuming Jiang"
+      ],
+      "summary": "The traffic of an audio/video stream in IEEE Time-Sensitive Networking (TSN) or an asynchronous traffic flow in IETF Deterministic Networking is specified by three parameters: an observation time interval, a maximum packet size, and a maximum number of packets in the interval. This traffic specification (TSpec) triggers three fundamental questions for TSN and DetNet: (1) if and how the traffic of a flow can be specified by these parameters after it traverses a system, (2) how to specify the traffic of a flow aggregate using the three parameters, and (3) how to use it in performance guarantee analysis. Among them, the literature has focused on (3), leaving the other two little investigated and largely open. This paper is intended to bridge the gap. Specifically, we introduce an equivalent traffic characterization for TSN TSpec, which is simple in representation and simplifies analytical development. Based on this result, we establish an output characterization property for (1) and show that the output of a TSN flow traversing a bounded-delay system can be characterized by the TSN TSpec with updated parameters. For (2) we study the superposition of TSN flows and derive TSN traffic characterizations for the aggregate of multiple TSN flows. For (3), based on a relationship between the TSN traffic characterization and the well-known token-bucket traffic characterization, backlog and delay bounds are derived. Together, these results form a calculus for TSN traffic characterization.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822918+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22744",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22744"
+    },
+    {
+      "id": "2611.22746",
+      "versionedId": "2611.22746v1",
+      "title": "LaFlash: Capacity-Driven Acceleration for Coding Agent Workflows via QLC-HBF",
+      "authors": [
+        "Yuseon Choi",
+        "Eunjong Lee",
+        "Sanghyeon Park",
+        "Seongyon Hong",
+        "Sangjin Kim",
+        "Thierry Tambe"
+      ],
+      "summary": "As large language models (LLMs) evolve toward agentic AI, coding agents are emerging as memory-intensive workloads that repeatedly reuse persistent states, including contexts and KV caches. Emerging agentic workflows, including Loop/Graph Engineering, cause state amplification through frequent active/dormant transitions, increasing memory pressure. Evicted states incur costly recomputation upon reactivation, particularly under long-context, short-decode workloads. This motivates Capacity-Driven Acceleration (CDA), which explicitly accounts for state amplification to allocate memory capacity between active concurrency and dormant-state retention, replacing recomputation with memory access. In this work, we propose LaFlash, a High-Bandwidth Flash (HBF) architecture that exploits the large capacity of Quad-Level Cell (QLC)-based flash to realize CDA. However, QLC's long read latency demands massive read parallelism under irregular state reactivation and varying context lengths, while limited write endurance constrains placement. LaFlash introduces Session Grouping to balance active request counts and aggregate context lengths across groups, sustaining read parallelism and block utilization through request-exclusive allocation. Furthermore, Fast-Page Allocation exploits QLC's read-latency heterogeneity to mitigate residual inter-group imbalance and sustain bandwidth utilization. On end-to-end coding agent workloads, LaFlash achieves 7.04$\\times$ higher throughput and 10.96$\\times$ higher energy efficiency over SLC-HBF with batch expansion, and 2.36$\\times$ higher throughput over QLC-HBF with CDA. HBM buffering further reduces unnecessary NAND writes, improving QLC write endurance. These results demonstrate the benefits of jointly optimizing state retention and physical data placement for capacity-driven acceleration.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822950+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22746",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22746"
+    },
+    {
+      "id": "2611.22748",
+      "versionedId": "2611.22748v1",
+      "title": "Statically Typed Purely Functional Definitional Interpreters for {\\it Essentials of Programming Languages}",
+      "authors": [
+        "Kwanghoon Choi"
+      ],
+      "summary": "Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \\textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional metalanguage, for pedagogical use. We preserve the object languages, examples, and tests of EOPL while making their semantic components explicit through algebraic data types, evaluator signatures, and explicit semantic domains. Across 15 interpreters and 6 type checkers, language extensions are exposed as systematic type-directed changes. The reconstruction is currently used in undergraduate and graduate programming language courses, where students learn interpreter construction through incremental and test-driven development. We further illustrate its pedagogical use through three case studies that progressively extend students' experience: composing mutable state and exception handling, deriving an actor-based interpreter from the typed structure of the EOPL thread interpreter, and translating the CHECKED interpreter and type checker into Rocq to mechanize type safety. Together, the classroom experience and case studies suggest that the reconstruction provides a concrete bridge from learning programming language concepts through executable interpreters to language design and mechanized reasoning.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.822981+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22748",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22748"
+    },
+    {
+      "id": "2611.22772",
+      "versionedId": "2611.22772v1",
+      "title": "PAISF: A Partially Adaptive In-Order Selection Function for Routing in On-Chip, Inter-Chiplet, and Wafer-Scale Networks",
+      "authors": [
+        "Patrick Iff",
+        "Luca Oertig",
+        "Andrin Weber",
+        "Luca Benini",
+        "Torsten Hoefler"
+      ],
+      "summary": "The growing number of compute elements per chip, along with advances such as chiplet systems and wafer-scale integration, drives the need for scalable and efficient routing algorithms for irregular topologies. A routing algorithm consists of a routing function (RF) that ensures deadlock freedom and a selection function (SF) that avoids congestion and, in some cases, guarantees in-order packet delivery. We propose two novel SFs for irregular topologies, ISF and PAISF, which ensure in-order delivery by hashing a packet's entropy value to determine its path. Packets with the same entropy follow the same path and arrive in order. Compared to a deterministic RF, a deterministic SF, and Multi, three alternative in-order delivery strategies, (PA)ISF improves throughput by 15.2% and reduces energy per packet and latency under load by 12.1% and 11.3%, at the cost of a zero-load latency increase by 3.3% on average across workloads and topologies.",
+      "categories": [
+        "cs.AR",
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823013+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22772",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22772"
+    },
+    {
+      "id": "2611.22847",
+      "versionedId": "2611.22847v1",
+      "title": "Similarity-Aware Client-Side Reordering for Server-Side Storage Compression in Distributed File Systems",
+      "authors": [
+        "Yuanhong Huang",
+        "Zicong Chen",
+        "Yili Ma",
+        "Jinwu Yang",
+        "Yulong Chen",
+        "Guangming Tan",
+        "Dingwen Tao"
+      ],
+      "summary": "As growing data volumes strain the capacity of distributed file systems, server-side storage compression transparently reduces disk usage, but its effectiveness is limited when similar blocks land in separate compression records and cannot share matches. We present a client-side reordering framework that transforms the physical block layout before persistence, so that related blocks are co-located within the same compression scope without replacing the existing storage-server compressor. It operates on bounded reordering windows, periodically selects among candidate layouts via lightweight compression of sampled data, and recovers the original logical order during reads with compact window-local metadata. We implement the framework in the SkyFS distributed file system, using the Zstandard (Zstd) compressor on the OpenZFS storage backend. Results on diverse datasets show that the framework reduces physical storage by up to 42.9% relative to logical-order writes, while achieving 94-108% of baseline sequential-read throughput and 91-99% of random-read IOPS. Client-side layout construction is the primary additional write cost, showing that adaptive similarity-aware reordering substantially improves storage efficiency with acceptable overhead.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823049+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22847",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22847"
+    },
+    {
+      "id": "2611.22869",
+      "versionedId": "2611.22869v1",
+      "title": "Multi-connectivity in Wireless Access",
+      "authors": [
+        "Danny De Vleeschauwer",
+        "Chia-Yu Chang",
+        "Koen De Schepper",
+        "Lutz Ewe",
+        "Simone Bolettieri"
+      ],
+      "summary": "This paper investigates whether or not multi-connectivity, in which a User Equipment (UE) can simultaneously connect to multiple Access Points (APs), can offer a better Quality of Experience (QoE) to the users. Intuitively, multi-connectivity should offer a smoother bit rate (possibly at the expense of the average bit rate being slightly lower), so that adaptive applications can better determine at which throughput to send without introducing queueing latency. We mainly concentrate on how to share the resources of the APs amongst the UEs, modelling the lower layers via spectral efficiency and the higher layers via utility and its fluctuation. We explore various policies for resource allocation. Our results demonstrate that from the application point of view multi-connectivity is beneficial and show how to tune the parameters of the policies to obtain the best trade-off between average utility and its fluctuation.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823082+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22869",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22869"
+    },
+    {
+      "id": "2611.22900",
+      "versionedId": "2611.22900v1",
+      "title": "blaris: Windowless Random-Access LZSS for Constrained Microcontrollers",
+      "authors": [
+        "Ihor Lukianov"
+      ],
+      "summary": "Embedded LZ77 decompressors (such as heatshrink and tamp) require an in-RAM sliding window that couples memory usage to compression ratio and incurs high latency on random-access reads. We present blaris, a lightweight, windowless LZSS decompressor for execute-in-place (XIP) random access on constrained microcontrollers. By partitioning tokens into bidirectionally traversable streams with power-of-two checkpoints, blaris resolves back-references directly in the compressed payload, achieving compression ratios comparable to high-window heatshrink and tamp configurations without allocating a RAM window. Targeting compress-on-host, decompress-on-device workflows, blaris assumes trusted build-time payloads and omits runtime error and bounds checks. On RV32IMC, it requires just 548-784 B of Flash and 104-112 B of total RAM, achieving orders-of-magnitude faster small-slice random reads than ratio-matched, block-indexed heatshrink and tamp.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823114+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22900",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22900"
+    },
+    {
+      "id": "2611.22937",
+      "versionedId": "2611.22937v1",
+      "title": "LASH-PAT: Deadlock-Free Adaptive Shortest-Path Routing for Inter-Chiplet Interconnects",
+      "authors": [
+        "Patrick Iff",
+        "Torsten Hoefler"
+      ],
+      "summary": "With the slowdown of transistor scaling, chipletbased systems, and in particular chiplet-based wafer-scale integration, have emerged as a promising approach to sustain growth in computing capability per cost for modern processors and accelerators. In recent years, many specialized inter-chiplet interconnect topologies have been proposed. In these topologies, the simple, well-established, and deadlock-free dimension-order routing scheme is not applicable due to its reliance on regular mesh structures. In this work, we study routing in these recently proposed inter-chiplet interconnect topologies by categorizing and evaluating nine deadlock-free routing functions for irregular topologies known from data center networking in this new context. This reveals a trade-off between turn-based routing, which enables path diversity, and layered routing, which ensures shortest-path delivery. To resolve this trade-off, we propose LASH-PAT, a routing function that extends layered shortestpath routing with adaptive path diversity. LASH-PAT supports multiple shortest paths and dynamically selects among them based on local congestion while preserving deadlock freedom. When compared to the best-performing baseline routing function for each combination of topology, traffic pattern, and evaluated metric, LASH-PAT improves throughput by 21.15% and reduces energy per packet by 12.77%, while providing latency comparable to the lowest-latency baseline routing function.",
+      "categories": [
+        "cs.AR",
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823145+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22937",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22937"
+    },
+    {
+      "id": "2611.23022",
+      "versionedId": "2611.23022v1",
+      "title": "Dissecting the GPU Load/Store Unit and Exposing Its Security Risks",
+      "authors": [
+        "Wenbo Han",
+        "Pierre Talbot"
+      ],
+      "summary": "GPUs are the main platform for large-scale machine learning and power the largest supercomputers. Their load/store units (LSUs) often determine kernel performance and have been exploited in prior attacks. Yet what is known about the LSU is only a few isolated mechanisms and parameters, and even a single one has been enough for an attack. In particular, it is still unknown what a load costs, where loads contend, and even whether a warp can starve due to contention. Until each is measured, neither its security risk nor a defense is known. We reverse-engineer how the LSU serves load instructions on recent NVIDIA GPUs with microbenchmarks and analyze the security implications. We give a cycle-accurate latency formula for a global L1 hit or shared memory access from the addresses it touches, whose address-dependent terms are bank conflicts and the L1 tag lookup; we show that loads contend at both, and that when the LSU pipeline is full a warp can starve a warp of a later-launched block. We then show that the LSU's attack surface is far broader than prior attacks revealed: through channels never exploited before, it can leak information, communicate covertly, and degrade colocated workloads. Through either global bank conflicts or tag lookups alone, we recover a full AES-128 key under the threat model of prior GPU AES timing attacks. Under NVIDIA's Multi-Process Service (MPS), the bank access and the tag lookup each open a covert channel across processes, whose rate rises with each GPU generation. Also under MPS, this starvation lets one warp slow a colocated cuBLAS matrix multiplication by up to 750x on the A100 and 563x on the H100.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823176+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.23022",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23022"
+    },
+    {
+      "id": "2611.23053",
+      "versionedId": "2611.23053v1",
+      "title": "SPICE: Sparse Parameter Gossip for LLM Pretraining",
+      "authors": [
+        "Pietro Cagnasso",
+        "Daniele Kopyshevskiy",
+        "Edouard Oyallon",
+        "Eugene Belilovsky"
+      ],
+      "summary": "Pretraining language models across geographically distributed resources requires communication-efficient methods that operate under limited and variable internet bandwidth. Decentralized training replaces global collectives with peer exchanges, but full-model messages make larger peer neighborhoods costly. We introduce SPICE, which combines sparse parameter gossip with error feedback through corrected parameter values that remain directly interpretable as peer neighborhoods change. These sparse exchanges make broader neighborhoods affordable, achieving better training quality with less communication than the evaluated dense decentralized baselines. As the replica count grows, SPICEincreases the number of peers contacted while keeping individual messages sparse, limiting the quality degradation observed with dense gossip. Under bandwidth constraints, SPICE achieves higher training throughput than DDP and dense gossip, while sustaining throughput during transient link slowdowns.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "new",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823207+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.23053",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23053"
+    },
+    {
+      "id": "2611.21937",
+      "versionedId": "2611.21937v1",
+      "title": "SLED: Sensor SLicing from Edge to Datacenter",
+      "authors": [
+        "Alan Subedi",
+        "Avhishek Biswas",
+        "Apala Pramanik",
+        "Amlan Balabantaray",
+        "Mikhail Titov",
+        "Santosh Pitla",
+        "Ozgur Kilic",
+        "Mehmet C. Vuran"
+      ],
+      "summary": "Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry. To this end, this paper introduces Sensor Slicing (SL). SL provides deterministic, medium access control (MAC)-level isolation for individual sensors within a single user equipment (UE) in open radio access networks (O-RAN). Using agentic coding techniques, SL is implemented in two O-RAN-compliant packages, reducing development time by 400 times (2 h 40 min [OCUDU] vs. 6.5 weeks [OAI]), 228-fold fewer human prompts (4 vs. 913), and less than half the tokens (0.64B vs. 1.43B). An associated end-to-end framework, SLED, is implemented to establish per-sensor radio and network isolation across edge, campus, and remote high-performance computing (HPC) tiers. Over-the-air wireless experiments demonstrate that while conventional network slicing causes critical delays to increase more than 2,300-fold under high traffic load, SLED maintains stable latency. Scaling evaluations on the two RAN stacks show that throughput remains within 0.9% and 1.4% of expected allocations even as the number of sensor slices increases. The results demonstrate that SLED preserves latency-critical telemetry while effectively utilizing resources across the sensor-to-HPC pipeline. The SLED software and evaluation datasets are publicly available at https://github.com/UNL-CPN-Lab/SLED-Sensor-SLicing-from-Edge-to-Datacenter.",
+      "categories": [
+        "cs.DC",
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823238+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.21937",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21937"
+    },
+    {
+      "id": "2611.22019",
+      "versionedId": "2611.22019v1",
+      "title": "Computed Permutation Trellis Coding: Near-Optimal Quantization from Two Multiplications and a 64-Byte Table",
+      "authors": [
+        "Muhammed Fatih Bal{i}n"
+      ],
+      "summary": "We propose Computed Permutation Trellis Coding (CPTC), a low-bit quantization format for tensors written once and read many times. Formats that round each value on its own, such as INT4 and FP4, waste a large part of their bits against the information-theoretic ideal. Trellis codes recover this loss by encoding values jointly, but prior decoders either need a large lookup table for their best quality or compute values with a hash that restricts what they can decode. CPTC's decoder multiplies its state by two coefficients and adds the top bits of the products to index a 64-byte table. Because that sum is not uniformly distributed, the rarely used ends of a small table can hold values far out in the tails. One decoder serves every bit width from 1 to 6, reproduces the standard integer and floating-point formats exactly, and comes within 0.07 bits of the ideal at 4 bits. It matches a random-permutation trellis code whose table is thousands of times larger, and exceeds every QTIP codebook. In LLM weight quantization without fine-tuning, CPTC has the lowest KL divergence to the unquantized model at every tested bit width on Llama 3.1 8B and 70B Instruct against QTIP's codebooks (by up to 27%). The decoder has been built into the AWS Trainium 4 AI accelerator, where it runs at the throughput of the native FP4 and FP8 formats for a negligible fraction of the systolic array's area. Fused encoding kernels quantize an 8B model's linear layers in under two minutes on one GPU and, in cycle-level simulation, on one Trainium 4 chip.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823278+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22019",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22019"
+    },
+    {
+      "id": "2611.22215",
+      "versionedId": "2611.22215v1",
+      "title": "Communicate the Change: Efficient Expert Parallelism via Activation Compression",
+      "authors": [
+        "Fengyuan Liu",
+        "Jay Gala",
+        "Siva Reddy",
+        "Dzmitry Bahdanau"
+      ],
+      "summary": "Scaling has driven the success of large language models (LLM), with sparse mixture-of-experts (MoE) architectures enabling greater parameter capacity without a proportional increase in computation. At large scales, MoE models rely on expert parallelism to distribute experts across devices. Each MoE layer requires two synchronous collective communication steps during inference: dispatching hidden states to the activated experts and combining the resulting expert outputs. As compute throughput has outpaced interconnect bandwidth, these synchronous collectives have become a major bottleneck to MoE scaling and efficiency. We address this challenge with EchoMoE, a lightweight architecture modification that retrofits existing MoE models, requiring approximately 8,500x fewer training tokens than full pretraining. Motivated by the observation that transformer blocks update the residual stream incrementally, we use a hidden state from an earlier layer as a reference and communicate only the compressed difference between it and the current state, rather than communicating each hidden state in full. EchoMoE periodically refreshes these reference states and transmits only the compressed differences synchronously, reducing the traffic on latency-critical paths without significant computational overhead. EchoMoE reduces inter-node communication volume by 58% and improves throughput by 22.6%, while preserving average performance within 3.8 percentage points across 18 benchmarks. EchoMoE further improves inference throughput by up to 2.38x over bandwidth-constrained Ethernet, paving the way for wide-area distributed inference. EchoMoE also tolerates quantization of the communicated representations without measurable quality loss. We release an efficient implementation for applying EchoMoE to pretrained MoE models, together with an inference integration for vLLM.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823313+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22215",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22215"
+    },
+    {
+      "id": "2611.22243",
+      "versionedId": "2611.22243v1",
+      "title": "From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block",
+      "authors": [
+        "Yuji Yamamoto",
+        "Satoshi Matsuura"
+      ],
+      "summary": "In LLM serving systems with prefix caching, each KV block of a shared system prompt is held in GPU memory as a single physical copy, which every request with that prompt reads. Our earlier work measured change and showed that one bit flip in such a block changes many later responses without making them visibly degenerate. This paper extends that work by measuring how often the changed responses are wrong. Using software fault injection into vLLM serving Qwen3-8B, we flip the most significant mantissa bit or the sign bit of a value in such a block. We score responses on four tasks: code generation, short-answer questions, multiple-choice reasoning, and refusal under a policy. The fraction of changes that turned a correct response wrong depended strongly on the task: 0.023 on MBPP+ and 0.59 on held-out TriviaQA at the mantissa bit, and 0.019 and 0.60 at the sign bit. Harm fell on requests whose sampled answers are sometimes wrong, so the damage of a flip depends on how common such requests are. Harmed responses looked like ordinary errors, so a flip should be detected by checking cached blocks rather than by monitoring outputs.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823350+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22243",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22243"
+    },
+    {
+      "id": "2611.22296",
+      "versionedId": "2611.22296v1",
+      "title": "SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding",
+      "authors": [
+        "Selin Yildirim",
+        "Ali Zeyrek",
+        "Deming Chen"
+      ],
+      "summary": "Speculative decoding (SD) accelerates large language model (LLM) inference, but its optimal configuration depends jointly on workload characteristics, GPU hardware, and available memory. For example, on the RTX~5090, the state-of-the-art speculative drafter DFlash achieves $3.50\\times$ the throughput of autoregressive (AR) decoding at low concurrency, but only $0.76\\times$ at high concurrency with short outputs. We present SpecSearch, a hardware-aware search engine that jointly optimizes decoding strategy, draft length, and precision across workload--GPU pairs. Its analytical cost model captures memory and compute constraints to identify feasible configurations and narrow the search space for throughput optimization. Guided by this model, calibration measurements are collected from multiple GPUs. Using the measurements, a Jev-based predictor learns to select high-throughput decoding configurations on held-out GPUs without requiring deployment-GPU calibration. The predictor is parameter-efficiently trained on calibration data, while adapting a frozen Qwen3-4B using LoRA adapters and a linear correction layer. Across NVIDIA RTX~5090, H100, L40 and AMD MI300X GPUs, SpecSearch with full calibration achieves an average of $2.01\\times$ the throughput of AR and $1.36\\times$ the throughput of SD, both served by vLLM. The proposed Jev-based predictor closely matches this search performance with $1.30\\times$ throughput improvement over SD with vLLM, while eliminating the need for held-out GPU calibration. Additionally, it retains $97.36\\%$ of the throughput achieved by SpecSearch that utilizes full calibration.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823381+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22296",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22296"
+    },
+    {
+      "id": "2611.22397",
+      "versionedId": "2611.22397v1",
+      "title": "SkiNet-Sim: Simulating Petri Nets with Data for the Verification and Validation of Controllers for Autonomous Systems",
+      "authors": [
+        "Baptiste Pelletier (Fédération ONERA ISAE-SUPAERO ENAC",
+        "Université de Toulouse)",
+        "Karen Godary (LIRMM-CNRS",
+        "Université de Montpellier)"
+      ],
+      "summary": "A large amount of high-level Petri net formalisms has been investigated and deployed in academic settings over the past decades, but these deployments fail to reach practical applications, despite the strong guarantees they can bring to stakeholders. In particular, the lack of direct benefits from end-users reduces the appeal of Petri nets, both due to the overly simple classical Petri net formalism, and the overly specialized high-level formalisms, on top of state-space explosion issues. In this work, we investigate how a middle-ground could be reached, by separating the implementation-specific aspects of software or hardware behaviors, from the classical Petri net semantics. The goal is to benefit from the sought-after aspects of Petri nets, namely their simple firing semantic and model-checking capabilities, while still being able to augment their behavior to best reflect the modelled system. We present a formal model of Interpreted Petri nets with data-aware transitions and tokens. We illustrate this formalism by modelling the executive layer of a robotic system, and provide a lightweight tool to augment classical Petri nets for general purpose applications, as well as data-aware state-space exploration for model-checking. Their specialization in the context of autonomous robotics is showcased, with a complete industrial inspection mission use-case, to compare simulation and model-checking results between the classical and the new data-aware Petri net semantic.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823416+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22397",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22397"
+    },
+    {
+      "id": "2611.22682",
+      "versionedId": "2611.22682v1",
+      "title": "CULypso: A Clustered Federated Unlearning paradigm for Vehicular Ad-Hoc Networks",
+      "authors": [
+        "Eleftheria Chini",
+        "George Margaritis",
+        "Dimitrios Katsaros"
+      ],
+      "summary": "Unlearning has emerged as an essential security and privacy-preserving solution in Machine Learning, enabling networks to support their clients' rights for data erasure, as mandated by data protection regulations. Introducing such a non-trivial task to an edge, highly mobile and time-sensitive vehicular network is an even greater, largely unexplored challenge. This article argues that a hierarchical Federated Unlearning approach could be aptly integrated into vehicular ad-hoc networks (VANETs), leveraging topology and movement to reduce communication, resource and time costs, while effectively forgetting a client's influence on the global model updates. In order to achieve this, we propose CULypso, an approximate, surgical, hierarchical unlearning algorithm tailored for clustered VANETs. Inspired by the nymph in Greek mythology, Calypso, whose name translates to 'she who conceals the knowledge', CULypso, with the capital letters referencing \\textbf{C}lustered \\textbf{U}n\\textbf{L}earning, aims to achieve exactly what its name suggests: conceal, erase or forget in our case, knowledge it contains. Extensive experiments uphold the potency of our paradigm with it performing approximately 65\\% better than FedEraser in terms of time, server storage load, and unlearning fidelity while utterly outperforming baseline full retraining.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823452+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22682",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22682"
+    },
+    {
+      "id": "2611.22844",
+      "versionedId": "2611.22844v1",
+      "title": "How well does graph superoptimization transfer? Adapting tensor-graph superoptimizer to a Triton-based NPU",
+      "authors": [
+        "Weronika Hryniewska-Guzik",
+        "Mateusz Comblik",
+        "Daniel Murawski",
+        "Jakub Schmiegel",
+        "Maciej 'Swietlik",
+        "Maciej Kokoci'nski",
+        "Tadeusz Kobus"
+      ],
+      "summary": "For automatic optimization systems, performance portability across increasingly diverse AI accelerators remains a challenge. We investigate how well graph-level superoptimization transfers across architectures by adapting Mirage from its CUDA-oriented design to the Huawei Ascend 910B3 through a Triton-based compilation stack. We evaluate the adapted system on transformer-relevant workloads, including matrix multiplication, softmax, RMSNorm+MatMul, gated MLP, FNN, and attention. The results show that graph-level optimization can successfully transfer and outperform available reference implementations by up to 87.0% on fused workloads. However, performance is highly dependent on tensor shape and workload structure, with substantial regressions for other configurations. We identify target-specific tensor partitioning, execution-resource modeling, backend lowering and fusion, and search and verification costs as key limitations. Our findings demonstrate that a portable graph representation and programming model do not imply a portable optimization space, motivating modular target-specific mechanisms within otherwise reusable compiler infrastructure.",
+      "categories": [
+        "cs.AR",
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823486+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22844",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22844"
+    },
+    {
+      "id": "2611.22967",
+      "versionedId": "2611.22967v1",
+      "title": "CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling",
+      "authors": [
+        "Junyi Shen",
+        "Yao Lu"
+      ],
+      "summary": "Coding agents make videos by writing and refining programs in a build--inspect--edit loop. A finished film costs a median of $2.85 in model calls and 11 minutes, over a third of that time in builds that block the agent. We find that much of this time is avoidable, for two reasons. First, 37.5% of the frames of a session's later films were drawn before, many shifted in time or inside an edited scene. Second, half of the builds stop at a check, where the agent needs only the verdict, but which builds stop is unknown until the checks finish. We present CodeReel, a training-free execution layer behind agents' existing commands. Exact frame reuse keys each frame by its drawing commands, regardless of its position in time, and reuses each frame whose key recurs. Blocking-aware scheduling runs the checks first and starts the render alongside them, at idle priority, unless the session's recent builds make a pass unlikely. Scheduling spends CPU to answer sooner and reuse returns it; exact keys let later versions use frames rendered for a failed one as the agent thinks. We introduce EditLoop, a benchmark of replayable agent sessions whose films are checked against renders from scratch. On it, CodeReel cuts the agent's wait by 36.3% against Rebuild, a warm pipeline with parallel rendering, and by 57.9% against Sequential, today's step-by-step pipeline. On time-shifting edits its reuse renders 43.9%, close to the 43.0% whose pixels are new, while Manim-style caching renders 99.8%. With real agents, the median wait per build is 0.62x Rebuild's in Claude Code, on topics never used in development, and 0.67x in Codex CLI. The gain holds for five models and two frameworks.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823519+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.22967",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22967"
+    },
+    {
+      "id": "2611.23035",
+      "versionedId": "2611.23035v1",
+      "title": "Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels",
+      "authors": [
+        "Kushagra Bainsla"
+      ],
+      "summary": "In the global attention layers of Gemma 4 31B, the value is the normalized key projection, and the key is the value scaled by a fixed weight, with rotary position encoding on one quarter of its dimensions. The Gemma 4 report states that this design reduces the global KV cache by up to 37.5%, but the open serving engines that we checked still store a full key and a full value: 1,024 values per KV head and token. We store one 640-value row instead, exact in real arithmetic, and an unchanged paged attention kernel reads it through two overlapping strided views as its key cache and its value cache. In a vLLM prototype with the 16-bit 31B model, the outputs are bit-identical to an emulation of the same arithmetic on the stock cache, 2 of 432 final answers differ from the stock engine (within its run-to-run noise), and the steady decode KV memory per request falls by a factor of 1.34 to 1.40 at 32K to 64K tokens. On a prefill/decode pair of two A100 GPUs with NIXL transfer and CPU offload, a decode engine with a full 15 GiB pool ran 1.38 times the stock decode tokens per step for 16K-token prompts (repeated to 0.06%) and 1.24 times for 8K-token prompts; a model of the vLLM block pool predicted both ratios to within 1% (the engine was 0.7% to 0.9% higher) and matched the change between them. The eager decode throughput rose by 1.30 and 1.11 times, and on this path the compact engine gave the same output tokens as the emulation for 8 prompts at batch 1. The run-time prototype makes an eager step 4% to 9% slower at equal batch, and the method does not yet stack with an 8-bit KV cache at the default scale.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823552+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.23035",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23035"
+    },
+    {
+      "id": "2611.23101",
+      "versionedId": "2611.23101v1",
+      "title": "StreamingDPD: A 1.28-GSa/s Instantaneous-Power-Gated Depthwise TCN Accelerator for Real-Time 320-MHz Digital Predistortion",
+      "authors": [
+        "Yizhuo Wu",
+        "Xinling Wang",
+        "Chang Gao"
+      ],
+      "summary": "State feedback between successive samples limits the streaming throughput of recurrent neural networks for digital predistortion (DPD). We present StreamingDPD, an accelerator that processes 320-MHz signals at 1.28 GSa/s. Its 207-parameter instantaneous-power-gated depthwise temporal convolutional network (IPG-DWTCN) uses $|x[n]|^2$ to gate feature channels and causal dilated depthwise convolutions to model power amplifier memory. The network maps to a spatially unrolled fixed-point pipeline with shift-based quadratic activations and layer-wise mixed precision, sustaining one complex sample per cycle per lane. Its algorithmic cost is 554 floating-point operations per complex sample, 30.1% fewer than the recurrent baseline with the best linearization performance. In RF playback measurements on three power amplifiers driven by 40- to 320-MHz Wi-Fi 6/7 and 5G NR waveforms, IPG-DWTCN achieves the lowest mean adjacent-channel power ratio (ACPR) and ranks first or ties for first in mean error vector magnitude (EVM) against five neural baselines of comparable size. Four-lane FPGA hardware-in-the-loop tests on a 320-MHz 4096-QAM Wi-Fi 7 waveform achieve -45.82 dBc ACPR and -42.94 dB EVM at 1.28 GSa/s. At the same sample rate, post-layout evaluation of a single-lane 12-nm FinFET ASIC yields a 0.10 mm$^2$ core, a 52-cycle (40.63 ns) latency, and an estimated typical-corner power of 142.21 mW (111.10 pJ/sample). Relative to the prior 22-nm recurrent DPD ASIC, the design provides 5.1 times the throughput at about one-seventh the energy per sample.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823597+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.23101",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23101"
+    },
+    {
+      "id": "2502.06293",
+      "versionedId": "2502.06293v2",
+      "title": "RustMC: Automated Verification of Real-World Concurrent Rust",
+      "authors": [
+        "Oliver Pearce",
+        "Julien Lange",
+        "Dan O'Keeffe"
+      ],
+      "summary": "RustMC is a stateless model checker that targets push-button verification of unmodified concurrent Rust programs. As both Rust and C/C++ compile to LLVM IR, RustMC builds on GenMC which provides a verification framework for LLVM IR. This allows verification of Rust code and any foreign function dependencies. In this tool paper we present key implementation challenges, use-cases, and an empirical evaluation of RustMC. The challenges include intercepting threading operations, promoting memory intrinsics, and handling uninitialised accesses, all stemming from Rust's unique compilation strategy. Case studies adapted from real-world programs show RustMC finds concurrency bugs in unsafe Rust code, FFI calls to C/C++, and atomic operations. We evaluate our tool's functionality on the Loom model checker test suite and a set of production-level Rust concurrent data structures.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823632+00:00",
+      "absUrl": "https://arxiv.org/abs/2502.06293",
+      "pdfUrl": "https://arxiv.org/pdf/2502.06293"
+    },
+    {
+      "id": "2509.06261",
+      "versionedId": "2509.06261v3",
+      "title": "JigSLO: Solving the Resource Puzzle for Efficient Multi-LLM Serving",
+      "authors": [
+        "Kyungmin Bin",
+        "Seungbeom Choi",
+        "Jimyoung Son",
+        "Jieun Choi",
+        "Daseul Bae",
+        "Daehyeon Baek",
+        "Kihyo Moon",
+        "Minsung Jang",
+        "Hyojung Lee"
+      ],
+      "summary": "GPU spatial sharing co-locates instances with complementary demands, such as compute-bound prefill and memory-bound decode, promising cost-efficient multi-LLM serving. Prior systems partition compute and coordinate shared memory capacity, but do not model bandwidth contention among co-located instances of heterogeneous LLMs. This contention makes each instance's latency depend on the memory-access patterns of its co-runners, even when its own resource allocation remains unchanged. Drawing on extensive measurements, we find that the latency impact of bandwidth contention can be captured by a time-shared memory-access model with contended and uncontended periods, so the overall latency can be analytically estimated as a time-weighted average of the latency estimates for these periods. We propose JigSLO, a contention-aware multi-LLM serving system that manages memory resources and schedules each model's prefill and decode phases as separate instances, treating their co-location as a placement decision. Its contention-aware predictor estimates per-instance latency under any co-location from standalone profiles alone. Guided by these predictions, its placement algorithm jointly selects each instance's tensor parallelism, compute share, and batch configuration, pairing complementary memory-access patterns to maximize throughput within each model's latency targets. JigSLO's shared resource manager complements this on the capacity side, sharing weights, pooling KV cache, and transferring it between prefill and decode instances. Across three datasets covering chat, code generation, and long-context summarization, JigSLO outperforms state-of-the-art baselines by $2.3\\times$ in SLO attainment and $1.2\\times$ in throughput on average, matching their best attainment with half the GPUs on long-context workloads.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823665+00:00",
+      "absUrl": "https://arxiv.org/abs/2509.06261",
+      "pdfUrl": "https://arxiv.org/pdf/2509.06261"
+    },
+    {
+      "id": "2509.15847",
+      "versionedId": "2509.15847v4",
+      "title": "Angelfish: Leader, DAG, or Anywhere in Between",
+      "authors": [
+        "Qianyu Yu",
+        "Giuliano Losa",
+        "Nibesh Shrestha",
+        "Xuechao Wang"
+      ],
+      "summary": "To maximize performance, many modern blockchain systems rely on eventually synchronous, Byzantine fault-tolerant (BFT) consensus protocols. Two protocol designs have emerged in this space: protocols that minimize latency using a leader that drives both data dissemination and consensus, and protocols that maximize throughput using a separate, asynchronous data dissemination layer. Recent protocols such as Partially Synchronous Bullshark and Sailfish combine elements of both approaches by using a DAG to enable parallel data dissemination and a leader that paces DAG formation. This improves latency while achieving state-of-the-art throughput. Yet leader-based protocols still achieve better latency under moderate loads, which are common in practice. We present Angelfish, a hybrid protocol that adapts smoothly across this design space, from leader-based to Sailfish-like DAG-based consensus. Angelfish lets a dynamically adjusted subset of parties use best-effort broadcast to issue lightweight votes instead of reliably broadcasting costlier DAG vertices. This reduces communication, helps lagging nodes catch up, and lowers latency in practice compared to prior DAG-based protocols. Our empirical evaluation shows that Angelfish attains state-of-the-art peak throughput while significantly lowering latency under moderate load, delivering the best of both worlds.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823698+00:00",
+      "absUrl": "https://arxiv.org/abs/2509.15847",
+      "pdfUrl": "https://arxiv.org/pdf/2509.15847"
+    },
+    {
+      "id": "2602.11476",
+      "versionedId": "2602.11476v3",
+      "title": "Bounded Local Generator Classes for Deterministic State Evolution",
+      "authors": [
+        "R. Jay Martin II"
+      ],
+      "summary": "Persistent memory must retain history without revisiting it at every transition. Bounded Local Generator Classes (BLGC) formalize carried numerical state, selected context and ordered local updates. The $\\ell^\\infty$ formulation permits countably many uniformly bounded coordinates without square summability. Projected maps preserve admissibility, Lipschitz estimates control finite-horizon sensitivity, and bounded acquisition and evaluation give a cardinality-independent transition-work contract. OPAL supplies a working persistent-state engine and controlled production measurements. After six successful million-node workloads, 18 matched fresh Release processes compared original and incremental receipt indexing at 10,000, 100,000 and 1,000,000 nodes. Degree, record shape, state dimension, active-target count and event schedule were fixed. Repaired resident-update P50 remained 0.083-0.084 microseconds; subsequent receipt-event P50 ranged from 4.458 to 6.459 microseconds across all scales. The original receipt path took 177.700-182.297 milliseconds at one million nodes. Reliability was tested alongside performance. Baseline and repaired engines produced byte-identical checkpoints, including continuation after fresh-process recovery. Replay, conflict, rejection, concurrent-event and allocation-failure checks passed; all 18 matched scaling processes passed their correctness gates. The repair preserves the state law and durable receipt format. These results connect the mathematical construction to a traced production transition with verified state continuity and measured scaling. Capacity-growth costs and formal scope are reported separately.",
+      "categories": [
+        "cs.OS"
+      ],
+      "primaryCategory": "cs.OS",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823729+00:00",
+      "absUrl": "https://arxiv.org/abs/2602.11476",
+      "pdfUrl": "https://arxiv.org/pdf/2602.11476"
+    },
+    {
+      "id": "2602.16736",
+      "versionedId": "2602.16736v4",
+      "title": "The Compute ICE-AGE: OPAL ONE, Continuity That Persists While Reasoning Is Idle",
+      "authors": [
+        "R. Jay Martin II"
+      ],
+      "summary": "The Compute ICE-AGE separates persistent application memory from probabilistic reasoning. We present OPAL, a CPU-resident C++17 graph engine that preserves record identities, relationships, and accepted numerical state between reasoning sessions. Applications evolve that state through defined updates, save canonical checkpoints, and recover continuity after restart. Bounded Local Generator Classes (BLGC) provide the mathematical foundation for this bounded local evolution. On Apple Silicon M2 Pro hardware, the current-engine resident-update P50 measured 0.083 microseconds at 100,000, 1,000,000, and 5,000,000 retained Atomic Memory Vertices (AMVs). A same-session 1M-5M-1M sequence reproduced that median using one frozen binary and 1,024 prepared targets, with every process passing its correctness checks. These measurements cover complete resident-update calls, including validation, indexed lookup, and numerical state mutation. Initialization and storage-growth costs are reported separately. Reliability tests verified event replay, conflict rejection, concurrent calls, allocation-failure handling, and fresh-process recovery with continued operation. Engine-version comparisons produced byte-identical checkpoints and continuation files. The installed PYAMV Python package passed 17 SDK contract checks and 20 workload checks. KINDRED's Model Context Protocol interface passed 22 distinct focused checks covering memory operations, authorization, and transport. Together, these results demonstrate persistent continuity with low recurring local-update costs through five million retained AMVs, providing working interfaces for applications and developers. The architecture keeps accepted memory available while reasoning is idle, allowing applications to invoke models only when tasks require interpretation, planning, or generation.",
+      "categories": [
+        "cs.OS"
+      ],
+      "primaryCategory": "cs.OS",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823760+00:00",
+      "absUrl": "https://arxiv.org/abs/2602.16736",
+      "pdfUrl": "https://arxiv.org/pdf/2602.16736"
+    },
+    {
+      "id": "2605.23031",
+      "versionedId": "2605.23031v2",
+      "title": "Step in Tine: Forking Processes in Functional Choreographies",
+      "authors": [
+        "Ashley Samuelson",
+        "Zonghao Zou",
+        "Andrew K. Hirsch",
+        "Ethan Cecchetti"
+      ],
+      "summary": "Choreographic programming allows a concurrent programmer to write one centralized program and compile it to individual programs for each system participant. This approach simplifies critical properties like deadlock freedom, but it complicates forking new processes, a core concurrent primitive. This work addresses that gap with the choreographic fork calculus $\\lambda{\\pitchfork}$, the first functional choreographic language with process spawning. $\\lambda{\\pitchfork}$ provides a deadlock-freedom guarantee while allowing programs to dynamically determine when to spawn new processes, what they will do, and who will communicate with them. All results are formalized in Lean.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823797+00:00",
+      "absUrl": "https://arxiv.org/abs/2605.23031",
+      "pdfUrl": "https://arxiv.org/pdf/2605.23031"
+    },
+    {
+      "id": "2609.00993",
+      "versionedId": "2609.00993v3",
+      "title": "AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts",
+      "authors": [
+        "Guowei Wang",
+        "Chaokun Yang",
+        "Zhenxuan Pan",
+        "Yipeng Wei",
+        "Yuhong Guo",
+        "Minghua Zhu",
+        "Zechuan Zhang",
+        "Shuo Wan",
+        "Xiaowei Zhu"
+      ],
+      "summary": "In agentic reinforcement learning (RL), asynchronous multi-turn trajectories repeatedly introduce continuation prefills (P) while other trajectories remain in decode (D). Efficient rollout completion therefore requires D to advance during long P executions. In-place multiplexing shares devices, model weights, and KV state, but phase-specific communication in distributed MoE introduces two constraints: cross-rank collective ordering and ownership of mutable communication state. Whole-prefill coordination can ensure safe ordering but delays D. DeepEP's normal and low-latency paths suit large P and small D batches, respectively, but safely overlapping them requires separating their mutable communication state. We present AInfer-PD, which extends in-place P/D multiplexing to distributed MoE rollouts. AInfer-PD establishes rank-consistent collective ordering at safe communication boundaries, allowing successive D iterations to advance without waiting for an entire prefill execution to be enqueued or completed. It gives P and D separate communication buffers and protocol state within one DeepEP runtime, allowing P to use the normal path while D retains the low-latency path. Together, these mechanisms preserve useful P/D overlap while sharing model weights and KV storage on the same devices. Across repeated single-node prefill-intensive workloads, AInfer-PD reduces fixed-workload rollout completion time by 7.1-22.5% relative to the same AInfer engine with P/D multiplexing disabled and by 24.8-32.9% relative to SGLang. On two nodes, the reductions are 18.0-35.3% and 18.3-31.8%, respectively. In a same-engine ablation, fine-grained boundaries reduce completion time by a further 8.6-19.8% over whole-prefill asynchronous enqueue.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.823833+00:00",
+      "absUrl": "https://arxiv.org/abs/2609.00993",
+      "pdfUrl": "https://arxiv.org/pdf/2609.00993"
+    },
+    {
+      "id": "2609.23816",
+      "versionedId": "2609.23816v2",
+      "title": "SPLASH: A Virtualized HBM-HBF Hierarchy with Flash-Aware Sparse Attention for Long-Context Inference",
+      "authors": [
+        "Aditya Anirudh Jonnalagadda",
+        "Rohan Juneja",
+        "Pranav Dangi",
+        "Agasthi Haputhanthri",
+        "Wenshuo Yue",
+        "Aritra Bagchi",
+        "Bin Gao",
+        "Anurag Agrawal",
+        "Tulika Mitra"
+      ],
+      "summary": "As context lengths, request lifetimes and concurrency grow, the key-value (KV) cache dominates memory usage in large language model (LLM) inference. High-bandwidth memory (HBM), the memory on contemporary GPUs, achieves far higher bandwidth than off-package memory, yet its capacity, bounded by DRAM density, has not kept pace with this demand. High-Bandwidth Flash (HBF), an emerging memory technology, bridges this gap, combining the advanced packaging of HBM with the density of flash to deliver terabyte-scale capacity at HBM-class read bandwidth. Exploiting this capacity for long-context KV caches, however, requires hiding the vastly different physical characteristics of flash from the GPU while keeping decode interactive. We therefore introduce Splash, an architecture that virtualizes HBM and HBF for the KV cache. We architect custom HBM and HBF base dies with novel memory and flash controllers that handle the access semantics and device management of flash. These controllers keep the GPU agnostic of the underlying memory, allowing the HBM-HBF hierarchy to behave as one logical memory for the KV cache. The added capacity of HBF enables long contexts, but dense attention, which reads the entire KV cache for every generated token, cannot keep decode interactive at these lengths. Splash therefore makes sparse attention flash-aware through query-driven address translation, in which the HBF base die resolves each query into the flash addresses of the relevant KV pages and schedules their reads across flash planes. Since the HBF base die holds the location of every page, this translation hides flash from the GPU and balances the selected reads across flash planes, coupling abstraction with performance. Across five models and up to one million tokens, Splash improves per-GPU decode throughput by up to 4.5x over the strongest baseline under a 100 ms latency budget.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824006+00:00",
+      "absUrl": "https://arxiv.org/abs/2609.23816",
+      "pdfUrl": "https://arxiv.org/pdf/2609.23816"
+    },
+    {
+      "id": "2609.25949",
+      "versionedId": "2609.25949v2",
+      "title": "Flux: Optimal Scheduling of Optical Circuit Switches for LLM Training",
+      "authors": [
+        "Arno Troch",
+        "Seyyidahmed Lahmer",
+        "Abubakr Nada",
+        "Roger Sanchez-Vital",
+        "Jeroen Famaey",
+        "Michael Peeters"
+      ],
+      "summary": "Optical Circuit Switching (OCS) offers high bandwidth density and energy efficiency for LLM training, but incurs a non-negligible reconfiguration delay. Prior work typically schedules optical circuit switches independently of compute, using aggregate traffic demand to determine which circuits to provision and when. We argue that this separation creates a fundamental inefficiency: reconfigurations that ignore the compute timeline can stall communication, resulting in low circuit utilization and large buffer requirements. In this paper, we present Flux, a scheduler that optimally schedules optical circuit switches based on the structure of the entire workload. Flux remains effective across a wide range of switching speeds by reusing circuits and amortizing reconfiguration delay behind compute and communication. We show that Flux reduces training iteration time by up to $10\\times$ and peak NIC buffer requirements by more than three orders of magnitude compared to traditional periodic schedulers.",
+      "categories": [
+        "cs.NI",
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824041+00:00",
+      "absUrl": "https://arxiv.org/abs/2609.25949",
+      "pdfUrl": "https://arxiv.org/pdf/2609.25949"
+    },
+    {
+      "id": "2611.11739",
+      "versionedId": "2611.11739v2",
+      "title": "Why Kubernetes Cannot Contain a Full Lazy-Pulling Cache: Two Impossibility Results and a Bounded, Honest Design for Model Serving",
+      "authors": [
+        "Georgii Kliukovkin"
+      ],
+      "summary": "Lazy container-image pulling makes cold starts of autoscaled model-serving fleets on Kubernetes nearly independent of model size, but it moves the model's bytes into a node-level cache that the platform neither bounds nor accounts for. This article establishes, by experiment, two impossibility results for that cache. A monitoring-side remedy cannot catch its failure: a sentinel readiness probe stays green while 272 of 280 files are unreadable. A platform-side remedy cannot contain it: kubelet, given full disk-pressure visibility, frees 0 bytes by image garbage collection and falls back to evicting pods (26 across the campaign, the reading pod among them), because its reclamation actuator is keyed to an accounting that does not know the cache exists. The article then eliminates the failure class inside the component that owns the bytes, with no change to kubelet or the container runtime interface, by two design rules: a byte budget whose pressure signal is keyed to filesystem truth, so that a never-blocking, lossy accounting still enforces a hard bound (held against about 301,000 dropped updates), and pass-through semantics under which a failed cache write never becomes a failed read, with the coupling traced to a single io.MultiWriter. Across six pre-specified campaigns on AWS, upstream stargz-snapshotter fails 273 of 280 model files at 90% cache pre-fill; the proposed system reads all 150.3 GB with zero errors at +18.5% completion cost and holds the budget under a live read, co-tenancy, and a three-node fleet. A source audit shows the missing bound generalizes to SOCI and Nydus. The implementation is open source and has been proposed upstream.",
+      "categories": [
+        "cs.DC",
+        "cs.OS"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824072+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.11739",
+      "pdfUrl": "https://arxiv.org/pdf/2611.11739"
+    },
+    {
+      "id": "2611.18527",
+      "versionedId": "2611.18527v2",
+      "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
+      "authors": [
+        "Dayou Du",
+        "Congjie He",
+        "Andrew Boutros",
+        "Luo Mai",
+        "Vaughn Betz",
+        "Jianyi Cheng"
+      ],
+      "summary": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application mapping. Their scale makes programming these systems and mapping applications onto them challenging. Existing approaches rely on template-based mappings to maintain productivity, but these templates restrict the mapping design space. In particular, they impose fixed geometric layouts over the PE grid, often leaving compute and memory resources underutilized. In this work, we present WaferTetris, a system that removes these geometric restrictions through freeform mapping. Its Tetris-like strategy flexibly packs computation across the wafer, improving PE utilization and usable memory capacity while preserving PE-task code. We develop a recurrence-based throughput model that captures branch-and-join dependencies to guide spatial parallelism, and an architecture model with per-color gates that enable existing FPGA place-and-route algorithms to enforce WSE routing constraints. We evaluate WaferTetris on Cerebras WSE-3 using LLM decoding and scientific stencil benchmarks. For LLM decoding, it achieves up to $4.42\\times$ the system throughput of a template-based automatic mapping baseline on the same fabric size. Compared with the manually optimized WaferLLM, WaferTetris supports $1.8\\times$ the context length for LLaMA3.1-8B (80k versus 44k), while delivering equal or higher per-user throughput at matched context lengths, up to $1.10\\times$.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primaryCategory": "cs.AR",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824104+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.18527",
+      "pdfUrl": "https://arxiv.org/pdf/2611.18527"
+    },
+    {
+      "id": "2611.19669",
+      "versionedId": "2611.19669v2",
+      "title": "IA-MoE: An Intensity-Aware Mixture of Experts for DNN Inference",
+      "authors": [
+        "Meiyan Zeng",
+        "Sasu Tarkoma",
+        "Xiaoli Liu"
+      ],
+      "summary": "In edge-cloud collaborative inference, the layers of a deep neural network (DNN) are placed on edge and cloud virtual machines (VMs) for every request, while the edge load and the cross-cloud bandwidth change over time. We propose IA-MoE, an intensity-aware Mixture of Experts (MoE) framework that scores each layer-VM pair by end-to-end delay and energy and places the layers one at a time on the best-scoring VM. Such greedy placement is myopic when trained on per-layer labels: offloading to the cloud slows the first offloaded layer while the gain appears only in later layers, so the policy keeps too many requests at the edge. Training on the remaining request time after each decision removes this myopia and reduces the mean delay by 12-56% on congested workloads. In CloudSimSDN simulations with three DNNs and two public request traces, IA-MoE has the lowest mean delay of all compared methods on congested VGG16 workloads, across cross-cloud bandwidths of 150-600 Mbps, fluctuating bandwidth and saturated edge servers. A random forest trained on the same label is 5-27% slower, and only a heuristic that sends whole requests to the cloud uses less energy, at up to 20 times the delay. When the edge is lightly loaded, offloading does not pay and simple heuristics perform as well. IA-MoE also beats a Double Deep Q-Network (DQN) agent with the same features in all 19 tested settings, with a mean delay lower by a factor of 1.3 to 10.5, and trains in minutes instead of hours.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "replace",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824137+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.19669",
+      "pdfUrl": "https://arxiv.org/pdf/2611.19669"
+    },
+    {
+      "id": "2606.26525",
+      "versionedId": "2606.26525v2",
+      "title": "Theory-Scale Auto-Formalization of Logic for Computer Science",
+      "authors": [
+        "Yuming Feng",
+        "Frederick Pu",
+        "One An",
+        "Osbert Bastani",
+        "Li Zhang",
+        "Jiani Huang",
+        "Xujie Si",
+        "Ziyang Li"
+      ],
+      "summary": "Auto-formalization is critical for scalable formal verification, but existing progress largely focuses on isolated statements, while theory-scale auto-formalization, which coherently translates hundreds of interdependent definitions, lemmas, and theorems, remains open due to challenges in consistency, faithfulness, scalability, and correctness. In this paper, we introduce LCS-Bench, a stand-alone, theory-scale benchmark based on Logic for Computer Science. LCS-Bench is built through a novel semi-automated agentic pipeline that leverages concept graphs, formal signature planning, issue tracking, sorry-filling with counter-example search, complemented by faithfulness review from human experts. The resulting artifact covers 327 textbook items, over 4,076 Lean declarations, and more than 85K lines of Lean code. The dataset supports broad evaluation through a data engine that automatically derives five tracks of evaluation benchmarks, measuring different aspects of auto-formalization and theorem-proving capabilities. We also introduce a novel evaluation protocol featuring definitional equivalence checkers, enabling more fine-grained and faithful assessment. Through extensive evaluation on 17 models, we demonstrate that (1) LCS-Bench is of high quality, consistent, and faithful; (2) the benchmark is challenging, with state-of-the-art models achieving only 20.3% on auto-formalization tasks; and (3) our analysis reveals key findings regarding theory-scale auto-formalization and suggests promising directions for future work.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "replace-cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824169+00:00",
+      "absUrl": "https://arxiv.org/abs/2606.26525",
+      "pdfUrl": "https://arxiv.org/pdf/2606.26525"
+    },
+    {
+      "id": "2609.24296",
+      "versionedId": "2609.24296v2",
+      "title": "rApp/xApp Attestation: A New Security Use Case for O-RAN",
+      "authors": [
+        "Hamed Alimohammadi",
+        "Burcu c{S}ahin",
+        "Arda Akman",
+        "Chuan Heng Foh",
+        "Periklis Chatzimisios",
+        "Mohammad Shojafar"
+      ],
+      "summary": "The disaggregation and softwarization introduced by the Open Radio Access Network (O-RAN) architecture enable multi-vendor innovation but also expose the RAN Intelligent Controller (RIC) ecosystem to new runtime security risks. Existing O-RAN specifications define strong safeguards for onboarding, authentication, identity management, and secure communication; however, they do not provide a concrete mechanism for verifying whether deployed rApps and xApps remain in their intended, untampered state during operation. This paper introduces rApp/xApp attestation as a RIC-native O-RAN security use case for runtime integrity verification. Rather than proposing a new cryptographic protocol, the work defines how existing integrity verification techniques can be integrated into O-RAN through attestation modules, attestation agents, RIC application interfaces, and SMO-driven policy coordination. We map the use case to relevant O-RAN Alliance working groups, identify required standardization extensions, and demonstrate feasibility through a lightweight hash-based prototype implemented on the Near-RT RIC platform. Experimental results show attestation latencies below 40 ms across multiple cryptographic hash functions, indicating that runtime attestation can be performed without disrupting time-sensitive RIC operations when appropriately scheduled. Finally, we discuss remaining technical and standardization challenges, including trusted verification, known-good runtime states, scalability, mitigation policies, and future hybrid attestation mechanisms.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "replace-cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824202+00:00",
+      "absUrl": "https://arxiv.org/abs/2609.24296",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24296"
+    },
+    {
+      "id": "2611.03181",
+      "versionedId": "2611.03181v2",
+      "title": "Multi-GPU Acceleration of Interface Problems in FEniCS, with Application to Cardiac Modeling",
+      "authors": [
+        "Edoardo Centofanti",
+        "Benjamin Pachev",
+        "Joshua Steyer",
+        "James D. Trotter",
+        "Pietro Benedusi"
+      ],
+      "summary": "GPU acceleration of finite element assembly is well established for standard formulations, but mixed-dimensional problems, in which volumetric subdomains are coupled via lower-dimensional interfaces, remain unsupported in automated frameworks such as FEniCS. We extend cuDOLFINx, a GPU-enabled extension of the DOLFINx finite element framework, to assemble such interface problems on GPUs while preserving the high-level FEniCS programming model. Combined with GPU-resident Krylov solvers and algebraic multigrid preconditioning, this enables end-to-end GPU execution of the EMI (Extracellular--Membrane--Intracellular) model, an elliptic interface problem from cardiac modeling in which many intracellular subdomains are coupled through membranes. We compare the GPU implementation against a CPU-based one through strong and weak scaling experiments on regular and realistic 3D cardiac geometries with up to 8000 cells and 22 million degrees of freedom. In terms of assembly, a single GH200 node is roughly equivalent to two 144-core CPU nodes in strong scaling, and to two to three nodes in weak scaling, depending on geometry. For the linear solver, performance depends on geometry, preconditioning, and problem scale. On the regular geometry, GPU advantages emerge mainly at larger problem sizes and node counts. On the realistic geometry, with the same algebraic multigrid preconditioner for both architectures, the GPU is faster at all tested scales. The implementation is available as open-source software and applies to other problems with interface coupling.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "replace-cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824239+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.03181",
+      "pdfUrl": "https://arxiv.org/pdf/2611.03181"
+    },
+    {
+      "id": "2611.04331",
+      "versionedId": "2611.04331v2",
+      "title": "Warpline: Binary-Level Tracing and Unified Evidence for Agentic GPU Kernel Optimization",
+      "authors": [
+        "Junyu Yin",
+        "Vinod Grover",
+        "Keren Zhou"
+      ],
+      "summary": "LLM agents are becoming GPU kernel engineers, but they still tune kernels without seeing where the time goes. Hardware profilers report how busy each unit was, not where each warp's time went; intra-kernel tracers can show it, but only with hand-placed probes and a recompilation that alters the very kernel being measured. We present Warpline, which gives agents this view automatically while leaving the kernel essentially unchanged. Warpline analyzes the binary to decide which events to record and inserts probes into the binary itself without recompilation or any manual step. It then aligns the trace with hardware profiling data on one unified timeline. Because it needs only the binary, it can regenerate this evidence for every new version of the kernel at whatever level the agent edits it (source, IR, or PTX), closing the optimization loop without human intervention. On NVIDIA B200, across 35 kernels in Triton, CuTe DSL, and CUDA C++, Warpline adds a median overhead of 1.2% and leaves a median 99.9% of executed instructions unchanged, whereas existing tracers have median overheads of 1.6% to 13.2% and leave only 4.6% to 32.7% unchanged. Warpline also traces closed-source kernels, which these tracers cannot. On 10 SOL-ExecBench problems, agents using Warpline spend less time and fewer model requests than a bare coding agent and NVIDIA's Kernel Design Agents (KDA), yet lead both after every round in geometric mean and reach a 7.69$\\times$ geometric-mean speedup, against 6.94$\\times$ and 6.13$\\times$. Two case studies further demonstrate that Warpline reveals hidden bottlenecks and provides actionable optimization insights.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primaryCategory": "cs.PL",
+      "announceType": "replace-cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824274+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.04331",
+      "pdfUrl": "https://arxiv.org/pdf/2611.04331"
+    },
+    {
+      "id": "2611.06374",
+      "versionedId": "2611.06374v2",
+      "title": "Corralling AI Risks with Grassroots Contracts",
+      "authors": [
+        "Ehud Shapiro"
+      ],
+      "summary": "AI's inflection point is a fountain of risks for digital platforms, as those in control of global platforms cede control of the algorithms, membership and content to AI: (i) AI control of global platforms used by the majority of humanity; (ii) unaccountable AI agents operating anonymously, possibly masquerading as humans, serving unknown masters with unknown goals; and (iii) unattributed deepfakes generated by anonymous AI, which people cannot distinguish from genuine content. Here, we propose to corral these AI risks with grassroots contracts, a digital incarnation of a two-centuries old notion of Pierre-Joseph Proudhon: a social contract that can be freely adopted by any group of people, where groups bound by the same contract can union by mutual consent, possibly into a single global union. Grassroots contracts are realised by grassroots platforms, person-to-person platforms owned, operated and governed by their participants. We developed, with AI, a methodology to compile grassroots contracts to working smartphone apps. We present grassroots contracts for a social graph with accountable AI agents and for a social network with digital provenance, and working smartphone apps that implement the two, and show how they corral these risks: (i) grassroots platforms are not controlled by a third party who may cede control to AI; (ii) AI agents are introduced with accountability: similarly to cars, their manufacturers are accountable for manufacturing defects and their operators for reckless operation; and (iii) every item carries the signatures of its author and of every agent that forwarded it, so creators and forwarders of harmful content are accountable and culpable. Much work remains for grassroots apps to be competitive with incumbent global platforms; but perhaps now this could be achieved with some AI-months rather than with incalculably-many person-years.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primaryCategory": "cs.DC",
+      "announceType": "replace-cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824306+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.06374",
+      "pdfUrl": "https://arxiv.org/pdf/2611.06374"
+    },
+    {
+      "id": "2611.15019",
+      "versionedId": "2611.15019v2",
+      "title": "obfsgen: Generative Tunnel Obfuscation",
+      "authors": [
+        "Kaidong Wu",
+        "Wentao Du",
+        "Shinan Liu",
+        "Diwen Xue"
+      ],
+      "summary": "Encrypted tunnels are widely used to circumvent censorship, which has drawn censors' efforts to detect and block them. As the circumvention tunnels in widest use have largely converged on TLS, detection has shifted from the content of their traffic to its shape, where recent research and real-world blocking events have revealed exploitable fingerprints of tunneling. Existing traffic-shaping obfuscators such as obfs4, however, are fundamentally limited in hiding these fingerprints, as their application-driven design can only add to the shape that the application creates. A schedule-driven obfuscator, which decides when and how much to send independently of the application, can give tunnels any shape but raises new challenges, first and foremost what a good shape is. This paper presents obfsgen, a schedule-driven obfuscator for tunneling traffic. obfsgen samples its schedule from a generative sequence model of normal traffic, which predicts the future shape of a flow from its whole history, to capture the long-range dependencies that make a flow's shape normal. Built around this model, obfsgen addresses system problems that such an obfuscator faces in practice, such as synchronization across a noisy network. We evaluate the (in)distinguishability that obfsgen offers, the performance overhead that it adds and the computational resources that it requires. We see the schedule-driven architecture as the next generation of tunnel obfuscators, and we hope that obfsgen and the rationale behind its design help make such obfuscators practical and deployable.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primaryCategory": "cs.NI",
+      "announceType": "replace-cross",
+      "published": "2026-11-18T00:00:00-05:00",
+      "updated": "2026-11-18T09:55:25.824342+00:00",
+      "absUrl": "https://arxiv.org/abs/2611.15019",
+      "pdfUrl": "https://arxiv.org/pdf/2611.15019"
+    }
+  ]
+}
