@@ -26,6 +26,7 @@ interested in computer architecture and AI.
 
 - China National Scholarship 2026
 - China National Scholarship 2025
+- Zhong Lin Wang Prize for Original Science 2026
 - China Resources Scholarship 2025
 
 
